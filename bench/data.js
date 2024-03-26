@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711444086261,
+  "lastUpdate": 1711471409585,
   "repoUrl": "https://github.com/NomicFoundation/hardhat",
   "entries": {
     "Benchmark": [
@@ -191,6 +191,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 43751.003027,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d0f981c1b120a12148e0d874e1d2c3e1e4739b6",
+          "message": "fix: use weak references for stored threadsafe functions (#5025)\n\nCo-authored-by: Franco Victorio <victorio.franco@gmail.com>",
+          "timestamp": "2024-03-26T10:43:47-05:00",
+          "tree_id": "9d505edcbb80eaad09298c9ffa0cd74d4e2db26d",
+          "url": "https://github.com/NomicFoundation/hardhat/commit/7d0f981c1b120a12148e0d874e1d2c3e1e4739b6"
+        },
+        "date": 1711471408468,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 3419142.3978660004,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 843018.021203,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_8b12f83a",
+            "value": 87834.311449,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 75145.100862,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 3395.177095,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 18019.824622,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 2347026.487573,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 44703.475062,
             "unit": "ms"
           }
         ]
