@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711571664214,
+  "lastUpdate": 1711637030146,
   "repoUrl": "https://github.com/NomicFoundation/hardhat",
   "entries": {
     "Benchmark": [
@@ -319,6 +319,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 44655.188958,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e0c08a70af523536937b65b83088acb394495bb2",
+          "message": "ci: enable snapshot testing (#5037)",
+          "timestamp": "2024-03-28T14:02:04+01:00",
+          "tree_id": "436ae7cebac7cb9c88dc6b9cf563a16681e56677",
+          "url": "https://github.com/NomicFoundation/hardhat/commit/e0c08a70af523536937b65b83088acb394495bb2"
+        },
+        "date": 1711637029036,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 3904263.649489,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 841096.76076,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 116883.000429,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 74850.97270400001,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 3579.1250500000006,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 18022.427093,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 2805804.828243,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 44026.53521,
             "unit": "ms"
           }
         ]
