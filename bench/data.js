@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711648906960,
+  "lastUpdate": 1712238473756,
   "repoUrl": "https://github.com/NomicFoundation/hardhat",
   "entries": {
     "Benchmark": [
@@ -447,6 +447,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 44154.847857,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fbf7cfacafa5261c901f294ff5ef98b4f9c3e389",
+          "message": "Merge pull request #5074 from NomicFoundation/fix-cargo-doc-warnings\n\nFix cargo doc warnings",
+          "timestamp": "2024-04-04T14:42:16+02:00",
+          "tree_id": "a946d5a12f7b710a1c0ad2ee929646ed6f262764",
+          "url": "https://github.com/NomicFoundation/hardhat/commit/fbf7cfacafa5261c901f294ff5ef98b4f9c3e389"
+        },
+        "date": 1712238472628,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 3773098.474221,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 849308.8847899999,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 117489.545911,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 73833.674144,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 3738.636911,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 18405.878141999998,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 2665597.916797,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 44723.937526,
             "unit": "ms"
           }
         ]
