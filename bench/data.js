@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712330860096,
+  "lastUpdate": 1712336006452,
   "repoUrl": "https://github.com/NomicFoundation/hardhat",
   "entries": {
     "Benchmark": [
@@ -767,6 +767,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 39873.530232000005,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "91c94cdbf1f2f4e7ce07fc54a463f2d8491047f1",
+          "message": "edr-0.3.4 (#5088)\n\nCo-authored-by: Agost Biro <agostbiro@gmail.com>",
+          "timestamp": "2024-04-05T18:17:16+02:00",
+          "tree_id": "dd4f2b1acd18efba8f3f87776dda8f4cebed7fb4",
+          "url": "https://github.com/NomicFoundation/hardhat/commit/91c94cdbf1f2f4e7ce07fc54a463f2d8491047f1"
+        },
+        "date": 1712336005248,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 2026803.903965,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 297793.22804,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 103152.920448,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 68284.612079,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 3674.802375,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 17202.318207,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 1496175.955112,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 40520.067704,
             "unit": "ms"
           }
         ]
