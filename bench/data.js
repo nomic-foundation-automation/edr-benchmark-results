@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713196718972,
+  "lastUpdate": 1713199574797,
   "repoUrl": "https://github.com/NomicFoundation/hardhat",
   "entries": {
     "Benchmark": [
@@ -998,6 +998,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 40589.598899,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b655e303b2b0d15ac4299d40ff3d340fbbe370b4",
+          "message": "Merge pull request #5114 from NomicFoundation/edr/366-hardhat-metadata-fork-id\n\nUse remote chain id in fork metadata",
+          "timestamp": "2024-04-15T18:07:12+02:00",
+          "tree_id": "fd14c03c604f74572020a43325dc4d5ce1666b84",
+          "url": "https://github.com/NomicFoundation/hardhat/commit/b655e303b2b0d15ac4299d40ff3d340fbbe370b4"
+        },
+        "date": 1713199573590,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 2064626.215439,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 309330.649854,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 103276.612364,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 67979.00348300001,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 3564.587496,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 17848.792115,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 1521722.6144609998,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 40903.955666,
             "unit": "ms"
           }
         ]
