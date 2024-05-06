@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714987468848,
-  "repoUrl": "https://github.com/NomicFoundation/edr",
+  "lastUpdate": 1714069896050,
+  "repoUrl": "https://github.com/NomicFoundation/hardhat",
   "entries": {
     "Benchmark": [
       {
@@ -1638,66 +1638,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6963.954367,
-            "unit": "ms"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "NomicFoundation",
-            "username": "NomicFoundation"
-          },
-          "committer": {
-            "name": "NomicFoundation",
-            "username": "NomicFoundation"
-          },
-          "id": "eee855156154a36ec7de8a016a88cc2800103f4f",
-          "message": "ci: enable new benchmark runner",
-          "timestamp": "2024-05-04T09:04:26Z",
-          "url": "https://github.com/NomicFoundation/edr/pull/416/commits/eee855156154a36ec7de8a016a88cc2800103f4f"
-        },
-        "date": 1714987467321,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 415355.68017300003,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 41495.235083,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 24952.261198,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 25817.342516,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1958.185249,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 8693.96028,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 304269.348877,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 8169.34697,
             "unit": "ms"
           }
         ]
