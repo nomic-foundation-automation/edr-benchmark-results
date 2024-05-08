@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714069896050,
-  "repoUrl": "https://github.com/NomicFoundation/hardhat",
+  "lastUpdate": 1715156692381,
+  "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
       {
@@ -1638,6 +1638,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6963.954367,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "756520d6bd56de1651b6a4c830f7121245912bcd",
+          "message": "build: bump Rust to v1.78 (#436)",
+          "timestamp": "2024-05-07T12:59:44-05:00",
+          "tree_id": "f015ea4f7741854494e57bb943226accbb5bf324",
+          "url": "https://github.com/NomicFoundation/edr/commit/756520d6bd56de1651b6a4c830f7121245912bcd"
+        },
+        "date": 1715156690869,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 341272.76189900003,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 35556.530379,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 19762.987626,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21693.001032999997,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1702.262937,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7081.554478,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 249139.86613,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6336.559316,
             "unit": "ms"
           }
         ]
