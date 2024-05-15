@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715677722395,
+  "lastUpdate": 1715761856854,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2022,6 +2022,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6554.214656,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "caa6f8502e249acecfe2cf95eef36fa13b7630f3",
+          "message": "Include all builds as normal dependencies (#449)\n\n* Use explicit napi triples\r\n\r\n* Depend on all NAPI-RS builds\r\n\r\nInstead of using optional dependencies, make the `@nomicfoundation/edr`\r\npackage have all the NAPI-RS builds as dependencies.\r\n\r\nThis is a way to prevent https://github.com/npm/cli/issues/4828 from\r\naffecting users.\r\n\r\n* Install sponge in edr-npm-release workflow\r\n\r\n* Remove os, cpu and libc from builds package.json files\r\n\r\n* Create young-pans-help.md",
+          "timestamp": "2024-05-15T10:05:41+02:00",
+          "tree_id": "00f7c212c2188ed2ef318182c799e1812b8e1167",
+          "url": "https://github.com/NomicFoundation/edr/commit/caa6f8502e249acecfe2cf95eef36fa13b7630f3"
+        },
+        "date": 1715761855206,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 344046.78329399996,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34296.770683,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20064.632055000002,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21810.568507,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1592.166608,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7538.327396,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 251900.452856,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6843.865188999999,
             "unit": "ms"
           }
         ]
