@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715859569901,
+  "lastUpdate": 1715861065432,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2278,6 +2278,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6922.988171,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af8053f1dd77da1ef19b67369a8284459345da20",
+          "message": "Fix eth_sign parameters order (#457)\n\n* Fix eth_sign parameters order\r\n\r\neth_sign was implemented as an alias of personal_sign. This was not\r\ncorrect, as the order of the parameters is different for both methods.\r\n\r\n* Add .changeset/neat-keys-promise.md",
+          "timestamp": "2024-05-16T13:14:07+02:00",
+          "tree_id": "53e68e9ce146272e7e1353dd9e653944c9d1e63c",
+          "url": "https://github.com/NomicFoundation/edr/commit/af8053f1dd77da1ef19b67369a8284459345da20"
+        },
+        "date": 1715861063939,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 340857.733671,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34550.73413899999,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20689.966432,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 20994.034293,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1599.370107,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7129.4726900000005,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 249542.34677700003,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6351.809233,
             "unit": "ms"
           }
         ]
