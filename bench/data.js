@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715777766759,
+  "lastUpdate": 1715859569901,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2214,6 +2214,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6833.26037,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "32b765dcf99fd3aff903905e2290a93b035b8ad6",
+          "message": "Add eth_maxPriorityFeePerGas (#456)\n\n* Add eth_maxPriorityFeePerGas\r\n\r\nAdd this method with a hardcoded result of 1 gwei.\r\n\r\n* Create serious-vans-build.md",
+          "timestamp": "2024-05-16T13:13:58+02:00",
+          "tree_id": "3c91be8e25b8abae24fdef6725356fae7ee641cb",
+          "url": "https://github.com/NomicFoundation/edr/commit/32b765dcf99fd3aff903905e2290a93b035b8ad6"
+        },
+        "date": 1715859568453,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 349363.436917,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34174.320226,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20683.527423,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21528.551646,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1647.644904,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7616.6825149999995,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 256789.72203200002,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6922.988171,
             "unit": "ms"
           }
         ]
