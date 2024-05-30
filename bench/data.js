@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717078702444,
+  "lastUpdate": 1717083476983,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2662,6 +2662,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6911.043202,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a49916c493a60f80ac92e769c5fa2877e95c32b",
+          "message": "Fix prettier (#482)\n\n* Update root package.json prettier scripts\r\n\r\n* Check prettier in CI\r\n\r\n* Update pnpm-lock.yaml\r\n\r\n* Fix prettier\r\n\r\n* Remove wrong dependency in job",
+          "timestamp": "2024-05-30T17:12:50+02:00",
+          "tree_id": "688e352a7912ef2a2f0fe7ab5fd34b884a7ca093",
+          "url": "https://github.com/NomicFoundation/edr/commit/1a49916c493a60f80ac92e769c5fa2877e95c32b"
+        },
+        "date": 1717083475434,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 337637.21366300003,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34314.143452000004,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 19841.458136,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21517.028086,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1664.4207940000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7172.337813,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 246422.385068,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6705.440314,
             "unit": "ms"
           }
         ]
