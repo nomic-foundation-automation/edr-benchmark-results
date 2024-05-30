@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717001055740,
+  "lastUpdate": 1717077198915,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2534,6 +2534,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6408.985498,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5b4acdd04d3b02bcbdcc5dbd08551dca13f9a66f",
+          "message": "feat: verbose tracing for hardhat-tracer (#437)\n\nCo-authored-by: Franco Victorio <victorio.franco@gmail.com>\r\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2024-05-30T15:27:51+02:00",
+          "tree_id": "fae78c6b622d04fb7878eecd77a4dfbf6a1a2f02",
+          "url": "https://github.com/NomicFoundation/edr/commit/5b4acdd04d3b02bcbdcc5dbd08551dca13f9a66f"
+        },
+        "date": 1717077198610,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 347931.602495,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34315.054366000004,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 21310.875294,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21173.818388,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1669.179165,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7389.858636,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 254961.136066,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 7111.68058,
             "unit": "ms"
           }
         ]
