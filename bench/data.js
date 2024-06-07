@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717708721412,
+  "lastUpdate": 1717784451843,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2982,6 +2982,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6758.397156,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3e6d4da9bd94d7c68c921b76eb1669bf78f2320e",
+          "message": "build: Do not rely on RUSTFLAGS for Clippy lint configuration (#499)\n\n* chore: Stop using RUSTFLAGS to configure Clippy lints\r\n\r\n* chore: Remove now unneeded workaround for RUSTFLAGS\r\n\r\n* chore: Speed up pre-commit checks and reuse build cache more\r\n\r\n* fixup: Use consistent syntax in RUSTDOCFLAGS to deny warnings\r\n\r\n* Fix rust lint ordering in Cargo.toml",
+          "timestamp": "2024-06-07T19:55:49+02:00",
+          "tree_id": "e77b29498308d93be6c6964bd631248279437ea9",
+          "url": "https://github.com/NomicFoundation/edr/commit/3e6d4da9bd94d7c68c921b76eb1669bf78f2320e"
+        },
+        "date": 1717784450217,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 335085.77322,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34520.051544,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 19474.167781,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21456.468209,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1642.334425,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7160.855298,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 244490.402454,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6341.493509,
             "unit": "ms"
           }
         ]
