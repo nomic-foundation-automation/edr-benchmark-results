@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717784451843,
+  "lastUpdate": 1718034350546,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3046,6 +3046,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6341.493509,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6914fd9d0b603d07133f28fb743b10d59e3dcb3",
+          "message": "fix: Gate tests requiring a provider behind `test-remote` feature (#500)\n\n* fix: Gate tests requiring a provider behind `test-remote` feature\r\n\r\nThis allows running the existing pre-commit hook without having these\r\nenv vars set.\r\n\r\n* fixup: Also conditionally import `FORK_BLOCK_NUMBER`\r\n\r\n* fixup: Use correct import\r\n\r\n* fixup: Appease Rustfmt again...\r\n\r\n* chore: Bundle tests using Alchemy in edr_provider/src/data.rs",
+          "timestamp": "2024-06-10T17:20:39+02:00",
+          "tree_id": "5f2e15555391f9c99b787c94709540caab5b9c5c",
+          "url": "https://github.com/NomicFoundation/edr/commit/c6914fd9d0b603d07133f28fb743b10d59e3dcb3"
+        },
+        "date": 1718034348989,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 337919.88879899995,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34033.848792,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20402.506468,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21213.732498999998,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1615.253182,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7450.494774,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 246748.389712,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6455.663372,
             "unit": "ms"
           }
         ]
