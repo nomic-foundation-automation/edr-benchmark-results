@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718041312852,
+  "lastUpdate": 1718044338330,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3174,6 +3174,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6884.488984,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6863c86e9e1d78e68023fad806298d3c1407f89f",
+          "message": "ci: Speed up the CI by building tests without opt (#501)\n\n* chore: Measure how long we build tests in CI\r\n\r\n* Try compiling tests with opt-level = 1\r\n\r\n* Try compiling tests with opt-level = 0\r\n\r\n* Remove profile.test section as it's the default now\r\n\r\n* Run test-recent-mainnet-block on opt-level=0\r\n\r\n* ci: Remove temporary branch workflow hook\r\n\r\n* ci: Bundle numbered integration tests to speed up link time in tests",
+          "timestamp": "2024-06-10T20:06:43+02:00",
+          "tree_id": "56bbb6b27cc637cb5c62d43904af06482169c08a",
+          "url": "https://github.com/NomicFoundation/edr/commit/6863c86e9e1d78e68023fad806298d3c1407f89f"
+        },
+        "date": 1718044336786,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 347172.32606,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34797.111492,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20571.957346000003,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21320.956827,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1647.1218840000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7578.252458000001,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 254788.666925,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6468.259128,
             "unit": "ms"
           }
         ]
