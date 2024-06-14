@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718356828773,
+  "lastUpdate": 1718376656952,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3366,6 +3366,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6471.671244,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "245fd07eb574996b76c2828167feb14c285f3a20",
+          "message": "refactor: Provide helpful error msg when deserializing big timestamp (#494)\n\n* tests: Add TS integration tests\r\n\r\n* refactor: Provide helpful error msg when deserializing big timestamp\r\n\r\n* refactor: Use the new Timestamp in place of U64OrUsize\r\n\r\n* Try to clarify what we support as timestamps in JSON-RPC\r\n\r\n* Use U64::deserialize in deserialize_timestamp for now\r\n\r\nToo permissive derialization for the timestamp along with accepting\r\nleading zeroes in other values should be done in a separate PR.\r\n\r\n* Change the error wording and add a test for 2^64-1",
+          "timestamp": "2024-06-14T15:47:41+02:00",
+          "tree_id": "1e5bca44fd7c78a97aaa073f21472cff98e771e4",
+          "url": "https://github.com/NomicFoundation/edr/commit/245fd07eb574996b76c2828167feb14c285f3a20"
+        },
+        "date": 1718376655361,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 347969.345009,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 35178.619351,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20002.448992,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 22082.570524,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1625.323226,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7223.7725789999995,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 255423.531846,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6433.078491,
             "unit": "ms"
           }
         ]
