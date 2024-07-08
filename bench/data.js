@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720034249954,
+  "lastUpdate": 1720434878400,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2214,6 +2214,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 7696.051475,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "048c0c0524ca785c0ea9b9f163887b3473903376",
+          "message": "Sync with recent Hardhat changes and deduplicate the Hardhat dep (#544)\n\n* chore: Explicitly depend on semver and fs-extra in hardhat-tests\n\nAppeases ESLint. These are de facto pulled by other dependencies but\nit's implicit.\n\n* refactor: Unify ts-node and use the one currently used by Hardhat\n\nDeduping the hardhat package makes it easier to patch it while working\non the stack trace porting feature branch.\n\n* chore: Use the newest Hardhat 2.22.6\n\nThis will make patching the changes easier to review as we will sync\nwith the upstream as it has some changes already related to the stack\ntraces that we port.",
+          "timestamp": "2024-07-08T10:06:49Z",
+          "tree_id": "833f18528df70412d701cda50e9a6064b03c5579",
+          "url": "https://github.com/NomicFoundation/edr/commit/048c0c0524ca785c0ea9b9f163887b3473903376"
+        },
+        "date": 1720434876816,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 378688.643426,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 39253.646908,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 24239.21818,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 22542.250519,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1798.708555,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7356.886502,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 276161.243953,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 7336.688808999999,
             "unit": "ms"
           }
         ]
