@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720434878400,
+  "lastUpdate": 1720542196881,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2278,6 +2278,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 7336.688808999999,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e650c9e8fba905bfc9f8b1ebaf6a5d98f8bf45d7",
+          "message": "feat: upgrade revm dependencies (#546)\n\n* feat: upgrade revm dependencies\n\n* Create wild-phones-drum.md",
+          "timestamp": "2024-07-09T15:57:40Z",
+          "tree_id": "eec11805067365b2d04b9fc4207d159cdc15dde8",
+          "url": "https://github.com/NomicFoundation/edr/commit/e650c9e8fba905bfc9f8b1ebaf6a5d98f8bf45d7"
+        },
+        "date": 1720542195314,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 343541.240366,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 33547.286816,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20808.300255000002,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21662.186607,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1683.7450390000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6845.931969,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 252306.55005700001,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6687.239623,
             "unit": "ms"
           }
         ]
