@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722521877046,
+  "lastUpdate": 1722602209321,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2918,6 +2918,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6847.260412,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "piotr.galar@gmail.com",
+            "name": "Piotr Galar",
+            "username": "galargh"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3241285fc4a0c7fbfc060c23d6243c5e774c5c4",
+          "message": "ci: update collaborator check in the benchmarks workflow (#574)",
+          "timestamp": "2024-08-02T12:10:46Z",
+          "tree_id": "0861c08663d4190d4602c045886e7b4100e52212",
+          "url": "https://github.com/NomicFoundation/edr/commit/c3241285fc4a0c7fbfc060c23d6243c5e774c5c4"
+        },
+        "date": 1722602207824,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 353820.331115,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 32738.113903999998,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20712.270568,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 22015.968435000003,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1691.000641,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6527.584013,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 263645.349932,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6490.043622,
             "unit": "ms"
           }
         ]
