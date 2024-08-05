@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722868195268,
+  "lastUpdate": 1722873349778,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3046,6 +3046,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6352.925265,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "66ca796c50154fb64bf55a5279a0bb7a3feed111",
+          "message": "fix: add json alias property in provider response (#582)\n\n* fix: add json alias property in provider response\n\n* Create empty-bobcats-refuse.md",
+          "timestamp": "2024-08-05T15:11:58Z",
+          "tree_id": "5cabba767517934372268393092724b23026ff50",
+          "url": "https://github.com/NomicFoundation/edr/commit/66ca796c50154fb64bf55a5279a0bb7a3feed111"
+        },
+        "date": 1722873348007,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 344639.276158,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 33467.148488,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 21040.474027999997,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21473.118478,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1750.207882,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6888.446102,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 253750.843892,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6269.0372879999995,
             "unit": "ms"
           }
         ]
