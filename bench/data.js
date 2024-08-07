@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722877896601,
+  "lastUpdate": 1723046103312,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3174,6 +3174,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6350.009948,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a417e19622e9887c401db433ce501943498d66eb",
+          "message": "breaking change: rename response.json to response.data (#584)\n\n* breaking change: rename response.json to response.data\n\n* Create sour-donkeys-draw.md\n\n* Update sour-donkeys-draw.md",
+          "timestamp": "2024-08-07T15:02:13Z",
+          "tree_id": "c3d598e6885f92d2c2c3145d54f0ab46d7735093",
+          "url": "https://github.com/NomicFoundation/edr/commit/a417e19622e9887c401db433ce501943498d66eb"
+        },
+        "date": 1723046101676,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 348654.393209,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 33600.564163999996,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20173.552386,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21435.870640999998,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1675.4838490000002,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6659.851778,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 258615.030182,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6494.040209000001,
             "unit": "ms"
           }
         ]
