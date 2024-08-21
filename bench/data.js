@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724258855365,
+  "lastUpdate": 1724260405663,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3366,6 +3366,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6813.552541999999,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87f2833d54b59062828b8cc734635bbcffa9916e",
+          "message": "chore: js tooling improvements (#609)\n\n* Fix pnpm warning\n\n* Add syncpakc\n\n* Add syncpack\n\n* Run syncpack format\n\n* Run syncpack on CI\n\n* Add setup-node action\n\n* Fixes related to upgrading prettier\n\n* Run prettier\n\n* Add setup-rust action\n\n* Run prettier in edr_napi\n\n* Add lint scripts to packages\n\n* Run prettier in crates/tools/js/benchmark\n\n* Port benchmark code to typescript\n\n* Add eslint to all packages\n\n* Upgrade @types/node to v20\n\n* Fix broken build:edr script\n\n* Resolve benchmark output path",
+          "timestamp": "2024-08-21T16:14:59Z",
+          "tree_id": "a435633ec8f6cf3a4d070700b4852e574e413726",
+          "url": "https://github.com/NomicFoundation/edr/commit/87f2833d54b59062828b8cc734635bbcffa9916e"
+        },
+        "date": 1724260404031,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 354011.016513,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 33855.920394,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20872.891119,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21992.950557,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1696.8941109999998,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7282.615615,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 261937.135558,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6372.609159,
             "unit": "ms"
           }
         ]
