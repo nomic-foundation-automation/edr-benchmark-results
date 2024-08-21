@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723046103312,
+  "lastUpdate": 1724252560412,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3238,6 +3238,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6494.040209000001,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f1c1896196082a9f62164fa45c0134f52565d89",
+          "message": "fix: improve error message and option to skip unsupported transaction type in debug trace (#606)\n\n* fix: improve error message and option to skip unsupported tx type in debug trace\n\n* Address code review feedback\n\n* Handle unsupported transaction type requested\n\n* Fix test setup",
+          "timestamp": "2024-08-21T14:37:12Z",
+          "tree_id": "3e817108c58564d298ad6f797465d6b2f25f48fc",
+          "url": "https://github.com/NomicFoundation/edr/commit/2f1c1896196082a9f62164fa45c0134f52565d89"
+        },
+        "date": 1724252558808,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 343026.00532500003,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 33739.742928,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 21041.065741,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21304.096483999998,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1726.590557,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7210.021187,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 251659.140394,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6345.348034,
             "unit": "ms"
           }
         ]
