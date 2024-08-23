@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724310541994,
+  "lastUpdate": 1724413075900,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3494,6 +3494,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6320.117299,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fdf1583763e93b944e5ebe2df2800ce54073e001",
+          "message": "chore: Bump @napi-rs/cli to fix duplicated napi typedefs (#617)\n\nSee <https://github.com/napi-rs/napi-rs/pull/2088>",
+          "timestamp": "2024-08-23T10:48:56Z",
+          "tree_id": "b265e5a9379bcded054b8cca02818f2ab9ea5978",
+          "url": "https://github.com/NomicFoundation/edr/commit/fdf1583763e93b944e5ebe2df2800ce54073e001"
+        },
+        "date": 1724413075585,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 342710.45338099997,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 33761.015113,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20441.195663,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 22240.754139999997,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1703.387087,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6752.069426999999,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 251436.68594,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6375.346011,
             "unit": "ms"
           }
         ]
