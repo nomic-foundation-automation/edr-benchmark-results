@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724841691859,
+  "lastUpdate": 1725296313265,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3366,6 +3366,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5994.237976,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "660541d5f965421cc869624c39dbd814a43e71fc",
+          "message": "test: add js integration test for solidity test runner (#634)\n\n* Add internal helpers package\r\n\r\n* Js deps fixes\r\n\r\n* Add basic solidity test runner integration test\r\n\r\n* Add buildSolidityTestsInput function to edr-helpers\r\n\r\n* Add lint script to hardhat-solidity-tests\r\n\r\n* Add lint script to edr-helpers\r\n\r\n* Add root build script\r\n\r\n* Run root build script in edr-ci\r\n\r\n* Use build:publish in edr-npm-release\r\n\r\n* Update pnpm-lock.yaml\r\n\r\n* Fix run-integration-tests script\r\n\r\n* Remove circular dependency between edr and edr-helpers\r\n\r\n* Fix pre-scripts in benchmark\r\n\r\n* Install typescript in benchmark package\r\n\r\n* Remove `--silent` flag where it's not needed\r\n\r\n* Use edr_napi's build:publish in prebenchmark script\r\n\r\n* Use build:publish as default build script in edr_napi\r\n\r\n* Run integration tests in CI\r\n\r\n* Fix build script in root package.json",
+          "timestamp": "2024-09-02T18:24:36+02:00",
+          "tree_id": "a2940be24e9f2b21be7b1194c8eb40c5f65ad8da",
+          "url": "https://github.com/NomicFoundation/edr/commit/660541d5f965421cc869624c39dbd814a43e71fc"
+        },
+        "date": 1725296311429,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 333823.685801,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 32057.795374,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 20313.001429,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21499.985951,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1412.759771,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6877.550574,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 245576.95246300002,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6085.640238999999,
             "unit": "ms"
           }
         ]
