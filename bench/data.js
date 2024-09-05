@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725292883805,
+  "lastUpdate": 1725561220331,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3684,6 +3684,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6807.646903000001,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f6f22d26004730301f985d2c8cf46f7592d3b85a",
+          "message": "chore: Bump hardhat to 2.22.10 (#639)\n\nThis removes the need for us to patch locally, so let's pull\nthis in to clean up the patching for now.",
+          "timestamp": "2024-09-05T17:14:48Z",
+          "tree_id": "1d5bfa01dc9c236e555d1587d6155b7f7284d41b",
+          "url": "https://github.com/NomicFoundation/edr/commit/f6f22d26004730301f985d2c8cf46f7592d3b85a"
+        },
+        "date": 1725561218696,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 354271.9225650001,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 37119.460323,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 21692.576265,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21474.212012,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1709.451572,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6845.026855,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 258513.039568,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6918.15597,
             "unit": "ms"
           }
         ]
