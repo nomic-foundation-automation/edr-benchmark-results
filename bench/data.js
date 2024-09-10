@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725962802843,
+  "lastUpdate": 1725994668612,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3812,6 +3812,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6631.8675410000005,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a0601cbfbf5da93ea8c3558b20dd8103800f0e99",
+          "message": "fix: Prevent contiguous blockchain storage from bitrotting (#654)\n\n* fix: Prevent contiguous blockchain storage from bitrotting\n\n* fixup: Reformat",
+          "timestamp": "2024-09-10T14:37:33Z",
+          "tree_id": "1078744fe6c29d6349f33324be0c05f418408b32",
+          "url": "https://github.com/NomicFoundation/edr/commit/a0601cbfbf5da93ea8c3558b20dd8103800f0e99"
+        },
+        "date": 1725994666966,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 349132.106687,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34360.835543,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 21634.587534000002,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21878.583839,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1683.918644,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6962.318929,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 255864.302455,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6747.559743,
             "unit": "ms"
           }
         ]
