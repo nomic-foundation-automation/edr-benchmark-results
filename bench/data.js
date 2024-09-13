@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726164135802,
+  "lastUpdate": 1726218812206,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4006,6 +4006,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6179.025111999999,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "distinct": true,
+          "id": "9c0bad0bd1ad6da3afb75f83111bf020c4cec47f",
+          "message": "Merge branch 'main' into feat/solidity-tests\n\n# Conflicts:\n#\tbook/src/SUMMARY.md",
+          "timestamp": "2024-09-13T10:42:47+02:00",
+          "tree_id": "c0aa2ce06e21c22bb8a614e0fd52bf0bf7b90848",
+          "url": "https://github.com/NomicFoundation/edr/commit/9c0bad0bd1ad6da3afb75f83111bf020c4cec47f"
+        },
+        "date": 1726218811874,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 331965.481655,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 32776.700506,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 19847.650010999998,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 20726.383099000002,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1403.741564,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6678.545384,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 244491.517597,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6040.943494,
             "unit": "ms"
           }
         ]
