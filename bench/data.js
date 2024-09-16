@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726175207429,
+  "lastUpdate": 1726491361011,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4004,6 +4004,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6939.843627,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb3808b4718194725bba4300418be880ba2bb3b4",
+          "message": "fix: Correctly handle optional solc output in the tracing engine (#665)\n\n* fix: Gracefully handle a call trace with no jump dests\n\nThis specifically does what Hardhat did, which is throwing a new Error.\n\nThe error can be found in https://github.com/ProjectOpenSea/seaport,\nif we execute:\n```\nnpx hardhat test --no-compile --config ./hardhat.config.ts --grep 'Reverts when attempting to execute transfers on a conduit when not called from a channel'\n```\n\n* fix: Handle optional settings in solc Standard JSON output\n\n* Add a changeset",
+          "timestamp": "2024-09-16T12:29:29Z",
+          "tree_id": "bd545697bc6144a42e32f77b953f9e4379cf14ee",
+          "url": "https://github.com/NomicFoundation/edr/commit/bb3808b4718194725bba4300418be880ba2bb3b4"
+        },
+        "date": 1726491359364,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 348899.243229,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 34767.30183900001,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 22822.568907,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 21542.554650000002,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1682.042701,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7464.7090929999995,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 254149.457739,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6470.6083,
             "unit": "ms"
           }
         ]
