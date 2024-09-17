@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726595006017,
+  "lastUpdate": 1726602215049,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4326,6 +4326,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6028.533541,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "058cbf63fb866e6d571303b5a8a345d99d9eee75",
+          "message": "refactor: remove foundry config and linking crates (#670)",
+          "timestamp": "2024-09-17T20:15:20+02:00",
+          "tree_id": "5d732bef47c5c830e396ab6b1fb704193b95fbc3",
+          "url": "https://github.com/NomicFoundation/edr/commit/058cbf63fb866e6d571303b5a8a345d99d9eee75"
+        },
+        "date": 1726602213425,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 332029.246791,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 32759.099033000002,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 19511.49715,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 20217.791491,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1436.7527850000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6724.145177,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 245334.612367,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6045.348788,
             "unit": "ms"
           }
         ]
