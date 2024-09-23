@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727077507866,
+  "lastUpdate": 1727096064960,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4196,6 +4196,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6555.139531,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e96b403430680b2290abf30634577d2bcb83b862",
+          "message": "fix: Handle nullptr JS TypedArrays by bumping napi to 2.6.11 (#673)\n\n* fix: Handle nullptr JS TypedArrays by bumping napi to 2.6.11\n\n* Remove the comment about pinning both napi(-derive) crates\n\n* fixup: Forgot that napi_derive is not re-exported by napi",
+          "timestamp": "2024-09-23T12:27:18Z",
+          "tree_id": "588171cb382fda6bb1281a2497255d6ac2578a62",
+          "url": "https://github.com/NomicFoundation/edr/commit/e96b403430680b2290abf30634577d2bcb83b862"
+        },
+        "date": 1727096063287,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 370567.840277,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 37520.760654,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 22830.345837999997,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 23318.071303,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1832.002699,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7832.8454360000005,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 269910.886153,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 7322.928194,
             "unit": "ms"
           }
         ]
