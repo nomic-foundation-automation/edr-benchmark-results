@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727269268205,
+  "lastUpdate": 1727274583068,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4452,6 +4452,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 7019.652744000001,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2c2c78b4bc331e01b58695c0a1fba04ddb728cfc",
+          "message": "ci: Replace actions-rs actions in GitHub workflows (#678)\n\n* ci: Drop actions-rs/cargo action in favor of directly running cargo\n\n* ci: Migrate off unmaintained actions-rs/toolchain\n\n* feat: Install Rustup if not found on the self-hosted runner\n\n* feat: Set the CARGO_HOME explicitly\n\n* Use a more maintained action for installing a Rust toolchain\n\n* ci: Streamline nightly Rustfmt installation\n\n* ci: Add toolchain/components inputs to setup-rust",
+          "timestamp": "2024-09-25T13:03:40Z",
+          "tree_id": "35cf462ca2b4773333a2509de9d6cbdcedb90545",
+          "url": "https://github.com/NomicFoundation/edr/commit/2c2c78b4bc331e01b58695c0a1fba04ddb728cfc"
+        },
+        "date": 1727274581243,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 378389.63061800005,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 37464.805951999995,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 22258.140385000002,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 23415.516326,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1849.4644360000002,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 7942.505696,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 278254.279159,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 7204.918664000001,
             "unit": "ms"
           }
         ]
