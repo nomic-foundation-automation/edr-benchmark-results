@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727274583068,
+  "lastUpdate": 1727429351314,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4516,6 +4516,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 7204.918664000001,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4508170f68b6dfc0e01c92e6841aa94e2e1ae659",
+          "message": "chore: update hardhat tests (#687)\n\n* Upgrade hardhat\n\n* Remove old patch\n\n* Sync hardhat-tests with hardhat repo\n\n* Update hardhat in other packages\n\n* Lint fixes\n\n* Replace HARDHAT_ with EDR_ in env vars",
+          "timestamp": "2024-09-27T09:03:41Z",
+          "tree_id": "7f576b9a6885db8564f9e80fdbcc3f48e4f9c709",
+          "url": "https://github.com/NomicFoundation/edr/commit/4508170f68b6dfc0e01c92e6841aa94e2e1ae659"
+        },
+        "date": 1727429349676,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 325172.30752399995,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 31881.140752,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 18353.228453,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 19728.989201,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1438.736781,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6289.510795,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 241058.663072,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6422.0384699999995,
             "unit": "ms"
           }
         ]
