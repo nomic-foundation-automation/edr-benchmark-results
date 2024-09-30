@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727429351314,
+  "lastUpdate": 1727699981953,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4580,6 +4580,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6422.0384699999995,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Xanewok@gmail.com",
+            "name": "Igor Matuszewski",
+            "username": "Xanewok"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a1cee4fb3aa544b6caef7f952841be2a1e61fddc",
+          "message": "fix: Make sure to uniformly 0x-prefix hex strings in custom error message (#688)\n\n* fix: Make sure to uniformly 0x-prefix hex strings in custom error msg\n\n* Add a changeset file",
+          "timestamp": "2024-09-30T12:15:41Z",
+          "tree_id": "8538b942124d23def70c1f2346def2737afeb076",
+          "url": "https://github.com/NomicFoundation/edr/commit/a1cee4fb3aa544b6caef7f952841be2a1e61fddc"
+        },
+        "date": 1727699980182,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 328828.813056,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 32091.043467999996,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 18497.424558,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 19844.099283,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1425.682874,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 6133.695949,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 244455.197407,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6381.669516999999,
             "unit": "ms"
           }
         ]
