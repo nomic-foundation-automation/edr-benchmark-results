@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729532225651,
+  "lastUpdate": 1729592030201,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -323,6 +323,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 178,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7aaf74687479e6c86d7696b1a3f7b7421fc5a581",
+          "message": "fix: report config error on invalid artifact (#704)",
+          "timestamp": "2024-10-22T11:26:51+02:00",
+          "tree_id": "8f39b9373753f1b91e4a7214821150bac390f9a7",
+          "url": "https://github.com/NomicFoundation/edr/commit/7aaf74687479e6c86d7696b1a3f7b7421fc5a581"
+        },
+        "date": 1729592028822,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 92275,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 297,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 343,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 23,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 90188,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 169,
             "unit": "ms"
           }
         ]
