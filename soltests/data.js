@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729772943087,
+  "lastUpdate": 1729786653453,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -485,6 +485,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 172,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fc4064b37c1458c6210f38519490aa67a8b50a07",
+          "message": "chore(deps): bump revm 10.0, un-git revm-inspectors (#8220) (#711)\n\nCo-authored-by: DaniPopes <57450786+DaniPopes@users.noreply.github.com>",
+          "timestamp": "2024-10-24T17:36:35+02:00",
+          "tree_id": "2ca89055b321e69c6bc9614d9daa8467fbcac109",
+          "url": "https://github.com/NomicFoundation/edr/commit/fc4064b37c1458c6210f38519490aa67a8b50a07"
+        },
+        "date": 1729786652072,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 73648,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 312,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 20,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 71554,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 205,
             "unit": "ms"
           }
         ]
