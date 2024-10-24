@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729599998597,
+  "lastUpdate": 1729772943087,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -431,6 +431,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 154,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e7491d8631da27b4bd1ba2bde4914bb704e2c52",
+          "message": "chore: upgrade soltest crates to revm 9 (#708)",
+          "timestamp": "2024-10-24T13:45:12+02:00",
+          "tree_id": "fcc18774f2131e0a277fea9c7e1a1e1efbf0d0e9",
+          "url": "https://github.com/NomicFoundation/edr/commit/4e7491d8631da27b4bd1ba2bde4914bb704e2c52"
+        },
+        "date": 1729772941600,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 85276,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 318,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 325,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 23,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 83284,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 172,
             "unit": "ms"
           }
         ]
