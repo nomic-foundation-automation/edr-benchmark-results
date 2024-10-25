@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729786653453,
+  "lastUpdate": 1729867753727,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -539,6 +539,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 205,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b288fd3d5ef9c2489cdb713bbb0c94ff64adf2a",
+          "message": "chore: bump alloy and add `foundry-fork-db` (#712)\n\n\r\nCo-authored-by: Agost Biro <agostbiro@gmail.com>\r\nCo-authored-by: Arsenii Kulikov <klkvrr@gmail.com>",
+          "timestamp": "2024-10-25T16:07:51+02:00",
+          "tree_id": "8c4121084a90db3c04e6e17c37401957f7ddceaf",
+          "url": "https://github.com/NomicFoundation/edr/commit/6b288fd3d5ef9c2489cdb713bbb0c94ff64adf2a"
+        },
+        "date": 1729867752287,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 78744,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 336,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 306,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 23,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 76260,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 161,
             "unit": "ms"
           }
         ]
