@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729867753727,
+  "lastUpdate": 1729880455638,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -593,6 +593,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 161,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ioshx@foxmail.com",
+            "name": "H",
+            "username": "iosh"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "867fff50e20cfe20113d3e26504aa8786d4a8c5e",
+          "message": "chore: remove hardcoded Alchemy urls (#707)",
+          "timestamp": "2024-10-25T19:23:11+02:00",
+          "tree_id": "cb916397aafbe68f401c7df95ccff721e957d00a",
+          "url": "https://github.com/NomicFoundation/edr/commit/867fff50e20cfe20113d3e26504aa8786d4a8c5e"
+        },
+        "date": 1729880454061,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 77970,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 378,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 306,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 21,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 76650,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 185,
             "unit": "ms"
           }
         ]
