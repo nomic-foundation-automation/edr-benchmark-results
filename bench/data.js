@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729785816906,
+  "lastUpdate": 1729869025038,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5542,6 +5542,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5256.2388980000005,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b288fd3d5ef9c2489cdb713bbb0c94ff64adf2a",
+          "message": "chore: bump alloy and add `foundry-fork-db` (#712)\n\n\r\nCo-authored-by: Agost Biro <agostbiro@gmail.com>\r\nCo-authored-by: Arsenii Kulikov <klkvrr@gmail.com>",
+          "timestamp": "2024-10-25T16:07:51+02:00",
+          "tree_id": "8c4121084a90db3c04e6e17c37401957f7ddceaf",
+          "url": "https://github.com/NomicFoundation/edr/commit/6b288fd3d5ef9c2489cdb713bbb0c94ff64adf2a"
+        },
+        "date": 1729869023608,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 293007.66177700006,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 27350.988072,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 16611.730246,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 17045.106265000002,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1279.386336,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 5619.39976,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 219583.585204,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5517.465894,
             "unit": "ms"
           }
         ]
