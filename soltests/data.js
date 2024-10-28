@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729890125414,
+  "lastUpdate": 1730139569701,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -701,6 +701,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 189,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dd33f1dd91c2f20d3cedaf36cfc1cf132c7ae81e",
+          "message": "chore: bump revm-inspectors (#717)",
+          "timestamp": "2024-10-28T18:22:42+01:00",
+          "tree_id": "3163cf884c0f233edd91efe13096549625741d93",
+          "url": "https://github.com/NomicFoundation/edr/commit/dd33f1dd91c2f20d3cedaf36cfc1cf132c7ae81e"
+        },
+        "date": 1730139568342,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 74660,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 307,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 296,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 20,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 72972,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 180,
             "unit": "ms"
           }
         ]
