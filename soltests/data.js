@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730139569701,
+  "lastUpdate": 1730146915452,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -755,6 +755,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 180,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6aa79e32b1d14259a7a5d85caa64b95d5ba44f2b",
+          "message": "chore: fix cheatcode tests (#716)",
+          "timestamp": "2024-10-28T19:37:58+01:00",
+          "tree_id": "ec0200f1f69f1300722a7a373ed81407ed607a3d",
+          "url": "https://github.com/NomicFoundation/edr/commit/6aa79e32b1d14259a7a5d85caa64b95d5ba44f2b"
+        },
+        "date": 1730146914058,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 76605,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 373,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 294,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 75480,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 194,
             "unit": "ms"
           }
         ]
