@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730146915452,
+  "lastUpdate": 1730155795996,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -809,6 +809,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 194,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ioshx@foxmail.com",
+            "name": "H",
+            "username": "iosh"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a6f3de67022bf1e417ed42d57d847d86cff0dda7",
+          "message": "chore: get network config from foundry.toml (#715)",
+          "timestamp": "2024-10-28T21:17:28+01:00",
+          "tree_id": "0c7ba47e6ef69b9b8d333bff1620b1452964fa96",
+          "url": "https://github.com/NomicFoundation/edr/commit/a6f3de67022bf1e417ed42d57d847d86cff0dda7"
+        },
+        "date": 1730155794577,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 77168,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 354,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 298,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 21,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 76049,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 171,
             "unit": "ms"
           }
         ]
