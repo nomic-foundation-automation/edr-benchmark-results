@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730155795996,
+  "lastUpdate": 1730193048079,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -863,6 +863,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 171,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "86c3cf7c24d989181bb55e799022ae254c7559b0",
+          "message": "chore: delegate trace formatting to `revm-inspectors` (#718)\n\nBased on https://github.com/foundry-rs/foundry/pull/8224\r\n\r\nCo-authored-by: zerosnacks <95942363+zerosnacks@users.noreply.github.com>\r\nCo-authored-by: DaniPopes <57450786+DaniPopes@users.noreply.github.com>",
+          "timestamp": "2024-10-29T09:52:03+01:00",
+          "tree_id": "c41f36b24fa031dadac2984699a02150b2c10801",
+          "url": "https://github.com/NomicFoundation/edr/commit/86c3cf7c24d989181bb55e799022ae254c7559b0"
+        },
+        "date": 1730193046662,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 72486,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 312,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 291,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 20,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 71430,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 180,
             "unit": "ms"
           }
         ]
