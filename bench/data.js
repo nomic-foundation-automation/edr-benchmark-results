@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730195567789,
+  "lastUpdate": 1730203450043,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5990,6 +5990,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5305.690452999999,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bbb91477fbe0d6e3ec664960f00e009ae95bc8a1",
+          "message": "chore: bump revm (#719)\n\nBased on https://github.com/foundry-rs/foundry/pull/8305 to bump REVM 12.\r\n\r\nCo-authored-by: Arsenii Kulikov <klkvrr@gmail.com>\r\nCo-authored-by: rakita <rakita@users.noreply.github.com>",
+          "timestamp": "2024-10-29T09:56:39+01:00",
+          "tree_id": "3170833f1c438fadd4b48f692a4a02593192fecf",
+          "url": "https://github.com/NomicFoundation/edr/commit/bbb91477fbe0d6e3ec664960f00e009ae95bc8a1"
+        },
+        "date": 1730203448636,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 295100.01638399996,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 28135.251584,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 16163.009091000002,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 17536.812604,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1262.1191250000002,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 5519.4137709999995,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 220979.076428,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5504.333780999999,
             "unit": "ms"
           }
         ]
