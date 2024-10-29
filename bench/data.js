@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730158759273,
+  "lastUpdate": 1730195567789,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5926,6 +5926,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5449.007665,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "86c3cf7c24d989181bb55e799022ae254c7559b0",
+          "message": "chore: delegate trace formatting to `revm-inspectors` (#718)\n\nBased on https://github.com/foundry-rs/foundry/pull/8224\r\n\r\nCo-authored-by: zerosnacks <95942363+zerosnacks@users.noreply.github.com>\r\nCo-authored-by: DaniPopes <57450786+DaniPopes@users.noreply.github.com>",
+          "timestamp": "2024-10-29T09:52:03+01:00",
+          "tree_id": "c41f36b24fa031dadac2984699a02150b2c10801",
+          "url": "https://github.com/NomicFoundation/edr/commit/86c3cf7c24d989181bb55e799022ae254c7559b0"
+        },
+        "date": 1730195566381,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 289285.12273,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 27854.714832,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 16249.491778000001,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 17452.634415999997,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1260.548117,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 5527.847713,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 215634.195421,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5305.690452999999,
             "unit": "ms"
           }
         ]
