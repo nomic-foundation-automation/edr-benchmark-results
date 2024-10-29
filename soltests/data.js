@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730193048079,
+  "lastUpdate": 1730200862530,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -917,6 +917,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 180,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bbb91477fbe0d6e3ec664960f00e009ae95bc8a1",
+          "message": "chore: bump revm (#719)\n\nBased on https://github.com/foundry-rs/foundry/pull/8305 to bump REVM 12.\r\n\r\nCo-authored-by: Arsenii Kulikov <klkvrr@gmail.com>\r\nCo-authored-by: rakita <rakita@users.noreply.github.com>",
+          "timestamp": "2024-10-29T09:56:39+01:00",
+          "tree_id": "3170833f1c438fadd4b48f692a4a02593192fecf",
+          "url": "https://github.com/NomicFoundation/edr/commit/bbb91477fbe0d6e3ec664960f00e009ae95bc8a1"
+        },
+        "date": 1730200861025,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 76276,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 313,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 294,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 74631,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 178,
             "unit": "ms"
           }
         ]
