@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730891714311,
+  "lastUpdate": 1730896552321,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1128,6 +1128,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdStorageTest",
             "value": 72326,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 174,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "distinct": true,
+          "id": "828fb409f0515d4f5fc2c0f67f043ade00b092d1",
+          "message": "edr-0.6.4-alpha.2",
+          "timestamp": "2024-11-06T11:52:26Z",
+          "tree_id": "927bafbbe5e3ca063deb8fb837ef048133ede579",
+          "url": "https://github.com/NomicFoundation/edr/commit/828fb409f0515d4f5fc2c0f67f043ade00b092d1"
+        },
+        "date": 1730896551976,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 73775,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 322,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 289,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 23,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 72192,
             "unit": "ms"
           },
           {
