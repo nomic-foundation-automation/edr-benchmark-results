@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735828296606,
+  "lastUpdate": 1735833556872,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1295,6 +1295,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 183,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "distinct": true,
+          "id": "c5a044ca9c9fc0ace772b4ff48e34818f3074192",
+          "message": "Merge branch 'main' into feat/solidity-tests",
+          "timestamp": "2025-01-02T15:26:30Z",
+          "tree_id": "6c37bb3b081bb2a5840e083b13078469de1b24bf",
+          "url": "https://github.com/NomicFoundation/edr/commit/c5a044ca9c9fc0ace772b4ff48e34818f3074192"
+        },
+        "date": 1735833556502,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 73007,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 340,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 21,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 71328,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 160,
             "unit": "ms"
           }
         ]
