@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735833556872,
+  "lastUpdate": 1737119459959,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1349,6 +1349,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 160,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6583fe880c0805dd0e0399892372746d11d4b35",
+          "message": "test: switch to `forge-std` for JS integration tests (#770)",
+          "timestamp": "2025-01-17T13:33:02+01:00",
+          "tree_id": "f376580920ae9bce9121c0a801904f01d5c4060b",
+          "url": "https://github.com/NomicFoundation/edr/commit/f6583fe880c0805dd0e0399892372746d11d4b35"
+        },
+        "date": 1737119459554,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 72593,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 316,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 294,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 21,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 71528,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 193,
             "unit": "ms"
           }
         ]
