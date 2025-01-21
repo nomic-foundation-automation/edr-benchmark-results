@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737119459959,
+  "lastUpdate": 1737453405903,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1403,6 +1403,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 193,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5adab4da0e58c38d7bec0e56d6f3fce87b194bc1",
+          "message": "chore: remove hardhat solidity tests (#774)",
+          "timestamp": "2025-01-21T09:51:44+01:00",
+          "tree_id": "39e248e41b260166e4e6447ccd47ba7d43a91f23",
+          "url": "https://github.com/NomicFoundation/edr/commit/5adab4da0e58c38d7bec0e56d6f3fce87b194bc1"
+        },
+        "date": 1737453404237,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 73343,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 327,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 71412,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 162,
             "unit": "ms"
           }
         ]
