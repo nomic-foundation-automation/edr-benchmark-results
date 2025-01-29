@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738170363464,
+  "lastUpdate": 1738192514384,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Wodann@users.noreply.github.com",
-            "name": "Wodann",
-            "username": "Wodann"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "07c7667cd1c5a21e0def6dc6082ff7a71aa0de20",
-          "message": "feat: add support for RIP-7212 (#552)\n\n* feat: add support for RIP-7212\n\n* misc: add changelog\n\n* fix: updated index.d.ts\n\n* fix: revert rename of InvalidFEOpcode\n\n* fix: set enableRip7212 in ProviderConfig\n\n* test: validate that disabling RIP-7212 works\n\n* refactor: use runtime variable instead of const\n\n* Path Hardhat dev dep to work with latest EDR changes\n\nEDR uses Hardhat as a dev dependency to run some javascript tests. The\nway this works is that the tests are run using Hardhat, but we use pnpm\nto override the EDR dependency in Hardhat with the local one. This works\nfine as long as there are no breaking changes in EDR. When there are, we\nhave a circular dependency problem: we can't publish a new version of\nEDR until the tests pass, but for the tests to pass we need a version of\nHardhat that works with the new version of EDR.\n\nA temporary workaround for this is to use `pnpm patch` to temporarily\nmodify the Hardhat code in a way that works with the breaking change.\nIn this case, this just means adding the new field when constructing\nthe provider.\n\n---------\n\nCo-authored-by: Franco Victorio <victorio.franco@gmail.com>",
-          "timestamp": "2024-07-17T04:43:21Z",
-          "tree_id": "99957a4ace1aa48a197f6b7e60242bd577327b7f",
-          "url": "https://github.com/NomicFoundation/edr/commit/07c7667cd1c5a21e0def6dc6082ff7a71aa0de20"
-        },
-        "date": 1721192953349,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 346893.86247999995,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 34328.967727,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 20532.951187,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 21228.560342999997,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1724.529866,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 7193.573268,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 255153.291855,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6731.988234,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3197,6 +3133,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6118.496179000001,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c8c3ddcbd932d47d3fc8705f3e8943a45a4dfdb",
+          "message": "fix: statically link Windows C runtime (#778)\n\n* fix: statically link Windows C runtime\n\n* misc: add changeset",
+          "timestamp": "2025-01-29T22:53:31Z",
+          "tree_id": "2bb9cdc3d498d343d93c22f2636c8065a7a4c106",
+          "url": "https://github.com/NomicFoundation/edr/commit/5c8c3ddcbd932d47d3fc8705f3e8943a45a4dfdb"
+        },
+        "date": 1738192512691,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 285999.042592,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 26824.351467,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 14435.451966,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 17050.792974,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 938.927802,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 4625.226003,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 216370.67447199998,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5753.617908,
             "unit": "ms"
           }
         ]
