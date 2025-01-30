@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738258929692,
+  "lastUpdate": 1738270072218,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "5764438+agostbiro@users.noreply.github.com",
-            "name": "Agost Biro",
-            "username": "agostbiro"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "0bba027c0f9aeb80bad0c4c7d270fa38f2db98a0",
-          "message": "fix: use remote chain id for pre-fork simulation (#567)\n\n* fix: use remote chain id for pre-fork simulation\n\n* Fix error message",
-          "timestamp": "2024-07-31T07:34:48Z",
-          "tree_id": "a33ecd5e14f59d72bc38ab4652cda7bdc60f4dd5",
-          "url": "https://github.com/NomicFoundation/edr/commit/0bba027c0f9aeb80bad0c4c7d270fa38f2db98a0"
-        },
-        "date": 1722412843689,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 353517.049313,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 36297.258615,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 22008.520554000002,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 22435.389229,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1667.5121299999998,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 7057.994283999999,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 257530.478343,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6519.896158,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3197,6 +3133,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6077.951449,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41898282+github-actions[bot]@users.noreply.github.com",
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "403bd351ded6a75adddb3879003245e4559e5354",
+          "message": "edr-0.8.0 (#768)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2025-01-30T20:25:48Z",
+          "tree_id": "eb3c5986413364bf8d4a2caea74a1e14965342af",
+          "url": "https://github.com/NomicFoundation/edr/commit/403bd351ded6a75adddb3879003245e4559e5354"
+        },
+        "date": 1738270070523,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 297886.63876400003,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 27861.386389,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 15087.624269,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 16529.148677999998,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 956.152779,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 5014.037016,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 226546.064629,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5892.225004,
             "unit": "ms"
           }
         ]
