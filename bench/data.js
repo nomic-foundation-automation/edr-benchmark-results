@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738255158968,
+  "lastUpdate": 1738258929692,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Wodann@users.noreply.github.com",
-            "name": "Wodann",
-            "username": "Wodann"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "e02eb227afb5b2096c6eee1637db1258d0881e94",
-          "message": "build: upgrade revm to v12 (#557)\n\n* build: upgrade revm to v12\n\n* test: remove invalid test\n\n* misc: add changeset",
-          "timestamp": "2024-07-18T14:14:33Z",
-          "tree_id": "f1e0197b50a9a39347cdf5591a49a2874ba8963f",
-          "url": "https://github.com/NomicFoundation/edr/commit/e02eb227afb5b2096c6eee1637db1258d0881e94"
-        },
-        "date": 1721313596880,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 342226.508118,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 33938.794112,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 20434.073776,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 21739.559475,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1689.2014379999998,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6953.624551,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 250927.875233,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6543.379533,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3197,6 +3133,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6004.837309,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af26624ae0b705d70bee15d4f4b76e017f5b4dfd",
+          "message": "fix: pass build info as buffer (#780)\n\n* chore: pass build info as buffer\n\n* Upgrade to HH 2.22.18 and add patch\n\n* Add changeset\n\n* Fix CI\n\n* Add support for Hardhat v3 build infos\n\n* Use separate HH v2 vs v3 build info arrays\n\n* Change patch to minor\n\n* Fix input/output mismatch detection",
+          "timestamp": "2025-01-30T16:23:38Z",
+          "tree_id": "ebd0f4f4f7e394c29437c844aca522862ea5c94d",
+          "url": "https://github.com/NomicFoundation/edr/commit/af26624ae0b705d70bee15d4f4b76e017f5b4dfd"
+        },
+        "date": 1738258928136,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 280163.532032,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 27658.425839,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 14692.452602000001,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 17247.789036000002,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 943.6901600000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 4719.327932,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 208823.895014,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6077.951449,
             "unit": "ms"
           }
         ]
