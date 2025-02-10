@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738873537800,
+  "lastUpdate": 1739176744724,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "victorio.franco@gmail.com",
-            "name": "Franco Victorio",
-            "username": "fvictorio"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "66ca796c50154fb64bf55a5279a0bb7a3feed111",
-          "message": "fix: add json alias property in provider response (#582)\n\n* fix: add json alias property in provider response\n\n* Create empty-bobcats-refuse.md",
-          "timestamp": "2024-08-05T15:11:58Z",
-          "tree_id": "5cabba767517934372268393092724b23026ff50",
-          "url": "https://github.com/NomicFoundation/edr/commit/66ca796c50154fb64bf55a5279a0bb7a3feed111"
-        },
-        "date": 1722873348007,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 344639.276158,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 33467.148488,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 21040.474027999997,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 21473.118478,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1750.207882,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6888.446102,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 253750.843892,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6269.0372879999995,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3197,6 +3133,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5830.698267,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c37b5a029aac7aa0ccbd15d181fd8e8d398265c",
+          "message": "refactor: compile time guarantees to prevent secret key leakage (#797)\n\n* refactor: prevent secret key leakage\n\n* Refactor error to remove string argument\n\n* Use opaque hex error",
+          "timestamp": "2025-02-10T08:16:06Z",
+          "tree_id": "0893ff794719a5e5e6eb6344f39256c24fd218d1",
+          "url": "https://github.com/NomicFoundation/edr/commit/6c37b5a029aac7aa0ccbd15d181fd8e8d398265c"
+        },
+        "date": 1739176743218,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 285448.971407,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 27788.59449,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 14490.297298,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 16697.845538,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 976.9791529999999,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 4618.81739,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 214518.033172,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6358.404366000001,
             "unit": "ms"
           }
         ]
