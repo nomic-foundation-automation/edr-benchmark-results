@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739295575363,
+  "lastUpdate": 1739306291810,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1673,6 +1673,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 199,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "43e9b9c977b04f39fe9b6c7198e3bae75ab999b5",
+          "message": "feat: stack trace support for deployment, setup, fuzz & invariant tests (#799)",
+          "timestamp": "2025-02-11T20:25:28+01:00",
+          "tree_id": "b24c9a5ef42c887dfbe7d579e60b515d73095a08",
+          "url": "https://github.com/NomicFoundation/edr/commit/43e9b9c977b04f39fe9b6c7198e3bae75ab999b5"
+        },
+        "date": 1739306290345,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 73910,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 332,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 286,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 21,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 72173,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 192,
             "unit": "ms"
           }
         ]
