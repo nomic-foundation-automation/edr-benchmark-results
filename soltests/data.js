@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738865993754,
+  "lastUpdate": 1739295575363,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1619,6 +1619,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 203,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "distinct": true,
+          "id": "8776f0c6698b5d9972ff2a8b57cb660b7e32e150",
+          "message": "Update checkout and cache actions. (#785)",
+          "timestamp": "2025-02-11T16:53:59Z",
+          "tree_id": "34e62f35c0e3f75e199324dab1757da39276496e",
+          "url": "https://github.com/NomicFoundation/edr/commit/8776f0c6698b5d9972ff2a8b57cb660b7e32e150"
+        },
+        "date": 1739295573953,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 74520,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 339,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 290,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 20,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 73254,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 199,
             "unit": "ms"
           }
         ]
