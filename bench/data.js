@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740067429169,
+  "lastUpdate": 1740078694951,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "victorio.franco@gmail.com",
-            "name": "Franco Victorio",
-            "username": "fvictorio"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "a417e19622e9887c401db433ce501943498d66eb",
-          "message": "breaking change: rename response.json to response.data (#584)\n\n* breaking change: rename response.json to response.data\n\n* Create sour-donkeys-draw.md\n\n* Update sour-donkeys-draw.md",
-          "timestamp": "2024-08-07T15:02:13Z",
-          "tree_id": "c3d598e6885f92d2c2c3145d54f0ab46d7735093",
-          "url": "https://github.com/NomicFoundation/edr/commit/a417e19622e9887c401db433ce501943498d66eb"
-        },
-        "date": 1723046101676,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 348654.393209,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 33600.564163999996,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 20173.552386,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 21435.870640999998,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1675.4838490000002,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6659.851778,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 258615.030182,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6494.040209000001,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3197,6 +3133,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5829.387363,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "404821a26234bf67c4772add83c7e593c086ec42",
+          "message": "feat: add support for EIP-2537 (#808)",
+          "timestamp": "2025-02-20T18:48:35Z",
+          "tree_id": "c26e13e03b50ebd43dd12ebe5e90010d84ac03f2",
+          "url": "https://github.com/NomicFoundation/edr/commit/404821a26234bf67c4772add83c7e593c086ec42"
+        },
+        "date": 1740078693372,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 282015.067061,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 28084.97023,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 15332.678853,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 16833.457104,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 951.57467,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 4985.898432,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 209990.27926399998,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5836.208508,
             "unit": "ms"
           }
         ]
