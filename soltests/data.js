@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739309373677,
+  "lastUpdate": 1741019837464,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1781,6 +1781,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 203,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f0cffcc992df5b023acde7c09054c6cc832916f9",
+          "message": "fix: don't log fork url on error (#823)",
+          "timestamp": "2025-03-03T17:15:56+01:00",
+          "tree_id": "b2c29f280433fc9d9b9555256d29c94672ad88b3",
+          "url": "https://github.com/NomicFoundation/edr/commit/f0cffcc992df5b023acde7c09054c6cc832916f9"
+        },
+        "date": 1741019835967,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 76606,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 24,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 301,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 23,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 74414,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145,
             "unit": "ms"
           }
         ]
