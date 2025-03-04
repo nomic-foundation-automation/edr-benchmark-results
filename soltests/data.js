@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741019837464,
+  "lastUpdate": 1741093611500,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1835,6 +1835,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 145,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a8b55ff5eb29e98b2285aa8abfa5935f250ccc40",
+          "message": "fix: deterministic re-execution for stack traces (#822)",
+          "timestamp": "2025-03-04T13:24:33+01:00",
+          "tree_id": "9cb8b4ddb1bc86d7003644d40a537c67ff080eda",
+          "url": "https://github.com/NomicFoundation/edr/commit/a8b55ff5eb29e98b2285aa8abfa5935f250ccc40"
+        },
+        "date": 1741093609996,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 77378,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 24,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 294,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 17,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 76479,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 150,
             "unit": "ms"
           }
         ]
