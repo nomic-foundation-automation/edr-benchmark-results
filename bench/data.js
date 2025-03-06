@@ -1,70 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740607126170,
+  "lastUpdate": 1741253630265,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Igor Matuszewski",
-            "username": "Xanewok",
-            "email": "Xanewok@gmail.com"
-          },
-          "committer": {
-            "name": "GitHub",
-            "username": "web-flow",
-            "email": "noreply@github.com"
-          },
-          "id": "4a39a8d8d1aebb0e7a935163b0d1fe5b37e7f6e6",
-          "message": "feat: Port existing stack trace refinement 1:1 from Hardhat  (#545)\n\n* refactor: Port the codebase model construction and EVM decoding from HH\n\n* chore: Add a script that regenerates the pnpm patch for Hardhat\n\n* patch(hardhat): Cherry-pick and adapt for the unreleased Rip7212 PR\n\nSee https://github.com/NomicFoundation/hardhat/commit/f944cd54eb65d78f6ce54248fb5c573aadc7281c\n\n* patch(hardhat): Cherry-pick a stack trace cleanup PR\n\nSee https://github.com/NomicFoundation/hardhat/commit/5739893bf382b4e937b44995ca7917cbbd39de12\n\n* patch(hardhat): Use the rewritten compiler to model logic from EDR\n\nSee https://github.com/NomicFoundation/hardhat/commit/49c66b6947283d9c9414f5e6faf2f94dcf05cc58\n\n* Port `MessageTrace` and `VMTracer` machinery from Hardhat (#531)\n\n* Some small improvements\r\n\r\n* Port `MessageTrace` and `VMTracer` machinery from Hardhat\r\n\r\n* Move HH-specific ExitCode logic to edr_napi\r\n\r\n* Remove unused `ExitCode::STATIC_STATE_CHANGE`\r\n\r\n* patch(hardhat): Re-use MessageTrace and VmTracer from EDR now\r\n\r\nSee https://github.com/NomicFoundation/hardhat/commit/3aeeb564394349824221ea9814f49cb5f8002d78\r\n\r\n* chore: Re-run pnpm build\r\n\r\n* Address PR feedback\r\n\r\n* Address PR feedback\r\n\r\n* fixup: Apply formatting\n\n* refactor: Port ContractsIdentifier to Rust (#562)\n\n* chore: Port the BytecodeTrie from ContractsIdentifier\r\n\r\n* Migrate some library utils\r\n\r\n* Migrate some Opcode helpers\r\n\r\n* Finish the ContractsIdentifier port\r\n\r\n* Remove unused get_library_address_positions\r\n\r\n* Simplify the ContractsIdentifier port\r\n\r\n* patch(hardhat): Re-use the ContractsIdentifier from EDR\r\n\r\n* fixup: Fix a simple test\n\n* refactor: Port the `VmTraceDecoder` from Hardhat (#568)\n\n* fix: Correctly deserialize BuildInfo with `_format` field\r\n\r\n* refactor: Port the VmTraceDecoder from Hardhat\r\n\r\n* fix(napi): Correctly encode and decode `MessageTrace` types\r\n\r\n* refactor: Remove now unneeded functions\r\n\r\n* patch(hardhat): Port the VmTraceDecoder from Hardhat\r\n\r\n* Reformat and remove unused imports\r\n\r\n* fixup: Use a more correct type for the XYZTrace::bytecode field\r\n\r\n* fixup: Adjust test to now optional `deployedContract` property\n\n* refactor: Port `ReturnData` and `StackTraceEntryType` (#589)\n\n* feat: Port solidity-stack-trace.ts\r\n\r\n* feat: Port return-data.ts\r\n\r\n* patch(hardhat): Port return-data.ts and solidity-stack-trace.ts\r\n\r\n* fixup: Reformat files\r\n\r\n* fixup: let's see how tests feel about a number instead of a const enum variant\r\n\r\n* Make the comment about Rust type alias more clear [skip ci]\n\n* fix: Fully transpile in Mocha tests to correctly inline const enums (#594)\n\nIt seems transpile-only transpiles per module, however we need to\r\nperform full \"compilation\" in order to correctly see and inline values\r\nfor const enums.\r\n\r\nWe use const enums because that's how they are emitted by napi-rs and\r\nthere's no option to change that. Rather than invest into supporting\r\nthat or working around it, let's just fully compile the test harness\r\nonce.\r\n\r\nSee https://www.typescriptlang.org/tsconfig/#isolatedModules for more\r\ncontext.\n\n* refactor: Port ErrorInferrer and SolidityTracer from Hardhat (#593)\n\n* Start porting SolidityTracer\r\n\r\n* Start porting ErrorInferrer\r\n\r\n* WIP: Keep Reference in MessageTraces\r\n\r\n* Port 99% of the ErrorInferrer\r\n\r\nExcept `ErrorInferrer.inferAfterTracing`. I discovered that the original\r\ncode creates a shallow copy of the stack trace during select heuristics\r\nand returns the modified one or the *original* one if the heuristic does\r\nnot hit.\r\n\r\nOne could keep track of possible series of changes that would have to be\r\nsubsequently applied if the heuristic hits and returns a modified the\r\nstack trace but instead, I want the code to do exactly what the original\r\ncode did.\r\n\r\nRather than wrap every entry in a shareable `Rc` (they are not\r\nmodified), I decided to make them clonable in the next PR, which means\r\nwe need to not keep the `ClassInstance` around to derive the Clone\r\ntrait.\r\n\r\n* Port mapped-inlined-internal-functions-heuristics.ts\r\n\r\n* refactor: Prune StackTraceEntry.message to make it clonable\r\n\r\nSee previous commit \"Port 99% of the ErrorInferrer\".\r\n\r\n* refactor: Drop unused inner funcs in the ErrorInferrer\r\n\r\n* feat: Finish porting `ErrorInferrer`\r\n\r\n* feat: Finish porting `SolidityTracer`\r\n\r\n* refactor: Remove now unused utils IntoEither/IntoOption\r\n\r\n* patch(hardhat): Port ErrorInferrer and SolidityTracer\r\n\r\n* fixup! refactor: Prune StackTraceEntry.message to make it clonable\r\n\r\n* fixup: Reformat\r\n\r\n* Document the unsafety surrounding napi-rs's References\r\n\r\n* refactor: Remove some now unused functions\r\n\r\n* Address review feedback\r\n\r\n* fix a missing period\r\n\r\n* fix alphabetical sorting\n\n* refactor: Port stack-traces/debug.ts (#596)\n\n* Port over debugging facilities from debug.ts\r\n\r\n* patch(hardhat): Port debug.ts\r\n\r\n* fix: Make the depth optional in printMessageTrace\r\n\r\n* fixup: Formatting\n\n* Merge `main` into the stack trace port feature branch (#618)\n\n* fix: use remote chain id for pre-fork simulation (#567)\r\n\r\n* fix: use remote chain id for pre-fork simulation\r\n\r\n* Fix error message\r\n\r\n* chore: Bump hardhat to 2.22.7 (#571)\r\n\r\n* chore: Bump hardhat to 2.22.7\r\n\r\n* fixup: Don't enable RIP-7212 in our tests\r\n\r\n* Adapt for NomicFoundation/hardhat#5411\r\n\r\n* fix: prevent crash when returning large JSON responses (#569)\r\n\r\n* ci: update collaborator check in the benchmarks workflow (#574)\r\n\r\n* edr-0.5.1 (#559)\r\n\r\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\r\n\r\n* fix: add json alias property in provider response (#582)\r\n\r\n* fix: add json alias property in provider response\r\n\r\n* Create empty-bobcats-refuse.md\r\n\r\n* edr-0.5.2 (#583)\r\n\r\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\r\n\r\n* breaking change: rename response.json to response.data (#584)\r\n\r\n* breaking change: rename response.json to response.data\r\n\r\n* Create sour-donkeys-draw.md\r\n\r\n* Update sour-donkeys-draw.md\r\n\r\n* fix: improve error message and option to skip unsupported transaction type in debug trace (#606)\r\n\r\n* fix: improve error message and option to skip unsupported tx type in debug trace\r\n\r\n* Address code review feedback\r\n\r\n* Handle unsupported transaction type requested\r\n\r\n* Fix test setup\r\n\r\n* ci: remove review-related slack notifications (#612)\r\n\r\n* chore: js tooling improvements (#609)\r\n\r\n* Fix pnpm warning\r\n\r\n* Add syncpakc\r\n\r\n* Add syncpack\r\n\r\n* Run syncpack format\r\n\r\n* Run syncpack on CI\r\n\r\n* Add setup-node action\r\n\r\n* Fixes related to upgrading prettier\r\n\r\n* Run prettier\r\n\r\n* Add setup-rust action\r\n\r\n* Run prettier in edr_napi\r\n\r\n* Add lint scripts to packages\r\n\r\n* Run prettier in crates/tools/js/benchmark\r\n\r\n* Port benchmark code to typescript\r\n\r\n* Add eslint to all packages\r\n\r\n* Upgrade @types/node to v20\r\n\r\n* Fix broken build:edr script\r\n\r\n* Resolve benchmark output path\r\n\r\n* chore: upgrade hardhat and add patch (#613)\r\n\r\n* Upgrade Hardhat to v2.22.9\r\n\r\n* Add patch for hardhat#5664\r\n\r\n* chore: Bump to vanilla Hardhat 2.22.9\r\n\r\n* chore: Regenerate the Hardhat patch to use the new EDR internals\r\n\r\n* chore: Bump @napi-rs/cli to fix duplicated napi typedefs\r\n\r\nSee <https://github.com/napi-rs/napi-rs/pull/2088>\r\n\r\n* fixup: Prettify test.ts\r\n\r\n* Fixes after testing in OZ (#625)\r\n\r\n* fix: add bounds checks\r\n\r\n* fix: check that steps is not empty before traversing it\r\n\r\n* fixup: formatting [skip ci]\r\n\r\n---------\r\n\r\nCo-authored-by: Igor Matuszewski <xanewok@gmail.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Agost Biro <5764438+agostbiro@users.noreply.github.com>\r\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>\r\nCo-authored-by: Piotr Galar <piotr.galar@gmail.com>\r\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\r\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\r\nCo-authored-by: Franco Victorio <victorio.franco@gmail.com>\n\n* chore: Restore old test.ts and remove some `as any` conversions\n\n* WIP: Benchmark with patched Hardhat to use new EDR internals\n\n* Revert \"WIP: Benchmark with patched Hardhat to use new EDR internals\"\n\nThis reverts commit ac2e0125a4644296e27cff3b733183c553cdd95f.\n\n* Remove the gen-hardhat-patches script\n\n---------\n\nCo-authored-by: Agost Biro <5764438+agostbiro@users.noreply.github.com>\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>\nCo-authored-by: Piotr Galar <piotr.galar@gmail.com>\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Franco Victorio <victorio.franco@gmail.com>",
-          "timestamp": "2024-08-27T19:09:36Z",
-          "url": "https://github.com/NomicFoundation/edr/commit/4a39a8d8d1aebb0e7a935163b0d1fe5b37e7f6e6"
-        },
-        "date": 1724802038449,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 349421.59036500007,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 33769.881792,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 21093.35798,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 21035.011785000002,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1677.6552069999998,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6777.217747,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 258690.87193400002,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6377.59392,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3197,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5865.565431,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "victorio.franco@gmail.com",
+            "name": "Franco Victorio",
+            "username": "fvictorio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1d377bb3620b4c1027522a0ea12341f5f7930236",
+          "message": "feat: add Prague to config (#826)\n\n* feat: add Prague to config\n\n* Create funny-bears-march.md",
+          "timestamp": "2025-03-06T09:09:56Z",
+          "tree_id": "2ec6d1eb83067581dbe95fba4a1c8a4352427b2e",
+          "url": "https://github.com/NomicFoundation/edr/commit/1d377bb3620b4c1027522a0ea12341f5f7930236"
+        },
+        "date": 1741253628773,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 286483.332632,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 28614.259731000002,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 13903.302336,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 17226.343979999998,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 948.455583,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 4939.917857,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 214822.24872099998,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6028.804424,
             "unit": "ms"
           }
         ]
