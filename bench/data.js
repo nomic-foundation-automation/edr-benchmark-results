@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741253630265,
+  "lastUpdate": 1741603657634,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Xanewok@gmail.com",
-            "name": "Igor Matuszewski",
-            "username": "Xanewok"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "f3a1766c671f01d7b45dcade927240aa23bcc8ac",
-          "message": "refactor: Clean up the majority of the stack trace port implementation (#614)\n\n* Stop re-exporting SourceMapLocation and other minor types\n\n* Stop re-exporting Instruction and Opcode\n\n* Stop re-exporting JumpType\n\n* Stop re-exporting ContractFunctionVisibility\n\n* Stop re-exporting ContractType\n\n* refactor: Rename ContractType to ContractKind\n\nTo better match the name from the solc artifacts and to match what other\nlibraries use as well.\n\n* Stop re-exporting ImmutableReference\n\n* Stop re-exporting CustomError\n\n* Stop re-exporting SourceFile\n\n* Stop re-exporting SourceLocation\n\n* fixup! Stop re-exporting CustomError\n\n* refactor: Keep Vec<u8> as ContractFunction.selector\n\n* Simplify and don't re-export select functions\n\n* Simplify ContractsIdentifier wrt buffer cloning\n\n* refactor: Remove redundant napi::Result in SourceFile::new\n\n* refactor: Limit interior mutability in ContractFunction to the selector\n\n* refactor: Break Rc cycle between Contract <> ContractFunction\n\nThe `contract` field in ContractFunction is only used for the debug\nprinting anyway.\n\n* refactor: Remove more napi types\n\n* refactor: Always bundle ContractsIdentifier with VmTraceDecoder\n\n* Stop re-exporting Contract\n\n* Stop threading Env through SolidityTracer\n\n* Stop re-exporting Bytecode and prune ClassInstance helpers\n\n* refactor: Don't unnecessarily clone Rcs\n\n* refactor: Clean up ContractsIdentifier some more\n\n* Move the rest of the library_utils\n\n* Remove some useless Results and impl PartialEq for SourceLocation\n\n* refactor: For now settle on panicking borrows for clarity\n\n* Fix an annoying Clippy false positive lint\n\n* refactor: Remove (now) unnecessary custom opcode logic\n\n* refactor: Make sure to catch_unwind in our main napi entry points\n\n* Remove unnecessary napi types from model.rs\n\n* Prune napi Results from the compiler.rs\n\n* refactor: Move build model, AST conv. and source map to edr_solidity\n\n* refactor: Replace ContractsIdentifier with ported impl\n\nWhile the original port is nicer, I prefer to move over everything that\nis already working with the existing source model. We should make this a\nlot nicer and document this later on.\n\n* fixup: Formatting\n\n* fix: Separate N-API bindings from the edr_solidity\n\nWe can't pull other #[napi]-adorned types when pulling a dependency\nbecause it causes linking failures when building unit test targets.\n\nThis is only a minor nuisance, so let's pull the trigger and separate\nthis entirely.\n\n* Remove now unused anyhow from edr_napi\n\n* refactor: Break the ref cycle by separating sources in the build model\n\n* WIP: Benchmark with patched Hardhat to use new EDR internals\n\n* Add documentation for select types in edr_solidity\n\n* fixup: formatting\n\n* Track future deserialization improvements in an issue\n\n* fixup: formatting\n\n* Revert \"WIP: Benchmark with patched Hardhat to use new EDR internals\"\n\nThis reverts commit 9ca599730510810a4aeacd0fcf414e25b0fae575.",
-          "timestamp": "2024-09-02T15:34:25Z",
-          "tree_id": "e3ec22f3e99f16a3d49351a472b5a1212881365d",
-          "url": "https://github.com/NomicFoundation/edr/commit/f3a1766c671f01d7b45dcade927240aa23bcc8ac"
-        },
-        "date": 1725292882187,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 358203.825031,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 35726.42748,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 21465.877171,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 22503.620667000003,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1690.623361,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6752.453049,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 263257.1764,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6807.646903000001,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 6028.804424,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41898282+github-actions[bot]@users.noreply.github.com",
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4959ad3dfd104c0f53ba6dc9e4f786bf1e36b169",
+          "message": "edr-0.10.0 (#827)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2025-03-10T10:25:08Z",
+          "tree_id": "585eefc3f4b13945a1e292eb91a30ed7ad41911f",
+          "url": "https://github.com/NomicFoundation/edr/commit/4959ad3dfd104c0f53ba6dc9e4f786bf1e36b169"
+        },
+        "date": 1741603656053,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 279115.007876,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 28366.733233,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 14008.827823000001,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 16965.208559,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 925.7473380000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 4921.95184,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 208110.906551,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5815.632532,
             "unit": "ms"
           }
         ]
