@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741603657634,
+  "lastUpdate": 1741607057677,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Xanewok@gmail.com",
-            "name": "Igor Matuszewski",
-            "username": "Xanewok"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "f6f22d26004730301f985d2c8cf46f7592d3b85a",
-          "message": "chore: Bump hardhat to 2.22.10 (#639)\n\nThis removes the need for us to patch locally, so let's pull\nthis in to clean up the patching for now.",
-          "timestamp": "2024-09-05T17:14:48Z",
-          "tree_id": "1d5bfa01dc9c236e555d1587d6155b7f7284d41b",
-          "url": "https://github.com/NomicFoundation/edr/commit/f6f22d26004730301f985d2c8cf46f7592d3b85a"
-        },
-        "date": 1725561218696,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 354271.9225650001,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 37119.460323,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 21692.576265,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 21474.212012,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1709.451572,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6845.026855,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 258513.039568,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6918.15597,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5815.632532,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c67a87bc2f4c3cebe0081c90f56271e9e8c95b2",
+          "message": "Add contributor guidelines for small PRs and airdrop farming. (#828)",
+          "timestamp": "2025-03-10T11:21:43Z",
+          "tree_id": "812590fd8c73a4b1d730145e638f96efaa347e22",
+          "url": "https://github.com/NomicFoundation/edr/commit/5c67a87bc2f4c3cebe0081c90f56271e9e8c95b2"
+        },
+        "date": 1741607056069,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 277627.938013,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 28193.666557,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 13838.81963,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 16514.181734,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 908.427235,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 4998.522966,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 207437.766686,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5736.553204999999,
             "unit": "ms"
           }
         ]
