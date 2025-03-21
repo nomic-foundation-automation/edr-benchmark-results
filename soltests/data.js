@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741796379066,
+  "lastUpdate": 1742576061453,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2051,6 +2051,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 184,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b69c85962fb14e8c9670599ab684a7e160d71bd",
+          "message": "feat: autolinking for solidity tests (#838)",
+          "timestamp": "2025-03-21T16:55:47+01:00",
+          "tree_id": "d63766712812818fcbb339f006c1f80522cef041",
+          "url": "https://github.com/NomicFoundation/edr/commit/6b69c85962fb14e8c9670599ab684a7e160d71bd"
+        },
+        "date": 1742576060997,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 76092,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 24,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 296,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 75165,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 170,
             "unit": "ms"
           }
         ]
