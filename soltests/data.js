@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742576061453,
+  "lastUpdate": 1743005014780,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2105,6 +2105,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 170,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c2e3a651399f9eae3f6379c532f3649e937d3b4d",
+          "message": "feat: error for unsupported cheatcodes (#841)",
+          "timestamp": "2025-03-26T16:41:57+01:00",
+          "tree_id": "8b3f2828a8152e57d5a20b9b60f6f250efa420f4",
+          "url": "https://github.com/NomicFoundation/edr/commit/c2e3a651399f9eae3f6379c532f3649e937d3b4d"
+        },
+        "date": 1743005013272,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 76480,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 23,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 290,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 17,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 75470,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 152,
             "unit": "ms"
           }
         ]
