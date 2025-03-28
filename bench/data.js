@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741882243586,
+  "lastUpdate": 1743180304168,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Xanewok@gmail.com",
-            "name": "Igor Matuszewski",
-            "username": "Xanewok"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "a0601cbfbf5da93ea8c3558b20dd8103800f0e99",
-          "message": "fix: Prevent contiguous blockchain storage from bitrotting (#654)\n\n* fix: Prevent contiguous blockchain storage from bitrotting\n\n* fixup: Reformat",
-          "timestamp": "2024-09-10T14:37:33Z",
-          "tree_id": "1078744fe6c29d6349f33324be0c05f418408b32",
-          "url": "https://github.com/NomicFoundation/edr/commit/a0601cbfbf5da93ea8c3558b20dd8103800f0e99"
-        },
-        "date": 1725994666966,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 349132.106687,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 34360.835543,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 21634.587534000002,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 21878.583839,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1683.918644,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6962.318929,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 255864.302455,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6747.559743,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5711.860965,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60112f13fbedc541729194dc86e2dea5a50b372d",
+          "message": "ci: update op workflow to match feat/multichain (#846)",
+          "timestamp": "2025-03-28T16:21:19Z",
+          "tree_id": "ce39f6d1703e83f7141f32b010b4394c87563871",
+          "url": "https://github.com/NomicFoundation/edr/commit/60112f13fbedc541729194dc86e2dea5a50b372d"
+        },
+        "date": 1743180302655,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 281982.461761,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 28617.485516,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 14546.577825,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 16422.801032000003,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 1000.0609,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 5183.906223,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 210111.916432,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 6099.713833,
             "unit": "ms"
           }
         ]
