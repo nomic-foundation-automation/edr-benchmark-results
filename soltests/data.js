@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743005014780,
+  "lastUpdate": 1743591688770,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2159,6 +2159,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 152,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3abae17922ae8673d9dd011975460cf804af41c0",
+          "message": "chore: add serialize for `SolidityTestRunnerConfigArgs` config (#849)",
+          "timestamp": "2025-04-02T12:21:25+02:00",
+          "tree_id": "8bc8e1cad7f8fddbaa8c231ff1a44500849015c3",
+          "url": "https://github.com/NomicFoundation/edr/commit/3abae17922ae8673d9dd011975460cf804af41c0"
+        },
+        "date": 1743591687302,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 76952,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 23,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 289,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 23,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 75537,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 136,
             "unit": "ms"
           }
         ]
