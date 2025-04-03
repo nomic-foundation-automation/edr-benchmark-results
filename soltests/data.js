@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743596382598,
+  "lastUpdate": 1743679127238,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2267,6 +2267,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 141,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "18cd4d8bc0644695bf18f3ec91d2ad6d38fd5a12",
+          "message": "misc: run soltests in hh3 projects (#852)",
+          "timestamp": "2025-04-03T12:28:41+02:00",
+          "tree_id": "a31d2577122c347561637b9204c851c44ade36f5",
+          "url": "https://github.com/NomicFoundation/edr/commit/18cd4d8bc0644695bf18f3ec91d2ad6d38fd5a12"
+        },
+        "date": 1743679125758,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 79088,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 290,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 77090,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137,
             "unit": "ms"
           }
         ]
