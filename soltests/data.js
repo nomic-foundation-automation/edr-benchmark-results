@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743679127238,
+  "lastUpdate": 1744019102573,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2321,6 +2321,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 137,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "agostbiro@gmail.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "distinct": true,
+          "id": "91970b2f3296404032e9bc03717c9f6b3914b765",
+          "message": "misc: improve soltest runner",
+          "timestamp": "2025-04-04T14:23:36Z",
+          "tree_id": "af696c5f6ea3ba55110e0167554e1e63818a7517",
+          "url": "https://github.com/NomicFoundation/edr/commit/91970b2f3296404032e9bc03717c9f6b3914b765"
+        },
+        "date": 1744019102106,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 78566,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 20,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 76732,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138,
             "unit": "ms"
           }
         ]
