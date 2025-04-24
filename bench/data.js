@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745489711564,
+  "lastUpdate": 1745503257588,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7910,6 +7910,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5196.797315,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c53217b86322dc1a782d25e9c10dfaf4628cb7e0",
+          "message": "fix: support different solc versions for libs and contracts (#884)\n\nCo-authored-by: Franco Victorio <victorio.franco@gmail.com>",
+          "timestamp": "2025-04-24T14:52:55+02:00",
+          "tree_id": "9f2097dbbc3278f5edba3e3bdca763b49c59b4d4",
+          "url": "https://github.com/NomicFoundation/edr/commit/c53217b86322dc1a782d25e9c10dfaf4628cb7e0"
+        },
+        "date": 1745503257183,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 256582.252865,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 23859.853232,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 11934.478976,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 14799.597505,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 810.0335880000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 4005.8289250000003,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 195995.815436,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5176.645203,
             "unit": "ms"
           }
         ]
