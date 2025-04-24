@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745491611065,
+  "lastUpdate": 1745500512678,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2537,6 +2537,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 135,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c53217b86322dc1a782d25e9c10dfaf4628cb7e0",
+          "message": "fix: support different solc versions for libs and contracts (#884)\n\nCo-authored-by: Franco Victorio <victorio.franco@gmail.com>",
+          "timestamp": "2025-04-24T14:52:55+02:00",
+          "tree_id": "9f2097dbbc3278f5edba3e3bdca763b49c59b4d4",
+          "url": "https://github.com/NomicFoundation/edr/commit/c53217b86322dc1a782d25e9c10dfaf4628cb7e0"
+        },
+        "date": 1745500512315,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 70726,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 293,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 21,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 69036,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 238,
             "unit": "ms"
           }
         ]
