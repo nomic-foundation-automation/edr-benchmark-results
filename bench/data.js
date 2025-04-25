@@ -51,11 +51,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 7481.0389780000005,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 276159.236271,
             "unit": "ms"
@@ -112,11 +107,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 1849.4644360000002,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 7942.505696,
             "unit": "ms"
           },
           {
@@ -179,11 +169,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 6289.510795,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 241058.663072,
             "unit": "ms"
@@ -240,11 +225,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 1425.682874,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6133.695949,
             "unit": "ms"
           },
           {
@@ -307,11 +287,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 6179.150646,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 237234.705771,
             "unit": "ms"
@@ -368,11 +343,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 1443.380142,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6699.02375,
             "unit": "ms"
           },
           {
@@ -435,11 +405,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 6500.786087,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 235101.324406,
             "unit": "ms"
@@ -496,11 +461,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 1461.150465,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6502.248132999999,
             "unit": "ms"
           },
           {
@@ -563,11 +523,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 6478.911674,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 251855.809153,
             "unit": "ms"
@@ -624,11 +579,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 1454.11771,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6392.156007,
             "unit": "ms"
           },
           {
@@ -691,11 +641,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 6497.231213,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 236934.478206,
             "unit": "ms"
@@ -752,11 +697,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 1433.559826,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6235.225671,
             "unit": "ms"
           },
           {
@@ -819,11 +759,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 6513.294168,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 239729.83345499999,
             "unit": "ms"
@@ -880,11 +815,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 1430.387219,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 6618.339296,
             "unit": "ms"
           },
           {
@@ -947,11 +877,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 6466.888388,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 246993.60796700002,
             "unit": "ms"
@@ -1008,11 +933,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 933.0174489999999,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4475.650128,
             "unit": "ms"
           },
           {
@@ -1075,11 +995,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4533.233335999999,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 208356.201858,
             "unit": "ms"
@@ -1136,11 +1051,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 902.903787,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 5003.255215,
             "unit": "ms"
           },
           {
@@ -1203,11 +1113,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4646.2055820000005,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 208636.400781,
             "unit": "ms"
@@ -1264,11 +1169,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 901.5997439999999,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4304.1752480000005,
             "unit": "ms"
           },
           {
@@ -1331,11 +1231,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4487.9929409999995,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 212604.80088599998,
             "unit": "ms"
@@ -1392,11 +1287,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 912.293263,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4791.624427,
             "unit": "ms"
           },
           {
@@ -1459,11 +1349,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4625.226003,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 216370.67447199998,
             "unit": "ms"
@@ -1520,11 +1405,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 934.14565,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4639.433885,
             "unit": "ms"
           },
           {
@@ -1587,11 +1467,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4719.327932,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 208823.895014,
             "unit": "ms"
@@ -1648,11 +1523,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 956.152779,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 5014.037016,
             "unit": "ms"
           },
           {
@@ -1715,11 +1585,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4946.691388,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 211809.96412000002,
             "unit": "ms"
@@ -1776,11 +1641,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 963.35995,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4935.722016,
             "unit": "ms"
           },
           {
@@ -1843,11 +1703,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4849.172614,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 210048.448359,
             "unit": "ms"
@@ -1904,11 +1759,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 976.9791529999999,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4618.81739,
             "unit": "ms"
           },
           {
@@ -1971,11 +1821,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4686.862258,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 221660.110984,
             "unit": "ms"
@@ -2032,11 +1877,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 951.57467,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4985.898432,
             "unit": "ms"
           },
           {
@@ -2099,11 +1939,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4670.748345,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 214600.079798,
             "unit": "ms"
@@ -2160,11 +1995,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 942.410755,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4958.883365,
             "unit": "ms"
           },
           {
@@ -2227,11 +2057,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4463.264454,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 206294.003916,
             "unit": "ms"
@@ -2288,11 +2113,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 952.9367350000001,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4966.104942,
             "unit": "ms"
           },
           {
@@ -2355,11 +2175,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 5081.817939,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 214463.242247,
             "unit": "ms"
@@ -2416,11 +2231,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 948.455583,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4939.917857,
             "unit": "ms"
           },
           {
@@ -2483,11 +2293,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4921.95184,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 208110.906551,
             "unit": "ms"
@@ -2544,11 +2349,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 908.427235,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 4998.522966,
             "unit": "ms"
           },
           {
@@ -2611,11 +2411,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4921.015539,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 211977.102045,
             "unit": "ms"
@@ -2672,11 +2467,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 1000.0609,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 5183.906223,
             "unit": "ms"
           },
           {
@@ -2739,11 +2529,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 4576.938551,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 209388.842782,
             "unit": "ms"
@@ -2803,11 +2588,6 @@ window.BENCHMARK_DATA = {
             "unit": "ms"
           },
           {
-            "name": "seaport_4f4e7c20",
-            "value": 5014.766188,
-            "unit": "ms"
-          },
-          {
             "name": "synthetix_9a3a109f",
             "value": 214047.216494,
             "unit": "ms"
@@ -2864,11 +2644,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "safe-contracts_914d0f8",
             "value": 959.0222730000002,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_4f4e7c20",
-            "value": 5006.905313,
             "unit": "ms"
           },
           {
