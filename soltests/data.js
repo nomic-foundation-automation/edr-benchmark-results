@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745511492609,
+  "lastUpdate": 1746619630127,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2645,6 +2645,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 146,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4c481dd6fc0b0483d0536ac566924388b6cfd8e",
+          "message": "feat: solidity test filtering (#899)",
+          "timestamp": "2025-05-07T08:22:06-03:00",
+          "tree_id": "0655f9675dea7ca1ba22101cbf7a1c1d73e143e6",
+          "url": "https://github.com/NomicFoundation/edr/commit/c4c481dd6fc0b0483d0536ac566924388b6cfd8e"
+        },
+        "date": 1746619629692,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 73211,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 290,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 71548,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 178,
             "unit": "ms"
           }
         ]
