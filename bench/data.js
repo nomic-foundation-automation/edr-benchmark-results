@@ -1,67 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747746371730,
+  "lastUpdate": 1748269874281,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Wodann@users.noreply.github.com",
-            "name": "Wodann",
-            "username": "Wodann"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "e9959772488c582bc48a01c3d3a2ce6c9c9e90a9",
-          "message": "test: add test to validate HTTP headers (#710)\n\n* test: add test to validate HTTP headers\n\n* build: bump Hardhat to v2.22.15\n\n* fix: remove console.log backwards compatibility tests\n\nThis was already done in Hardhat in this PR:\nhttps://github.com/NomicFoundation/hardhat/pull/5764",
-          "timestamp": "2024-10-28T04:37:10Z",
-          "tree_id": "e36382b37681973a31d2bdb84126d1b66b027a61",
-          "url": "https://github.com/NomicFoundation/edr/commit/e9959772488c582bc48a01c3d3a2ce6c9c9e90a9"
-        },
-        "date": 1730091721170,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 323255.961826,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 32509.007391,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 19552.913072,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 19983.466746000002,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1448.8797359999999,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 236934.478206,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6329.985462000001,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3024,6 +2965,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5385.876684000001,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c33caece745a623bfa67ead29c52fc47bf3acbcc",
+          "message": "build: upgrade to Rust v1.87 (#913)",
+          "timestamp": "2025-05-26T14:07:47Z",
+          "tree_id": "c5000cfc08cd4d45bac879bee9570b109067e746",
+          "url": "https://github.com/NomicFoundation/edr/commit/c33caece745a623bfa67ead29c52fc47bf3acbcc"
+        },
+        "date": 1748269873871,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 255610.30095099998,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 25253.466166000002,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 13839.899664999999,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 13999.273064,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 883.795839,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 6999.4651699999995,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 189110.499043,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5523.902004,
             "unit": "ms"
           }
         ]
