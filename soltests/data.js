@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748288963595,
+  "lastUpdate": 1748297575977,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2807,6 +2807,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 146,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a22414099a9307c6c657a9774cc95d81aa87538a",
+          "message": "feat: add cheatcode deprecation warning (#916)\n\nCo-authored-by: Francisco Giordano <fg@frang.io>",
+          "timestamp": "2025-05-26T16:28:18-05:00",
+          "tree_id": "f53764c9b408989e7b79a196370804f45df5b4b6",
+          "url": "https://github.com/NomicFoundation/edr/commit/a22414099a9307c6c657a9774cc95d81aa87538a"
+        },
+        "date": 1748297575533,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 71835,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 293,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 17,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 69984,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148,
             "unit": "ms"
           }
         ]
