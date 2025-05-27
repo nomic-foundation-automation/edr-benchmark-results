@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748340686244,
+  "lastUpdate": 1748350069848,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8358,6 +8358,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5141.174436,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "distinct": false,
+          "id": "744d9fab71e3c9e2cddb6810f47d9d391aeb3ef7",
+          "message": "fix: use fixed fork block number in tests (#920)",
+          "timestamp": "2025-05-27T09:16:58Z",
+          "tree_id": "e72f183191974cb86baf2766fb36016b506f7794",
+          "url": "https://github.com/NomicFoundation/edr/commit/744d9fab71e3c9e2cddb6810f47d9d391aeb3ef7"
+        },
+        "date": 1748350069417,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 245947.553091,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 24147.82115,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 12190.531753,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 14912.885956,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 804.7734959999999,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_4f4e7c20",
+            "value": 3954.026234,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 184775.269728,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5162.244774000001,
             "unit": "ms"
           }
         ]
