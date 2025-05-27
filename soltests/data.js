@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748297575977,
+  "lastUpdate": 1748337954497,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2861,6 +2861,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 148,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3910948106a4fd221e3774e43d3d57792c067ef3",
+          "message": "refactor: rename snapshot to state snapshot (#917)\n\nCo-authored-by: Francisco Giordano <fg@frang.io>",
+          "timestamp": "2025-05-27T04:04:29-05:00",
+          "tree_id": "eed9a68521c24a50b08f95877c08ae4f06f3f2b5",
+          "url": "https://github.com/NomicFoundation/edr/commit/3910948106a4fd221e3774e43d3d57792c067ef3"
+        },
+        "date": 1748337954094,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 68809,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 31,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 289,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 20,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 68093,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144,
             "unit": "ms"
           }
         ]
