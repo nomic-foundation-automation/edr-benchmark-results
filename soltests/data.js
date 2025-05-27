@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748363891597,
+  "lastUpdate": 1748367840137,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3023,6 +3023,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 168,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9ffb27ff531d742af3eed455f6cae98a9a454f83",
+          "message": "ci: increase benchmark runs to reduce CI false negatives (#921)",
+          "timestamp": "2025-05-27T10:38:57-05:00",
+          "tree_id": "5a51fafabd5a38da73598c9bc00b56576feeb8c3",
+          "url": "https://github.com/NomicFoundation/edr/commit/9ffb27ff531d742af3eed455f6cae98a9a454f83"
+        },
+        "date": 1748367839666,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 68902,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 68103,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143,
             "unit": "ms"
           }
         ]
