@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748337954497,
+  "lastUpdate": 1748351064948,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2915,6 +2915,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "distinct": false,
+          "id": "744d9fab71e3c9e2cddb6810f47d9d391aeb3ef7",
+          "message": "fix: use fixed fork block number in tests (#920)",
+          "timestamp": "2025-05-27T09:16:58Z",
+          "tree_id": "e72f183191974cb86baf2766fb36016b506f7794",
+          "url": "https://github.com/NomicFoundation/edr/commit/744d9fab71e3c9e2cddb6810f47d9d391aeb3ef7"
+        },
+        "date": 1748351064465,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 68827,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 21,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 68100,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 168,
             "unit": "ms"
           }
         ]
