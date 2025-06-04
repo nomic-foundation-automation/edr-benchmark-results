@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748367840137,
+  "lastUpdate": 1749079509807,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3077,6 +3077,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f63b519d9bd780ead5e63e08ea01fbd80bc24937",
+          "message": "feat: execution traces for Solidity tests (#915)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-06-04T19:59:17-03:00",
+          "tree_id": "cd5f55a5544ac781caff6d36ae49a004340104b5",
+          "url": "https://github.com/NomicFoundation/edr/commit/f63b519d9bd780ead5e63e08ea01fbd80bc24937"
+        },
+        "date": 1749079509385,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 73484,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 22,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 294,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 71620,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 176,
             "unit": "ms"
           }
         ]
