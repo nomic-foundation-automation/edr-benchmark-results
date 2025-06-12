@@ -1,67 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749665118382,
+  "lastUpdate": 1749737914697,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "41898282+github-actions[bot]@users.noreply.github.com",
-            "name": "github-actions[bot]",
-            "username": "github-actions[bot]"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "907eda356195e7fdb3cfb35a55158fb160769c38",
-          "message": "edr-0.6.5 (#729)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
-          "timestamp": "2024-11-18T16:56:40Z",
-          "tree_id": "f058b467d2fc726e7e13d430134519319acf837e",
-          "url": "https://github.com/NomicFoundation/edr/commit/907eda356195e7fdb3cfb35a55158fb160769c38"
-        },
-        "date": 1731952574676,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 332136.989148,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 32751.607185999997,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 18695.241883000002,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 19436.803683,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 1477.7872189999998,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 246993.60796700002,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6315.052822,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3044,6 +2985,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 5402.228343,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "piotr.galar@gmail.com",
+            "name": "Piotr Galar",
+            "username": "galargh"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97941a670e266c326ef88213de66afcb7c133c1a",
+          "message": "ci: create hardhat regression tests workflow (#932)",
+          "timestamp": "2025-06-12T13:51:48Z",
+          "tree_id": "c6203bb7cc25ed789e4dda2483d6c1fbedf198f9",
+          "url": "https://github.com/NomicFoundation/edr/commit/97941a670e266c326ef88213de66afcb7c133c1a"
+        },
+        "date": 1749737914267,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 263371.204197,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 26905.904305,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 13247.7367,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 14569.170095,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 870.065158,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 6838.4181610000005,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 195625.213469,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 5314.696309,
             "unit": "ms"
           }
         ]
