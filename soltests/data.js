@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750269551339,
+  "lastUpdate": 1750278073365,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3401,6 +3401,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 159,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2b37109417b528af14dcaa03d0d33bb73b6660f",
+          "message": "chore: fix changeset package name (#948)",
+          "timestamp": "2025-06-18T19:00:19Z",
+          "tree_id": "ae2f27c79259953016536e3b394048a27ccb2114",
+          "url": "https://github.com/NomicFoundation/edr/commit/a2b37109417b528af14dcaa03d0d33bb73b6660f"
+        },
+        "date": 1750278072933,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 63210,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 263,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 15,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 62226,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 167,
             "unit": "ms"
           }
         ]
