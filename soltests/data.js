@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750278073365,
+  "lastUpdate": 1750282801798,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3455,6 +3455,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 167,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9dc3ae07d24cb104e341f2e2dd59869972a1c2d4",
+          "message": "chore: remove commented lines in Cargo.toml (#949)",
+          "timestamp": "2025-06-18T19:02:17Z",
+          "tree_id": "666a6e7c4c85a6efe6f8ce6eafe8c4c7b596da72",
+          "url": "https://github.com/NomicFoundation/edr/commit/9dc3ae07d24cb104e341f2e2dd59869972a1c2d4"
+        },
+        "date": 1750282801393,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 63612,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 261,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 62397,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 156,
             "unit": "ms"
           }
         ]
