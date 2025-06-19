@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750282801798,
+  "lastUpdate": 1750298282258,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3509,6 +3509,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 156,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8eb2db97a9661ce37aec5f76dc8aa913c0178a3a",
+          "message": "chore: fix workflow caching of rpc requests (#950)",
+          "timestamp": "2025-06-19T01:08:15Z",
+          "tree_id": "463f53c63c8112169a9bc06accd8814e76a92332",
+          "url": "https://github.com/NomicFoundation/edr/commit/8eb2db97a9661ce37aec5f76dc8aa913c0178a3a"
+        },
+        "date": 1750298281875,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 66400,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 259,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 65509,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 159,
             "unit": "ms"
           }
         ]
