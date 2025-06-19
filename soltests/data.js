@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750346879435,
+  "lastUpdate": 1750353689473,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3617,6 +3617,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 187,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ee8732903e85a6d6fea770f008c5604674cf8e5b",
+          "message": "refactor: make Evm generic in Foundry crates (#929)",
+          "timestamp": "2025-06-19T15:41:16Z",
+          "tree_id": "6f1553f3ad0a3df12226924bba7f6a85288c7054",
+          "url": "https://github.com/NomicFoundation/edr/commit/ee8732903e85a6d6fea770f008c5604674cf8e5b"
+        },
+        "date": 1750353689088,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 66483,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 270,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 16,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 65502,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 147,
             "unit": "ms"
           }
         ]
