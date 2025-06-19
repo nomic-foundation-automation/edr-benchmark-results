@@ -1,67 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750299565589,
+  "lastUpdate": 1750345893621,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "5764438+agostbiro@users.noreply.github.com",
-            "name": "Agost Biro",
-            "username": "agostbiro"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "f8de18aeb242c13066e61a99bc097e507eb289ac",
-          "message": "ci: upgrade upload/download artifacts to v4 (#782)\n\n* ci: upgrade upload/download artifacts to v4\n\n* Update .github/workflows/edr-npm-release.yml\n\nCo-authored-by: Piotr Galar <piotr.galar@gmail.com>\n\n---------\n\nCo-authored-by: Piotr Galar <piotr.galar@gmail.com>",
-          "timestamp": "2025-01-30T16:00:24Z",
-          "tree_id": "6047b50a858c106cc17d7e91189b8d615299dac3",
-          "url": "https://github.com/NomicFoundation/edr/commit/f8de18aeb242c13066e61a99bc097e507eb289ac"
-        },
-        "date": 1738255158574,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 278704.833992,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 27802.326332,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 14180.896639,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 16841.650876,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 934.14565,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 208301.543301,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6004.837309,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3089,6 +3030,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4288.142355,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "43e13ef42b01bc2d17ba938a4c3bb7dd9c4aeca5",
+          "message": "ci: disable test that times out (#951)",
+          "timestamp": "2025-06-19T14:08:29Z",
+          "tree_id": "132a838341c0fa8898567b60964dd00ad834a48f",
+          "url": "https://github.com/NomicFoundation/edr/commit/43e13ef42b01bc2d17ba938a4c3bb7dd9c4aeca5"
+        },
+        "date": 1750345893130,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 209396.48314599998,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 21406.211736999998,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 10447.955769,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 11934.518950000001,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 730.169161,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 5333.254521,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 155082.923877,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 4461.449131,
             "unit": "ms"
           }
         ]
