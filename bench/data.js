@@ -1,67 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750345893621,
+  "lastUpdate": 1750352902091,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "5764438+agostbiro@users.noreply.github.com",
-            "name": "Agost Biro",
-            "username": "agostbiro"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "af26624ae0b705d70bee15d4f4b76e017f5b4dfd",
-          "message": "fix: pass build info as buffer (#780)\n\n* chore: pass build info as buffer\n\n* Upgrade to HH 2.22.18 and add patch\n\n* Add changeset\n\n* Fix CI\n\n* Add support for Hardhat v3 build infos\n\n* Use separate HH v2 vs v3 build info arrays\n\n* Change patch to minor\n\n* Fix input/output mismatch detection",
-          "timestamp": "2025-01-30T16:23:38Z",
-          "tree_id": "ebd0f4f4f7e394c29437c844aca522862ea5c94d",
-          "url": "https://github.com/NomicFoundation/edr/commit/af26624ae0b705d70bee15d4f4b76e017f5b4dfd"
-        },
-        "date": 1738258928136,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 280163.532032,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 27658.425839,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 14692.452602000001,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 17247.789036000002,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 943.6901600000001,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 208823.895014,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 6077.951449,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3094,6 +3035,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4461.449131,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ee8732903e85a6d6fea770f008c5604674cf8e5b",
+          "message": "refactor: make Evm generic in Foundry crates (#929)",
+          "timestamp": "2025-06-19T15:41:16Z",
+          "tree_id": "6f1553f3ad0a3df12226924bba7f6a85288c7054",
+          "url": "https://github.com/NomicFoundation/edr/commit/ee8732903e85a6d6fea770f008c5604674cf8e5b"
+        },
+        "date": 1750352901653,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 215520.74240400002,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 20906.229276000002,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 11264.169339,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 12240.649136,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 737.7774820000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 5681.938505,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 160171.053369,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 4518.925297000001,
             "unit": "ms"
           }
         ]
