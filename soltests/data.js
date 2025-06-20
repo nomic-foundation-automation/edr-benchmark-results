@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750429821865,
+  "lastUpdate": 1750436211114,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3779,6 +3779,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 159,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c21ec83af3ba1079e486175fbd0621b47dede433",
+          "message": "chore: replace Buffer with Uint8Array in Solidity tests interface (#953)",
+          "timestamp": "2025-06-20T15:02:01Z",
+          "tree_id": "3a9700a1b9033f972abb71c0492268091324bbf6",
+          "url": "https://github.com/NomicFoundation/edr/commit/c21ec83af3ba1079e486175fbd0621b47dede433"
+        },
+        "date": 1750436210685,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 63309,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 23,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 258,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 62337,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 169,
             "unit": "ms"
           }
         ]
