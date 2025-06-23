@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750684570249,
+  "lastUpdate": 1750696366441,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3941,6 +3941,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 164,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7ccd9f89d18f14a9ac789ed02b026d94762ee099",
+          "message": "test: fix trying to get a compiler before downloaded (#956)",
+          "timestamp": "2025-06-23T14:01:57Z",
+          "tree_id": "1c178a78956ded25a9bc6ba9848a46659d2c552d",
+          "url": "https://github.com/NomicFoundation/edr/commit/7ccd9f89d18f14a9ac789ed02b026d94762ee099"
+        },
+        "date": 1750696366043,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 63433,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 62396,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143,
             "unit": "ms"
           }
         ]
