@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750446604081,
+  "lastUpdate": 1750684570249,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3887,6 +3887,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 158,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e80712b9cd0309de8b3fa6ad7b82aa2617761b64",
+          "message": "chore: remove unused patch (#961)",
+          "timestamp": "2025-06-23T12:48:55Z",
+          "tree_id": "ad919cb3f36c34f432c91025a1c0f17ebcdd93d6",
+          "url": "https://github.com/NomicFoundation/edr/commit/e80712b9cd0309de8b3fa6ad7b82aa2617761b64"
+        },
+        "date": 1750684569819,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 63225,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 256,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 61727,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 164,
             "unit": "ms"
           }
         ]
