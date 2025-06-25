@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750859929853,
+  "lastUpdate": 1750873334781,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4157,6 +4157,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 181,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7c692dbb711ade693f3fb772fa0b66a0a33cba16",
+          "message": "misc: add comments to send transaction implementation (#966)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-06-25T16:50:20Z",
+          "tree_id": "684e2378f4353ef6b7d137e670706688f6e1339d",
+          "url": "https://github.com/NomicFoundation/edr/commit/7c692dbb711ade693f3fb772fa0b66a0a33cba16"
+        },
+        "date": 1750873334313,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 61016,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 25,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 252,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 59369,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 161,
             "unit": "ms"
           }
         ]
