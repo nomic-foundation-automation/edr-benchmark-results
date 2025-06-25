@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750873334781,
+  "lastUpdate": 1750878547865,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4211,6 +4211,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 161,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2af831015baa52422d7c7226b5311bc5a3789fed",
+          "message": "chore: enable errors in Slack action (#970)",
+          "timestamp": "2025-06-25T18:03:58Z",
+          "tree_id": "adc9d941aadff46788a9d2bf4825ed50b0e0986b",
+          "url": "https://github.com/NomicFoundation/edr/commit/2af831015baa52422d7c7226b5311bc5a3789fed"
+        },
+        "date": 1750878547455,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 62834,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 255,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 15,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 61268,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 160,
             "unit": "ms"
           }
         ]
