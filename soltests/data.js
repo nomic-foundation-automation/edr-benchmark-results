@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751379009466,
+  "lastUpdate": 1751383602897,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4481,6 +4481,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 176,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c63ea3e57d22cb20d1be54e71ed5d8a43ea9c472",
+          "message": "chore: backport latest Foundry expect cheatcodes (#959)",
+          "timestamp": "2025-07-01T14:04:42Z",
+          "tree_id": "9e194b89e2cc55fd749bd07275000cdff21942fe",
+          "url": "https://github.com/NomicFoundation/edr/commit/c63ea3e57d22cb20d1be54e71ed5d8a43ea9c472"
+        },
+        "date": 1751383602413,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 64720,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 268,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 16,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 63426,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 163,
             "unit": "ms"
           }
         ]
