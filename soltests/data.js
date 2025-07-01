@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751383602897,
+  "lastUpdate": 1751391923882,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4535,6 +4535,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 163,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa03327f50ad29c77f67dd56b746eaeb8304e119",
+          "message": "docs: add setup notes to improve VS Code experience (#985)",
+          "timestamp": "2025-07-01T17:03:30Z",
+          "tree_id": "4ebb6d26b63b836a8629d506acb5bfca4103fb2c",
+          "url": "https://github.com/NomicFoundation/edr/commit/fa03327f50ad29c77f67dd56b746eaeb8304e119"
+        },
+        "date": 1751391923392,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 64888,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 26,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 63721,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 185,
             "unit": "ms"
           }
         ]
