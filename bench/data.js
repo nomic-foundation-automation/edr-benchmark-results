@@ -1,67 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751446924594,
+  "lastUpdate": 1751462653053,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "fg@frang.io",
-            "name": "Francisco Giordano",
-            "username": "frangio"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "d60b0f2c9e8f4fd022e6159018aec94490172ffa",
-          "message": "docs: update getting started and related code (#862)\n\n* update build instructions\n\n* add note about openssl build deps\n\n* remove indent_size editorconfig for rust\n\n* move test that requires internet connection\n\n* add note about provider tokens\n\n* update hardhat test instructions\n\n* format\n\n* rerun ci in new branch",
-          "timestamp": "2025-04-08T16:02:28Z",
-          "tree_id": "a278a0dc015f089c64f047ed3bbdb9d07b012a20",
-          "url": "https://github.com/NomicFoundation/edr/commit/d60b0f2c9e8f4fd022e6159018aec94490172ffa"
-        },
-        "date": 1744129506127,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 285724.95282500004,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 29426.808667999998,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 14160.542447,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 16363.179561,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 934.6191970000001,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 214047.216494,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 5777.82027,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3189,6 +3130,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4448.191259,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d903f352ca6dc2c104742622eac49c26280ba32c",
+          "message": "refactor: use errors instead of panics for invariant violations (#983)",
+          "timestamp": "2025-07-02T10:58:16Z",
+          "tree_id": "2f96a27a1251e05bfe5a2afb996cba888c64ce46",
+          "url": "https://github.com/NomicFoundation/edr/commit/d903f352ca6dc2c104742622eac49c26280ba32c"
+        },
+        "date": 1751462652608,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 214992.08967100002,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 20454.595474,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 10641.977612,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 12525.327905,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 761.0362719999999,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 5513.944948,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 160497.55536,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 4597.6521,
             "unit": "ms"
           }
         ]
