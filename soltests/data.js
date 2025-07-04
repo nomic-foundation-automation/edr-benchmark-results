@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751461356890,
+  "lastUpdate": 1751648732122,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4697,6 +4697,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 232,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4bad80f4c7fa593a3052cc13dc97f1b051708497",
+          "message": "fix: OP block replay (#977)",
+          "timestamp": "2025-07-04T15:17:54Z",
+          "tree_id": "b9f693c57618f25ece18c489b58ada6d6f9cbc89",
+          "url": "https://github.com/NomicFoundation/edr/commit/4bad80f4c7fa593a3052cc13dc97f1b051708497"
+        },
+        "date": 1751648731699,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 63785,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 261,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 16,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 62735,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 154,
             "unit": "ms"
           }
         ]
