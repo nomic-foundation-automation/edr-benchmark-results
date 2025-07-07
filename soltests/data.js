@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751899682225,
+  "lastUpdate": 1751917544584,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4859,6 +4859,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 428,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3f85d7d5e312dc4834e256bf66a030e6bd915d8d",
+          "message": "fix: Isthmus predeploys for local blockchain (#994)\n\nCo-authored-by: Francisco Giordano <fg@frang.io>",
+          "timestamp": "2025-07-07T19:12:53Z",
+          "tree_id": "9c30d89bbec2bb560b2b6bdd7b231356e2835e77",
+          "url": "https://github.com/NomicFoundation/edr/commit/3f85d7d5e312dc4834e256bf66a030e6bd915d8d"
+        },
+        "date": 1751917544134,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 64264,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 258,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 15,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 62733,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 161,
             "unit": "ms"
           }
         ]
