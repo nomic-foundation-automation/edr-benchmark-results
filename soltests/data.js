@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751703229922,
+  "lastUpdate": 1751899682225,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4805,6 +4805,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 308,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3ef69360d1cee405e7a4c3fb52d0b8a85bf80f2",
+          "message": "fix: use previous block's dynamic base fee parameters (#993)",
+          "timestamp": "2025-07-07T14:22:28Z",
+          "tree_id": "971e0b8d7a1e4e6632f40703581c62b43c2ba665",
+          "url": "https://github.com/NomicFoundation/edr/commit/c3ef69360d1cee405e7a4c3fb52d0b8a85bf80f2"
+        },
+        "date": 1751899681739,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 63668,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 263,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 62330,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 428,
             "unit": "ms"
           }
         ]
