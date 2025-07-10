@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752005607179,
+  "lastUpdate": 1752156957280,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5021,6 +5021,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 160,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c05b49bf616564f32046cab68d8f2f68e2b43212",
+          "message": "chore: update revm and alloy (#992)",
+          "timestamp": "2025-07-10T13:35:57Z",
+          "tree_id": "68a5855edfe47be7165efad91bfa357d6a3a8a35",
+          "url": "https://github.com/NomicFoundation/edr/commit/c05b49bf616564f32046cab68d8f2f68e2b43212"
+        },
+        "date": 1752156956514,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 58739,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 17,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 243,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 12,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 57290,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 156,
             "unit": "ms"
           }
         ]
