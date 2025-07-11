@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752244762957,
+  "lastUpdate": 1752250773220,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5129,6 +5129,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 157,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f1cdbe2af706adfa440a94c845bf9a630fbeb00b",
+          "message": "fix: add catch unwind to napi interface (#1002)",
+          "timestamp": "2025-07-11T14:25:22Z",
+          "tree_id": "a8e8255b251c4bba89d015ebc5bdeee7ed4fcf9d",
+          "url": "https://github.com/NomicFoundation/edr/commit/f1cdbe2af706adfa440a94c845bf9a630fbeb00b"
+        },
+        "date": 1752250772784,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 57487,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 17,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 240,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 56403,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 150,
             "unit": "ms"
           }
         ]
