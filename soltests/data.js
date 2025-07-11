@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752250773220,
+  "lastUpdate": 1752263974853,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5183,6 +5183,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 150,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "306a95ef466d15ae0a0ca5fbee543ffeb141b505",
+          "message": "feat: add code coverage to Solidity test runner (#997)\n\nCo-authored-by: Francisco Giordano <fg@frang.io>",
+          "timestamp": "2025-07-11T19:40:27Z",
+          "tree_id": "68e7e1dfcdb4f73d7b59a2bf1e1f662f2009393a",
+          "url": "https://github.com/NomicFoundation/edr/commit/306a95ef466d15ae0a0ca5fbee543ffeb141b505"
+        },
+        "date": 1752263974413,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 57207,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 17,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 239,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 56444,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145,
             "unit": "ms"
           }
         ]
