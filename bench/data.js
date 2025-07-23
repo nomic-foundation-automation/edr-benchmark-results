@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753153932657,
+  "lastUpdate": 1753257266613,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Wodann@users.noreply.github.com",
-            "name": "Wodann",
-            "username": "Wodann"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "289de8af36bde5fff2c655dc58f73f25f2e31946",
-          "message": "feat: require coverage library path to be specified (#904)",
-          "timestamp": "2025-05-08T12:48:54Z",
-          "tree_id": "d3cdf64d08e862cb5392df8951de3dfbd831a829",
-          "url": "https://github.com/NomicFoundation/edr/commit/289de8af36bde5fff2c655dc58f73f25f2e31946"
-        },
-        "date": 1746710863169,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 254126.372761,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 25559.234073,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 13325.365661,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 14123.076997,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 876.137987,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 6600.793043,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 188367.24373000002,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 5274.52127,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4524.6097310000005,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "585fe0bb6f9ca0f7e9283b5288da78f93da540d8",
+          "message": "feat: test execution time in nanoseconds (#1013)",
+          "timestamp": "2025-07-23T07:11:03Z",
+          "tree_id": "4fc753abcb79b5f744e232386d379cbd1992cd14",
+          "url": "https://github.com/NomicFoundation/edr/commit/585fe0bb6f9ca0f7e9283b5288da78f93da540d8"
+        },
+        "date": 1753257266186,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 211041.31061800002,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 21356.440545999998,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 10638.381908,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 12872.072320000001,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 736.796898,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 5544.325785999999,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 155566.187559,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 4327.105601,
             "unit": "ms"
           }
         ]
