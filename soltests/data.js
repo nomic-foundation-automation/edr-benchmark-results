@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753255933089,
+  "lastUpdate": 1753277992613,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5399,6 +5399,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 147,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "196af17e58da50152f8115c6a82de31d81aa817b",
+          "message": "feat: add `allowInternalExpectRevert` config option (#1015)\n\nCo-authored-by: Francisco Giordano <fg@frang.io>",
+          "timestamp": "2025-07-23T13:18:49Z",
+          "tree_id": "2798452823f22f64dadca5f2fec0750ca20f0b11",
+          "url": "https://github.com/NomicFoundation/edr/commit/196af17e58da50152f8115c6a82de31d81aa817b"
+        },
+        "date": 1753277992134,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 61633,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 61010,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 156,
             "unit": "ms"
           }
         ]
