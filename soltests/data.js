@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753347600686,
+  "lastUpdate": 1753383884896,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5507,6 +5507,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 142,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1ef5a8b5f674f25e63a2745609fb4bd3ab4c929",
+          "message": "chore: flag remote tests (#1017)",
+          "timestamp": "2025-07-24T18:44:40Z",
+          "tree_id": "ad1fd1c20fe45796cbe67dfd91f0e8f5d34a0c60",
+          "url": "https://github.com/NomicFoundation/edr/commit/e1ef5a8b5f674f25e63a2745609fb4bd3ab4c929"
+        },
+        "date": 1753383884361,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 58090,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 17,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 57657,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 209,
             "unit": "ms"
           }
         ]
