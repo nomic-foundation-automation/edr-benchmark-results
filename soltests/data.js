@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753277992613,
+  "lastUpdate": 1753347600686,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5453,6 +5453,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 156,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10f8f9efbcb9b95ef5a83e295cf425fa5973a96b",
+          "message": "test: add test for matching Hardhat source names (#1014)",
+          "timestamp": "2025-07-24T08:20:38Z",
+          "tree_id": "3a15d2e27a5b948678562c9c4dbc8a7b2c0dcad0",
+          "url": "https://github.com/NomicFoundation/edr/commit/10f8f9efbcb9b95ef5a83e295cf425fa5973a96b"
+        },
+        "date": 1753347600237,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 58084,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 18,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 12,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 57377,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 142,
             "unit": "ms"
           }
         ]
