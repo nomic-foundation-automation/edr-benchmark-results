@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753459147166,
+  "lastUpdate": 1753483531566,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5777,6 +5777,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 161,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffd2deb3b53a002a32d843b3fde2535c188d9840",
+          "message": "feat: add scoped gas snapshots (#1007)",
+          "timestamp": "2025-07-25T22:23:41Z",
+          "tree_id": "ea343768b92c766e46dbd9f37c11fc1aca7754d5",
+          "url": "https://github.com/NomicFoundation/edr/commit/ffd2deb3b53a002a32d843b3fde2535c188d9840"
+        },
+        "date": 1753483531082,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 65833,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 266,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 16,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 64256,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 146,
             "unit": "ms"
           }
         ]
