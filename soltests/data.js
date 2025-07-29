@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753787875366,
+  "lastUpdate": 1753807914191,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6209,6 +6209,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1e916c0e4e2bd0ef7a5d3723c3aa317eaf14f63e",
+          "message": "fix: synchronize compiler downloading in tests (#1029)",
+          "timestamp": "2025-07-29T15:40:55Z",
+          "tree_id": "41ed7ce2cd2c55ff35037c80126c898e31ec69f9",
+          "url": "https://github.com/NomicFoundation/edr/commit/1e916c0e4e2bd0ef7a5d3723c3aa317eaf14f63e"
+        },
+        "date": 1753807913679,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 71793,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 15,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 71015,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 154,
             "unit": "ms"
           }
         ]
