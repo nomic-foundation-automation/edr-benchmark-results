@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753783979398,
+  "lastUpdate": 1753787875366,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6150,6 +6150,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdStorageTest",
             "value": 68927,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e0619e71045ff51848f66726d6b28e89c0cd397",
+          "message": "feat: implement function-level gas tracking for Solidity tests (#1005)",
+          "timestamp": "2025-07-29T09:41:18Z",
+          "tree_id": "eb00e9ae2be4a0f568386cc4e6299247101101a9",
+          "url": "https://github.com/NomicFoundation/edr/commit/0e0619e71045ff51848f66726d6b28e89c0cd397"
+        },
+        "date": 1753787874860,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 72231,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 20,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 16,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 70985,
             "unit": "ms"
           },
           {
