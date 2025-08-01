@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754079426740,
+  "lastUpdate": 1754080664774,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6533,6 +6533,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 169,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a5e24e19708760ce88e3b062b2152905035873c3",
+          "message": "ci: reduce benchmark time by 80% (#1044)\n\nCo-authored-by: Francisco Giordano <fg@frang.io>",
+          "timestamp": "2025-08-01T20:12:16Z",
+          "tree_id": "071a63cc952cff5f4bce86d0d4ca5dfbedfe41e9",
+          "url": "https://github.com/NomicFoundation/edr/commit/a5e24e19708760ce88e3b062b2152905035873c3"
+        },
+        "date": 1754080664288,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 67114,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 270,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 16,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 66465,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 165,
             "unit": "ms"
           }
         ]
