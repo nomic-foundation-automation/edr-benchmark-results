@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754011150670,
+  "lastUpdate": 1754079426740,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6479,6 +6479,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 206,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6ea800c996068b0fc9a1c4af54d33020057316dc",
+          "message": "refactor: remove deprecated JSON-RPC API methods (#1033)\n\nCo-authored-by: Francisco Giordano <fg@frang.io>",
+          "timestamp": "2025-08-01T16:45:45Z",
+          "tree_id": "96e758c147448fa7266a64983ced95eb7743edeb",
+          "url": "https://github.com/NomicFoundation/edr/commit/6ea800c996068b0fc9a1c4af54d33020057316dc"
+        },
+        "date": 1754079426275,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 67365,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 269,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 16,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 66396,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 169,
             "unit": "ms"
           }
         ]
