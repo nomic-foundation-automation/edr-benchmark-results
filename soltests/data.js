@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754086139480,
+  "lastUpdate": 1754117480137,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6641,6 +6641,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 181,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f56137a11e3119d8bb0b53f50c8607b4c4f540bd",
+          "message": "refactor: make SubscriptionEvent chain-agnostic (#1040)",
+          "timestamp": "2025-08-02T06:10:04Z",
+          "tree_id": "c5f1a03ec2bc77e4d490a6c17301a59568a0e6a9",
+          "url": "https://github.com/NomicFoundation/edr/commit/f56137a11e3119d8bb0b53f50c8607b4c4f540bd"
+        },
+        "date": 1754117479664,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 66436,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 267,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 65037,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 196,
             "unit": "ms"
           }
         ]
