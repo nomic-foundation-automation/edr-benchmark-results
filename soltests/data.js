@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754161593469,
+  "lastUpdate": 1754324764771,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6749,6 +6749,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 156,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b7a692e8e76085003781eb1d5cf6ad9c54b611e1",
+          "message": "fix: generic_chain permissive blob gas (#1034)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-08-04T15:42:59Z",
+          "tree_id": "7d6052b540c4939dededafedde78f43ad20f2d24",
+          "url": "https://github.com/NomicFoundation/edr/commit/b7a692e8e76085003781eb1d5cf6ad9c54b611e1"
+        },
+        "date": 1754324764309,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 64680,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 266,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 64024,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 166,
             "unit": "ms"
           }
         ]
