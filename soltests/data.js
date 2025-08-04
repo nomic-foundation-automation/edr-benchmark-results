@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754327528657,
+  "lastUpdate": 1754350308048,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6857,6 +6857,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 185,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff6ece3fc4aba93ff3ccf0d4c976b8f4bcc94c15",
+          "message": "chore: use different token for Changesets PRs (#1045)",
+          "timestamp": "2025-08-04T22:36:44Z",
+          "tree_id": "ba59152c5fd407a0aa71d8ff027c3205b87bc3cc",
+          "url": "https://github.com/NomicFoundation/edr/commit/ff6ece3fc4aba93ff3ccf0d4c976b8f4bcc94c15"
+        },
+        "date": 1754350307577,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 64770,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 268,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 64061,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 163,
             "unit": "ms"
           }
         ]
