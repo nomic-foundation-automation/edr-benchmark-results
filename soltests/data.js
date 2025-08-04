@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754324764771,
+  "lastUpdate": 1754327528657,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6803,6 +6803,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 166,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6640dda018c3d8e45d078feceb5a21c3a877d368",
+          "message": "fix: mitigate EVM sandbox escape through cheatcodes (#1037)",
+          "timestamp": "2025-08-04T16:28:31Z",
+          "tree_id": "a5d7c399962011ca2f3ac13419e6c5a54e28d6bb",
+          "url": "https://github.com/NomicFoundation/edr/commit/6640dda018c3d8e45d078feceb5a21c3a877d368"
+        },
+        "date": 1754327528187,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 65199,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 266,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 63139,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 185,
             "unit": "ms"
           }
         ]
