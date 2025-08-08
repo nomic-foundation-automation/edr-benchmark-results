@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754666895920,
+  "lastUpdate": 1754684787794,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7127,6 +7127,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17be322b56637a263182e4f1f8895539a9f94e3b",
+          "message": "chore: change error description when encountering an invalid Error(string) (#1051)",
+          "timestamp": "2025-08-08T19:59:56Z",
+          "tree_id": "abfde423ef2ff43f202cab4ee43eafc2222d4aa6",
+          "url": "https://github.com/NomicFoundation/edr/commit/17be322b56637a263182e4f1f8895539a9f94e3b"
+        },
+        "date": 1754684787300,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 71817,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 284,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 15,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 70124,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 135,
             "unit": "ms"
           }
         ]
