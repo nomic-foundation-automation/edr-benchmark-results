@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755507852969,
+  "lastUpdate": 1755899755450,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7343,6 +7343,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 179,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fg@frang.io",
+            "name": "Francisco Giordano",
+            "username": "frangio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f43cf7495c60a8c987d1210e963496661df9ad9",
+          "message": "chore: upgrade to pnpm v10 (#1009)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-08-22T21:10:07Z",
+          "tree_id": "23a1e9a92a54c38f5527cae10233c3503b5a5042",
+          "url": "https://github.com/NomicFoundation/edr/commit/7f43cf7495c60a8c987d1210e963496661df9ad9"
+        },
+        "date": 1755899754984,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 67082,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 19,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 269,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 15,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 66130,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144,
             "unit": "ms"
           }
         ]
