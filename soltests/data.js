@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756383266210,
+  "lastUpdate": 1756408064812,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7775,6 +7775,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 108,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a48e24bf9c86fb84998aa600fd6c5a0544a398d",
+          "message": "misc: improve EVM internal panic messages (#1065)",
+          "timestamp": "2025-08-28T18:26:42Z",
+          "tree_id": "8c5f50fb50f62498ae807e8d4c3987678b73ed88",
+          "url": "https://github.com/NomicFoundation/edr/commit/8a48e24bf9c86fb84998aa600fd6c5a0544a398d"
+        },
+        "date": 1756408064240,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34664,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 312,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 10,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34498,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129,
             "unit": "ms"
           }
         ]
