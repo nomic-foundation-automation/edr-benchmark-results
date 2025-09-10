@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756849697594,
+  "lastUpdate": 1757508202860,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7883,6 +7883,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 114,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "bb42d7d01329da0a8d51cddd143e58ed7d919500",
+          "message": "ci: use alchemy url for forge-std (#1075)",
+          "timestamp": "2025-09-10T12:14:08Z",
+          "tree_id": "4d258b507d55137cc3fe3c4227c90a561ba445fc",
+          "url": "https://github.com/NomicFoundation/edr/commit/bb42d7d01329da0a8d51cddd143e58ed7d919500"
+        },
+        "date": 1757508202320,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33601,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 308,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 10,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33486,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 106,
             "unit": "ms"
           }
         ]
