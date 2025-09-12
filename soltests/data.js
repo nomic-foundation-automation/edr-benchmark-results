@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757663801982,
+  "lastUpdate": 1757694432002,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8207,6 +8207,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 96,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba6bfa0db1f1e6b756e30406b9899ffd9c65e6f6",
+          "message": "build: upgrade to `slang_solidity` v1.2.1 (#1080)",
+          "timestamp": "2025-09-12T15:41:19Z",
+          "tree_id": "6ae5968d1e36e3270cbb6655547bcad7f4c35cb5",
+          "url": "https://github.com/NomicFoundation/edr/commit/ba6bfa0db1f1e6b756e30406b9899ffd9c65e6f6"
+        },
+        "date": 1757694431427,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33283,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 308,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 10,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33301,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 116,
             "unit": "ms"
           }
         ]
