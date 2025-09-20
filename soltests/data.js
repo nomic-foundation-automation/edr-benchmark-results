@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758299368871,
+  "lastUpdate": 1758335152903,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8531,6 +8531,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 117,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5a2a2a3cd261bb4d615c4a788e2f9279a597f191",
+          "message": "feat: ability to collect gas reports (#1081)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-09-20T02:05:54Z",
+          "tree_id": "9495a24fcfccf8793312e46f5aadf39be556ea8c",
+          "url": "https://github.com/NomicFoundation/edr/commit/5a2a2a3cd261bb4d615c4a788e2f9279a597f191"
+        },
+        "date": 1758335152373,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33134,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 306,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33619,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 106,
             "unit": "ms"
           }
         ]
