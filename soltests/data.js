@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758746153241,
+  "lastUpdate": 1758747644452,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8693,6 +8693,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 102,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "df7c3700bc9348f4695a67628f4fa034baa723a9",
+          "message": "build: update deprecated toolchain file to toml format (#1094)",
+          "timestamp": "2025-09-24T19:56:12Z",
+          "tree_id": "5ef67b9abf6b4ffdca3e3a203a791f66e4e7a422",
+          "url": "https://github.com/NomicFoundation/edr/commit/df7c3700bc9348f4695a67628f4fa034baa723a9"
+        },
+        "date": 1758747643991,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33504,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 311,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33987,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125,
             "unit": "ms"
           }
         ]
