@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758653303031,
+  "lastUpdate": 1758746153241,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8639,6 +8639,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 115,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc86b8d770c402bb5db1b8f5b912b0973fc67a42",
+          "message": "refactor: move `RpcSpec` into its own crate (#1088)\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-09-24T19:54:58Z",
+          "tree_id": "77e3de77440cd4f8cb03285e75f5eb2cc8232048",
+          "url": "https://github.com/NomicFoundation/edr/commit/bc86b8d770c402bb5db1b8f5b912b0973fc67a42"
+        },
+        "date": 1758746152762,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34003,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 311,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33848,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 102,
             "unit": "ms"
           }
         ]
