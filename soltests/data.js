@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758897775750,
+  "lastUpdate": 1759245317319,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8855,6 +8855,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 117,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b6de6877f7f507039a583fe75cff9d83c655978",
+          "message": "chore: add devcontainer setup recommendations documentation (#1105)",
+          "timestamp": "2025-09-30T14:55:32Z",
+          "tree_id": "3305c4c0a9b307d37104fb52edb0d6395c93f176",
+          "url": "https://github.com/NomicFoundation/edr/commit/1b6de6877f7f507039a583fe75cff9d83c655978"
+        },
+        "date": 1759245316783,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33066,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 315,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32888,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 116,
             "unit": "ms"
           }
         ]
