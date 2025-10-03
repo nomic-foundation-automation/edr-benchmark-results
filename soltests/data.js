@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759437696036,
+  "lastUpdate": 1759512772279,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8963,6 +8963,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc3e07e5ac2d38c5dbe77b418423b75ab92b4cfc",
+          "message": "chore: use os pinned versions in CI workflows  (#1109)",
+          "timestamp": "2025-10-03T16:54:47Z",
+          "tree_id": "b6878f686c70e51764f8c1e6b95c8a5a662b1a9c",
+          "url": "https://github.com/NomicFoundation/edr/commit/bc3e07e5ac2d38c5dbe77b418423b75ab92b4cfc"
+        },
+        "date": 1759512771741,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33606,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 315,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33426,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 122,
             "unit": "ms"
           }
         ]
