@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759512772279,
+  "lastUpdate": 1759837027014,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9017,6 +9017,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 122,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7f3d661565f3bdd192999d786c1fe463b1f7f777",
+          "message": "Update pnpm minimal version,  add version age check and update CI to use newer Node/containers where needed. (#1106)",
+          "timestamp": "2025-10-07T11:17:17Z",
+          "tree_id": "3f0a3bf5e9517d0f893c457deccd0cff21043827",
+          "url": "https://github.com/NomicFoundation/edr/commit/7f3d661565f3bdd192999d786c1fe463b1f7f777"
+        },
+        "date": 1759837026538,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33044,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 315,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32996,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 118,
             "unit": "ms"
           }
         ]
