@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760366881678,
+  "lastUpdate": 1760371917737,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9287,6 +9287,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 118,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d335cf0884af9334b1049500780635895150dfb",
+          "message": "fix: ci workflow check-generated-files (#1116)",
+          "timestamp": "2025-10-13T15:21:58Z",
+          "tree_id": "dae69ff6e330a5032b996cc493a3335510b1b357",
+          "url": "https://github.com/NomicFoundation/edr/commit/9d335cf0884af9334b1049500780635895150dfb"
+        },
+        "date": 1760371917268,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34279,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 17,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 316,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34038,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128,
             "unit": "ms"
           }
         ]
