@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760012632242,
+  "lastUpdate": 1760364732246,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9174,6 +9174,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdStorageTest",
             "value": 33787,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 109,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "5764438+agostbiro@users.noreply.github.com",
+            "name": "Agost Biro",
+            "username": "agostbiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "cf12cac5cf5d809e7a9889c9bd5c414ee4ee53ab",
+          "message": "chore: audit npm install scripts (#1114)",
+          "timestamp": "2025-10-13T13:52:06Z",
+          "tree_id": "1cefd4f32ef42883ac5fdc4e8951761337d24d9f",
+          "url": "https://github.com/NomicFoundation/edr/commit/cf12cac5cf5d809e7a9889c9bd5c414ee4ee53ab"
+        },
+        "date": 1760364731708,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34318,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 317,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 10,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34306,
             "unit": "ms"
           },
           {
