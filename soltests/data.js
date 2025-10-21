@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761062025004,
+  "lastUpdate": 1761070504753,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9665,6 +9665,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 114,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4365265d203b4bdbe3ddc5eed7c80ade3f8f847e",
+          "message": "Add manual prepublish step to publish (#1126)",
+          "timestamp": "2025-10-21T17:38:22Z",
+          "tree_id": "da2799577faab65ff5159443954bb450494ee0ac",
+          "url": "https://github.com/NomicFoundation/edr/commit/4365265d203b4bdbe3ddc5eed7c80ade3f8f847e"
+        },
+        "date": 1761070504178,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32359,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 308,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 12,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32445,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125,
             "unit": "ms"
           }
         ]
