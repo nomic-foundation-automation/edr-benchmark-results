@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761124849107,
+  "lastUpdate": 1761253825039,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9935,6 +9935,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 111,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4557717e4d036b9669fc10d7d34fde398f97d98",
+          "message": "chore: improve pre-release CI workflow (#1136)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-10-23T20:35:05Z",
+          "tree_id": "1f67052c0ce09fd9c070ba6c85eb95641248929a",
+          "url": "https://github.com/NomicFoundation/edr/commit/d4557717e4d036b9669fc10d7d34fde398f97d98"
+        },
+        "date": 1761253824540,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31757,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 307,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 10,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31725,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 110,
             "unit": "ms"
           }
         ]
