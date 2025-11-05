@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762368020685,
+  "lastUpdate": 1762380253125,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Wodann@users.noreply.github.com",
-            "name": "Wodann",
-            "username": "Wodann"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9c9fb1993a627348af977f68721ea215afdf9482",
-          "message": "refactor: move L1ChainSpec into its own crate (#1067)\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
-          "timestamp": "2025-09-02T21:28:14Z",
-          "tree_id": "4b64db21f8944204e3365ea73b32ec7bf8c842ec",
-          "url": "https://github.com/NomicFoundation/edr/commit/9c9fb1993a627348af977f68721ea215afdf9482"
-        },
-        "date": 1756850760914,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 218685.238165,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 21161.980783,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 10930.887499,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 12588.043336,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 755.6505400000001,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 5540.368668,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 163132.90244799998,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 4575.404891,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4554.80041,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abf7434f54c032988cd6aaafa8c9b79b24d4b8d1",
+          "message": "fix: prevent error when expectRevert is called in isolate mode (#1147)\n\nCo-authored-by: Agost Biro <agostbiro@gmail.com>",
+          "timestamp": "2025-11-05T20:46:18Z",
+          "tree_id": "106c035ad92cb7c07c2980bcba8f23b3c8d05f59",
+          "url": "https://github.com/NomicFoundation/edr/commit/abf7434f54c032988cd6aaafa8c9b79b24d4b8d1"
+        },
+        "date": 1762380252674,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 213574.65925,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 21890.604118,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 10997.325158,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 12409.455366,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 789.831576,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 5860.03693,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 156978.60326,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 4648.802842,
             "unit": "ms"
           }
         ]
