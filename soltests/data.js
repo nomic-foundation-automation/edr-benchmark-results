@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762368438753,
+  "lastUpdate": 1762378937366,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10475,6 +10475,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 110,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abf7434f54c032988cd6aaafa8c9b79b24d4b8d1",
+          "message": "fix: prevent error when expectRevert is called in isolate mode (#1147)\n\nCo-authored-by: Agost Biro <agostbiro@gmail.com>",
+          "timestamp": "2025-11-05T20:46:18Z",
+          "tree_id": "106c035ad92cb7c07c2980bcba8f23b3c8d05f59",
+          "url": "https://github.com/NomicFoundation/edr/commit/abf7434f54c032988cd6aaafa8c9b79b24d4b8d1"
+        },
+        "date": 1762378936955,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27044,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 12,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27049,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 107,
             "unit": "ms"
           }
         ]
