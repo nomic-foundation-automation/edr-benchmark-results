@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762388652365,
+  "lastUpdate": 1762445869224,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10637,6 +10637,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 108,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d5885a22a9f30e9cf133d643d9352199cd0f6751",
+          "message": "fix(ci): release workflow publish `crates/edr_napi` only (#1161)\n\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2025-11-06T15:40:28Z",
+          "tree_id": "4d4a2a4e8316f45d0c8baf2a4d54230a3decc145",
+          "url": "https://github.com/NomicFoundation/edr/commit/d5885a22a9f30e9cf133d643d9352199cd0f6751"
+        },
+        "date": 1762445868758,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27150,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 12,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27047,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 126,
             "unit": "ms"
           }
         ]
