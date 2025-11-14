@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762984499520,
+  "lastUpdate": 1763127100744,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10907,6 +10907,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 155,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "popescu.octavian09@gmail.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "popescu.octavian09@gmail.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "distinct": true,
+          "id": "19e946e536653a089852695c6704f7bac206e41e",
+          "message": "Merge branch 'refork-foundry-1.3.0'",
+          "timestamp": "2025-11-14T12:51:23Z",
+          "tree_id": "2e8cb40f151f39c526d790c7d881e1e18ae88a43",
+          "url": "https://github.com/NomicFoundation/edr/commit/19e946e536653a089852695c6704f7bac206e41e"
+        },
+        "date": 1763127100237,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 36965,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 286,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 36871,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 141,
             "unit": "ms"
           }
         ]
