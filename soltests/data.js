@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763132408908,
+  "lastUpdate": 1763138495894,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11015,6 +11015,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 160,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aff229f67f427a78911773f91c28199db5c5eae5",
+          "message": "feat: expose Osaka hardfork to Hardhat (#1189)",
+          "timestamp": "2025-11-14T15:51:49Z",
+          "tree_id": "7bf47d124b0855f688c1ecb8b35157cc47604f9e",
+          "url": "https://github.com/NomicFoundation/edr/commit/aff229f67f427a78911773f91c28199db5c5eae5"
+        },
+        "date": 1763138495421,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33122,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32962,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 150,
             "unit": "ms"
           }
         ]
