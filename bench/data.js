@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762984130899,
+  "lastUpdate": 1763128154389,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Wodann@users.noreply.github.com",
-            "name": "Wodann",
-            "username": "Wodann"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "ba6bfa0db1f1e6b756e30406b9899ffd9c65e6f6",
-          "message": "build: upgrade to `slang_solidity` v1.2.1 (#1080)",
-          "timestamp": "2025-09-12T15:41:19Z",
-          "tree_id": "6ae5968d1e36e3270cbb6655547bcad7f4c35cb5",
-          "url": "https://github.com/NomicFoundation/edr/commit/ba6bfa0db1f1e6b756e30406b9899ffd9c65e6f6"
-        },
-        "date": 1757693480795,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 227250.984194,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 21547.44203,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 11138.015765,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 13038.004295,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 749.168826,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 5877.513496,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 170282.394626,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 4618.445156,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4530.1848580000005,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "popescu.octavian09@gmail.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "popescu.octavian09@gmail.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "distinct": true,
+          "id": "19e946e536653a089852695c6704f7bac206e41e",
+          "message": "Merge branch 'refork-foundry-1.3.0'",
+          "timestamp": "2025-11-14T12:51:23Z",
+          "tree_id": "2e8cb40f151f39c526d790c7d881e1e18ae88a43",
+          "url": "https://github.com/NomicFoundation/edr/commit/19e946e536653a089852695c6704f7bac206e41e"
+        },
+        "date": 1763128153904,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 216352.677417,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 21448.968910000003,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 10913.295594,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 12761.83512,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 749.8916999999999,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 5852.099249000001,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 160083.775,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 4542.811844,
             "unit": "ms"
           }
         ]
