@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763138495894,
+  "lastUpdate": 1763141646482,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11069,6 +11069,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 150,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "33337ea0b9c92db0bfa9aee22026da89a10f2b09",
+          "message": "fix(op stack): update base mainnet eip1559 params (#1186)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-11-14T15:59:57Z",
+          "tree_id": "bc42e018cf8ff1976bfd49220345180f757494b9",
+          "url": "https://github.com/NomicFoundation/edr/commit/33337ea0b9c92db0bfa9aee22026da89a10f2b09"
+        },
+        "date": 1763141646009,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32987,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11,
+            "unit": "ms"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 276,
+            "unit": "ms"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8,
+            "unit": "ms"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32850,
+            "unit": "ms"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 152,
             "unit": "ms"
           }
         ]
