@@ -11043,33 +11043,33 @@ window.BENCHMARK_DATA = {
         "benches": [
           {
             "name": "Total",
-            "value": 33122,
-            "unit": "ms"
+            "value": 33122000,
+            "unit": "us"
           },
           {
             "name": "StdCheatsForkTest",
-            "value": 11,
-            "unit": "ms"
+            "value": 11000,
+            "unit": "us"
           },
           {
             "name": "StdCheatsTest",
-            "value": 277,
-            "unit": "ms"
+            "value": 277000,
+            "unit": "us"
           },
           {
             "name": "StdMathTest",
-            "value": 8,
-            "unit": "ms"
+            "value": 8000,
+            "unit": "us"
           },
           {
             "name": "StdStorageTest",
-            "value": 32962,
-            "unit": "ms"
+            "value": 32962000,
+            "unit": "us"
           },
           {
             "name": "StdUtilsForkTest",
-            "value": 150,
-            "unit": "ms"
+            "value": 150000,
+            "unit": "us"
           }
         ]
       },
@@ -11097,33 +11097,33 @@ window.BENCHMARK_DATA = {
         "benches": [
           {
             "name": "Total",
-            "value": 32987,
-            "unit": "ms"
+            "value": 32987000,
+            "unit": "us"
           },
           {
             "name": "StdCheatsForkTest",
-            "value": 11,
-            "unit": "ms"
+            "value": 11000,
+            "unit": "us"
           },
           {
             "name": "StdCheatsTest",
-            "value": 276,
-            "unit": "ms"
+            "value": 276000,
+            "unit": "us"
           },
           {
             "name": "StdMathTest",
-            "value": 8,
-            "unit": "ms"
+            "value": 8000,
+            "unit": "us"
           },
           {
             "name": "StdStorageTest",
-            "value": 32850,
-            "unit": "ms"
+            "value": 32850000,
+            "unit": "us"
           },
           {
             "name": "StdUtilsForkTest",
-            "value": 152,
-            "unit": "ms"
+            "value": 152000,
+            "unit": "us"
           }
         ]
       },
@@ -11151,33 +11151,33 @@ window.BENCHMARK_DATA = {
         "benches": [
           {
             "name": "Total",
-            "value": 32945,
-            "unit": "ms"
+            "value": 32945000,
+            "unit": "us"
           },
           {
             "name": "StdCheatsForkTest",
-            "value": 11,
-            "unit": "ms"
+            "value": 11000,
+            "unit": "us"
           },
           {
             "name": "StdCheatsTest",
-            "value": 276,
-            "unit": "ms"
+            "value": 276000,
+            "unit": "us"
           },
           {
             "name": "StdMathTest",
-            "value": 8,
-            "unit": "ms"
+            "value": 8000,
+            "unit": "us"
           },
           {
             "name": "StdStorageTest",
-            "value": 32824,
-            "unit": "ms"
+            "value": 32824000,
+            "unit": "us"
           },
           {
             "name": "StdUtilsForkTest",
-            "value": 151,
-            "unit": "ms"
+            "value": 151000,
+            "unit": "us"
           }
         ]
       }
