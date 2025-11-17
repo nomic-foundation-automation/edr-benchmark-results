@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763419724883,
+  "lastUpdate": 1763423584286,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -161,6 +161,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 152306,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dcf09de425d7a5899b97e4db6af59cb69f4f7afe",
+          "message": "feat(op stack): adopt isthmus (#1143)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-11-17T21:06:30Z",
+          "tree_id": "7cb56dcf03b14aa30a2f84a5dff7fb061b9170e9",
+          "url": "https://github.com/NomicFoundation/edr/commit/dcf09de425d7a5899b97e4db6af59cb69f4f7afe"
+        },
+        "date": 1763423583787,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33358169,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10658,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 271914,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7901,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33156234,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 159879,
             "unit": "us"
           }
         ]
