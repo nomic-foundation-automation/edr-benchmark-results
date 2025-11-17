@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763413589044,
+  "lastUpdate": 1763419724883,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -107,6 +107,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 166658,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "78d708b0902b53f53510a9400c811964722eae95",
+          "message": "chore: add Socket Firewall for pnpm dependencies (#1138)",
+          "timestamp": "2025-11-17T20:04:21Z",
+          "tree_id": "dab7601cafb14f523a4340449ca240a19a9c659b",
+          "url": "https://github.com/NomicFoundation/edr/commit/78d708b0902b53f53510a9400c811964722eae95"
+        },
+        "date": 1763419724404,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33101682,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10703,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 276755,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8935,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33013162,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 152306,
             "unit": "us"
           }
         ]
