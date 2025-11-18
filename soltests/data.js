@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763434250433,
+  "lastUpdate": 1763462675084,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -269,6 +269,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 154694,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2e91d4fe94d7e80893073a9fa6674a8680ea5062",
+          "message": "fix: propagate tracing feature flag (#1173)",
+          "timestamp": "2025-11-18T10:12:21Z",
+          "tree_id": "afd6e8959aee46ac99d32906d4c831c1c2299594",
+          "url": "https://github.com/NomicFoundation/edr/commit/2e91d4fe94d7e80893073a9fa6674a8680ea5062"
+        },
+        "date": 1763462674568,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34763710,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10608,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 284452,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8110,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34675466,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 160994,
             "unit": "us"
           }
         ]
