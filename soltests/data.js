@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763423584286,
+  "lastUpdate": 1763434250433,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -215,6 +215,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 159879,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ed9a6dc4b401b114dc149b13f7ed7ad8ac63671e",
+          "message": "Don't persist credentials and use pinned version for action/checkout. (#1177)",
+          "timestamp": "2025-11-18T02:24:27Z",
+          "tree_id": "96b3d9adab7009efc84e4a13683a1e6a1a8c37c1",
+          "url": "https://github.com/NomicFoundation/edr/commit/ed9a6dc4b401b114dc149b13f7ed7ad8ac63671e"
+        },
+        "date": 1763434249915,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34097863,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10448,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 270905,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7769,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33996977,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 154694,
             "unit": "us"
           }
         ]
