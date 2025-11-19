@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763584984740,
+  "lastUpdate": 1763592784883,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -431,6 +431,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144660,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "69b8925fa8c4ab3577cae177bd58a9b432b1884e",
+          "message": "refactor: split `edr_runtime` into smaller crates (#1196)",
+          "timestamp": "2025-11-19T22:19:10Z",
+          "tree_id": "1e264f0964e6b3190d558fe8b8f1af2c7d25ac03",
+          "url": "https://github.com/NomicFoundation/edr/commit/69b8925fa8c4ab3577cae177bd58a9b432b1884e"
+        },
+        "date": 1763592784367,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33640825,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10481,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 272854,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7612,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33539992,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 156512,
             "unit": "us"
           }
         ]
