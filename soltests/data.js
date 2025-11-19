@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763462675084,
+  "lastUpdate": 1763564747812,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -323,6 +323,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 160994,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "879444959ef5395fcc36cc111dd009ead695a179",
+          "message": "feat: return error when block exceeds max RLP size (#1197)\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-11-19T14:47:11Z",
+          "tree_id": "22903c22cffe0c5dc8c34e29c3636266017f71bf",
+          "url": "https://github.com/NomicFoundation/edr/commit/879444959ef5395fcc36cc111dd009ead695a179"
+        },
+        "date": 1763564747300,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34699169,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10723,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278603,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7832,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34588517,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148491,
             "unit": "us"
           }
         ]
