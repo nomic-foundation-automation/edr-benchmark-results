@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763564747812,
+  "lastUpdate": 1763584984740,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -377,6 +377,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 148491,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6143923d5511e6ac632c7eb9d0a75736fcee9dfb",
+          "message": "fix: sfw CI for Windows (#1201)",
+          "timestamp": "2025-11-19T20:06:50Z",
+          "tree_id": "ecaf000b7ab3b1fbbb268628828f2712443400fd",
+          "url": "https://github.com/NomicFoundation/edr/commit/6143923d5511e6ac632c7eb9d0a75736fcee9dfb"
+        },
+        "date": 1763584984298,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34369655,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10451,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277370,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7753,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34225942,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144660,
             "unit": "us"
           }
         ]
