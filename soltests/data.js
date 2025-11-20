@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763592784883,
+  "lastUpdate": 1763649714475,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -485,6 +485,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 156512,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16ba19719f695be1d18565e7162b5177be6da92c",
+          "message": "feat: add transaction gas cap to mem pool (#1200)",
+          "timestamp": "2025-11-20T13:34:34Z",
+          "tree_id": "6303c4110e66a6e553076b395b39be79d60bea91",
+          "url": "https://github.com/NomicFoundation/edr/commit/16ba19719f695be1d18565e7162b5177be6da92c"
+        },
+        "date": 1763649713954,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34176930,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10539,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 280595,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8246,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34028445,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 158158,
             "unit": "us"
           }
         ]
