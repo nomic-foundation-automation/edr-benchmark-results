@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763669674211,
+  "lastUpdate": 1763670389311,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -647,6 +647,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140397,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "af281a791f7ec73518509076c50858674068c009",
+          "message": "fix: remove check for changeset from merge queue (#1203)",
+          "timestamp": "2025-11-20T19:36:09Z",
+          "tree_id": "414ebb9d2dbe2c9f425ad7bb6ef1006e5b6a610a",
+          "url": "https://github.com/NomicFoundation/edr/commit/af281a791f7ec73518509076c50858674068c009"
+        },
+        "date": 1763670388804,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33948265,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10636,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 281033,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8972,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33822123,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 150843,
             "unit": "us"
           }
         ]
