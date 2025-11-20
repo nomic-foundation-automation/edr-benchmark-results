@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763649714475,
+  "lastUpdate": 1763656384634,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -539,6 +539,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 158158,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41898282+github-actions[bot]@users.noreply.github.com",
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cee650cfc77af8a4b34e526030cb43e3a4851920",
+          "message": "edr-0.12.0-next.16 (next) (#1195)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-11-20T15:36:17Z",
+          "tree_id": "e73c7bc4d1b88cfa65a3f0a44c3154a36ca7e921",
+          "url": "https://github.com/NomicFoundation/edr/commit/cee650cfc77af8a4b34e526030cb43e3a4851920"
+        },
+        "date": 1763656384142,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33888868,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10577,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 281402,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7651,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33730390,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140992,
             "unit": "us"
           }
         ]
