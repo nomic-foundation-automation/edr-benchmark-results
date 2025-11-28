@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764325411827,
+  "lastUpdate": 1764344639006,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -755,6 +755,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 148427,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4a24a5400c650140022e3fa2e938edecbd329715",
+          "message": "refactor: rename and move `*ChainSpec` crates to `crates/chain/spec/` folder (#1204)",
+          "timestamp": "2025-11-28T15:15:12Z",
+          "tree_id": "80e6827368a75f6e40022b7f72822b642e9ccea6",
+          "url": "https://github.com/NomicFoundation/edr/commit/4a24a5400c650140022e3fa2e938edecbd329715"
+        },
+        "date": 1764344638582,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33097120,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10434,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277085,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8661,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32939326,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 146089,
             "unit": "us"
           }
         ]
