@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764344639006,
+  "lastUpdate": 1764850013156,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -809,6 +809,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 146089,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "5e3968d150fd5a6c93b167e8f4de257519b6e99a",
+          "message": "feat: set Osaka/Isthmus as the latest hardforks for L1/OP stack (#1209)\n\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2025-12-04T11:35:31Z",
+          "tree_id": "4d3b745950286ed1c9d3284dd37061571045aaff",
+          "url": "https://github.com/NomicFoundation/edr/commit/5e3968d150fd5a6c93b167e8f4de257519b6e99a"
+        },
+        "date": 1764850012582,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34019191,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10665,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275267,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7787,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33968709,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148302,
             "unit": "us"
           }
         ]
