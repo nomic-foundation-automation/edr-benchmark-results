@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764854127540,
+  "lastUpdate": 1764959010676,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -917,6 +917,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 145058,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c52f1f6a6d6c6ed129074dabab22471dfa7a363b",
+          "message": "feat(op): min jovian hardfork support (#1213)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-12-05T17:36:16Z",
+          "tree_id": "270becc3b8a213cac15197a7a4d00a3c1a2d1b0a",
+          "url": "https://github.com/NomicFoundation/edr/commit/c52f1f6a6d6c6ed129074dabab22471dfa7a363b"
+        },
+        "date": 1764959010192,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33007321,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10424,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 273416,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7789,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32890003,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 156924,
             "unit": "us"
           }
         ]
