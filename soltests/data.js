@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765226957895,
+  "lastUpdate": 1765385501307,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1025,6 +1025,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 148422,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad4dc274e181a544b9f3b25719a6d11732b94a44",
+          "message": "build: upgrade REVM to v33 (#1219)",
+          "timestamp": "2025-12-10T16:19:47Z",
+          "tree_id": "15115c7a855a08a66ec30ff1b718bb75dea2a031",
+          "url": "https://github.com/NomicFoundation/edr/commit/ad4dc274e181a544b9f3b25719a6d11732b94a44"
+        },
+        "date": 1765385500773,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 36824796,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11151,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 306597,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7709,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 36672389,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145804,
             "unit": "us"
           }
         ]
