@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765487981009,
+  "lastUpdate": 1765497684067,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1133,6 +1133,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 148590,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "93a1484be71208a94c811665ecf168d158765736",
+          "message": "fix(osaka): add Osaka hardfork activation (#1223)",
+          "timestamp": "2025-12-11T22:21:21Z",
+          "tree_id": "1cfebb217d3aef7cff5a21df11ea423276544433",
+          "url": "https://github.com/NomicFoundation/edr/commit/93a1484be71208a94c811665ecf168d158765736"
+        },
+        "date": 1765497683623,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34459071,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10566,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 290546,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7610,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34284741,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 147992,
             "unit": "us"
           }
         ]
