@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765571257975,
+  "lastUpdate": 1765846145361,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1241,6 +1241,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144368,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "faef0656f8c86c6f92c7c309d2373bbca89cbff7",
+          "message": "feat(osaka): support EIP-7892 (#1221)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-12-16T00:19:19Z",
+          "tree_id": "eb023f57099c34c24c9d98461cae36c9a5f44fa9",
+          "url": "https://github.com/NomicFoundation/edr/commit/faef0656f8c86c6f92c7c309d2373bbca89cbff7"
+        },
+        "date": 1765846144887,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32182168,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10110,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 265198,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8408,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32088251,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 146402,
             "unit": "us"
           }
         ]
