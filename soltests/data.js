@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765902560163,
+  "lastUpdate": 1766096568038,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1349,6 +1349,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 156612,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bbc09f31d507cd9ff204b6eb7f04588747827980",
+          "message": "chore(CI): configure dependabot cooldown (#1233)",
+          "timestamp": "2025-12-18T20:50:20Z",
+          "tree_id": "68c2b2f7557ea09fb5bc0f891261dfe1c3272e5b",
+          "url": "https://github.com/NomicFoundation/edr/commit/bbc09f31d507cd9ff204b6eb7f04588747827980"
+        },
+        "date": 1766096567525,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32209356,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10355,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 266479,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8037,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32017993,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140484,
             "unit": "us"
           }
         ]
