@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766152761484,
+  "lastUpdate": 1766172029922,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1457,6 +1457,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 160644,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2ae65053053632d57c4742dc3777fa27b17a169",
+          "message": "chore: simplify blockchain api (#1230)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-12-19T18:00:20Z",
+          "tree_id": "cf6a3e3d62a59ec40eb7762a9cd6b416e407ae4a",
+          "url": "https://github.com/NomicFoundation/edr/commit/d2ae65053053632d57c4742dc3777fa27b17a169"
+        },
+        "date": 1766172029425,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35610889,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10720,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 304059,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9030,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35453681,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 134608,
             "unit": "us"
           }
         ]
