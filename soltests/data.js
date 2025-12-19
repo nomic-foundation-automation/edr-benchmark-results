@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766096568038,
+  "lastUpdate": 1766152761484,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1403,6 +1403,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140484,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2272bc0af4f872dc54382f5740686af2ec6a4463",
+          "message": "fix(osaka):  EIP-7918 blob excess_gas calculation (#1237)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2025-12-19T12:55:48Z",
+          "tree_id": "5f76644c744b7c74685fb11ca3c16bc45654bfa8",
+          "url": "https://github.com/NomicFoundation/edr/commit/2272bc0af4f872dc54382f5740686af2ec6a4463"
+        },
+        "date": 1766152761019,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32589066,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10312,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 273958,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9086,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32521067,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 160644,
             "unit": "us"
           }
         ]
