@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766172029922,
+  "lastUpdate": 1766175015753,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1511,6 +1511,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134608,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34e1ab4c99e594a5d1c7a0b5002fe0c22ae07aad",
+          "message": "fix(op-base): update DynamicBaseFee params after SystemConfig update (#1241)",
+          "timestamp": "2025-12-19T18:54:49Z",
+          "tree_id": "badb8b1831704141195d7cdf28c696c28374df51",
+          "url": "https://github.com/NomicFoundation/edr/commit/34e1ab4c99e594a5d1c7a0b5002fe0c22ae07aad"
+        },
+        "date": 1766175015290,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35780380,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11477,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 302732,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8347,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35716731,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140487,
             "unit": "us"
           }
         ]
