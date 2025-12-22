@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766421679951,
+  "lastUpdate": 1766440617831,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1673,6 +1673,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 149890,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "44e779cad7674e5e4f310924fd1ccb9cc8d952f1",
+          "message": "feat: add function-level configuration overrides for Solidity tests (#1239)",
+          "timestamp": "2025-12-22T21:23:21Z",
+          "tree_id": "fc0748ca4a799b579f729839f8508f5a09b8d45d",
+          "url": "https://github.com/NomicFoundation/edr/commit/44e779cad7674e5e4f310924fd1ccb9cc8d952f1"
+        },
+        "date": 1766440617357,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32401392,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10200,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 266533,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8121,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32217864,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 135450,
             "unit": "us"
           }
         ]
