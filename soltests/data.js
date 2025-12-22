@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766409271563,
+  "lastUpdate": 1766421679951,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1619,6 +1619,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134300,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9ce754bff01771a316b93125d83ac8a8e472480d",
+          "message": "docs: add book entry about debugging EDR (#1240)",
+          "timestamp": "2025-12-22T15:53:37Z",
+          "tree_id": "3e1ce279f7880a522af6691d2e6f27b8c4fe4e43",
+          "url": "https://github.com/NomicFoundation/edr/commit/9ce754bff01771a316b93125d83ac8a8e472480d"
+        },
+        "date": 1766421679479,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35816076,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10978,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 303805,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8403,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35736961,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 149890,
             "unit": "us"
           }
         ]
