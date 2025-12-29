@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767033793780,
+  "lastUpdate": 1767049411671,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1835,6 +1835,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 136176,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5a7b75ba04f9b17b436f2c6829916aad6ed4f32",
+          "message": "feat: add API to determine latest supported Solidity version (#1248)",
+          "timestamp": "2025-12-29T22:16:26Z",
+          "tree_id": "130267fa083edd0edef2449b5a39ca394b82cc0f",
+          "url": "https://github.com/NomicFoundation/edr/commit/b5a7b75ba04f9b17b436f2c6829916aad6ed4f32"
+        },
+        "date": 1767049411219,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35067183,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10930,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 306681,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8317,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34877873,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138138,
             "unit": "us"
           }
         ]
