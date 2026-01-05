@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767114619984,
+  "lastUpdate": 1767634366071,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -1943,6 +1943,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139168,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abfe31a5bc00d50f898cdc65dbd4cbda0c3a47af",
+          "message": "chore(docs): document dynamic base fee params update (#1245)",
+          "timestamp": "2026-01-05T17:02:02Z",
+          "tree_id": "8c881de274c5776312a4200050406f5133eb21ce",
+          "url": "https://github.com/NomicFoundation/edr/commit/abfe31a5bc00d50f898cdc65dbd4cbda0c3a47af"
+        },
+        "date": 1767634365600,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35180548,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11021,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 306425,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8379,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35004753,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132554,
             "unit": "us"
           }
         ]
