@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767641997606,
+  "lastUpdate": 1767733454558,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "41898282+github-actions[bot]@users.noreply.github.com",
-            "name": "github-actions[bot]",
-            "username": "github-actions[bot]"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "5aa9d773d017f535a0606064bccdf8084250e641",
-          "message": "edr-0.12.0-next.13 (next) (#1159)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
-          "timestamp": "2025-11-05T21:35:28Z",
-          "tree_id": "b9341a2538c727646b5e5444daa693fdd876fa2a",
-          "url": "https://github.com/NomicFoundation/edr/commit/5aa9d773d017f535a0606064bccdf8084250e641"
-        },
-        "date": 1762382368130,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 222072.76099300003,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 21651.330658,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 10979.012166,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 12867.161428,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 770.451157,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 5800.993141,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 165395.56937500002,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 4608.243068,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4113.128712,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "139613cc2e07ede5000cb0d9a4a629283b842e88",
+          "message": "refactor: remove smock integration tests due to deprecation (#1255)",
+          "timestamp": "2026-01-06T20:11:53Z",
+          "tree_id": "82e5e76bd61d48ae7e0662870aa008630c28fd1b",
+          "url": "https://github.com/NomicFoundation/edr/commit/139613cc2e07ede5000cb0d9a4a629283b842e88"
+        },
+        "date": 1767733454093,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 201142.09970899997,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 19031.675726999998,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 9701.947477,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 11437.624211,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 643.5128540000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 5391.228554,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 150987.270543,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 3948.840343,
             "unit": "ms"
           }
         ]
