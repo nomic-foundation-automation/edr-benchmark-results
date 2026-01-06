@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767641001481,
+  "lastUpdate": 1767732436000,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2051,6 +2051,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 136550,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "139613cc2e07ede5000cb0d9a4a629283b842e88",
+          "message": "refactor: remove smock integration tests due to deprecation (#1255)",
+          "timestamp": "2026-01-06T20:11:53Z",
+          "tree_id": "82e5e76bd61d48ae7e0662870aa008630c28fd1b",
+          "url": "https://github.com/NomicFoundation/edr/commit/139613cc2e07ede5000cb0d9a4a629283b842e88"
+        },
+        "date": 1767732435547,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35072264,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11107,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 306545,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8337,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35001909,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 153354,
             "unit": "us"
           }
         ]
