@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767732436000,
+  "lastUpdate": 1767890166349,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2105,6 +2105,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 153354,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "19bc81e7e608d2c014f0cd4334c33a4b17c5d596",
+          "message": "chore: normalize JSON RPC provider URLs (#1256)",
+          "timestamp": "2026-01-08T15:47:27Z",
+          "tree_id": "b7b8bb5898ae57836ec76ebd3e1a64f4f5084b16",
+          "url": "https://github.com/NomicFoundation/edr/commit/19bc81e7e608d2c014f0cd4334c33a4b17c5d596"
+        },
+        "date": 1767890165886,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35357567,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11028,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 309959,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8673,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35212525,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139856,
             "unit": "us"
           }
         ]
