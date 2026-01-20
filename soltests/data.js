@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767890166349,
+  "lastUpdate": 1768914123001,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2159,6 +2159,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139856,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e4920d5c04f2ecaf7e3fb42e5a09f8e54ba9db0c",
+          "message": "feat: support `eth_getProof` method  (#1261)\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-01-20T12:15:31Z",
+          "tree_id": "b061a3a1f430160e606a1cc3b31152720d67a76b",
+          "url": "https://github.com/NomicFoundation/edr/commit/e4920d5c04f2ecaf7e3fb42e5a09f8e54ba9db0c"
+        },
+        "date": 1768914122490,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32793236,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10353,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275491,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7833,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32621957,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 204791,
             "unit": "us"
           }
         ]
