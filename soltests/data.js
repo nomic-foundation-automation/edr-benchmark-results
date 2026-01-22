@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769109296901,
+  "lastUpdate": 1769116902936,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2375,6 +2375,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 150950,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "321af18703746c05f9ef3c74c0923f78dc08dab9",
+          "message": "feat: add support for `eth_getProof` in fork mode (#1263)\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-01-22T20:32:48Z",
+          "tree_id": "8a17f6faff4b5439577868cd4a0164c175f5f116",
+          "url": "https://github.com/NomicFoundation/edr/commit/321af18703746c05f9ef3c74c0923f78dc08dab9"
+        },
+        "date": 1769116902461,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34046796,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11049,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 292842,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7744,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33999366,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148082,
             "unit": "us"
           }
         ]
