@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769100970719,
+  "lastUpdate": 1769109296901,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2321,6 +2321,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 149109,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de947494f36617c20d4cc141fa38992a33ef3430",
+          "message": "build: bump memchr from 2.7.4 to 2.7.6 (#1103)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-01-22T18:09:16Z",
+          "tree_id": "bb7ddb9d29919418195a491fc530e8ed414af975",
+          "url": "https://github.com/NomicFoundation/edr/commit/de947494f36617c20d4cc141fa38992a33ef3430"
+        },
+        "date": 1769109296449,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31065060,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10310,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275416,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8965,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31005233,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 150950,
             "unit": "us"
           }
         ]
