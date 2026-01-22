@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768917064277,
+  "lastUpdate": 1769100970719,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2267,6 +2267,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 141266,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f763f1de7b31952336bf0bbbac177aa85f2bd2f8",
+          "message": "chore: fix inconsistent function-level config override test failures (#1266)",
+          "timestamp": "2026-01-22T16:07:35Z",
+          "tree_id": "6ea71a4791b71943754aa6bdaa61cf9a7f799965",
+          "url": "https://github.com/NomicFoundation/edr/commit/f763f1de7b31952336bf0bbbac177aa85f2bd2f8"
+        },
+        "date": 1769100970203,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 37757583,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11065,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 312130,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8952,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 37631089,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 149109,
             "unit": "us"
           }
         ]
