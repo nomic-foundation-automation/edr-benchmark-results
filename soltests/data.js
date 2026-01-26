@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769201338013,
+  "lastUpdate": 1769445275243,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2591,6 +2591,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 150887,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d9fecc366efbebe3eaf3a17c81f308b289e1bfe1",
+          "message": "chore: refactor `create_blockchain_and_state` function (#1270)",
+          "timestamp": "2026-01-26T16:03:53Z",
+          "tree_id": "bce0eb05ec934688cb694e4a79d51985bb030b84",
+          "url": "https://github.com/NomicFoundation/edr/commit/d9fecc366efbebe3eaf3a17c81f308b289e1bfe1"
+        },
+        "date": 1769445274743,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34334978,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 12138,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 291634,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8722,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34123419,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 150181,
             "unit": "us"
           }
         ]
