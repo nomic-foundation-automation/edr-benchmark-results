@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769445275243,
+  "lastUpdate": 1769684063937,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2645,6 +2645,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 150181,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "9f8f6665c3a4e102c2ed163dc90c5fc8f935af08",
+          "message": "chore: add unsupported cheatcodes to the Vm interface (#1267)",
+          "timestamp": "2026-01-29T10:06:32Z",
+          "tree_id": "3a9f23192ba8260ed29a4650c55aee6958d12f21",
+          "url": "https://github.com/NomicFoundation/edr/commit/9f8f6665c3a4e102c2ed163dc90c5fc8f935af08"
+        },
+        "date": 1769684063456,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 38694836,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11722,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 314101,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8635,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 38600854,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144138,
             "unit": "us"
           }
         ]
