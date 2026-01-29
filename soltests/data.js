@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769708255679,
+  "lastUpdate": 1769713268056,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2807,6 +2807,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140478,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65bc5658cc0e67ca887e0e6ee2d0a7ec6519f87a",
+          "message": "chore: add op support tests (#1273)",
+          "timestamp": "2026-01-29T18:31:22Z",
+          "tree_id": "b2273a7690d4661cf1ea4e35a13f7455fa52ec52",
+          "url": "https://github.com/NomicFoundation/edr/commit/65bc5658cc0e67ca887e0e6ee2d0a7ec6519f87a"
+        },
+        "date": 1769713267544,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31519975,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10487,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 268419,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8450,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31405716,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 152807,
             "unit": "us"
           }
         ]
