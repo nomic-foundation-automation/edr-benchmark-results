@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769698910727,
+  "lastUpdate": 1769708255679,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2753,6 +2753,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 153120,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aefb41463254bf3bebfdfff1b131ccf2f44716a6",
+          "message": "build: bump anyhow from 1.0.98 to 1.0.100 (#1272)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Ana Perez Ghiglia <aghiglia@manas.tech>",
+          "timestamp": "2026-01-29T17:06:55Z",
+          "tree_id": "ffe2b22c93145d0f08ecbed88067e7a5667b9897",
+          "url": "https://github.com/NomicFoundation/edr/commit/aefb41463254bf3bebfdfff1b131ccf2f44716a6"
+        },
+        "date": 1769708255177,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30266773,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10120,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 262600,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8446,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30078675,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140478,
             "unit": "us"
           }
         ]
