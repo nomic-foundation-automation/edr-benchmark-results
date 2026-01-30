@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769713268056,
+  "lastUpdate": 1769783642265,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2861,6 +2861,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 152807,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e93ef39e5dd3e6edb98053551081f821bd2290e6",
+          "message": "build: bump alloy-trie from 0.9.0 to 0.9.3 (#1265)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Ana Perez Ghiglia <aghiglia@manas.tech>",
+          "timestamp": "2026-01-30T14:03:42Z",
+          "tree_id": "5ef8e54aed366bf90985271cd245de9a3d749411",
+          "url": "https://github.com/NomicFoundation/edr/commit/e93ef39e5dd3e6edb98053551081f821bd2290e6"
+        },
+        "date": 1769783641706,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32390188,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10199,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 265460,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8493,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32161122,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 149482,
             "unit": "us"
           }
         ]
