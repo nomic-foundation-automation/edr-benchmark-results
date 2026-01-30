@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769783642265,
+  "lastUpdate": 1769796375934,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -2915,6 +2915,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 149482,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "abc925ba9e2d7b2e081bb3bddbe19b5920442c85",
+          "message": "build: bump uuid from 1.18.1 to 1.19.0 (#1276)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-01-30T17:19:47Z",
+          "tree_id": "31fc9f96d7e3494abe48f21c6cee1e4fc028bbe7",
+          "url": "https://github.com/NomicFoundation/edr/commit/abc925ba9e2d7b2e081bb3bddbe19b5920442c85"
+        },
+        "date": 1769796375432,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31311024,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 12064,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 260585,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8294,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31101587,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 155459,
             "unit": "us"
           }
         ]
