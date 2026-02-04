@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769808293594,
+  "lastUpdate": 1770228836703,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3023,6 +3023,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 147024,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a7084861ac0bf354a49b5c8831dd7d45429da0c",
+          "message": "build: bump rpds from 1.1.1 to 1.2.0 (#1281)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-02-04T17:44:07Z",
+          "tree_id": "e78f93fdf73c585d75c6a665839220cbcd6ab816",
+          "url": "https://github.com/NomicFoundation/edr/commit/2a7084861ac0bf354a49b5c8831dd7d45429da0c"
+        },
+        "date": 1770228836183,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31710834,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10336,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 269624,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8523,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31559370,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144460,
             "unit": "us"
           }
         ]
