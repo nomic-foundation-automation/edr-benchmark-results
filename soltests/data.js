@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770228836703,
+  "lastUpdate": 1770281808836,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3077,6 +3077,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144460,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b505164ccb195980f34bd0ef40a0d7ffb3e5c0f2",
+          "message": "feat: add structured errors for unsupported Solidity test cheatcodes (#1282)",
+          "timestamp": "2026-02-05T08:08:51Z",
+          "tree_id": "504e2d6fed5d967040b537af56c0f112bb117ad0",
+          "url": "https://github.com/NomicFoundation/edr/commit/b505164ccb195980f34bd0ef40a0d7ffb3e5c0f2"
+        },
+        "date": 1770281808379,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32607650,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10310,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 274540,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8647,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32442993,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140640,
             "unit": "us"
           }
         ]
