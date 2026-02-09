@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770299138416,
+  "lastUpdate": 1770659024693,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3185,6 +3185,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 150215,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7bf3576e5cd36b67eac2913782b9392b1951866d",
+          "message": "feat: add the ability to specify the hardfork when running Solidity tests (#1287)",
+          "timestamp": "2026-02-09T17:13:50Z",
+          "tree_id": "111e8bf72096cb62216651cb4ce35dcb05a8b799",
+          "url": "https://github.com/NomicFoundation/edr/commit/7bf3576e5cd36b67eac2913782b9392b1951866d"
+        },
+        "date": 1770659024106,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31552088,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13888,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 264593,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8142,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31489450,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 149901,
             "unit": "us"
           }
         ]
