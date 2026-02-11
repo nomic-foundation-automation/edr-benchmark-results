@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770726082845,
+  "lastUpdate": 1770845001767,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3293,6 +3293,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143573,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f4bdc366b1fc0cc43a9d6d5b928e99f2beeaac3e",
+          "message": "feat: add support for Geth built-in tracers (#1251)",
+          "timestamp": "2026-02-11T18:15:52Z",
+          "tree_id": "be794a77676b533ce02084ee8298f887037890d3",
+          "url": "https://github.com/NomicFoundation/edr/commit/f4bdc366b1fc0cc43a9d6d5b928e99f2beeaac3e"
+        },
+        "date": 1770845001311,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34298142,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14416,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 293250,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8880,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34084829,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 154654,
             "unit": "us"
           }
         ]
