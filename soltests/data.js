@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770903044643,
+  "lastUpdate": 1770915851632,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3455,6 +3455,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143112,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5471be6c6c99e37f022f9e08268209081d95e779",
+          "message": "build: bump evm-disassembler from 0.5.0 to 0.6.0 (#1271)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Ana Perez Ghiglia <aghiglia@manas.tech>",
+          "timestamp": "2026-02-12T16:17:46Z",
+          "tree_id": "f435cf13693d6849d07004dbcf5ee5b58d4cbb30",
+          "url": "https://github.com/NomicFoundation/edr/commit/5471be6c6c99e37f022f9e08268209081d95e779"
+        },
+        "date": 1770915851195,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35300881,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10810,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 291668,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8902,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35165816,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 149717,
             "unit": "us"
           }
         ]
