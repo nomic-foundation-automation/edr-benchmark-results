@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770845001767,
+  "lastUpdate": 1770882296703,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3347,6 +3347,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 154654,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3974769a316f4d94f78576e41e0aa19bd0389abe",
+          "message": "refactor: unify provider & soldity test tracing architecture (#1278)",
+          "timestamp": "2026-02-12T06:56:55Z",
+          "tree_id": "3b70bcb4e9a262d7d77245199377a9bd381403e7",
+          "url": "https://github.com/NomicFoundation/edr/commit/3974769a316f4d94f78576e41e0aa19bd0389abe"
+        },
+        "date": 1770882296247,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30790970,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10254,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 273548,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8485,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30608028,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144500,
             "unit": "us"
           }
         ]
