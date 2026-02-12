@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770915851632,
+  "lastUpdate": 1770925190268,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3509,6 +3509,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 149717,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "214072cad0ff52743600fca44a2e065fbc879c6d",
+          "message": "ci: fix release workflow (#1293)",
+          "timestamp": "2026-02-12T19:07:59Z",
+          "tree_id": "10bbd859379ac09ce267b932d39b0dd58ae62878",
+          "url": "https://github.com/NomicFoundation/edr/commit/214072cad0ff52743600fca44a2e065fbc879c6d"
+        },
+        "date": 1770925189766,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35215835,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10814,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 291877,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7957,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35129685,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 146821,
             "unit": "us"
           }
         ]
