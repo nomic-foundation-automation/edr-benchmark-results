@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770882296703,
+  "lastUpdate": 1770903044643,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3401,6 +3401,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144500,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "2e0b717776017915a1d82f93de81c2b80e46f084",
+          "message": "build: bump alloy-transport-ipc from 1.0.23 to 1.1.0 (#1279)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Ana Perez Ghiglia <aghiglia@manas.tech>",
+          "timestamp": "2026-02-12T12:57:33Z",
+          "tree_id": "8f9ae5b9a8f81398cdedc6c97faa4c6728821d30",
+          "url": "https://github.com/NomicFoundation/edr/commit/2e0b717776017915a1d82f93de81c2b80e46f084"
+        },
+        "date": 1770903044175,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34175747,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10720,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 293351,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8669,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34105050,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143112,
             "unit": "us"
           }
         ]
