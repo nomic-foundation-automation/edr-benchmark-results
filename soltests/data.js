@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770935728034,
+  "lastUpdate": 1771348300267,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3617,6 +3617,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144057,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "12f70f3409c276a2acc0ee066bdff4e34d90f4c2",
+          "message": "fix: return error for mismatched names in gas snapshot cheatcodes (#1298)",
+          "timestamp": "2026-02-17T16:39:43Z",
+          "tree_id": "9a71ffc8d8beec4046550e6569d5b55898f78d5c",
+          "url": "https://github.com/NomicFoundation/edr/commit/12f70f3409c276a2acc0ee066bdff4e34d90f4c2"
+        },
+        "date": 1771348299754,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 36221492,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10831,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 298587,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8619,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 36042744,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144500,
             "unit": "us"
           }
         ]
