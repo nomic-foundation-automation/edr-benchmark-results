@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771519301055,
+  "lastUpdate": 1771525930755,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3779,6 +3779,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 162660,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ba9fa1985a39c5dbfe5e96ad5e9aba19415bd8ab",
+          "message": "docs: add detailed JSON-RPC documentation (#1300)",
+          "timestamp": "2026-02-19T17:53:24Z",
+          "tree_id": "023d4f99817dfec97e66d2b15c5e25ec15aa3db8",
+          "url": "https://github.com/NomicFoundation/edr/commit/ba9fa1985a39c5dbfe5e96ad5e9aba19415bd8ab"
+        },
+        "date": 1771525930240,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31818324,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10486,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279705,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8702,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31600581,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140497,
             "unit": "us"
           }
         ]
