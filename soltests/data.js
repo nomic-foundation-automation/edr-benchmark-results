@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771606019451,
+  "lastUpdate": 1771617494840,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -3887,6 +3887,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 147770,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "28b7b04df6e8d62d70a5101a7eb68b898b0d84c1",
+          "message": "feat: add proxy information to gas reports (#1303)",
+          "timestamp": "2026-02-20T19:26:00Z",
+          "tree_id": "193da611ce82c43281806de57f49609e352816d8",
+          "url": "https://github.com/NomicFoundation/edr/commit/28b7b04df6e8d62d70a5101a7eb68b898b0d84c1"
+        },
+        "date": 1771617494305,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32058503,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10439,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 272541,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8293,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31959850,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144063,
             "unit": "us"
           }
         ]
