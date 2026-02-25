@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772032971016,
+  "lastUpdate": 1772042629906,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4157,6 +4157,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144727,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "056de3429a86927fbc3804806bf41975bb295d3d",
+          "message": "build: bump itertools from 0.10.5 to 0.14.0 (#1305)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Ana Perez Ghiglia <aghiglia@manas.tech>",
+          "timestamp": "2026-02-25T17:33:09Z",
+          "tree_id": "740593996bb5e151507fc00d3a1a91b03af31805",
+          "url": "https://github.com/NomicFoundation/edr/commit/056de3429a86927fbc3804806bf41975bb295d3d"
+        },
+        "date": 1772042629418,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31590482,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10362,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 265605,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8727,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31504991,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 141030,
             "unit": "us"
           }
         ]
