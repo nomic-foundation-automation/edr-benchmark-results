@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771969802975,
+  "lastUpdate": 1772006310890,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4049,6 +4049,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 145438,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d9b5dd8fdb8d45cebf49e471a8b8461c6da43597",
+          "message": "fix: return error instead of panic for missing `startSnapshotGas` (#1307)",
+          "timestamp": "2026-02-25T07:28:39Z",
+          "tree_id": "133c66f03a78488c14a55e3ff2b3e236010c1a9d",
+          "url": "https://github.com/NomicFoundation/edr/commit/d9b5dd8fdb8d45cebf49e471a8b8461c6da43597"
+        },
+        "date": 1772006310398,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32095227,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13889,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 265126,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8548,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31884121,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140809,
             "unit": "us"
           }
         ]
