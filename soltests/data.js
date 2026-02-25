@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772006310890,
+  "lastUpdate": 1772032971016,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4103,6 +4103,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140809,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83068291162e401f54e093a523b9d9a41dbaeea9",
+          "message": "chore(CI): fix post-setup-node step \"Path Validation Error\" (#1311)",
+          "timestamp": "2026-02-25T14:52:46Z",
+          "tree_id": "51aa25d92348b23131095673427d80819d7ce22a",
+          "url": "https://github.com/NomicFoundation/edr/commit/83068291162e401f54e093a523b9d9a41dbaeea9"
+        },
+        "date": 1772032970398,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31976802,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10447,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 265134,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8405,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31869956,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144727,
             "unit": "us"
           }
         ]
