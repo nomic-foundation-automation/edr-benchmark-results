@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772466687099,
+  "lastUpdate": 1772575097116,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4373,6 +4373,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 142749,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc22e19d2a242b800ba5dd4cf458ee6cbdeb1f3b",
+          "message": "build: upgrade to Rust v1.91.0 (#1318)",
+          "timestamp": "2026-03-03T21:11:42Z",
+          "tree_id": "f0ac91ae57c0c3b48e5e06b88c6216eefc9a7ba0",
+          "url": "https://github.com/NomicFoundation/edr/commit/dc22e19d2a242b800ba5dd4cf458ee6cbdeb1f3b"
+        },
+        "date": 1772575096598,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33934519,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10542,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 298271,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8804,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33839022,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139301,
             "unit": "us"
           }
         ]
