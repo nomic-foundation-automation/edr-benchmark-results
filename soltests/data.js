@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772575097116,
+  "lastUpdate": 1772744684562,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4427,6 +4427,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139301,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d57fc6ed1d0c61812a9e5e93353d60c34db1d19",
+          "message": "chore(ci): Add cargo cooldown check to ci and release workflows (#1314)",
+          "timestamp": "2026-03-05T20:06:41Z",
+          "tree_id": "167584135bba5f948acbc7eee0647d693af66b0d",
+          "url": "https://github.com/NomicFoundation/edr/commit/8d57fc6ed1d0c61812a9e5e93353d60c34db1d19"
+        },
+        "date": 1772744684102,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34062522,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10619,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 298656,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8870,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33826638,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128053,
             "unit": "us"
           }
         ]
