@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772744684562,
+  "lastUpdate": 1772811339308,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4481,6 +4481,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 128053,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7c2886a04bcbce6abf6e5813fc4df61ee355218a",
+          "message": "fix(cheatcodes): ensure `CallerMode` compatibility with `forge-std` (#1321)",
+          "timestamp": "2026-03-06T14:45:05Z",
+          "tree_id": "1f90692414f0c6f6d978c1b1c4571dfc57b07ce9",
+          "url": "https://github.com/NomicFoundation/edr/commit/7c2886a04bcbce6abf6e5813fc4df61ee355218a"
+        },
+        "date": 1772811338813,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34488058,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11052,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 297423,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8696,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34360102,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 149732,
             "unit": "us"
           }
         ]
