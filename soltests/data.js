@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773080264991,
+  "lastUpdate": 1773687045127,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4643,6 +4643,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 141871,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "74b1e48a0a51b60c3e01d26f5e7211e963142d4c",
+          "message": "refactor: split execution and setup traces (#1330)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-03-16T18:17:20Z",
+          "tree_id": "798e10b739d14e32858c8d2e15065e06b71491de",
+          "url": "https://github.com/NomicFoundation/edr/commit/74b1e48a0a51b60c3e01d26f5e7211e963142d4c"
+        },
+        "date": 1773687044565,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33789317,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 12104,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 291355,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8521,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33679429,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144973,
             "unit": "us"
           }
         ]
