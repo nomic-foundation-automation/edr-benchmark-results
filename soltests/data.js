@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773687045127,
+  "lastUpdate": 1773772993059,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4697,6 +4697,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144973,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f15dce183736a18bbee0f4a6d9c5cfab658f2a6",
+          "message": "fix: allow multiple deployments per contract in gas report (#1332)",
+          "timestamp": "2026-03-17T18:03:48Z",
+          "tree_id": "8885458424b513c28168cc34fdc96e0e89c35bd2",
+          "url": "https://github.com/NomicFoundation/edr/commit/7f15dce183736a18bbee0f4a6d9c5cfab658f2a6"
+        },
+        "date": 1773772992504,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34100259,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10520,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 295243,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8730,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34020931,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 142840,
             "unit": "us"
           }
         ]
