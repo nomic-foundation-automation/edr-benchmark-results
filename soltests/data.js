@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774011302817,
+  "lastUpdate": 1774014495661,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4805,6 +4805,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134412,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "538e9b022f78ff3fd0f45c31070afcfd57d67c57",
+          "message": "fix: validate gas snapshot names (#1337)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-03-20T13:04:11Z",
+          "tree_id": "2d28707a04b3bb52706b381760b158d9016b8da7",
+          "url": "https://github.com/NomicFoundation/edr/commit/538e9b022f78ff3fd0f45c31070afcfd57d67c57"
+        },
+        "date": 1774014495160,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34470160,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10619,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 294347,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8212,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34353002,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 136630,
             "unit": "us"
           }
         ]
