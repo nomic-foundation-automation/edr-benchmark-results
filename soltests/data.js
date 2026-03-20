@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773772993059,
+  "lastUpdate": 1774011302817,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4751,6 +4751,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 142840,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b8a9316640f71c97624b7d38efdf1157e290014",
+          "message": "feat: add runtime bytecode size to DeploymentGasReport (#1336)",
+          "timestamp": "2026-03-20T12:25:40Z",
+          "tree_id": "546c3cc6813625625acc9559fbe671b9a9773b2f",
+          "url": "https://github.com/NomicFoundation/edr/commit/9b8a9316640f71c97624b7d38efdf1157e290014"
+        },
+        "date": 1774011302305,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34498629,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10536,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 292810,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8718,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34426599,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 134412,
             "unit": "us"
           }
         ]
