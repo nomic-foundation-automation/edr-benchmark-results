@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774014495661,
+  "lastUpdate": 1774302498461,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4859,6 +4859,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 136630,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d483274bf2d99145f9cefd39c0f8e77a565ee3fc",
+          "message": "fix: detection and reporting of calls to proxy contracts (#1333)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-03-23T21:01:41Z",
+          "tree_id": "23db4ebf40742e6119a25387b094d722bafd4100",
+          "url": "https://github.com/NomicFoundation/edr/commit/d483274bf2d99145f9cefd39c0f8e77a565ee3fc"
+        },
+        "date": 1774302497942,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 37144261,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10420,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 299411,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7671,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 36923556,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133396,
             "unit": "us"
           }
         ]
