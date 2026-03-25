@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774452575197,
+  "lastUpdate": 1774465968048,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5021,6 +5021,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140403,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c40d019e2e00df57f7e35e749910b1b7f6c4d7bc",
+          "message": "build: bump dtolnay/rust-toolchain from 0f44b27771c32bda9f458f75a1e241b09791b331 to efa25f7f19611383d5b0ccf2d1c8914531636bf9 (#1341)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-03-25T17:30:17Z",
+          "tree_id": "389698b12f58f9f10772a4c8d7127de90fba7d6e",
+          "url": "https://github.com/NomicFoundation/edr/commit/c40d019e2e00df57f7e35e749910b1b7f6c4d7bc"
+        },
+        "date": 1774465967526,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 37432703,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10601,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 303244,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8767,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 37345551,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 142859,
             "unit": "us"
           }
         ]
