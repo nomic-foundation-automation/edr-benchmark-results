@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774368339022,
+  "lastUpdate": 1774452575197,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -4967,6 +4967,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140253,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54f1850c929428f741711b12793fefd3e8ae0f9a",
+          "message": "ci(dependabot): add github-actions ecosystem (#1339)",
+          "timestamp": "2026-03-25T14:58:43Z",
+          "tree_id": "dc976068e41f2e6eb29ce6eb4300712a956a4c07",
+          "url": "https://github.com/NomicFoundation/edr/commit/54f1850c929428f741711b12793fefd3e8ae0f9a"
+        },
+        "date": 1774452574701,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 37035964,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10617,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 301039,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7528,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 36974507,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140403,
             "unit": "us"
           }
         ]
