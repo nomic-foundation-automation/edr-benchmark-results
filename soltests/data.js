@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774465968048,
+  "lastUpdate": 1774549179740,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5075,6 +5075,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 142859,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc0d50c7e30d761d0ed3a651d51450dc9347ae10",
+          "message": "fix(op): update Base Mainnet dynamic eip1559 params (#1348)",
+          "timestamp": "2026-03-26T17:30:24Z",
+          "tree_id": "b6fb30421438925ddd20dd945297db886b3bbefc",
+          "url": "https://github.com/NomicFoundation/edr/commit/bc0d50c7e30d761d0ed3a651d51450dc9347ae10"
+        },
+        "date": 1774549179175,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 37396950,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10887,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 303277,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7723,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 37316623,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 153624,
             "unit": "us"
           }
         ]
