@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774549179740,
+  "lastUpdate": 1774886485143,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5129,6 +5129,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 153624,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "462ade32f0285977697e3b808c9d3e816248cdce",
+          "message": "fix: add missing `show_logs` field to global fuzz config (#1350)",
+          "timestamp": "2026-03-30T15:03:30Z",
+          "tree_id": "a2a1aa6244a8d85b3cd8ca72216169b7164ad47b",
+          "url": "https://github.com/NomicFoundation/edr/commit/462ade32f0285977697e3b808c9d3e816248cdce"
+        },
+        "date": 1774886484580,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 36741114,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10804,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 302468,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7763,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 36637211,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 150369,
             "unit": "us"
           }
         ]
