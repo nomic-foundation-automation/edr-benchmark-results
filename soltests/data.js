@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774886485143,
+  "lastUpdate": 1775587404325,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5183,6 +5183,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 150369,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "daa4881222cd20758b24d614463f194c5acb032a",
+          "message": "build: add build configuration for profiling JS (#1352)\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-04-07T17:53:21Z",
+          "tree_id": "7f57508c97fffd89dd0812064f0db8ade7401770",
+          "url": "https://github.com/NomicFoundation/edr/commit/daa4881222cd20758b24d614463f194c5acb032a"
+        },
+        "date": 1775587403725,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 36645275,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10544,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 305561,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7770,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 36561463,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 119764,
             "unit": "us"
           }
         ]
