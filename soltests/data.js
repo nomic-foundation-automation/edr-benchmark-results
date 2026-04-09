@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775767139243,
+  "lastUpdate": 1775770587445,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5291,6 +5291,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133426,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e19b494acfded747e2f98822939876f1b5b5d73",
+          "message": "misc: Claude skill for setting up verdaccio (#1353)",
+          "timestamp": "2026-04-09T21:00:29Z",
+          "tree_id": "c6b230e8dcd5f2ee8f346c9a41ddc239345c9fd2",
+          "url": "https://github.com/NomicFoundation/edr/commit/7e19b494acfded747e2f98822939876f1b5b5d73"
+        },
+        "date": 1775770586900,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34834341,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10463,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 290054,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8229,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34696072,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 134143,
             "unit": "us"
           }
         ]
