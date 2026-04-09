@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775587404325,
+  "lastUpdate": 1775767139243,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5237,6 +5237,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 119764,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bde1b8697957599bc599114df9a1f6feb781aabe",
+          "message": "fix: preserve returndata buffer across coverage instrumentation calls (#1338)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-04-09T19:51:26Z",
+          "tree_id": "aafed0d61a3750aa587cdd9f4ffca47e434bf634",
+          "url": "https://github.com/NomicFoundation/edr/commit/bde1b8697957599bc599114df9a1f6feb781aabe"
+        },
+        "date": 1775767138723,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34578994,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10348,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 284741,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7676,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34490355,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133426,
             "unit": "us"
           }
         ]
