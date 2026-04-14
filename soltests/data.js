@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775850331834,
+  "lastUpdate": 1776182071739,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5399,6 +5399,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134362,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "07cad35dc68f54e8565985d2b0e3ee8672c7038d",
+          "message": "feat: add `isolate` and `evm_version` options to Solidity test inline config (#1354)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-04-14T15:08:25Z",
+          "tree_id": "17f51a63dd316cc7ddaef42b4985b3cee0109685",
+          "url": "https://github.com/NomicFoundation/edr/commit/07cad35dc68f54e8565985d2b0e3ee8672c7038d"
+        },
+        "date": 1776182071218,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33429880,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10445,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 291756,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7694,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33287121,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138003,
             "unit": "us"
           }
         ]
