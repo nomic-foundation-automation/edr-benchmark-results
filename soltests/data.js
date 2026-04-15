@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776282781535,
+  "lastUpdate": 1776286581207,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5561,6 +5561,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133444,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1e570555c16dac9d2d88d778700ee8c13c25a5d1",
+          "message": "fix: replicate beacon root oracle state when replaying blocks (#1359)",
+          "timestamp": "2026-04-15T19:47:39Z",
+          "tree_id": "82e528d4d4a8e9c7263f2b1185950134162c022a",
+          "url": "https://github.com/NomicFoundation/edr/commit/1e570555c16dac9d2d88d778700ee8c13c25a5d1"
+        },
+        "date": 1776286580677,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31520040,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10494,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 286973,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8215,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31513960,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139938,
             "unit": "us"
           }
         ]
