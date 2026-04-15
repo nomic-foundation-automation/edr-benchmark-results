@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776182071739,
+  "lastUpdate": 1776269187701,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5453,6 +5453,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 138003,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c033ed322184c0d761363a3fd8574bf1c082078e",
+          "message": "fix: allow commas and non-consecutive dots in gas snapshot names (#1360)",
+          "timestamp": "2026-04-15T15:37:07Z",
+          "tree_id": "5c5eadc1b41f0dbef486139c8b3e24aaaf8a13be",
+          "url": "https://github.com/NomicFoundation/edr/commit/c033ed322184c0d761363a3fd8574bf1c082078e"
+        },
+        "date": 1776269187100,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33003255,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10498,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 292658,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8283,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32946106,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 131187,
             "unit": "us"
           }
         ]
