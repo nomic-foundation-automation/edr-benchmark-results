@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776269187701,
+  "lastUpdate": 1776282781535,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5507,6 +5507,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131187,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "86ca812a21fd11aa2c20e5bef6b29b124e5d98ba",
+          "message": "doc: update README (#1361)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-04-15T19:17:23Z",
+          "tree_id": "2e6d8e1e33add625d58eb503c669516d91fa0710",
+          "url": "https://github.com/NomicFoundation/edr/commit/86ca812a21fd11aa2c20e5bef6b29b124e5d98ba"
+        },
+        "date": 1776282780990,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33215070,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10293,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 291194,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8281,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33048170,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133444,
             "unit": "us"
           }
         ]
