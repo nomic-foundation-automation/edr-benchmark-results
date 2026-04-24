@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776805849749,
+  "lastUpdate": 1777048932919,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5777,6 +5777,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134348,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b4685d1ffbd7bae329e2403fbd6ea599107e03c",
+          "message": "feat(coverage): own the Solidity library (#1363)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-04-24T15:56:08Z",
+          "tree_id": "5f3d8619d4a72ab446a2036c7728f5eeae6e532e",
+          "url": "https://github.com/NomicFoundation/edr/commit/9b4685d1ffbd7bae329e2403fbd6ea599107e03c"
+        },
+        "date": 1777048932123,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33671883,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10242,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 280615,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7615,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33637609,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 134404,
             "unit": "us"
           }
         ]
