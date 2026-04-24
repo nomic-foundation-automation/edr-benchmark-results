@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777048932919,
+  "lastUpdate": 1777056779252,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5831,6 +5831,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134404,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "829f9208edafb81287ed795357a9e7a4578eccf3",
+          "message": "feat(solidity-tests): support EIP-712 cheatcodes (#1367)",
+          "timestamp": "2026-04-24T18:05:54Z",
+          "tree_id": "a89976f6773279ff3c4063b221caf56235b75f83",
+          "url": "https://github.com/NomicFoundation/edr/commit/829f9208edafb81287ed795357a9e7a4578eccf3"
+        },
+        "date": 1777056778730,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33982508,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10763,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 289401,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7611,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33882084,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 131628,
             "unit": "us"
           }
         ]
