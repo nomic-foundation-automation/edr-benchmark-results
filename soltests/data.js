@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777308119202,
+  "lastUpdate": 1777311047775,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5993,6 +5993,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 137801,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af5dc7fcdd764bfa5c72ac58124a254088ae46d2",
+          "message": "fix: avoid executing setUp for empty test suites (#1369)",
+          "timestamp": "2026-04-27T16:17:02Z",
+          "tree_id": "81beb4f403c25a85b71de6db1d765e3087be6fd8",
+          "url": "https://github.com/NomicFoundation/edr/commit/af5dc7fcdd764bfa5c72ac58124a254088ae46d2"
+        },
+        "date": 1777311047294,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32107651,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10331,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277125,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7720,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32030425,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143907,
             "unit": "us"
           }
         ]
