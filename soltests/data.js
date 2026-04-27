@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777060003071,
+  "lastUpdate": 1777308119202,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -5939,6 +5939,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143938,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "62879c14fb6384136bebedf4affdaf593f464e55",
+          "message": "chore: remove rust files from npm package (#1368)",
+          "timestamp": "2026-04-27T15:50:05Z",
+          "tree_id": "39a8b429f3d2a07583aad3af77a0d1dfe7335bf9",
+          "url": "https://github.com/NomicFoundation/edr/commit/62879c14fb6384136bebedf4affdaf593f464e55"
+        },
+        "date": 1777308118582,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33016661,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10245,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288952,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8313,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32936665,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137801,
             "unit": "us"
           }
         ]
