@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777311047775,
+  "lastUpdate": 1777544587922,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6047,6 +6047,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143907,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "709576a80156a6683de603950ef579db3eecab02",
+          "message": "test: relax UnixTimeAgainstDate to fix clock-boundary flake (#1373)",
+          "timestamp": "2026-04-30T09:59:10Z",
+          "tree_id": "4b32b58c492437f8770d993009f7cfa2ed4cee25",
+          "url": "https://github.com/NomicFoundation/edr/commit/709576a80156a6683de603950ef579db3eecab02"
+        },
+        "date": 1777544587265,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31515402,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9463,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 261832,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7289,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31280382,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 25624,
             "unit": "us"
           }
         ]
