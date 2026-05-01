@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777544587922,
+  "lastUpdate": 1777652485088,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6101,6 +6101,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 25624,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "396701f1079b21e66b0c0d32a15abff0fad90502",
+          "message": "ci: upgrade cargo-llvm-cov 0.6.21 → 0.8.5 (#1376)",
+          "timestamp": "2026-05-01T15:39:14Z",
+          "tree_id": "c0fc7b34154032cdc1a2a65ace894f842ed1bfcf",
+          "url": "https://github.com/NomicFoundation/edr/commit/396701f1079b21e66b0c0d32a15abff0fad90502"
+        },
+        "date": 1777652484865,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31634381,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 8849,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 249955,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 6763,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30839758,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 26467,
             "unit": "us"
           }
         ]
