@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777652485088,
+  "lastUpdate": 1777747845487,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6155,6 +6155,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 26467,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5934f091d6338c859353e17d1fe87c84f5fbc5d",
+          "message": "ci: gate test/integration jobs on -Dwarnings (#1375)",
+          "timestamp": "2026-05-02T18:31:54Z",
+          "tree_id": "3f01a5e17007146038bfc2cc60d801138678783f",
+          "url": "https://github.com/NomicFoundation/edr/commit/e5934f091d6338c859353e17d1fe87c84f5fbc5d"
+        },
+        "date": 1777747845286,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30997208,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10218,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 253071,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7260,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32431811,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 25384,
             "unit": "us"
           }
         ]
