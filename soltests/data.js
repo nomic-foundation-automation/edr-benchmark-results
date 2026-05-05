@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777967937048,
+  "lastUpdate": 1777971285809,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6263,6 +6263,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 24292,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7062487d77dbe3619dd7a29bc54d117428e17361",
+          "message": "ci: remove redundant manual Rust cache from benchmark jobs (#1381)",
+          "timestamp": "2026-05-05T07:41:55Z",
+          "tree_id": "c55f87744141b8dc4c85c08bd8c3cac00870e6a8",
+          "url": "https://github.com/NomicFoundation/edr/commit/7062487d77dbe3619dd7a29bc54d117428e17361"
+        },
+        "date": 1777971285570,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31325292,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9487,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 255128,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7178,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32670813,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 35195,
             "unit": "us"
           }
         ]
