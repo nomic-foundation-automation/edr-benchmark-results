@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777747845487,
+  "lastUpdate": 1777967937048,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6209,6 +6209,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 25384,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b24ae3bfc915b1c25f5c4733fa6dd9d9b54200bc",
+          "message": "test: stop interval mining in afterEach to prevent leaked tokio tasks (#1378)",
+          "timestamp": "2026-05-05T07:40:52Z",
+          "tree_id": "2311ee70a3f85b058ac2081322df4beeeda81262",
+          "url": "https://github.com/NomicFoundation/edr/commit/b24ae3bfc915b1c25f5c4733fa6dd9d9b54200bc"
+        },
+        "date": 1777967936814,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30927607,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9446,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 251479,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7366,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31445125,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 24292,
             "unit": "us"
           }
         ]
