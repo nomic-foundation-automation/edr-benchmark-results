@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777986451794,
+  "lastUpdate": 1778083705315,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6371,6 +6371,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 160647,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7baba1b4a47cedcfc2b25df706f22f558dfe872f",
+          "message": "build: update to Rust v1.94.0 (#1386)",
+          "timestamp": "2026-05-06T15:41:35Z",
+          "tree_id": "c909d1aeb353363f6c158bd698328b996fbcba76",
+          "url": "https://github.com/NomicFoundation/edr/commit/7baba1b4a47cedcfc2b25df706f22f558dfe872f"
+        },
+        "date": 1778083705071,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31205739,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9692,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 237175,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7292,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32026765,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 25558,
             "unit": "us"
           }
         ]
