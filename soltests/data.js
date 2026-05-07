@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778083705315,
+  "lastUpdate": 1778175838194,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6425,6 +6425,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 25558,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc2786fece15ab9564c2982b82242aee7b790d7e",
+          "message": "ci(edr-npm-release): pin pnpm to 10.17.1 in Dockerized test legs (#1390)",
+          "timestamp": "2026-05-07T17:21:41Z",
+          "tree_id": "0406ddd4bf01f765c272b022a7998996d26162bb",
+          "url": "https://github.com/NomicFoundation/edr/commit/bc2786fece15ab9564c2982b82242aee7b790d7e"
+        },
+        "date": 1778175837950,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31126900,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9749,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 252192,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7547,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34307793,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 23257,
             "unit": "us"
           }
         ]
