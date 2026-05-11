@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778175838194,
+  "lastUpdate": 1778521259952,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6479,6 +6479,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 23257,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "650fd0bb6a3941c41e54259cfa9f37eed66f525c",
+          "message": "fix: coverage instrumentation interfering with single-call `vm.prank` (#1392)",
+          "timestamp": "2026-05-11T17:05:50Z",
+          "tree_id": "53204d47a23c584692a91ee9ce3d1c2ddfca1f87",
+          "url": "https://github.com/NomicFoundation/edr/commit/650fd0bb6a3941c41e54259cfa9f37eed66f525c"
+        },
+        "date": 1778521259138,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28951329,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9428,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 251872,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7459,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31824207,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 20734,
             "unit": "us"
           }
         ]
