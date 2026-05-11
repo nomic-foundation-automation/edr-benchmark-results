@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778521259952,
+  "lastUpdate": 1778522777051,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6533,6 +6533,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 20734,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c939346b89a761b76fdfa9440fda1f646800242",
+          "message": "build: upgrade Slang to v1.3.5 (#1387)",
+          "timestamp": "2026-05-11T17:39:26Z",
+          "tree_id": "76a1bc6e985d6d2ac761fec027ebeab73ed1f9d4",
+          "url": "https://github.com/NomicFoundation/edr/commit/5c939346b89a761b76fdfa9440fda1f646800242"
+        },
+        "date": 1778522776806,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32432045,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9494,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275961,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7085,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32844303,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 25389,
             "unit": "us"
           }
         ]
