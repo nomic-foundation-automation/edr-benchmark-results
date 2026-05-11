@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778530654983,
+  "lastUpdate": 1778535437597,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6641,6 +6641,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132014,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8e32c1415d76cc471cf928056ca35e45b760d2f3",
+          "message": "feat: allow disabling of transaction gas cap and block gas limit (#1389)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-05-11T21:10:06Z",
+          "tree_id": "ce262c1ae902e119d29d504ad0b4867430047c33",
+          "url": "https://github.com/NomicFoundation/edr/commit/8e32c1415d76cc471cf928056ca35e45b760d2f3"
+        },
+        "date": 1778535436700,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34361565,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10738,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 299253,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8488,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34164634,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137679,
             "unit": "us"
           }
         ]
