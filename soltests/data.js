@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778522777051,
+  "lastUpdate": 1778530654983,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6587,6 +6587,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 25389,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad94617c9128b500d0f745dbc16c00b17e9fd7b7",
+          "message": "fix(CI): write to correct path in forge-std patch (#1398)",
+          "timestamp": "2026-05-11T19:52:22Z",
+          "tree_id": "e924c21b6bbdd3255ac74821a72b2d7df1e56c83",
+          "url": "https://github.com/NomicFoundation/edr/commit/ad94617c9128b500d0f745dbc16c00b17e9fd7b7"
+        },
+        "date": 1778530654121,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34729090,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10889,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 293981,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7715,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34558168,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132014,
             "unit": "us"
           }
         ]
