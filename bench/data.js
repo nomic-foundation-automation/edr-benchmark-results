@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778536704142,
+  "lastUpdate": 1778607663329,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "37712236+popescuoctavian@users.noreply.github.com",
-            "name": "Octavian Popescu",
-            "username": "popescuoctavian"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "d9b5dd8fdb8d45cebf49e471a8b8461c6da43597",
-          "message": "fix: return error instead of panic for missing `startSnapshotGas` (#1307)",
-          "timestamp": "2026-02-25T07:28:39Z",
-          "tree_id": "133c66f03a78488c14a55e3ff2b3e236010c1a9d",
-          "url": "https://github.com/NomicFoundation/edr/commit/d9b5dd8fdb8d45cebf49e471a8b8461c6da43597"
-        },
-        "date": 1772007265311,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 197353.600113,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 18653.726237000003,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 8544.10022,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 11081.71513,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 575.2005279999998,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 4280.298169000001,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 150761.90131400002,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 3456.6585149999996,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4063.091577,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f42c07a94aa7321e19c382a4763abbdd21d704b5",
+          "message": "fix: remove gas snapshot name validation (#1399)",
+          "timestamp": "2026-05-12T17:07:25Z",
+          "tree_id": "8a8ca096952ba03b4db170380ca602513e628834",
+          "url": "https://github.com/NomicFoundation/edr/commit/f42c07a94aa7321e19c382a4763abbdd21d704b5"
+        },
+        "date": 1778607662561,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 204221.352856,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 21098.670097000002,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 9386.192619,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 11919.596877,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 683.351255,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 4771.931585,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 152500.699979,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 3860.910444,
             "unit": "ms"
           }
         ]
