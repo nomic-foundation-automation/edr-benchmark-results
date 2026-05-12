@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778535437597,
+  "lastUpdate": 1778607013073,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6695,6 +6695,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 137679,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f42c07a94aa7321e19c382a4763abbdd21d704b5",
+          "message": "fix: remove gas snapshot name validation (#1399)",
+          "timestamp": "2026-05-12T17:07:25Z",
+          "tree_id": "8a8ca096952ba03b4db170380ca602513e628834",
+          "url": "https://github.com/NomicFoundation/edr/commit/f42c07a94aa7321e19c382a4763abbdd21d704b5"
+        },
+        "date": 1778607012787,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33017637,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9459,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247062,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7256,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33383882,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 21995,
             "unit": "us"
           }
         ]
