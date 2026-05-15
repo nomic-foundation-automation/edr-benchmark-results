@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778857143759,
+  "lastUpdate": 1778871021137,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6911,6 +6911,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 148361,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4c1932b9b6917c8140fa3a4e30f803530c3356f4",
+          "message": "ci: disable rust-cache cache-bin to survive macOS image bumps (#1406)",
+          "timestamp": "2026-05-15T14:39:50Z",
+          "tree_id": "36e425f81081b8f0601befaf799aa9bf09a167f2",
+          "url": "https://github.com/NomicFoundation/edr/commit/4c1932b9b6917c8140fa3a4e30f803530c3356f4"
+        },
+        "date": 1778871020508,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31614980,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10493,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 286748,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7486,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31416884,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 161511,
             "unit": "us"
           }
         ]
