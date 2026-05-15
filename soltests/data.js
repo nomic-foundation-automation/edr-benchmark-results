@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778887489428,
+  "lastUpdate": 1778889290560,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7235,6 +7235,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 24542,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "75942726f7796c8c2155a34a1a1d970d55d8eb4f",
+          "message": "fix(deps): update rust crate rand to v0.9.3 [security] (#1405)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-05-15T23:02:40Z",
+          "tree_id": "006564969108454462bcef0de1b1402dfd2dcec0",
+          "url": "https://github.com/NomicFoundation/edr/commit/75942726f7796c8c2155a34a1a1d970d55d8eb4f"
+        },
+        "date": 1778889289978,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29834905,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9531,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 225573,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7267,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30372536,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 27286,
             "unit": "us"
           }
         ]
