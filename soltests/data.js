@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778884862211,
+  "lastUpdate": 1778887489428,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7181,6 +7181,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 41212,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a112a341262955ed711a02eab13fe275a5db6fd7",
+          "message": "chore(deps): update pnpm to v10.28.2 [security] (#1402)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-05-15T23:02:29Z",
+          "tree_id": "fd02c4d0e3fcab7d5d5369a6598965d1f57e7533",
+          "url": "https://github.com/NomicFoundation/edr/commit/a112a341262955ed711a02eab13fe275a5db6fd7"
+        },
+        "date": 1778887489128,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32457890,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9698,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 234876,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7338,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31520359,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 24542,
             "unit": "us"
           }
         ]
