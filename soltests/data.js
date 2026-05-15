@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778618345714,
+  "lastUpdate": 1778849010682,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6803,6 +6803,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134540,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1531c3501853cb141338f4b1818699fd69f0658f",
+          "message": "chore: Configure Renovate (#1372)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-05-15T12:19:59Z",
+          "tree_id": "38e32ee2620b492293a533a33200238ed1172edc",
+          "url": "https://github.com/NomicFoundation/edr/commit/1531c3501853cb141338f4b1818699fd69f0658f"
+        },
+        "date": 1778849009945,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33954515,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10683,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 296762,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7647,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33854120,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148555,
             "unit": "us"
           }
         ]
