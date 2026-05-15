@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778849010682,
+  "lastUpdate": 1778857143759,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6857,6 +6857,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 148555,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a1eedcdf3577bd358034b0738bb22d2567f422f",
+          "message": "ci(npm-release): cache cargo on non-release runs only (#1379)",
+          "timestamp": "2026-05-15T12:28:39Z",
+          "tree_id": "53f4e345b914e7a55670ff0a01f4fcd366a59891",
+          "url": "https://github.com/NomicFoundation/edr/commit/2a1eedcdf3577bd358034b0738bb22d2567f422f"
+        },
+        "date": 1778857143177,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34076375,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14668,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 298425,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8065,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33866678,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148361,
             "unit": "us"
           }
         ]
