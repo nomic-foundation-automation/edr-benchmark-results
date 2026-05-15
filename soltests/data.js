@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778871021137,
+  "lastUpdate": 1778874676782,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -6965,6 +6965,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 161511,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40d29cabd68b244490d5a2f189cb0baa98f29351",
+          "message": "chore(deps): update rust crate tracing-subscriber to v0.3.22 [security] (#1407)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-15T16:37:03Z",
+          "tree_id": "8f9530ba12c733c544dbb2a368c52309f81ba310",
+          "url": "https://github.com/NomicFoundation/edr/commit/40d29cabd68b244490d5a2f189cb0baa98f29351"
+        },
+        "date": 1778874676171,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34567701,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10647,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 299035,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7636,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34469648,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 160760,
             "unit": "us"
           }
         ]
