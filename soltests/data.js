@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778878047010,
+  "lastUpdate": 1778881676293,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7073,6 +7073,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 155863,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "786a967f89cb08bb61083231b42c1c562de25c05",
+          "message": "chore(deps): update rust crate tracing-subscriber to v0.3.23 [security] (#1408)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-15T20:14:06Z",
+          "tree_id": "a1f73202b0a734ccac734e8f2a1a8170274c7dbf",
+          "url": "https://github.com/NomicFoundation/edr/commit/786a967f89cb08bb61083231b42c1c562de25c05"
+        },
+        "date": 1778881676066,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30963944,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9484,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 233101,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7267,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30815929,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 24764,
             "unit": "us"
           }
         ]
