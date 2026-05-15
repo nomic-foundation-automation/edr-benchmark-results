@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778882620983,
+  "lastUpdate": 1778886035308,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "aghiglia@manas.tech",
-            "name": "Ana Perez Ghiglia",
-            "username": "anaPerezGhiglia"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "8d57fc6ed1d0c61812a9e5e93353d60c34db1d19",
-          "message": "chore(ci): Add cargo cooldown check to ci and release workflows (#1314)",
-          "timestamp": "2026-03-05T20:06:41Z",
-          "tree_id": "167584135bba5f948acbc7eee0647d693af66b0d",
-          "url": "https://github.com/NomicFoundation/edr/commit/8d57fc6ed1d0c61812a9e5e93353d60c34db1d19"
-        },
-        "date": 1772744242455,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 195112.52518400003,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 18033.656185,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 8172.747651999999,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 10893.042167000001,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 570.6349160000002,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 4210.339023,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 149696.760794,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 3535.344447,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4020.381869,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f879b3de1bde598918c86229ab9e36774061c352",
+          "message": "chore(deps): update rust crate alloy-dyn-abi to v1.4.1 [security] (#1403)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-15T21:43:13Z",
+          "tree_id": "642bc30e63771cc26891484b748be020e8bd6421",
+          "url": "https://github.com/NomicFoundation/edr/commit/f879b3de1bde598918c86229ab9e36774061c352"
+        },
+        "date": 1778886035097,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 202482.07833,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 17864.422315,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 7917.272064000001,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 12203.253752,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 595.3023910000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 3793.357897,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 156932.118174,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 3176.3517370000004,
             "unit": "ms"
           }
         ]
