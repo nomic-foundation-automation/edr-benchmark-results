@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779051362793,
+  "lastUpdate": 1779058103070,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7451,6 +7451,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 28723,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f16db68e90e48f18c4a9e56d36e0853b80d10ec0",
+          "message": "fix(deps): update rust crate lru to 0.18.0 (#1416)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-17T22:25:44Z",
+          "tree_id": "100ae27b9c847ce42fc38b3bad80ecdcbefecaba",
+          "url": "https://github.com/NomicFoundation/edr/commit/f16db68e90e48f18c4a9e56d36e0853b80d10ec0"
+        },
+        "date": 1779058102860,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30904717,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9248,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 230761,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7306,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32001216,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 21749,
             "unit": "us"
           }
         ]
