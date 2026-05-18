@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779058103070,
+  "lastUpdate": 1779062507259,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7505,6 +7505,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 21749,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ab2f79e54545a7be8dcc635827e84a205416647",
+          "message": "chore(deps): update rust crate toml to 0.9 (#1415)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-17T23:39:04Z",
+          "tree_id": "b9e863cb54e95e21131f8408adf95f88d3426faf",
+          "url": "https://github.com/NomicFoundation/edr/commit/4ab2f79e54545a7be8dcc635827e84a205416647"
+        },
+        "date": 1779062507018,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32230928,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9787,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 237458,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7416,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32789404,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 26353,
             "unit": "us"
           }
         ]
