@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779097769272,
+  "lastUpdate": 1779099999415,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7613,6 +7613,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 25978,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c765382f97d41f5b1201ed4e95c5a788253b0507",
+          "message": "chore(deps): update rust crate criterion to v0.8.2 (#1421)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-05-18T09:36:58Z",
+          "tree_id": "d531340d8e0d5f306ddf10605d65cb8ec974d7c5",
+          "url": "https://github.com/NomicFoundation/edr/commit/c765382f97d41f5b1201ed4e95c5a788253b0507"
+        },
+        "date": 1779099999202,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32203759,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10178,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 262141,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7927,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32766644,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 24122,
             "unit": "us"
           }
         ]
