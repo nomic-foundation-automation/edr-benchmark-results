@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779106227231,
+  "lastUpdate": 1779114304083,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7829,6 +7829,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 26159,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d57dee42ea2ffa84eedfe533bf7adc2fcdc9e42f",
+          "message": "Bas/fix ci test flakes (#1424)",
+          "timestamp": "2026-05-18T14:00:17Z",
+          "tree_id": "19aa439491f6ffc7d518fb7f061d9cefc28bda1f",
+          "url": "https://github.com/NomicFoundation/edr/commit/d57dee42ea2ffa84eedfe533bf7adc2fcdc9e42f"
+        },
+        "date": 1779114303061,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 36178737,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10614,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 292026,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7733,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35982835,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148491,
             "unit": "us"
           }
         ]
