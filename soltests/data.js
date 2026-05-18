@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779102509122,
+  "lastUpdate": 1779104383937,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7721,6 +7721,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 151565,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "176aa48868f5830d37446c3b9e81bb309afddf01",
+          "message": "chore(deps): update foundry (#1419)\n\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-05-18T10:30:20Z",
+          "tree_id": "7ddc7c01b0c158494dcc0985394b9ba32df6074f",
+          "url": "https://github.com/NomicFoundation/edr/commit/176aa48868f5830d37446c3b9e81bb309afddf01"
+        },
+        "date": 1779104383678,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29990878,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9847,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 238420,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7820,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31054274,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 25178,
             "unit": "us"
           }
         ]
