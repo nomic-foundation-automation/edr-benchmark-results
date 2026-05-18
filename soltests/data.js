@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779104383937,
+  "lastUpdate": 1779106227231,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7775,6 +7775,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 25178,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fbe8a8a5f2d15aa907717ef91571aaff16cb64c0",
+          "message": "build: bump .nvmrc to 20 to match engines.node (#1423)",
+          "timestamp": "2026-05-18T11:31:57Z",
+          "tree_id": "1744b162a83d06a2880230cc8f38feafa2841d02",
+          "url": "https://github.com/NomicFoundation/edr/commit/fbe8a8a5f2d15aa907717ef91571aaff16cb64c0"
+        },
+        "date": 1779106226517,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30913487,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 9780,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 242212,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7619,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33886264,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 26159,
             "unit": "us"
           }
         ]
