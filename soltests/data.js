@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779288291717,
+  "lastUpdate": 1779364983516,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -7991,6 +7991,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 153039,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc356677261866f1fec5d380d702960aa60f3e0e",
+          "message": "chore(deps): update rust crate napi-build to v2.3.2 (#1422)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-21T11:16:34Z",
+          "tree_id": "cd49727a21d6a95affb61f969a76d210df3133e2",
+          "url": "https://github.com/NomicFoundation/edr/commit/dc356677261866f1fec5d380d702960aa60f3e0e"
+        },
+        "date": 1779364982917,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35416357,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10861,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 297992,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7856,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35250483,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 163832,
             "unit": "us"
           }
         ]
