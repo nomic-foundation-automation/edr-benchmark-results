@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779364983516,
+  "lastUpdate": 1779462837848,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8045,6 +8045,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 163832,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bcb772ed4c51f2cc663a6be25f0a22fa7b2b5791",
+          "message": "improvement: print full eyre::Report chain (#1430)",
+          "timestamp": "2026-05-22T13:50:13Z",
+          "tree_id": "6914cead1abe003b18b79a5fb153e0dee1a47a8c",
+          "url": "https://github.com/NomicFoundation/edr/commit/bcb772ed4c51f2cc663a6be25f0a22fa7b2b5791"
+        },
+        "date": 1779462837228,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32754977,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10528,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 286439,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8198,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32606880,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 163735,
             "unit": "us"
           }
         ]
