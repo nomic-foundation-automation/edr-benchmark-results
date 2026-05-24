@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779462837848,
+  "lastUpdate": 1779599883555,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8099,6 +8099,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 163735,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "56f6c347f19fb06f3a1b76bc93f537747bd25f00",
+          "message": "fix(edr_napi): detach provider drop from JS thread to prevent deadlock (#1436)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-05-24T04:53:23Z",
+          "tree_id": "96c854184ac2b0308b4c7e56fe356633fe50b1ef",
+          "url": "https://github.com/NomicFoundation/edr/commit/56f6c347f19fb06f3a1b76bc93f537747bd25f00"
+        },
+        "date": 1779599882978,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32366860,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10614,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 284810,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8813,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32191819,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144618,
             "unit": "us"
           }
         ]
