@@ -106,6 +106,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.2/dist/Chart.min.js"></script>
     <script src="data.js"></script>
+    <script src="baselines.js"></script>
     <script id="main-script">
       'use strict';
       (function() {
@@ -162,13 +163,16 @@
           };
 
           // Prepare data points for charts
-          return Object.keys(data.entries).map(name => ({
-            name,
-            dataSet: collectBenchesPerTestCase(data.entries[name]),
-          }));
+          return {
+            dataSets: Object.keys(data.entries).map(name => ({
+              name,
+              dataSet: collectBenchesPerTestCase(data.entries[name]),
+            })),
+            baselines: (window.BASELINE_DATA && window.BASELINE_DATA.entries) || {},
+          };
         }
 
-        function renderAllChars(dataSets) {
+        function renderAllChars({dataSets, baselines}) {
 
           function renderGraph(parent, name, dataset) {
             const canvas = document.createElement('canvas');
@@ -187,6 +191,21 @@
                 }
               ],
             };
+
+            const baseline = baselines[name];
+            if (baseline !== undefined) {
+              data.datasets.push({
+                label: baseline.name,
+                data: dataset.map(() => baseline.value),
+                borderColor: '#cc6644',
+                backgroundColor: 'transparent',
+                borderDash: [5, 5],
+                borderWidth: 2,
+                pointRadius: 0,
+                pointHoverRadius: 0,
+                fill: false,
+              });
+            }
             const options = {
               scales: {
                 xAxes: [
