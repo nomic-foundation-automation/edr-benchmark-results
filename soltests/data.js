@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779599883555,
+  "lastUpdate": 1779720795534,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8153,6 +8153,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144618,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6747f45251d2a3f35e882897c66a6296c9e9508a",
+          "message": "fix: default gas limit of Solidity test runner (#1432)",
+          "timestamp": "2026-05-25T14:28:59Z",
+          "tree_id": "0ff0598ca2fdebe367462a71c5750085a75dd758",
+          "url": "https://github.com/NomicFoundation/edr/commit/6747f45251d2a3f35e882897c66a6296c9e9508a"
+        },
+        "date": 1779720794783,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33641195,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10661,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 291699,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7731,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33552136,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148703,
             "unit": "us"
           }
         ]
