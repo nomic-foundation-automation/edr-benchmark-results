@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780160566583,
+  "lastUpdate": 1780167818305,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8423,6 +8423,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 152226,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "96c2c7d9980f193c7dd4790b35f2de084f1ce572",
+          "message": "chore(deps): update rust crate sha3 to 0.12.0 (#1441)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-05-30T17:33:39Z",
+          "tree_id": "d42051107dd4dee2fcbbfc1256d965097118f7ef",
+          "url": "https://github.com/NomicFoundation/edr/commit/96c2c7d9980f193c7dd4790b35f2de084f1ce572"
+        },
+        "date": 1780167817718,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33947108,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10591,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 295893,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7712,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33804770,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145270,
             "unit": "us"
           }
         ]
