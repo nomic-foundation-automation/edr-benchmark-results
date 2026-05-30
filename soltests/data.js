@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779802672035,
+  "lastUpdate": 1780139147239,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8315,6 +8315,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 163710,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e13e3ba29d78ab6401bf79b48f99c7ce20aed513",
+          "message": "chore(deps): update rust crate rayon to v1.12.0 (#1440)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-30T10:40:31Z",
+          "tree_id": "dff316a9b3da3319c10ce1f62e2d9b06962e3a8a",
+          "url": "https://github.com/NomicFoundation/edr/commit/e13e3ba29d78ab6401bf79b48f99c7ce20aed513"
+        },
+        "date": 1780139146410,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33379948,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10763,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 284298,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9065,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33132055,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 135380,
             "unit": "us"
           }
         ]
