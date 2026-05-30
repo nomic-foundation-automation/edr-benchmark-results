@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780167818305,
+  "lastUpdate": 1780181849502,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8477,6 +8477,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 145270,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "577554dca34567be37d853a4432add97658a3701",
+          "message": "fix(deps): update rust crate itertools to 0.14.0 (#1434)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-30T18:32:42Z",
+          "tree_id": "b1459568bfc63225179943c49f3aa929d4749412",
+          "url": "https://github.com/NomicFoundation/edr/commit/577554dca34567be37d853a4432add97658a3701"
+        },
+        "date": 1780181848966,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34405601,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10491,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 298526,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7720,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34296197,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 141906,
             "unit": "us"
           }
         ]
