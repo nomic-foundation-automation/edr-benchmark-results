@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780187885179,
+  "lastUpdate": 1780189001193,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8585,6 +8585,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133114,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40fef6dd83044516d85de73af1550e6bc2013772",
+          "message": "chore(deps): update rust crate tokio to v1.52.3 (#1443)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-05-31T00:25:44Z",
+          "tree_id": "86b42182c6c180f0f207d31a3397321d64e5963a",
+          "url": "https://github.com/NomicFoundation/edr/commit/40fef6dd83044516d85de73af1550e6bc2013772"
+        },
+        "date": 1780189000547,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 36418055,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10642,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 298352,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7819,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 36235116,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137883,
             "unit": "us"
           }
         ]
