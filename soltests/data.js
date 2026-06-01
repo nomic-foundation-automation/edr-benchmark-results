@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780324618505,
+  "lastUpdate": 1780326846821,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8855,6 +8855,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132282,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9120979e36aece435359e2c299eb64b6290d4242",
+          "message": "chore: remove unused tikv-jemallocator workspace dependency (#1446)",
+          "timestamp": "2026-06-01T14:13:03Z",
+          "tree_id": "5ae08209161a8a5dcc38144aa698ad89b2cd06aa",
+          "url": "https://github.com/NomicFoundation/edr/commit/9120979e36aece435359e2c299eb64b6290d4242"
+        },
+        "date": 1780326846265,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32247962,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10585,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288447,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8249,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32071754,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 147544,
             "unit": "us"
           }
         ]
