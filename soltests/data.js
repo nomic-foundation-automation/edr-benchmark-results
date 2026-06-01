@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780314673195,
+  "lastUpdate": 1780320802201,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8747,6 +8747,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 147249,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87e07c240ac3224c802c99dea01d8f2a18a60a87",
+          "message": "chore(deps): update rust crate tower to 0.5 (#1451)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-01T12:45:14Z",
+          "tree_id": "3905a18d5081bcd188b6c62ed3da6ed55c82956c",
+          "url": "https://github.com/NomicFoundation/edr/commit/87e07c240ac3224c802c99dea01d8f2a18a60a87"
+        },
+        "date": 1780320801681,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32042358,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10430,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 285011,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8421,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31810059,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 153455,
             "unit": "us"
           }
         ]
