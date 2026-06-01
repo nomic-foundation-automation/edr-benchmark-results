@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780326846821,
+  "lastUpdate": 1780329048226,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -8909,6 +8909,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 147544,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb5f1a34a73c26a271b1aee99a305c73e0b83ab9",
+          "message": "chore: remove unused tower-http workspace dependency (#1453)",
+          "timestamp": "2026-06-01T15:00:58Z",
+          "tree_id": "f9588e2648759f0421107889d3087eed2bd2d2b2",
+          "url": "https://github.com/NomicFoundation/edr/commit/eb5f1a34a73c26a271b1aee99a305c73e0b83ab9"
+        },
+        "date": 1780329047430,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31303761,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10602,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 289721,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7908,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31175632,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 150255,
             "unit": "us"
           }
         ]
