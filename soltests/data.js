@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780427060267,
+  "lastUpdate": 1780440770552,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9017,6 +9017,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140782,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "1284308690f5298be374064aecf4f3720dd509e7",
+          "message": "test: validate issue #722 is solved (#1458)",
+          "timestamp": "2026-06-02T22:08:09Z",
+          "tree_id": "b1309333069e0cc5086be43c63619809a82159aa",
+          "url": "https://github.com/NomicFoundation/edr/commit/1284308690f5298be374064aecf4f3720dd509e7"
+        },
+        "date": 1780440769950,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33406454,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10507,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 293249,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8292,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33318204,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 180806,
             "unit": "us"
           }
         ]
