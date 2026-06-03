@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780496177437,
+  "lastUpdate": 1780508204757,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9233,6 +9233,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 157870,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc119c2d923d69832866c267dce430228c5bb350",
+          "message": "refactor(trie): migrate off abandoned triehash to alloy-trie (#1447)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-06-03T16:32:07Z",
+          "tree_id": "d4f31078091e393b2ba3e2a250d511b37ec0edf5",
+          "url": "https://github.com/NomicFoundation/edr/commit/bc119c2d923d69832866c267dce430228c5bb350"
+        },
+        "date": 1780508204164,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34891353,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10645,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 287274,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9273,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34853826,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 165777,
             "unit": "us"
           }
         ]
