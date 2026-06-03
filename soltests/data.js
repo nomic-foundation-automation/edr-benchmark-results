@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780495244212,
+  "lastUpdate": 1780496177437,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9179,6 +9179,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 160476,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5cd8bf5215fd43f7df01af51079f3d03f424c621",
+          "message": "build: upgrade REVM to v34.0 (#1320)\n\nCo-authored-by: Octavian Popescu <popescu.octavian09@gmail.com>\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>",
+          "timestamp": "2026-06-03T13:44:09Z",
+          "tree_id": "4d08f97b674d819dfc7eacb3db16d4a5dff933fb",
+          "url": "https://github.com/NomicFoundation/edr/commit/5cd8bf5215fd43f7df01af51079f3d03f424c621"
+        },
+        "date": 1780496176843,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33680335,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10590,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 284213,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8653,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33587779,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 157870,
             "unit": "us"
           }
         ]
