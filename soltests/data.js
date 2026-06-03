@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780440770552,
+  "lastUpdate": 1780459097418,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9071,6 +9071,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 180806,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4170bd4d4845b4ccf4cdb02846af1c4cf604f795",
+          "message": "chore(release): exit changesets pre mode for stable 0.12.0 (#1456)",
+          "timestamp": "2026-06-03T03:33:48Z",
+          "tree_id": "307baa587a1efc602d682efd2b3e405c8fb6dec3",
+          "url": "https://github.com/NomicFoundation/edr/commit/4170bd4d4845b4ccf4cdb02846af1c4cf604f795"
+        },
+        "date": 1780459096842,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33460594,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10675,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 294557,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7945,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33265079,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145970,
             "unit": "us"
           }
         ]
