@@ -37,6 +37,20 @@
         display: flex;
         flex-direction: column;
       }
+      .toolbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        /* Cancel the body's 8px margin so the bar spans edge to edge and
+           pins flush to the top of the viewport when scrolling. */
+        margin: -8px -8px 8px;
+        padding: 8px;
+        background: #fff;
+        border-bottom: 1px solid #e0e0e0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
       main {
         width: 100%;
         display: flex;
@@ -148,6 +162,16 @@
   </head>
 
   <body>
+    <header class="toolbar">
+      <strong class="header-label">Show entries:</strong>
+      <select id="entry-limit">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="25">25</option>
+        <option value="50">50</option>
+        <option value="all">all</option>
+      </select>
+    </header>
     <header id="header">
       <div class="header-item">
         <strong class="header-label">Last Update:</strong>
@@ -244,7 +268,16 @@
         }
 
         function renderAllChars({ dataSets, baselines }) {
+          // How many of the most recent entries each chart shows. Controlled by
+          // the selector in the header; Infinity means "all".
+          let maxEntries = 25;
+
           function renderGraph(parent, name, dataset) {
+            // Show only the most recent entries; older history is dropped to
+            // keep charts readable. Entries arrive oldest-first, so take the
+            // tail. (slice(-Infinity) returns the whole array, i.e. "all".)
+            dataset = dataset.slice(-maxEntries);
+
             // The grid item must be a plain block element, not the canvas
             // itself: a responsive Chart.js canvas can't report a stable size
             // as a direct grid item, which makes charts overlap when the column
@@ -308,8 +341,9 @@
                   pointHoverRadius: 0,
                   fill: false,
                   order: 0,
-                  // Legend swatch: the band's lower edge (line at the bottom).
-                  _legend: { kind: "edge-bottom", color },
+                  // Legend swatch: inverse of the max swatch — same shaded fill
+                  // with the colored edge line along the bottom.
+                  _legend: { kind: "edge-bottom", color, fill: color + "20" },
                 },
                 {
                   label: "max",
@@ -375,12 +409,12 @@
               });
             }
 
-            // Truncate the y-axis to the measured range plus a safety band
-            // instead of anchoring at zero; otherwise the min/max/median/mean
-            // lines collapse into a thin strip. `truncated` records whether we
-            // actually skip a stretch above zero, which the break-marker plugin
-            // below visualizes. The baseline is folded in (below) so its
-            // reference line stays on-screen.
+            // Zoom the y-axis to the measured values so variation is visible,
+            // but cap how far we zoom in so the min–max band can't fill the
+            // whole chart (see MIN_RANGE_RATIO below). `truncated` records
+            // whether the axis ends up skipping a stretch above zero, which the
+            // break-marker plugin below visualizes. The baseline is folded in
+            // (below) so its reference line stays on-screen.
             const measured = [];
             for (const s of stats) {
               for (const v of [s.min, s.max, s.median, s.mean]) {
@@ -410,52 +444,100 @@
                         : 10;
               return nice * mag;
             }
+            // Largest allowed zoom: the visible range must be at least this
+            // fraction of the magnitude. A small spread would otherwise be
+            // magnified until the min–max band fills the whole chart, making
+            // noise look dramatic. Lower = allow tighter zoom; higher = force
+            // more context. Tunable.
+            const MIN_RANGE_RATIO = 0.2;
             let yTicks = { beginAtZero: true };
             let truncated = false;
+            // When the axis is truncated we extend it one step below the data
+            // so a "0" tick can sit at the base; the break is drawn between
+            // these two values.
+            let breakLow = 0;
+            let breakHigh = 0;
             if (measured.length > 0) {
               const lo = Math.min(...measured);
               const hi = Math.max(...measured);
               const span = hi - lo;
-              // 15% safety band around the data; fall back to 5% of the value
-              // (or 1) when every point coincides and the span is zero.
-              const pad = span > 0 ? span * 0.15 : Math.abs(hi) * 0.05 || 1;
-              // Snap the padded bounds outward to whole multiples of a nice
-              // step so the top and bottom gridlines align with the axis edges
-              // (no partial first/last interval).
-              const step = niceStep(hi + pad - (lo - pad), 6);
-              let yMin = Math.floor((lo - pad) / step) * step;
-              const yMax = Math.ceil((hi + pad) / step) * step;
+
+              // Natural zoom: a tight band around the data, padded
+              // asymmetrically so there is more room below than above (we
+              // always prefer spending headroom toward the bottom / zero).
+              const top = hi + span * 0.05;
+              let bottom = lo - span * 0.2;
+
+              // Enforce the zoom cap: if the natural band is tighter than the
+              // minimum range, grow it downward (never upward) toward zero.
+              const minRange =
+                (hi > 0 ? hi : Math.abs(lo) || 1) * MIN_RANGE_RATIO;
+              if (top - bottom < minRange) {
+                bottom = top - minRange;
+              }
+              if (bottom < 0) bottom = 0;
+
+              // Snap the bounds outward to whole multiples of a nice step so the
+              // top and bottom gridlines align with the axis edges.
+              const step = niceStep(top - bottom, 6);
+              const yMin = Math.floor(bottom / step) * step;
+              const yMax = Math.ceil(top / step) * step;
               truncated = yMin > 0;
-              if (yMin < 0) yMin = 0;
-              yTicks = { min: yMin, max: yMax, stepSize: step };
+              if (truncated) {
+                // Broken axis: keep 0 pinned at the base by extending the scale
+                // one step below the data and relabeling that bottom tick "0".
+                // The out-of-scale jump from 0 up to the zoomed region collapses
+                // into that one-step gap, marked by the break (drawn below).
+                breakLow = yMin - step;
+                breakHigh = yMin;
+                yTicks = {
+                  min: breakLow,
+                  max: yMax,
+                  stepSize: step,
+                  callback: (value) =>
+                    Math.abs(value - breakLow) < step / 2
+                      ? "0"
+                      : // strip binary float noise (e.g. 11.000000002)
+                        parseFloat(value.toPrecision(12)).toString(),
+                };
+              } else {
+                yTicks = { min: yMin, max: yMax, stepSize: step };
+              }
             }
 
-            // Draws the conventional "//" axis-break mark at the bottom of the
-            // y-axis so a truncated (non-zero-based) scale is obvious.
+            // Draws the conventional "//" break in the gap between the "0" tick
+            // and the first data tick, marking the out-of-scale jump on a
+            // truncated axis.
             const axisBreakPlugin = {
               afterDraw: (chart) => {
                 if (!truncated) return;
                 const ctx = chart.ctx;
-                const { left, bottom } = chart.chartArea;
+                const yScale = chart.scales["y-axis-0"];
+                const left = chart.chartArea.left;
+                // Centre the mark in the middle of the 0-to-data gap.
+                const cy =
+                  (yScale.getPixelForValue(breakLow) +
+                    yScale.getPixelForValue(breakHigh)) /
+                  2;
                 const w = 5; // horizontal half-extent of each slash
                 const h = 4; // vertical half-extent of each slash
                 const gap = 5; // spacing between the two slashes
                 ctx.save();
-                for (const off of [0, gap]) {
-                  const cy = bottom - 4 - off;
+                for (const off of [-gap / 2, gap / 2]) {
+                  const y = cy + off;
                   // Mask the axis line first, then stroke the slash on top so
                   // the mark reads as a genuine gap in the axis.
                   ctx.strokeStyle = "#fff";
                   ctx.lineWidth = 3;
                   ctx.beginPath();
-                  ctx.moveTo(left - w, cy + h);
-                  ctx.lineTo(left + w, cy - h);
+                  ctx.moveTo(left - w, y + h);
+                  ctx.lineTo(left + w, y - h);
                   ctx.stroke();
                   ctx.strokeStyle = "#666";
                   ctx.lineWidth = 1.5;
                   ctx.beginPath();
-                  ctx.moveTo(left - w, cy + h);
-                  ctx.lineTo(left + w, cy - h);
+                  ctx.moveTo(left - w, y + h);
+                  ctx.lineTo(left + w, y - h);
                   ctx.stroke();
                 }
                 ctx.restore();
@@ -466,6 +548,8 @@
               // max would look identical. Disable it and render a custom HTML
               // legend (below) whose swatches show the band's edges.
               legend: { display: false },
+              // Straight segments between points instead of Bézier smoothing.
+              elements: { line: { tension: 0 } },
               scales: {
                 xAxes: [
                   {
@@ -489,6 +573,10 @@
               tooltips: {
                 mode: "index",
                 intersect: false,
+                // Anchor to the point nearest the cursor rather than the
+                // average of all datasets; otherwise a far-off baseline (e.g.
+                // Foundry) drags the tooltip well below the actual lines.
+                position: "nearest",
                 // Hide the per-row color swatches: they don't match the band /
                 // line representation used on the chart and legend.
                 displayColors: false,
@@ -596,15 +684,49 @@
             graphsElem.className = "benchmark-graphs";
             setElem.appendChild(graphsElem);
 
-            for (const [benchName, benches] of benchSet.entries()) {
+            // Group charts by scenario so every "$scenario / $command" of the
+            // same scenario renders consecutively. Names sort by scenario
+            // first, then command; the sort is stable, so commands within a
+            // scenario keep their original order when the prefixes match.
+            const scenarioOf = (benchName) => benchName.split(" / ")[0];
+            const sorted = [...benchSet.entries()].sort(([a], [b]) => {
+              const sa = scenarioOf(a);
+              const sb = scenarioOf(b);
+              return sa < sb ? -1 : sa > sb ? 1 : 0;
+            });
+            for (const [benchName, benches] of sorted) {
               renderGraph(graphsElem, benchName, benches);
             }
           }
 
           const main = document.getElementById("main");
-          for (const { name, dataSet } of dataSets) {
-            renderBenchSet(name, dataSet, main);
+          function renderAll() {
+            main.innerHTML = "";
+            for (const { name, dataSet } of dataSets) {
+              renderBenchSet(name, dataSet, main);
+            }
           }
+
+          // Wire the header entry-count selector; re-render on change.
+          const limitSelect = document.getElementById("entry-limit");
+          if (limitSelect !== null) {
+            limitSelect.value = String(maxEntries);
+            limitSelect.onchange = () => {
+              maxEntries =
+                limitSelect.value === "all"
+                  ? Infinity
+                  : parseInt(limitSelect.value, 10);
+              // Rebuilding empties #main, which collapses the page and resets
+              // scroll. Chart heights don't depend on the entry count, so the
+              // page height is unchanged — restore the offset to keep the same
+              // chart in view.
+              const y = window.scrollY;
+              renderAll();
+              window.scrollTo(0, y);
+            };
+          }
+
+          renderAll();
         }
 
         renderAllChars(init()); // Start
