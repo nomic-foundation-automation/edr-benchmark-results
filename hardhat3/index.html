@@ -88,15 +88,60 @@
         text-align: center;
       }
       .benchmark-graphs {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        display: grid;
+        /* Fit as many ~1000px-wide charts per row as the viewport allows.
+           When only one fits, auto-fit expands that single column to fill the
+           row; the 2% side padding keeps it occupying most (not all) of the
+           width. min(1000px, 100%) avoids overflow on narrow screens. */
+        grid-template-columns: repeat(auto-fit, minmax(min(1000px, 100%), 1fr));
+        gap: 16px;
         align-items: center;
-        flex-wrap: wrap;
+        justify-items: center;
         width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
       }
       .benchmark-chart {
-        max-width: 1000px;
+        position: relative;
+        width: 100%;
+      }
+      .benchmark-chart-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        word-break: break-word;
+        text-align: center;
+        margin: 0 0 8px;
+      }
+      .chart-legend {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px 16px;
+        margin-bottom: 8px;
+        font-size: 0.85rem;
+      }
+      .legend-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        cursor: pointer;
+        user-select: none;
+      }
+      .legend-swatch {
+        display: inline-flex;
+        align-items: center;
+        width: 28px;
+        height: 14px;
+        box-sizing: border-box;
+        flex: none;
+      }
+      .legend-line {
+        width: 100%;
+        height: 0;
+      }
+      .legend-hidden {
+        opacity: 0.4;
+        text-decoration: line-through;
       }
     </style>
     <title>Benchmarks</title>
@@ -200,23 +245,118 @@
 
         function renderAllChars({ dataSets, baselines }) {
           function renderGraph(parent, name, dataset) {
+            // The grid item must be a plain block element, not the canvas
+            // itself: a responsive Chart.js canvas can't report a stable size
+            // as a direct grid item, which makes charts overlap when the column
+            // width changes (e.g. on zoom). Wrap it instead.
+            const container = document.createElement("div");
+            container.className = "benchmark-chart";
+            parent.appendChild(container);
+
+            const titleElem = document.createElement("h2");
+            titleElem.className = "benchmark-chart-title";
+            titleElem.textContent = name;
+            container.appendChild(titleElem);
+
             const canvas = document.createElement("canvas");
-            canvas.className = "benchmark-chart";
-            parent.appendChild(canvas);
+            container.appendChild(canvas);
 
             const color =
               toolColors[dataset.length > 0 ? dataset[0].tool : "_"];
+
+            // Read min/max/median/mean strictly from the (parsed) `extra` data.
+            // Missing/garbage extra yields nulls, which Chart.js renders as gaps.
+            function statsOf(bench) {
+              const num = (x) => (typeof x === "number" ? x : null);
+              try {
+                const e = JSON.parse(bench.extra || "{}");
+                return {
+                  min: num(e.min),
+                  max: num(e.max),
+                  median: num(e.median),
+                  mean: num(e.mean),
+                };
+              } catch (_) {
+                return { min: null, max: null, median: null, mean: null };
+              }
+            }
+            const stats = dataset.map((d) => statsOf(d.bench));
+
+            // Center-line colors picked from the Okabe–Ito colorblind-safe
+            // palette so mean and median stand out from the (red/green) band
+            // and the warm baseline. Blue vs. black differ in luminance, not
+            // just hue, so they stay distinguishable under any color-vision
+            // deficiency — and the dashed black median remains visible where it
+            // is drawn over the solid blue mean.
+            const meanColor = "#0072b2"; // Okabe–Ito blue
+            const medianColor = "#000000"; // black
+
+            // Datasets: a shaded min–max band (max fills down to min, index 0),
+            // with mean (solid) and median (dashed) center lines on top. Lower
+            // `order` draws first/behind, so the band sits behind the lines and
+            // the median (higher order) draws over the mean.
             const data = {
               labels: dataset.map((d) => d.commit.id.slice(0, 7)),
               datasets: [
                 {
-                  label: name,
-                  data: dataset.map((d) => d.bench.value),
+                  label: "min",
+                  data: stats.map((s) => s.min),
                   borderColor: color,
-                  backgroundColor: color + "60", // Add alpha for #rrggbbaa
+                  borderWidth: 0.75, // thin band edge, drawn behind the rest
+                  backgroundColor: "transparent",
+                  pointRadius: 0,
+                  pointHoverRadius: 0,
+                  fill: false,
+                  order: 0,
+                  // Legend swatch: the band's lower edge (line at the bottom).
+                  _legend: { kind: "edge-bottom", color },
+                },
+                {
+                  label: "max",
+                  data: stats.map((s) => s.max),
+                  borderColor: color,
+                  borderWidth: 0.75, // thin band edge, drawn behind the rest
+                  backgroundColor: color + "20", // faint band fill
+                  pointRadius: 0,
+                  pointHoverRadius: 0,
+                  fill: 0, // fill the area down to the min dataset (index 0)
+                  order: 0,
+                  // Legend swatch: the band's upper edge (line at the top) over
+                  // the shaded fill, mirroring the min–max band on the chart.
+                  _legend: { kind: "edge-top", color, fill: color + "20" },
+                },
+                {
+                  label: "mean",
+                  data: stats.map((s) => s.mean),
+                  borderColor: meanColor,
+                  borderWidth: 1.5,
+                  pointRadius: 0,
+                  pointHoverRadius: 0,
+                  backgroundColor: meanColor + "60", // Add alpha for #rrggbbaa
+                  fill: false,
+                  order: 1,
+                  _legend: { kind: "line", color: meanColor },
+                },
+                {
+                  label: "median",
+                  data: stats.map((s) => s.median),
+                  borderColor: medianColor,
+                  backgroundColor: "transparent",
+                  borderDash: [4, 4],
+                  borderWidth: 1.5,
+                  pointRadius: 0,
+                  pointHoverRadius: 0,
+                  fill: false,
+                  order: 2, // higher than mean -> drawn over it
+                  _legend: { kind: "line", color: medianColor, dashed: true },
                 },
               ],
             };
+            // Locate the mean dataset by label (it is no longer last in the
+            // array) so the tooltip can attach the reported range to it.
+            const meanDatasetIndex = data.datasets.findIndex(
+              (d) => d.label === "mean",
+            );
 
             const baseline = baselines[name];
             if (baseline !== undefined) {
@@ -230,9 +370,102 @@
                 pointRadius: 0,
                 pointHoverRadius: 0,
                 fill: false,
+                order: 3,
+                _legend: { kind: "line", color: "#cc6644", dashed: true },
               });
             }
+
+            // Truncate the y-axis to the measured range plus a safety band
+            // instead of anchoring at zero; otherwise the min/max/median/mean
+            // lines collapse into a thin strip. `truncated` records whether we
+            // actually skip a stretch above zero, which the break-marker plugin
+            // below visualizes. The baseline is folded in (below) so its
+            // reference line stays on-screen.
+            const measured = [];
+            for (const s of stats) {
+              for (const v of [s.min, s.max, s.median, s.mean]) {
+                if (typeof v === "number") measured.push(v);
+              }
+            }
+            // Keep the baseline (e.g. Foundry) inside the band so its reference
+            // line is always visible, even when it sits far from the data.
+            if (baseline !== undefined && typeof baseline.value === "number") {
+              measured.push(baseline.value);
+            }
+            // Rounds up to a "nice" axis step (1/2/2.5/5 × 10^k) for the given
+            // span and target tick count, so gridlines land on round numbers.
+            function niceStep(range, targetTicks) {
+              const raw = range / targetTicks;
+              const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+              const norm = raw / mag; // 1..10
+              const nice =
+                norm <= 1
+                  ? 1
+                  : norm <= 2
+                    ? 2
+                    : norm <= 2.5
+                      ? 2.5
+                      : norm <= 5
+                        ? 5
+                        : 10;
+              return nice * mag;
+            }
+            let yTicks = { beginAtZero: true };
+            let truncated = false;
+            if (measured.length > 0) {
+              const lo = Math.min(...measured);
+              const hi = Math.max(...measured);
+              const span = hi - lo;
+              // 15% safety band around the data; fall back to 5% of the value
+              // (or 1) when every point coincides and the span is zero.
+              const pad = span > 0 ? span * 0.15 : Math.abs(hi) * 0.05 || 1;
+              // Snap the padded bounds outward to whole multiples of a nice
+              // step so the top and bottom gridlines align with the axis edges
+              // (no partial first/last interval).
+              const step = niceStep(hi + pad - (lo - pad), 6);
+              let yMin = Math.floor((lo - pad) / step) * step;
+              const yMax = Math.ceil((hi + pad) / step) * step;
+              truncated = yMin > 0;
+              if (yMin < 0) yMin = 0;
+              yTicks = { min: yMin, max: yMax, stepSize: step };
+            }
+
+            // Draws the conventional "//" axis-break mark at the bottom of the
+            // y-axis so a truncated (non-zero-based) scale is obvious.
+            const axisBreakPlugin = {
+              afterDraw: (chart) => {
+                if (!truncated) return;
+                const ctx = chart.ctx;
+                const { left, bottom } = chart.chartArea;
+                const w = 5; // horizontal half-extent of each slash
+                const h = 4; // vertical half-extent of each slash
+                const gap = 5; // spacing between the two slashes
+                ctx.save();
+                for (const off of [0, gap]) {
+                  const cy = bottom - 4 - off;
+                  // Mask the axis line first, then stroke the slash on top so
+                  // the mark reads as a genuine gap in the axis.
+                  ctx.strokeStyle = "#fff";
+                  ctx.lineWidth = 3;
+                  ctx.beginPath();
+                  ctx.moveTo(left - w, cy + h);
+                  ctx.lineTo(left + w, cy - h);
+                  ctx.stroke();
+                  ctx.strokeStyle = "#666";
+                  ctx.lineWidth = 1.5;
+                  ctx.beginPath();
+                  ctx.moveTo(left - w, cy + h);
+                  ctx.lineTo(left + w, cy - h);
+                  ctx.stroke();
+                }
+                ctx.restore();
+              },
+            };
             const options = {
+              // Built-in legend draws only filled/outlined boxes, so min and
+              // max would look identical. Disable it and render a custom HTML
+              // legend (below) whose swatches show the band's edges.
+              legend: { display: false },
               scales: {
                 xAxes: [
                   {
@@ -249,13 +482,16 @@
                       labelString:
                         dataset.length > 0 ? dataset[0].bench.unit : "",
                     },
-                    ticks: {
-                      beginAtZero: true,
-                    },
+                    ticks: yTicks,
                   },
                 ],
               },
               tooltips: {
+                mode: "index",
+                intersect: false,
+                // Hide the per-row color swatches: they don't match the band /
+                // line representation used on the chart and legend.
+                displayColors: false,
                 callbacks: {
                   afterTitle: (items) => {
                     const { index } = items[0];
@@ -271,17 +507,14 @@
                     );
                   },
                   label: (item) => {
-                    let label = item.value;
-                    const { range, unit } = dataset[item.index].bench;
-                    label += " " + unit;
-                    if (range) {
-                      label += " (" + range + ")";
+                    const bench = dataset[item.index].bench;
+                    const dsLabel = data.datasets[item.datasetIndex].label;
+                    let label = dsLabel + ": " + item.value + " " + bench.unit;
+                    // Only the mean line carries the reported range.
+                    if (item.datasetIndex === meanDatasetIndex && bench.range) {
+                      label += " (" + bench.range + ")";
                     }
                     return label;
-                  },
-                  afterLabel: (item) => {
-                    const { extra } = dataset[item.index].bench;
-                    return extra ? "\n" + extra : "";
                   },
                 },
               },
@@ -296,11 +529,57 @@
               },
             };
 
-            new Chart(canvas, {
+            const chart = new Chart(canvas, {
               type: "line",
               data,
               options,
+              plugins: [axisBreakPlugin],
             });
+
+            // Custom legend: a swatch per series inserted above the chart.
+            // edge-bottom -> line along the bottom of a (white) box; edge-top
+            // -> line along the top of the shaded box; line -> a centered
+            // solid/dashed stroke. Clicking an item toggles its dataset, like
+            // the default legend.
+            const legendElem = document.createElement("div");
+            legendElem.className = "chart-legend";
+            data.datasets.forEach((ds, i) => {
+              const lg = ds._legend;
+              if (lg === undefined) return;
+
+              const item = document.createElement("span");
+              item.className = "legend-item";
+
+              const swatch = document.createElement("span");
+              swatch.className = "legend-swatch";
+              if (lg.kind === "edge-top" || lg.kind === "edge-bottom") {
+                if (lg.fill) swatch.style.background = lg.fill;
+                const edge =
+                  lg.kind === "edge-top" ? "borderTop" : "borderBottom";
+                // Thin edge, mirroring the band's 0.75px stroke on the chart.
+                swatch.style[edge] = "1.5px solid " + lg.color;
+              } else {
+                const line = document.createElement("span");
+                line.className = "legend-line";
+                line.style.borderTop =
+                  "2px " + (lg.dashed ? "dashed" : "solid") + " " + lg.color;
+                swatch.appendChild(line);
+              }
+
+              const text = document.createElement("span");
+              text.textContent = ds.label;
+
+              item.appendChild(swatch);
+              item.appendChild(text);
+              item.onclick = () => {
+                const meta = chart.getDatasetMeta(i);
+                meta.hidden = meta.hidden === null ? !ds.hidden : !meta.hidden;
+                item.classList.toggle("legend-hidden", meta.hidden);
+                chart.update();
+              };
+              legendElem.appendChild(item);
+            });
+            container.insertBefore(legendElem, canvas);
           }
 
           function renderBenchSet(name, benchSet, main) {
