@@ -267,7 +267,7 @@
           };
         }
 
-        function renderAllChars({ dataSets, baselines }) {
+        function renderAllCharts({ dataSets, baselines }) {
           // How many of the most recent entries each chart shows. Controlled by
           // the selector in the header; Infinity means "all".
           let maxEntries = 25;
@@ -737,7 +737,7 @@
           renderAll();
         }
 
-        renderAllChars(init()); // Start
+        renderAllCharts(init()); // Start
       })();
     </script>
   </body>
