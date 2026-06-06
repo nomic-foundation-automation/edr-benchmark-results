@@ -637,6 +637,14 @@
 
               const item = document.createElement("span");
               item.className = "legend-item";
+              item.setAttribute("role", "button");
+              item.tabIndex = 0;
+              item.onkeydown = (e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  item.click();
+                }
+              };
 
               const swatch = document.createElement("span");
               swatch.className = "legend-swatch";
