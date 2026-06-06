@@ -219,6 +219,42 @@
           _: "#333333",
         };
 
+        // Custom interaction mode: like "index" (all series at the hovered
+        // commit) but only when the cursor is vertically near one of the lines.
+        // Hovering in empty space returns nothing, so the tooltip stays hidden.
+        // The activation zone is a fraction of the chart's plotting height
+        // rather than a fixed pixel count, so it stays proportional when charts
+        // shrink — e.g. several shown side by side on a wide screen.
+        const NEAR_FRACTION = 0.01;
+        Chart.Interaction.modes.indexNear = function (chart, e) {
+          const items = Chart.Interaction.modes.index(chart, e, {
+            intersect: false,
+          });
+          // Inside an interaction mode the event is already wrapped, carrying
+          // the cursor's relative position on `e.y` (this is what Chart.js' own
+          // built-in modes use).
+          const cursorY = e.native
+            ? e.y
+            : Chart.helpers.getRelativePosition(e, chart).y;
+          const area = chart.chartArea;
+          const nearPx = NEAR_FRACTION * (area.bottom - area.top);
+          const distance = (el) => {
+            const p =
+              typeof el.getCenterPoint === "function"
+                ? el.getCenterPoint()
+                : el._view;
+            return p ? Math.abs(p.y - cursorY) : Infinity;
+          };
+          // Order by vertical proximity (closest line first). Chart.js only
+          // repositions the tooltip when the active set *changes*; reordering as
+          // the cursor crosses lines is what makes it re-run the "nearest"
+          // positioner and move the tooltip to the line now under the cursor.
+          const sorted = items
+            .slice()
+            .sort((a, b) => distance(a) - distance(b));
+          return sorted.length && distance(sorted[0]) <= nearPx ? sorted : [];
+        };
+
         function init() {
           function collectBenchesPerTestCase(entries) {
             const map = new Map();
@@ -571,7 +607,9 @@
                 ],
               },
               tooltips: {
-                mode: "index",
+                // Show all series for the hovered commit, but only when the
+                // cursor is near a line (see indexNear above).
+                mode: "indexNear",
                 intersect: false,
                 // Anchor to the point nearest the cursor rather than the
                 // average of all datasets; otherwise a far-off baseline (e.g.
@@ -580,6 +618,10 @@
                 // Hide the per-row color swatches: they don't match the band /
                 // line representation used on the chart and legend.
                 displayColors: false,
+                // indexNear reorders the active set by cursor proximity (to
+                // drive re-anchoring); keep the visible rows in a stable
+                // dataset order so they don't jump around.
+                itemSort: (a, b) => a.datasetIndex - b.datasetIndex,
                 callbacks: {
                   afterTitle: (items) => {
                     const { index } = items[0];
