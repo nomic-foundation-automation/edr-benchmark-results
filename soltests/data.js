@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780508204757,
+  "lastUpdate": 1780914186729,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9287,6 +9287,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 165777,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e5b68b0c5f8c1f142133ebc194df4b9e1db34fe",
+          "message": "chore(deps): update github-actions to v2.81.1 (#1465)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-08T09:36:08Z",
+          "tree_id": "7f0d3d40e8612fb905e12debeb149da75580220a",
+          "url": "https://github.com/NomicFoundation/edr/commit/7e5b68b0c5f8c1f142133ebc194df4b9e1db34fe"
+        },
+        "date": 1780914185823,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34921333,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10826,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 286416,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8868,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34907108,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133574,
             "unit": "us"
           }
         ]
