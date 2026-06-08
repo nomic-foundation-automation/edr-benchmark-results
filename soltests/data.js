@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780935029550,
+  "lastUpdate": 1780942701173,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9449,6 +9449,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131876,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e43de3ecbb46f9967afb60b1a6c7850661632d4f",
+          "message": "build: upgrade REVM to v38.0 (#1445)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-06-08T17:49:52Z",
+          "tree_id": "a8a5722e4ab7b247af2a6a4ba63299b4f362768a",
+          "url": "https://github.com/NomicFoundation/edr/commit/e43de3ecbb46f9967afb60b1a6c7850661632d4f"
+        },
+        "date": 1780942700420,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33217405,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10878,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288269,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8795,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33154504,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 147002,
             "unit": "us"
           }
         ]
