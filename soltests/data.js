@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780945973764,
+  "lastUpdate": 1781012936895,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9557,6 +9557,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 130401,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "88beb959e4244267be2cb3b564f153c28b7e42d1",
+          "message": "refactor(provider): introduce ObservedExecution to encapsulate EVM observer lifecycle (#1461)",
+          "timestamp": "2026-06-09T13:22:49Z",
+          "tree_id": "768830375e0a93f1fb90699dc7d8e63674348aca",
+          "url": "https://github.com/NomicFoundation/edr/commit/88beb959e4244267be2cb3b564f153c28b7e42d1"
+        },
+        "date": 1781012936268,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32950490,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10374,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 286734,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8202,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32768528,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 153849,
             "unit": "us"
           }
         ]
