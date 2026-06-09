@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781012936895,
+  "lastUpdate": 1781026409955,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9611,6 +9611,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 153849,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3d446c91e4f10f03e0c4dbe4b69305159e8ec8f9",
+          "message": "fix(deps): enable regex unicode-perl feature at the workspace level (#1466)",
+          "timestamp": "2026-06-09T17:06:49Z",
+          "tree_id": "fabebf702194c23757ad4144546c526b49dc196a",
+          "url": "https://github.com/NomicFoundation/edr/commit/3d446c91e4f10f03e0c4dbe4b69305159e8ec8f9"
+        },
+        "date": 1781026409341,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32914276,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10489,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 288132,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8525,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32787332,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 136940,
             "unit": "us"
           }
         ]
