@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781026409955,
+  "lastUpdate": 1781119015191,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9665,6 +9665,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 136940,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b146a5665c07acaef5b1d4509584ed8c690990b",
+          "message": "fix(provider): clamp `estimate_gas` binary search upper bound to transaction gas limit (#1470)",
+          "timestamp": "2026-06-10T18:28:45Z",
+          "tree_id": "49f58038e0af543fd51baafd37d495f3078a3c33",
+          "url": "https://github.com/NomicFoundation/edr/commit/6b146a5665c07acaef5b1d4509584ed8c690990b"
+        },
+        "date": 1781119014562,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32875190,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10652,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 287788,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8113,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32671657,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 159554,
             "unit": "us"
           }
         ]
