@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781119015191,
+  "lastUpdate": 1781511434633,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9719,6 +9719,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 159554,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a4c09858e4f50dd314ca55b01ae4b398479e8885",
+          "message": "chore(deps): update npm minor/patch to v20.19.42 (#1475)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-15T07:53:58Z",
+          "tree_id": "b3c030cede906b7fabc29e52854cdcb1f84cbd70",
+          "url": "https://github.com/NomicFoundation/edr/commit/a4c09858e4f50dd314ca55b01ae4b398479e8885"
+        },
+        "date": 1781511433968,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32779842,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10540,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 287729,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7846,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32671981,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 158491,
             "unit": "us"
           }
         ]
