@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781518863573,
+  "lastUpdate": 1781524280074,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9827,6 +9827,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 155236,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b9b44457b651c6a92736d9b78897b6b36922f38",
+          "message": "chore(deps): update alloy + revm to v0.2.34 (#1472)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-15T11:22:29Z",
+          "tree_id": "bbc563b506dd5bc49dd8fa3058f93af9aa2f83c7",
+          "url": "https://github.com/NomicFoundation/edr/commit/4b9b44457b651c6a92736d9b78897b6b36922f38"
+        },
+        "date": 1781524279171,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33872839,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10410,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 282929,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8374,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33776310,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 157619,
             "unit": "us"
           }
         ]
