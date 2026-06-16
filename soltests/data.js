@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781597576073,
+  "lastUpdate": 1781636281054,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9989,6 +9989,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144363,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "30974601b49276e47a9f1520dac35ee86bfc6f6f",
+          "message": "test(hardhat): fund impersonated accounts in forked-provider tests (#1479)",
+          "timestamp": "2026-06-16T17:58:24Z",
+          "tree_id": "ace68a1da8e84ffc94e48afc3ed6a421db14dbcb",
+          "url": "https://github.com/NomicFoundation/edr/commit/30974601b49276e47a9f1520dac35ee86bfc6f6f"
+        },
+        "date": 1781636280435,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32200473,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10266,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277439,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7565,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32082788,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 163575,
             "unit": "us"
           }
         ]
