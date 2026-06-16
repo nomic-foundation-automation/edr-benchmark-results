@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781547190640,
+  "lastUpdate": 1781597576073,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -9935,6 +9935,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 148483,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "135a0ecd64cd0015c30a6faab2290fee496a072c",
+          "message": "chore: avoid panic in cheatcode stack inspector (#1478)",
+          "timestamp": "2026-06-16T07:46:36Z",
+          "tree_id": "53339cfc4fe78c6b82eda585fe170c69fbef5389",
+          "url": "https://github.com/NomicFoundation/edr/commit/135a0ecd64cd0015c30a6faab2290fee496a072c"
+        },
+        "date": 1781597575477,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32176928,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10221,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275272,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8748,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32052520,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144363,
             "unit": "us"
           }
         ]
