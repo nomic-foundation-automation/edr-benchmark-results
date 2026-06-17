@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781718828894,
+  "lastUpdate": 1781724881675,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10151,6 +10151,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 163634,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d75dc1ec23c5e7980c4b0f3cad4246cc33db240",
+          "message": "fix(deps): update rust crate git2 to 0.21.0 [security] (#1483)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-17T18:42:25Z",
+          "tree_id": "e6ec8e91089a55a53bb6114ff3993c2969c874ef",
+          "url": "https://github.com/NomicFoundation/edr/commit/7d75dc1ec23c5e7980c4b0f3cad4246cc33db240"
+        },
+        "date": 1781724880829,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32891237,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10371,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 280826,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8808,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32849682,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 172656,
             "unit": "us"
           }
         ]
