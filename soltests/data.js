@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781636281054,
+  "lastUpdate": 1781654695466,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10043,6 +10043,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 163575,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b02d57f4d3b1bbcd27e5826f9e6a7aa915ddd550",
+          "message": "feat(provider): add `gasEstimationMode` config to avoid internal out-of-gas in `eth_estimateGas` (#1471)\n\nCo-authored-by: Patricio Palladino <email@patriciopalladino.com>\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-06-16T23:40:08Z",
+          "tree_id": "da7d56297625b8d5c53b20095626dd4d89e649ed",
+          "url": "https://github.com/NomicFoundation/edr/commit/b02d57f4d3b1bbcd27e5826f9e6a7aa915ddd550"
+        },
+        "date": 1781654694912,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31883686,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10431,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 276197,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8365,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31665952,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 155058,
             "unit": "us"
           }
         ]
