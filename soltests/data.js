@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781795900772,
+  "lastUpdate": 1781800099842,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10313,6 +10313,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 160915,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bbee87745e56e2c681b57b400340689ecc83d086",
+          "message": "fix: broken CI check for generated OP chain types (#1487)",
+          "timestamp": "2026-06-18T15:28:47Z",
+          "tree_id": "6b42d496a65bf988088eaa7e4da90240fcc2f7e9",
+          "url": "https://github.com/NomicFoundation/edr/commit/bbee87745e56e2c681b57b400340689ecc83d086"
+        },
+        "date": 1781800099198,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31696384,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10250,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 271646,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8858,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31615684,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 177978,
             "unit": "us"
           }
         ]
