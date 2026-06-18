@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781800099842,
+  "lastUpdate": 1781807862075,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10367,6 +10367,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 177978,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f41d9642ea0668cf308555f800c549740088f450",
+          "message": "ci: adopt Hardhat 3 E2E regression benchmarks (#1489)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-06-18T18:13:27Z",
+          "tree_id": "d7a93d3ee85c3ebb1134c480e940c72498e1119d",
+          "url": "https://github.com/NomicFoundation/edr/commit/f41d9642ea0668cf308555f800c549740088f450"
+        },
+        "date": 1781807861520,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32055231,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10090,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279813,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8374,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31952431,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 168249,
             "unit": "us"
           }
         ]
