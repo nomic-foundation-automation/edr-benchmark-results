@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781788860020,
+  "lastUpdate": 1781795900772,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10259,6 +10259,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 156813,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c3d265b5235ef87dfbb5df23a949a4cd5c1efad",
+          "message": "refactor: reusable cancellable thread synchronisation component (#1484)",
+          "timestamp": "2026-06-18T14:52:59Z",
+          "tree_id": "f3e95846d0a96b3033d086869837f0ba3a686f1a",
+          "url": "https://github.com/NomicFoundation/edr/commit/8c3d265b5235ef87dfbb5df23a949a4cd5c1efad"
+        },
+        "date": 1781795900105,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33088014,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10282,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279849,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8459,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32978598,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 160915,
             "unit": "us"
           }
         ]
