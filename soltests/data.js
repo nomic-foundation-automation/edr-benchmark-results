@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781724881675,
+  "lastUpdate": 1781788860020,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10205,6 +10205,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 172656,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dfe99cd0a075f13045049e2db0ed5b6414ff7592",
+          "message": "chore(ci): stop replaying Base Mainnet blocks (#1485)",
+          "timestamp": "2026-06-18T12:56:10Z",
+          "tree_id": "064ae8889951d9879338d2260cc2e44d92c8b59c",
+          "url": "https://github.com/NomicFoundation/edr/commit/dfe99cd0a075f13045049e2db0ed5b6414ff7592"
+        },
+        "date": 1781788859375,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33071430,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10237,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 280621,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8297,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32931485,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 156813,
             "unit": "us"
           }
         ]
