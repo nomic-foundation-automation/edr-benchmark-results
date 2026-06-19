@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781885176656,
+  "lastUpdate": 1781896359788,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "bas@nomic.foundation",
-            "name": "Bas van Gijzel",
-            "username": "nebasuke"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "d57dee42ea2ffa84eedfe533bf7adc2fcdc9e42f",
-          "message": "Bas/fix ci test flakes (#1424)",
-          "timestamp": "2026-05-18T14:00:17Z",
-          "tree_id": "19aa439491f6ffc7d518fb7f061d9cefc28bda1f",
-          "url": "https://github.com/NomicFoundation/edr/commit/d57dee42ea2ffa84eedfe533bf7adc2fcdc9e42f"
-        },
-        "date": 1779114717177,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 198657.23900099998,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 16679.648042,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 7638.711032,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 11899.428657,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 571.4801030000001,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 3609.6327510000006,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 155176.818271,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 3081.5201450000004,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4020.72169,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cbcf25f31e2e90d2169d5eef68078d7566cde7a4",
+          "message": "ci: fix E2E scenario failures in HH3 regression benchmark (#1493)",
+          "timestamp": "2026-06-19T18:11:57Z",
+          "tree_id": "3f9f344dc0a3895a93b88c57d7ca0ed7dfe8a8b2",
+          "url": "https://github.com/NomicFoundation/edr/commit/cbcf25f31e2e90d2169d5eef68078d7566cde7a4"
+        },
+        "date": 1781896359193,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 204503.999275,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 22256.835413999997,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 9611.424932,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 12949.364361999998,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 704.892975,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 4899.110207,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 150114.639592,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 3967.731793,
             "unit": "ms"
           }
         ]
