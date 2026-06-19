@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781885868347,
+  "lastUpdate": 1781895098507,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10529,6 +10529,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 156750,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cbcf25f31e2e90d2169d5eef68078d7566cde7a4",
+          "message": "ci: fix E2E scenario failures in HH3 regression benchmark (#1493)",
+          "timestamp": "2026-06-19T18:11:57Z",
+          "tree_id": "3f9f344dc0a3895a93b88c57d7ca0ed7dfe8a8b2",
+          "url": "https://github.com/NomicFoundation/edr/commit/cbcf25f31e2e90d2169d5eef68078d7566cde7a4"
+        },
+        "date": 1781895097952,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33095006,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 12158,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277790,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7590,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32988689,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 141564,
             "unit": "us"
           }
         ]
