@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781856373907,
+  "lastUpdate": 1781885868347,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10475,6 +10475,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 154206,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dfeb0f9b95f9292f1a679143c935dd961475c4a1",
+          "message": "fix: explicitly add local tag to satisfy pnpm requirement (#1492)",
+          "timestamp": "2026-06-19T15:31:43Z",
+          "tree_id": "5019f71445edb622490dda82729289a08dd34163",
+          "url": "https://github.com/NomicFoundation/edr/commit/dfeb0f9b95f9292f1a679143c935dd961475c4a1"
+        },
+        "date": 1781885867529,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32992852,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10145,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279153,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7550,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32927833,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 156750,
             "unit": "us"
           }
         ]
