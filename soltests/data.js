@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781807862075,
+  "lastUpdate": 1781856373907,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10421,6 +10421,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 168249,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "13904138daab38fb46a70696fc16ac4c73bf70ed",
+          "message": "fix: failing CI for regression benchmark (#1490)",
+          "timestamp": "2026-06-19T07:40:58Z",
+          "tree_id": "1cd2e4e5c9f49262ce22c152a410deaf73d3547b",
+          "url": "https://github.com/NomicFoundation/edr/commit/13904138daab38fb46a70696fc16ac4c73bf70ed"
+        },
+        "date": 1781856373333,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33178783,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10176,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278642,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8015,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33006434,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 154206,
             "unit": "us"
           }
         ]
