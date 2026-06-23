@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782232715050,
+  "lastUpdate": 1782245531964,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10853,6 +10853,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 138391,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "009cae44d50f920ae8b58c67f30ff472ec1ebecc",
+          "message": "ci: fix cancelled queue for HH3 regression benchmark (#1506)",
+          "timestamp": "2026-06-23T19:35:28Z",
+          "tree_id": "576fa52e4b99ffcbc5d0caf96dc3a92a7f3c378c",
+          "url": "https://github.com/NomicFoundation/edr/commit/009cae44d50f920ae8b58c67f30ff472ec1ebecc"
+        },
+        "date": 1782245531340,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31152029,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10240,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275674,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8226,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30996183,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144586,
             "unit": "us"
           }
         ]
