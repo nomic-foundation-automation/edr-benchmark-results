@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782131915654,
+  "lastUpdate": 1782229164474,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10745,6 +10745,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133766,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7c46285c3e651e70bfb209793a5c79f4a8a0d8bb",
+          "message": "ci: notify Slack on regression failure in main (#1504)",
+          "timestamp": "2026-06-23T14:14:55Z",
+          "tree_id": "b62c2e0c9e70cfc989a41fc210d2c7a8617ae346",
+          "url": "https://github.com/NomicFoundation/edr/commit/7c46285c3e651e70bfb209793a5c79f4a8a0d8bb"
+        },
+        "date": 1782229163882,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31678782,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10144,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275004,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8448,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31599546,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 166953,
             "unit": "us"
           }
         ]
