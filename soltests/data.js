@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782229164474,
+  "lastUpdate": 1782232715050,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10799,6 +10799,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 166953,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "edae92130ef6ac46b6fd5b48b9e885597b686ff5",
+          "message": "fix(deps): update reqwest (#1477)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-06-23T14:43:31Z",
+          "tree_id": "f594e33c63bd768508ed954ce4c9d5c321435a96",
+          "url": "https://github.com/NomicFoundation/edr/commit/edae92130ef6ac46b6fd5b48b9e885597b686ff5"
+        },
+        "date": 1782232714433,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31760434,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10160,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 274737,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8389,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31606086,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138391,
             "unit": "us"
           }
         ]
