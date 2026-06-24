@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782312168948,
+  "lastUpdate": 1782324955723,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10961,6 +10961,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 136468,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e3134487eb6b6f2099c5d78a99b1322be2fdf797",
+          "message": "ci: clean pnpm cache & temp dir for regression benchmark (#1508)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-06-24T16:49:29Z",
+          "tree_id": "473899de4dc68d69330902e576feebd6dda593fe",
+          "url": "https://github.com/NomicFoundation/edr/commit/e3134487eb6b6f2099c5d78a99b1322be2fdf797"
+        },
+        "date": 1782324955032,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32223988,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10323,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277412,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7737,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32077966,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132268,
             "unit": "us"
           }
         ]
