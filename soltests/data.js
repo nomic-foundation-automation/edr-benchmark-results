@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782245531964,
+  "lastUpdate": 1782312168948,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -10907,6 +10907,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144586,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6ca30cd4e6639c28e5428525a9700e49150b645b",
+          "message": "feat: add support for negative test filtering in Solidity tests (#1509)",
+          "timestamp": "2026-06-24T13:57:30Z",
+          "tree_id": "fa4ffaa4b2ece7fe4bef1e3ec4b5ea17b1edfb51",
+          "url": "https://github.com/NomicFoundation/edr/commit/6ca30cd4e6639c28e5428525a9700e49150b645b"
+        },
+        "date": 1782312168295,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32876480,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10443,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277639,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7891,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32710656,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 136468,
             "unit": "us"
           }
         ]
