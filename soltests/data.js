@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782335186669,
+  "lastUpdate": 1782398243281,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11069,6 +11069,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 136720,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a4fe99c521227b7a1c37c772bb750f18cb0ce9e",
+          "message": "build: add support for Node v24 (new default) & v26 (#1507)\n\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-06-25T14:15:37Z",
+          "tree_id": "7199eee544484244de1ff2408a4d0bff6e17afbb",
+          "url": "https://github.com/NomicFoundation/edr/commit/8a4fe99c521227b7a1c37c772bb750f18cb0ce9e"
+        },
+        "date": 1782398242600,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32229395,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11428,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277798,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9770,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32112187,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 142502,
             "unit": "us"
           }
         ]
