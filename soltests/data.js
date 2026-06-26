@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782415369838,
+  "lastUpdate": 1782471497375,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11177,6 +11177,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131307,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "671af44e725fc1c83a880a6e267a61cc8c2c116a",
+          "message": "ci: fix stale cache on self-hosted runner (#1512)",
+          "timestamp": "2026-06-26T10:33:59Z",
+          "tree_id": "ed9a2b4f208f9ce1cc68a4e6fe78cefd117b2f7d",
+          "url": "https://github.com/NomicFoundation/edr/commit/671af44e725fc1c83a880a6e267a61cc8c2c116a"
+        },
+        "date": 1782471496824,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32746332,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11566,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278841,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9426,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32679956,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 122633,
             "unit": "us"
           }
         ]
