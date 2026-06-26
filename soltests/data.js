@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782471497375,
+  "lastUpdate": 1782500497201,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11231,6 +11231,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 122633,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "68ede99d7a757a9d535897632023bcbee1a0a01f",
+          "message": "ci: fix permission for post-regression run comment (#1513)",
+          "timestamp": "2026-06-26T18:36:28Z",
+          "tree_id": "0cd40380b0e9590939b93384221d1e73a72e1c41",
+          "url": "https://github.com/NomicFoundation/edr/commit/68ede99d7a757a9d535897632023bcbee1a0a01f"
+        },
+        "date": 1782500496567,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32828208,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11240,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278263,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9685,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32713051,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129060,
             "unit": "us"
           }
         ]
