@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782500497201,
+  "lastUpdate": 1782724428879,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11285,6 +11285,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129060,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d8e8840a714ce1c46d22a6b55d02c4ce2b478db8",
+          "message": "chore(deps): update rust crate tower-http to 0.7 (#1519)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-29T07:57:37Z",
+          "tree_id": "2d429ec043276da511c3e6e49a695f1e37365b00",
+          "url": "https://github.com/NomicFoundation/edr/commit/d8e8840a714ce1c46d22a6b55d02c4ce2b478db8"
+        },
+        "date": 1782724428343,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32180359,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11431,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278603,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9135,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32055347,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 110761,
             "unit": "us"
           }
         ]
