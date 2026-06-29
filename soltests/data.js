@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782735717003,
+  "lastUpdate": 1782738828198,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11447,6 +11447,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127936,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "62e58df309b05ed4e247fbcd8e309dc7141fcf14",
+          "message": "fix(deps): update rust crate itertools to v0.15.0 (#1521)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-29T11:44:57Z",
+          "tree_id": "285d335ded79b1d2def07a85e128367c5ff51336",
+          "url": "https://github.com/NomicFoundation/edr/commit/62e58df309b05ed4e247fbcd8e309dc7141fcf14"
+        },
+        "date": 1782738827633,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32663951,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11069,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 281064,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9634,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32564359,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 121628,
             "unit": "us"
           }
         ]
