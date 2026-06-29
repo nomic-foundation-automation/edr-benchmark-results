@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782742402007,
+  "lastUpdate": 1782744473954,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11555,6 +11555,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129862,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "254f2f7d83d982bb53766241d4a8459955d52043",
+          "message": "fix: use `GITHUB_TOKEN` for non-baseline regression benchmark runs (#1514)",
+          "timestamp": "2026-06-29T13:41:13Z",
+          "tree_id": "0eedec365c2dd83f8035f793ee1b674450477ff3",
+          "url": "https://github.com/NomicFoundation/edr/commit/254f2f7d83d982bb53766241d4a8459955d52043"
+        },
+        "date": 1782744473383,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32591363,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11476,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277284,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9764,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32488106,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143258,
             "unit": "us"
           }
         ]
