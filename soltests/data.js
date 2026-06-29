@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782728380115,
+  "lastUpdate": 1782735717003,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11393,6 +11393,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131277,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "50a0c7435689a55638b325e4d818ec0a1075c39e",
+          "message": "chore(deps): update dependency syncpack to v15 (#1522)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-29T11:32:03Z",
+          "tree_id": "388c4639082487fac5e463b73d77f34b1a354c2e",
+          "url": "https://github.com/NomicFoundation/edr/commit/50a0c7435689a55638b325e4d818ec0a1075c39e"
+        },
+        "date": 1782735716182,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32803131,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11396,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279307,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9501,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32665891,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127936,
             "unit": "us"
           }
         ]
