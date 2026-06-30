@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782744473954,
+  "lastUpdate": 1782834659452,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11609,6 +11609,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143258,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "233468b53c41244906b7de5d4d97b0359c38d7a0",
+          "message": "chore(deps): update rust crate anyhow to v1.0.103 [security] (#1523)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-06-30T15:03:36Z",
+          "tree_id": "41cd1030b9058ec1d5e0c742dfecfbabaad7bb81",
+          "url": "https://github.com/NomicFoundation/edr/commit/233468b53c41244906b7de5d4d97b0359c38d7a0"
+        },
+        "date": 1782834658863,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35198731,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11626,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279923,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9200,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35060660,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133761,
             "unit": "us"
           }
         ]
