@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782921381013,
+  "lastUpdate": 1782946212139,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11717,6 +11717,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 117012,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "62a1536acf8a7d06bf5c546f3a059b5767df0da1",
+          "message": "build: upgrade @typescript-eslint to v8 and adopt @tsconfig/node22 (es2024) (#1524)",
+          "timestamp": "2026-07-01T21:11:25Z",
+          "tree_id": "ad63a4a2cb9965a2773247065f88ecaff0ecfa29",
+          "url": "https://github.com/NomicFoundation/edr/commit/62a1536acf8a7d06bf5c546f3a059b5767df0da1"
+        },
+        "date": 1782946211012,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35171882,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11603,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279766,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8868,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35039918,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 122891,
             "unit": "us"
           }
         ]
