@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782834659452,
+  "lastUpdate": 1782921381013,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11663,6 +11663,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133761,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cfff1da1134687a37759eb117e2d3f81564a72bc",
+          "message": "build: upgrade to new Node LTS version (#1393)\n\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-07-01T15:18:05Z",
+          "tree_id": "ac5d399cc60f8ea497d4238af5ee6c0e5c36faeb",
+          "url": "https://github.com/NomicFoundation/edr/commit/cfff1da1134687a37759eb117e2d3f81564a72bc"
+        },
+        "date": 1782921380387,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35187974,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11489,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277365,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8921,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34983211,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 117012,
             "unit": "us"
           }
         ]
