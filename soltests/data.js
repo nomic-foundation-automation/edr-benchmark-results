@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782959021440,
+  "lastUpdate": 1782996049463,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11825,6 +11825,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 128283,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2e5ae8f3373c39c82c56e8eea57ce408b8e1dc7",
+          "message": "build: extend typescript-eslint recommended-type-checked preset (#1527)",
+          "timestamp": "2026-07-02T11:54:24Z",
+          "tree_id": "980ded9d57401d2cf25ec4267f8db44bcceb9af9",
+          "url": "https://github.com/NomicFoundation/edr/commit/d2e5ae8f3373c39c82c56e8eea57ce408b8e1dc7"
+        },
+        "date": 1782996048907,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35175565,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11835,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 280051,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9291,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35053012,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137884,
             "unit": "us"
           }
         ]
