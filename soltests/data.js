@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782946212139,
+  "lastUpdate": 1782959021440,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11771,6 +11771,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 122891,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6094a139d80371f3225d78c0541caf88768ff296",
+          "message": "build: upgrade to pnpm 11 (#1526)",
+          "timestamp": "2026-07-01T22:10:23Z",
+          "tree_id": "cb663714150c4ec1786474c3a7a96696f66da810",
+          "url": "https://github.com/NomicFoundation/edr/commit/6094a139d80371f3225d78c0541caf88768ff296"
+        },
+        "date": 1782959020733,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35575871,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11339,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 280955,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8848,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35485866,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128283,
             "unit": "us"
           }
         ]
