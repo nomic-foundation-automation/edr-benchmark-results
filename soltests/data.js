@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782996049463,
+  "lastUpdate": 1783079720268,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11879,6 +11879,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 137884,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99e2d33bb3e84546c53a875f1fa28dc35fdee57c",
+          "message": "build(edr_napi): migrate to napi-rs v3 (#1385)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-07-03T11:27:51Z",
+          "tree_id": "35457a7045a21e527e7f5a3d977dfbc89714a045",
+          "url": "https://github.com/NomicFoundation/edr/commit/99e2d33bb3e84546c53a875f1fa28dc35fdee57c"
+        },
+        "date": 1783079719628,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32767333,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11617,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278351,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9304,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32603981,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125058,
             "unit": "us"
           }
         ]
