@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783079720268,
+  "lastUpdate": 1783090299688,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11933,6 +11933,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 125058,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "27258ab026c797871d1dce53747d00f7722ee31e",
+          "message": "build(edr_napi): move dyn-symbols to dev-dependencies (#1533) (#1534)",
+          "timestamp": "2026-07-03T13:41:41Z",
+          "tree_id": "63ff2cdb498dd828df5af9c9939b52c25c14f642",
+          "url": "https://github.com/NomicFoundation/edr/commit/27258ab026c797871d1dce53747d00f7722ee31e"
+        },
+        "date": 1783090299085,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31529257,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11408,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 272849,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9799,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31435152,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125685,
             "unit": "us"
           }
         ]
