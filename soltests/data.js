@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783098482493,
+  "lastUpdate": 1783117872861,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12095,6 +12095,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127751,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f47bfc1516ed45fea4f8596cba73812859780ce",
+          "message": "fix(edr_tool_cli): enable napi dyn-symbols so the standalone binary links (#1535)",
+          "timestamp": "2026-07-03T22:05:40Z",
+          "tree_id": "1850f8409b4c86e0fe91fece8625d944a78cf6b0",
+          "url": "https://github.com/NomicFoundation/edr/commit/2f47bfc1516ed45fea4f8596cba73812859780ce"
+        },
+        "date": 1783117872313,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31606380,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11532,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275658,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9016,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31383159,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 113247,
             "unit": "us"
           }
         ]
