@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783091149231,
+  "lastUpdate": 1783098482493,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12041,6 +12041,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 128779,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6de35111bf61b1e56c6d2c4d75c13f791a8196d8",
+          "message": "chore: simplify NAPI tests code (#1529)",
+          "timestamp": "2026-07-03T16:23:19Z",
+          "tree_id": "2e25af57d0f2af68da6f40ae94ca0fa6fc4a2d7f",
+          "url": "https://github.com/NomicFoundation/edr/commit/6de35111bf61b1e56c6d2c4d75c13f791a8196d8"
+        },
+        "date": 1783098481913,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31903285,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11467,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275901,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9341,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31736438,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127751,
             "unit": "us"
           }
         ]
