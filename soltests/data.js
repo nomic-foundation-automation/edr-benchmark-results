@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783090299688,
+  "lastUpdate": 1783091149231,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -11987,6 +11987,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 125685,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ad24182fc902edc14b49a65a706dfbb52ca6872",
+          "message": "feat: add experimental support for the Amsterdam hardfork (#1528)",
+          "timestamp": "2026-07-03T14:20:50Z",
+          "tree_id": "6d6a0db533a3c74b90d3464a0c0016836acdc193",
+          "url": "https://github.com/NomicFoundation/edr/commit/5ad24182fc902edc14b49a65a706dfbb52ca6872"
+        },
+        "date": 1783091148381,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31964174,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11360,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278522,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9196,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31860408,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128779,
             "unit": "us"
           }
         ]
