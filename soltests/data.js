@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783117872861,
+  "lastUpdate": 1783336321061,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12149,6 +12149,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 113247,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2e9f16833c89236d28759b56518ae4be41b9689",
+          "message": "chore(deps): update rust crate clap to v4 (#1540)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-07-06T09:49:33Z",
+          "tree_id": "e751465f50230f82334f9244b74d16ddf88bb174",
+          "url": "https://github.com/NomicFoundation/edr/commit/a2e9f16833c89236d28759b56518ae4be41b9689"
+        },
+        "date": 1783336320460,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30804397,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11393,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275079,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9865,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30605640,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129250,
             "unit": "us"
           }
         ]
