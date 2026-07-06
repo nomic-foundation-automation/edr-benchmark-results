@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783347590488,
+  "lastUpdate": 1783368377305,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12257,6 +12257,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 130732,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a05906ee91ae1120bc72f2f0f51f454f79e0c52",
+          "message": "chore(deps): update cargo minor/patch (#1537)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-06T19:21:54Z",
+          "tree_id": "8a95bd75c8e423265f506d27613686cd65eed6e2",
+          "url": "https://github.com/NomicFoundation/edr/commit/1a05906ee91ae1120bc72f2f0f51f454f79e0c52"
+        },
+        "date": 1783368376703,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33373101,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11577,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278434,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8983,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33226287,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139454,
             "unit": "us"
           }
         ]
