@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783443940536,
+  "lastUpdate": 1783448627494,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12419,6 +12419,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 136742,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d35fa0eb3ce7abd80a062dcc3c30c37f718d3ef2",
+          "message": "fix: JSON-RPC provider call traces omitting event logs (#1547)",
+          "timestamp": "2026-07-07T16:40:54Z",
+          "tree_id": "0dd06ca4748b77541258f367da8172e28cea871c",
+          "url": "https://github.com/NomicFoundation/edr/commit/d35fa0eb3ce7abd80a062dcc3c30c37f718d3ef2"
+        },
+        "date": 1783448626970,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31662601,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13044,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278591,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9764,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31607451,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129764,
             "unit": "us"
           }
         ]
