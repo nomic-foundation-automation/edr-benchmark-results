@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783374087595,
+  "lastUpdate": 1783443940536,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12365,6 +12365,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 121900,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a78d9bda1f13c98d19035c66e832675f871c06c0",
+          "message": "fix(ci): floor the HH3 regression benchmark sentinel version at the last npm release (#1546)",
+          "timestamp": "2026-07-07T15:55:09Z",
+          "tree_id": "60ff3ec117841fffc44b884f724e38cf34a9e1b4",
+          "url": "https://github.com/NomicFoundation/edr/commit/a78d9bda1f13c98d19035c66e832675f871c06c0"
+        },
+        "date": 1783443939953,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33289344,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14676,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278987,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8888,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33180049,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 136742,
             "unit": "us"
           }
         ]
