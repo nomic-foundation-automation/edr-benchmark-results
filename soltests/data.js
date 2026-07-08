@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783530260157,
+  "lastUpdate": 1783539633105,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12581,6 +12581,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 135891,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "67538cb6592d0d784800d2b8a1ce7579cc29efec",
+          "message": "fix(ci): keep NAPI typing file in sync on release bump (#1549)",
+          "timestamp": "2026-07-08T18:58:17Z",
+          "tree_id": "3329379d5efc57b8d34c141b556db44055f6045e",
+          "url": "https://github.com/NomicFoundation/edr/commit/67538cb6592d0d784800d2b8a1ce7579cc29efec"
+        },
+        "date": 1783539632486,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32375374,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11273,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 272925,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8795,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32208264,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144424,
             "unit": "us"
           }
         ]
