@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783967982139,
+  "lastUpdate": 1783968931118,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12851,6 +12851,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143162,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0431d33d1b2cc5800dbf643be39a0cc891ea6f80",
+          "message": "chore(deps): update napi-rs to v3.10.3 (#1556)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-07-13T18:34:30Z",
+          "tree_id": "2c6d0cba5be1e281650f9f9c656db9d65c513b14",
+          "url": "https://github.com/NomicFoundation/edr/commit/0431d33d1b2cc5800dbf643be39a0cc891ea6f80"
+        },
+        "date": 1783968930518,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31300636,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11306,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275869,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8883,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31113520,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137651,
             "unit": "us"
           }
         ]
