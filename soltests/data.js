@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783945210975,
+  "lastUpdate": 1783967982139,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12797,6 +12797,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140292,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51990ccd1d85268fd1b4165f2815d889bfd62b09",
+          "message": "feat: simulate EIP-7928 blockAccessListHash header field (Amsterdam) (#1543)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-07-13T17:57:33Z",
+          "tree_id": "f4975276ca8d78fe8ad5dccd6988115a4e89d7e7",
+          "url": "https://github.com/NomicFoundation/edr/commit/51990ccd1d85268fd1b4165f2815d889bfd62b09"
+        },
+        "date": 1783967981048,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33463648,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11772,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 278758,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9777,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33307416,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143162,
             "unit": "us"
           }
         ]
