@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783942527182,
+  "lastUpdate": 1783945210975,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12743,6 +12743,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 147261,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "54efdda4133f03c22e7a9449dbb7bbdd6d884a33",
+          "message": "ci: add actionlint + zizmor GitHub Actions linters (#1545)",
+          "timestamp": "2026-07-13T10:21:38Z",
+          "tree_id": "a55526c5f9994d3dd50d291e3169f6d65eb4712f",
+          "url": "https://github.com/NomicFoundation/edr/commit/54efdda4133f03c22e7a9449dbb7bbdd6d884a33"
+        },
+        "date": 1783945210087,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31171993,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11365,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 277015,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9775,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31086982,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140292,
             "unit": "us"
           }
         ]
