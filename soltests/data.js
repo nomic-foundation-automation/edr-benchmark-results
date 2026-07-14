@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783968931118,
+  "lastUpdate": 1784025733004,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12905,6 +12905,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 137651,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "329ac703b85ebd8cdff558c477d4e548f57ef774",
+          "message": "ci: adopt cargo-cooldown-check v0.2.0, drop its cache step and config (#1559)",
+          "timestamp": "2026-07-14T10:01:16Z",
+          "tree_id": "faf185adfcab5f5d95a6a034af21043e8c17d50a",
+          "url": "https://github.com/NomicFoundation/edr/commit/329ac703b85ebd8cdff558c477d4e548f57ef774"
+        },
+        "date": 1784025732170,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31389193,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11449,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 275455,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8836,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31315681,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145949,
             "unit": "us"
           }
         ]
