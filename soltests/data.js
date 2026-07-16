@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784025733004,
+  "lastUpdate": 1784210450856,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -12959,6 +12959,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 145949,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "57a286f87d7b9a6533c759a64c27cb423fc7c5bd",
+          "message": "feat:  EIP-7778 block gas accounting without refunds (Amsterdam) (#1561)",
+          "timestamp": "2026-07-16T13:39:40Z",
+          "tree_id": "ab54d208ddf87cbb1eb308f4872783f72ebc51cc",
+          "url": "https://github.com/NomicFoundation/edr/commit/57a286f87d7b9a6533c759a64c27cb423fc7c5bd"
+        },
+        "date": 1784210450252,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32430766,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11478,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 279648,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8738,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32309252,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133676,
             "unit": "us"
           }
         ]
