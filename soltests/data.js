@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784217631644,
+  "lastUpdate": 1784283687073,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13067,6 +13067,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133587,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2e850789a3f11c9b23a69e6a644491a1641f9133",
+          "message": "Bump Rust toolchain to 1.97.1 (#1564)",
+          "timestamp": "2026-07-17T09:53:20Z",
+          "tree_id": "4457d881365f6cea3ad131b8c12cd04d036e101e",
+          "url": "https://github.com/NomicFoundation/edr/commit/2e850789a3f11c9b23a69e6a644491a1641f9133"
+        },
+        "date": 1784283686491,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33002647,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 12701,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 283483,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8918,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32898173,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 114852,
             "unit": "us"
           }
         ]
