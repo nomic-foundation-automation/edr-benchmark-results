@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784550578806,
+  "lastUpdate": 1784566442457,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13175,6 +13175,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 130998,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "153533002+marianfe@users.noreply.github.com",
+            "name": "Marian F",
+            "username": "marianfe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1822e8b1a120aa7bd705a3faf017be71dff4549a",
+          "message": "fix: restore per-compiler `recursion_start_idx` in frame filtering (#1569)",
+          "timestamp": "2026-07-20T13:56:51Z",
+          "tree_id": "f04e8f3d4f05e88f46723ad1c09eafd6699f14d6",
+          "url": "https://github.com/NomicFoundation/edr/commit/1822e8b1a120aa7bd705a3faf017be71dff4549a"
+        },
+        "date": 1784566441842,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 35153764,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11650,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 289788,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9016,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 35093311,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 126735,
             "unit": "us"
           }
         ]
