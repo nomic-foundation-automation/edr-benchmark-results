@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784283687073,
+  "lastUpdate": 1784550578806,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13121,6 +13121,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 114852,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "153533002+marianfe@users.noreply.github.com",
+            "name": "Marian F",
+            "username": "marianfe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae83f8f18508660f4a5cdc40520166b73453b60f",
+          "message": "edr_solidity: parse solx DWARF debug info for Solidity stack traces (#1425)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-07-20T12:06:59Z",
+          "tree_id": "9b6c2154802a7e3806ea6a9fcb686d3e8fef8cd4",
+          "url": "https://github.com/NomicFoundation/edr/commit/ae83f8f18508660f4a5cdc40520166b73453b60f"
+        },
+        "date": 1784550577915,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34025875,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11716,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 294238,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8953,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33811872,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 130998,
             "unit": "us"
           }
         ]
