@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784621476636,
+  "lastUpdate": 1784648813758,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13391,6 +13391,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 119750,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "48af36f30577e1bbb0e55e2f60976be11963dbd5",
+          "message": "feat: experimental EIP-7843 support (Amsterdam) (#1565)",
+          "timestamp": "2026-07-21T15:25:35Z",
+          "tree_id": "d0932905a148dec0fb734ebc106b2eba3fe9fc8f",
+          "url": "https://github.com/NomicFoundation/edr/commit/48af36f30577e1bbb0e55e2f60976be11963dbd5"
+        },
+        "date": 1784648812684,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31740007,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11492,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 267547,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 10014,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31596732,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 123965,
             "unit": "us"
           }
         ]
