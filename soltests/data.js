@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784648813758,
+  "lastUpdate": 1784748224488,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13445,6 +13445,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123965,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "153533002+marianfe@users.noreply.github.com",
+            "name": "Marian F",
+            "username": "marianfe"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2e35ab2a1e3d49169574407be3ce72ee01ba734",
+          "message": "docs(solx-parity-sweep): fix stale README (#1571)\n\nCo-authored-by: Octavian Popescu <popescu.octavian09@gmail.com>",
+          "timestamp": "2026-07-22T18:17:49Z",
+          "tree_id": "c34131c60dbda823c5a9cd90d4059134b1b61e11",
+          "url": "https://github.com/NomicFoundation/edr/commit/e2e35ab2a1e3d49169574407be3ce72ee01ba734"
+        },
+        "date": 1784748223497,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31692474,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11265,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 266736,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9151,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31570866,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 136926,
             "unit": "us"
           }
         ]
