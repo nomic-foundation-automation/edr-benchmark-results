@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784748224488,
+  "lastUpdate": 1784900078218,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13499,6 +13499,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 136926,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c66cd68aaa3cd7a5af1968a2933fe7bc5db9f809",
+          "message": "test(solx-parity-sweep): add bare-modifier-revert and linked-library scenarios (#1572)",
+          "timestamp": "2026-07-24T12:40:26Z",
+          "tree_id": "a41caec2db76f35a1105d79b30c6c73626076a40",
+          "url": "https://github.com/NomicFoundation/edr/commit/c66cd68aaa3cd7a5af1968a2933fe7bc5db9f809"
+        },
+        "date": 1784900077585,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30950772,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11194,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 264153,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9485,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30880642,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 134127,
             "unit": "us"
           }
         ]
