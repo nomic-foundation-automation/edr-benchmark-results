@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785162579609,
+  "lastUpdate": 1785179099174,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13661,6 +13661,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132369,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "440e77043540d9c394342f2513e879a0c7b4208d",
+          "message": "fix(edr_solidity): solx stack-trace attribution for declaration-level and line-0 DWARF (#1577)",
+          "timestamp": "2026-07-27T18:18:58Z",
+          "tree_id": "f32065172ebebae58be1077f1d8f47e19d375b73",
+          "url": "https://github.com/NomicFoundation/edr/commit/440e77043540d9c394342f2513e879a0c7b4208d"
+        },
+        "date": 1785179098543,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34681159,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11559,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 289883,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 10000,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34640522,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139418,
             "unit": "us"
           }
         ]
