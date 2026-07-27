@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785156708782,
+  "lastUpdate": 1785159704237,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16896,6 +16896,198 @@ window.BENCHMARK_DATA = {
             "range": "± 0",
             "unit": "s",
             "extra": "{\"user\":55.9779535,\"system\":12.101039039999998}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4a417c03eb435f5110a6b76423600ea34ee45fbe",
+          "message": "chore(deps): update dependency pnpm to v11.15.1 (#1582)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-27T11:54:18Z",
+          "tree_id": "6ecd4492a7b72b30aee98c1495a2da95e4bfdc8e",
+          "url": "https://github.com/NomicFoundation/edr/commit/4a417c03eb435f5110a6b76423600ea34ee45fbe"
+        },
+        "date": 1785159703958,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "1inch-aqua / test solidity",
+            "value": 0.555052454,
+            "range": "± 0.002631970233515509",
+            "unit": "s",
+            "extra": "{\"times\":[0.556913538,0.5531913700000001],\"min\":0.5531913700000001,\"max\":0.556913538,\"median\":0.555052454,\"mean\":0.555052454,\"peakRssMb\":273}"
+          },
+          {
+            "name": "1inch-aqua / test solidity (peak RSS)",
+            "value": 273,
+            "range": "",
+            "unit": "MB",
+            "extra": "{\"times\":[273],\"min\":273,\"max\":273,\"median\":273,\"mean\":273,\"stddev\":0}"
+          },
+          {
+            "name": "1inch-aqua / test solidity (cpu)",
+            "value": 0.8852446199999999,
+            "range": "± 0",
+            "unit": "s",
+            "extra": "{\"user\":0.58436388,\"system\":0.30088074}"
+          },
+          {
+            "name": "1inch-cross-chain-swap / test solidity",
+            "value": 3.769196177646666,
+            "range": "± 0.13142496794651598",
+            "unit": "s",
+            "extra": "{\"times\":[3.7334421135799998,3.66411191958,3.59456720458,3.88985063258,3.62972159158,4.02617644758,3.8519494395800002,3.74604815458,3.60732636658,3.74704246558,3.7246672485800003,4.01272841458,3.80482425358,3.72298275358,3.78250365858],\"min\":3.59456720458,\"max\":4.02617644758,\"median\":3.74604815458,\"mean\":3.769196177646666,\"peakRssMb\":540}"
+          },
+          {
+            "name": "1inch-cross-chain-swap / test solidity (peak RSS)",
+            "value": 540,
+            "range": "",
+            "unit": "MB",
+            "extra": "{\"times\":[540],\"min\":540,\"max\":540,\"median\":540,\"mean\":540,\"stddev\":0}"
+          },
+          {
+            "name": "1inch-cross-chain-swap / test solidity (cpu)",
+            "value": 9.904703139999999,
+            "range": "± 0",
+            "unit": "s",
+            "extra": "{\"user\":9.524583406666665,\"system\":0.38011973333333327}"
+          },
+          {
+            "name": "1inch-swap-vm / test solidity",
+            "value": 2.50170417649,
+            "range": "± 0.03252466991135396",
+            "unit": "s",
+            "extra": "{\"times\":[2.4612546632399996,2.51758965124,2.53615999824,2.4918123932399996],\"min\":2.4612546632399996,\"max\":2.53615999824,\"median\":2.50470102224,\"mean\":2.50170417649,\"peakRssMb\":1109}"
+          },
+          {
+            "name": "1inch-swap-vm / test solidity (peak RSS)",
+            "value": 1109,
+            "range": "",
+            "unit": "MB",
+            "extra": "{\"times\":[1109],\"min\":1109,\"max\":1109,\"median\":1109,\"mean\":1109,\"stddev\":0}"
+          },
+          {
+            "name": "1inch-swap-vm / test solidity (cpu)",
+            "value": 11.622223459999999,
+            "range": "± 0",
+            "unit": "s",
+            "extra": "{\"user\":10.977258769999999,\"system\":0.64496469}"
+          },
+          {
+            "name": "aave-v4 / test solidity",
+            "value": 11.384573702794997,
+            "range": "± 0.652080363524731",
+            "unit": "s",
+            "extra": "{\"times\":[10.99537810842,12.03295749442,10.44553564942,10.38711564842,11.97756672142,11.00318130342,12.00067494142,11.21140510942,12.19953737542,10.64176677242,10.99477219242,11.34238891742,10.82284839242,11.90878148442,11.31914761042,12.05204845842,11.78076710142,12.03868138642,10.58477683742,11.77889104442,12.11978888542,10.59882550842,12.34846070742,10.64447121642],\"min\":10.38711564842,\"max\":12.34846070742,\"median\":11.33076826392,\"mean\":11.384573702794997,\"peakRssMb\":3468}"
+          },
+          {
+            "name": "aave-v4 / test solidity (peak RSS)",
+            "value": 3468,
+            "range": "",
+            "unit": "MB",
+            "extra": "{\"times\":[3468],\"min\":3468,\"max\":3468,\"median\":3468,\"mean\":3468,\"stddev\":0}"
+          },
+          {
+            "name": "aave-v4 / test solidity (cpu)",
+            "value": 330.32806531333335,
+            "range": "± 0",
+            "unit": "s",
+            "extra": "{\"user\":327.9945042466667,\"system\":2.333561066666667}"
+          },
+          {
+            "name": "ens-verifiable-factory / test solidity",
+            "value": 0.48802373332000004,
+            "range": "± 0.0031357406815973174",
+            "unit": "s",
+            "extra": "{\"times\":[0.49024103682000003,0.48580642982000005],\"min\":0.48580642982000005,\"max\":0.49024103682000003,\"median\":0.48802373332000004,\"mean\":0.48802373332000004,\"peakRssMb\":207}"
+          },
+          {
+            "name": "ens-verifiable-factory / test solidity (peak RSS)",
+            "value": 207,
+            "range": "",
+            "unit": "MB",
+            "extra": "{\"times\":[207],\"min\":207,\"max\":207,\"median\":207,\"mean\":207,\"stddev\":0}"
+          },
+          {
+            "name": "ens-verifiable-factory / test solidity (cpu)",
+            "value": 0.69949292,
+            "range": "± 0",
+            "unit": "s",
+            "extra": "{\"user\":0.48607234,\"system\":0.21342057999999997}"
+          },
+          {
+            "name": "lidofinance-dual-governance / test solidity",
+            "value": 3.4823305730066676,
+            "range": "± 0.12437845412569022",
+            "unit": "s",
+            "extra": "{\"times\":[3.68606640714,3.38922757014,3.4725583211399997,3.57296836914,3.49609036914,3.56014846614,3.3320423411399998,3.42089333814,3.36891146014,3.5260946831399997,3.32314824414,3.44642382114,3.6148809921400002,3.33294841514,3.69255579714],\"min\":3.32314824414,\"max\":3.69255579714,\"median\":3.4725583211399997,\"mean\":3.4823305730066676,\"peakRssMb\":1028}"
+          },
+          {
+            "name": "lidofinance-dual-governance / test solidity (peak RSS)",
+            "value": 1028,
+            "range": "",
+            "unit": "MB",
+            "extra": "{\"times\":[1028],\"min\":1028,\"max\":1028,\"median\":1028,\"mean\":1028,\"stddev\":0}"
+          },
+          {
+            "name": "lidofinance-dual-governance / test solidity (cpu)",
+            "value": 27.69327212666667,
+            "range": "± 0",
+            "unit": "s",
+            "extra": "{\"user\":27.10103144666667,\"system\":0.59224068}"
+          },
+          {
+            "name": "uniswap-v4-core / test solidity",
+            "value": 7.334520552091111,
+            "range": "± 0.1766346677864916",
+            "unit": "s",
+            "extra": "{\"times\":[7.452679448980001,7.24284790098,7.45783960698,7.64171590898,7.1585597429800005,7.106864598980001,7.31658826898,7.18656983298,7.44701965898],\"min\":7.106864598980001,\"max\":7.64171590898,\"median\":7.31658826898,\"mean\":7.334520552091111,\"peakRssMb\":841}"
+          },
+          {
+            "name": "uniswap-v4-core / test solidity (peak RSS)",
+            "value": 841,
+            "range": "",
+            "unit": "MB",
+            "extra": "{\"times\":[841],\"min\":841,\"max\":841,\"median\":841,\"mean\":841,\"stddev\":0}"
+          },
+          {
+            "name": "uniswap-v4-core / test solidity (cpu)",
+            "value": 37.72766848444444,
+            "range": "± 0",
+            "unit": "s",
+            "extra": "{\"user\":36.47037147111111,\"system\":1.2572970133333332}"
+          },
+          {
+            "name": "uniswap-x / test solidity",
+            "value": 40.080889297,
+            "range": "± 0.02733278270584663",
+            "unit": "s",
+            "extra": "{\"times\":[40.061562101,40.100216493000005],\"min\":40.061562101,\"max\":40.100216493000005,\"median\":40.080889297,\"mean\":40.080889297,\"peakRssMb\":1066}"
+          },
+          {
+            "name": "uniswap-x / test solidity (peak RSS)",
+            "value": 1066,
+            "range": "",
+            "unit": "MB",
+            "extra": "{\"times\":[1066],\"min\":1066,\"max\":1066,\"median\":1066,\"mean\":1066,\"stddev\":0}"
+          },
+          {
+            "name": "uniswap-x / test solidity (cpu)",
+            "value": 68.08864844,
+            "range": "± 0",
+            "unit": "s",
+            "extra": "{\"user\":55.94083438,\"system\":12.14781406}"
           }
         ]
       }
