@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785154620219,
+  "lastUpdate": 1785162579609,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13607,6 +13607,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 124734,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b243eee8d9493d0553cba25636b7d37d0dbf38c",
+          "message": "chore(deps): update rust crate tokio to v1.53.0 (#1584)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-27T11:54:55Z",
+          "tree_id": "515f23992217477dc5bb983a84739e9529b113d8",
+          "url": "https://github.com/NomicFoundation/edr/commit/2b243eee8d9493d0553cba25636b7d37d0dbf38c"
+        },
+        "date": 1785162578995,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34434046,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11683,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 294302,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8961,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34346371,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132369,
             "unit": "us"
           }
         ]
