@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785248869542,
+  "lastUpdate": 1785254195959,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13931,6 +13931,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129019,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "48228046357e28aabf7161e9d61849db6c98e70d",
+          "message": "fix(edr_solidity_tests): include failing call's trace in invariant setup failures (#1586)",
+          "timestamp": "2026-07-28T14:00:05Z",
+          "tree_id": "0850a6c443a369deae70ec11489e6768b890ae68",
+          "url": "https://github.com/NomicFoundation/edr/commit/48228046357e28aabf7161e9d61849db6c98e70d"
+        },
+        "date": 1785254194889,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29736498,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11172,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 262923,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9619,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 29512372,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128157,
             "unit": "us"
           }
         ]
