@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785240788848,
+  "lastUpdate": 1785243154863,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13823,6 +13823,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 130129,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "18092467+ChristopherDedominici@users.noreply.github.com",
+            "name": "Christopher Dedominici",
+            "username": "ChristopherDedominici"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b5e9399b4a746f535a48c1480ecbe95537d1b80f",
+          "message": "fix: `CollectStackTraces::Always` does not populate Solidity test stack traces on failure (#1575)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-07-28T11:36:01Z",
+          "tree_id": "ab37c637799b124912c56be98ab64c76bdfd7d0b",
+          "url": "https://github.com/NomicFoundation/edr/commit/b5e9399b4a746f535a48c1480ecbe95537d1b80f"
+        },
+        "date": 1785243154245,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31198900,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11171,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 266372,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9657,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30898891,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 120735,
             "unit": "us"
           }
         ]
