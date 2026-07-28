@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785179099174,
+  "lastUpdate": 1785232524669,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13715,6 +13715,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139418,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bdcf6fb6b0e497ff9273d288d4b37924b2a35973",
+          "message": "chore(deps): update cargo minor/patch (#1579)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-07-28T09:00:55Z",
+          "tree_id": "2bba6a37e8195110f0b4fd8fbaf302fbc5c43a7f",
+          "url": "https://github.com/NomicFoundation/edr/commit/bdcf6fb6b0e497ff9273d288d4b37924b2a35973"
+        },
+        "date": 1785232524009,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 33904535,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11496,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 283348,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9101,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 33826418,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124708,
             "unit": "us"
           }
         ]
