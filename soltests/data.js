@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785243154863,
+  "lastUpdate": 1785248869542,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -13877,6 +13877,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 120735,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31039e8c290451997461c389719ea0c306d3b887",
+          "message": "test(hardhat-tests): remove Infura from forked-provider matrix (#1585)",
+          "timestamp": "2026-07-28T13:17:15Z",
+          "tree_id": "edc1e4eb86615e9468a426e2d46893b4d01d7918",
+          "url": "https://github.com/NomicFoundation/edr/commit/31039e8c290451997461c389719ea0c306d3b887"
+        },
+        "date": 1785248868913,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30978947,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11140,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 266674,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8963,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30863565,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129019,
             "unit": "us"
           }
         ]
