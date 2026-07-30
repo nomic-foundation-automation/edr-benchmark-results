@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785261674993,
+  "lastUpdate": 1785420393378,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14039,6 +14039,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 141777,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f008b009bce168b4cc4a04bf068e2069f19dcfea",
+          "message": "ci: fix stale bun cache breaking regression-benchmark EDR resolution (#1588)",
+          "timestamp": "2026-07-30T13:25:17Z",
+          "tree_id": "0adfc5dc95c3eafe512c9ad6ce065a2cb35d4f3e",
+          "url": "https://github.com/NomicFoundation/edr/commit/f008b009bce168b4cc4a04bf068e2069f19dcfea"
+        },
+        "date": 1785420392411,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29938891,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11014,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 264163,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8749,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 29876345,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127268,
             "unit": "us"
           }
         ]
