@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785420393378,
+  "lastUpdate": 1785452489949,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14093,6 +14093,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127268,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01e3c8df1f3381f759fda580c73c96ce84611957",
+          "message": "ci: update HH3 regression benchmark default filter (#1589)",
+          "timestamp": "2026-07-30T22:19:33Z",
+          "tree_id": "791a70ec3d6b76ba2377674275478f8d43922a7c",
+          "url": "https://github.com/NomicFoundation/edr/commit/01e3c8df1f3381f759fda580c73c96ce84611957"
+        },
+        "date": 1785452489023,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30039706,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11167,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 264531,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9551,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 29940617,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 149199,
             "unit": "us"
           }
         ]
