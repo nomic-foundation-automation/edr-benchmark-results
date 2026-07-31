@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785452489949,
+  "lastUpdate": 1785513877499,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14147,6 +14147,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 149199,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2c0ff0e185fddc4e87a0266249313c176c8c2652",
+          "message": "fix: clean yarn berry persistent cache (#1592)",
+          "timestamp": "2026-07-31T15:02:57Z",
+          "tree_id": "3740ac6ad8989f35090feb965b7761d543e6af32",
+          "url": "https://github.com/NomicFoundation/edr/commit/2c0ff0e185fddc4e87a0266249313c176c8c2652"
+        },
+        "date": 1785513876851,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30055656,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11075,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 264991,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9447,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 29856558,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133700,
             "unit": "us"
           }
         ]
