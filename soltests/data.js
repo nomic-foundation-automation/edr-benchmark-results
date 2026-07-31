@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785513877499,
+  "lastUpdate": 1785522488594,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14201,6 +14201,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133700,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2f7cf213482b7af9b053683598f2de87de18349",
+          "message": "ci: pull node images from a GHCR mirror instead of Docker Hub (#1587)",
+          "timestamp": "2026-07-31T17:40:02Z",
+          "tree_id": "b52bd23c7125ede17448dc27ab8da66c5c3c00b6",
+          "url": "https://github.com/NomicFoundation/edr/commit/a2f7cf213482b7af9b053683598f2de87de18349"
+        },
+        "date": 1785522487990,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30060536,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11470,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 264197,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9341,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 29856534,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 130966,
             "unit": "us"
           }
         ]
