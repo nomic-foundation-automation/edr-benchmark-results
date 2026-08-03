@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785760223257,
+  "lastUpdate": 1785779300042,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14417,6 +14417,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 126526,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a69221b6e5e3bcabaae6cc07515f8e2fa677c104",
+          "message": "chore(edr_tool_cli): remove the broken `gen-execution-api` subcommand (#1594)",
+          "timestamp": "2026-08-03T17:26:58Z",
+          "tree_id": "196283b6251555547b6bf519e2e28f13481b82bc",
+          "url": "https://github.com/NomicFoundation/edr/commit/a69221b6e5e3bcabaae6cc07515f8e2fa677c104"
+        },
+        "date": 1785779298975,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 31690619,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11414,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 271116,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8926,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31486009,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 131789,
             "unit": "us"
           }
         ]
