@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785779300042,
+  "lastUpdate": 1786633454586,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14471,6 +14471,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131789,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ca75f516d6296b41db0e0e08ee7a4714400485e5",
+          "message": "fix: collect stack traces for `setUp()` failures in `CollectStackTraces::Always` (#1619)",
+          "timestamp": "2026-08-13T14:14:36Z",
+          "tree_id": "ab5bc265bf238e6f4b4dac2bd231508e71c999c1",
+          "url": "https://github.com/NomicFoundation/edr/commit/ca75f516d6296b41db0e0e08ee7a4714400485e5"
+        },
+        "date": 1786633453830,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 34500090,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11433,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 285244,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9058,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 34318058,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129833,
             "unit": "us"
           }
         ]
