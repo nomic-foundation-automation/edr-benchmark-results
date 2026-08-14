@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786633454586,
+  "lastUpdate": 1786702224961,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14525,6 +14525,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129833,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1fdaced3b5f4806f737bb66b09214a37a0696b2",
+          "message": "test(edr_provider): broaden solx provider-path stack-trace coverage (#1552)",
+          "timestamp": "2026-08-14T09:42:41Z",
+          "tree_id": "479b1e0342ed2271db40d560142ba5f97ac7a0dc",
+          "url": "https://github.com/NomicFoundation/edr/commit/e1fdaced3b5f4806f737bb66b09214a37a0696b2"
+        },
+        "date": 1786702224133,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 43773610,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14059,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 362253,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 10646,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 43560834,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 126967,
             "unit": "us"
           }
         ]
