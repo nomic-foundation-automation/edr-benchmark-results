@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787045532222,
+  "lastUpdate": 1787065066158,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14633,6 +14633,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132245,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da473cbd07ad4fdf7195313f2ab05f03e4e4886b",
+          "message": "fix(tests): replace alchemy-dependant test with mock server (#1501)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-08-18T14:06:12Z",
+          "tree_id": "208f0c40b9a42ed55d08c22b97b4b34dc0940834",
+          "url": "https://github.com/NomicFoundation/edr/commit/da473cbd07ad4fdf7195313f2ab05f03e4e4886b"
+        },
+        "date": 1787065061561,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32027267,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11181,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 272561,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9450,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 31825447,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 131723,
             "unit": "us"
           }
         ]
