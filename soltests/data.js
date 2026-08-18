@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787065066158,
+  "lastUpdate": 1787074352861,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14687,6 +14687,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131723,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "john@kanej.me",
+            "name": "John Kane",
+            "username": "kanej"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "60c6e29fa7b22d4c17122cb8a35c770b7254b9d0",
+          "message": "refactor: rename the solx compiler type to slangSolx (#1622)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-08-18T15:12:32Z",
+          "tree_id": "de6d602d15b6e36c70f329ba01aeb47f3ae5ac40",
+          "url": "https://github.com/NomicFoundation/edr/commit/60c6e29fa7b22d4c17122cb8a35c770b7254b9d0"
+        },
+        "date": 1787074351217,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32949169,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11544,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 284288,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8859,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32760116,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 134877,
             "unit": "us"
           }
         ]
