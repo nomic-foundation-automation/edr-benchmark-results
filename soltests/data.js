@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787074352861,
+  "lastUpdate": 1787088865104,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14741,6 +14741,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134877,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4613af69e895ab71581c2135163382793582bd6b",
+          "message": "build(npm): redefine platform packages as `optionalDependencies` (#1615)",
+          "timestamp": "2026-08-18T15:14:37Z",
+          "tree_id": "f7b66ecddca30993803db282a546adb4ca2ad6ff",
+          "url": "https://github.com/NomicFoundation/edr/commit/4613af69e895ab71581c2135163382793582bd6b"
+        },
+        "date": 1787088864169,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 32413658,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11424,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 284188,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9387,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 32262478,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 117606,
             "unit": "us"
           }
         ]
