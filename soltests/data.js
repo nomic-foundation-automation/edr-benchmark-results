@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787142922248,
+  "lastUpdate": 1787150226087,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15011,6 +15011,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 138795,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a358e41f4433c57eb043b3b73c819cbf7969326d",
+          "message": "fix: prune absent platform packages from the Verdaccio publish (#1630)",
+          "timestamp": "2026-08-19T11:16:18Z",
+          "tree_id": "ecea331f68a804873a0c314bddc4535d9af75b8f",
+          "url": "https://github.com/NomicFoundation/edr/commit/a358e41f4433c57eb043b3b73c819cbf7969326d"
+        },
+        "date": 1787150225274,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30030617,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11167,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 267819,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9091,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 29954275,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137138,
             "unit": "us"
           }
         ]
