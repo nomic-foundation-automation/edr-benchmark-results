@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787126018781,
+  "lastUpdate": 1787132272495,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -14903,6 +14903,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 119145,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8aefa2bdbf189eba384dadfa687d183bbb28c3b9",
+          "message": "chore(deps): update rust crate base64 to 0.23 (#1625)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-19T08:15:37Z",
+          "tree_id": "5047e9a3120487b1c7e9480c0e7fb91c6e344d22",
+          "url": "https://github.com/NomicFoundation/edr/commit/8aefa2bdbf189eba384dadfa687d183bbb28c3b9"
+        },
+        "date": 1787132271784,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30917157,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11253,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 263911,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9550,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30801532,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 120981,
             "unit": "us"
           }
         ]
