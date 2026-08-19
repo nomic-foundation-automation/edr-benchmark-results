@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787150226087,
+  "lastUpdate": 1787155358123,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15065,6 +15065,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 137138,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01d16056cadc4900fe4b207c0952a4ae0eaec8a4",
+          "message": "chore(renovate): change schedule to weekends, rebase only on conflicts, add edrextended as reviewer (#1632)",
+          "timestamp": "2026-08-19T14:48:12Z",
+          "tree_id": "3e28ce80b441aa7d7b8585352f023bcc58128d62",
+          "url": "https://github.com/NomicFoundation/edr/commit/01d16056cadc4900fe4b207c0952a4ae0eaec8a4"
+        },
+        "date": 1787155356504,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 30202424,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11190,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 268524,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9198,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 30044333,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140559,
             "unit": "us"
           }
         ]
