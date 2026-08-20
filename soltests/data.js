@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787235871212,
+  "lastUpdate": 1787242558349,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15227,6 +15227,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 125077,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fa7eb4a91b50ad7af27572cf246c5192500f1fc",
+          "message": "build: upgrade REVM to v41.0.0 (tag v113) (#1604)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-08-20T15:54:40Z",
+          "tree_id": "7bc08eb90a75d30272203827ed67d0b087c8d641",
+          "url": "https://github.com/NomicFoundation/edr/commit/3fa7eb4a91b50ad7af27572cf246c5192500f1fc"
+        },
+        "date": 1787242557527,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28012001,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10843,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 253693,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9386,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27967265,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132666,
             "unit": "us"
           }
         ]
