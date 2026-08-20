@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787242558349,
+  "lastUpdate": 1787259052588,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15281,6 +15281,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132666,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d5f8a73a78a6eef0b1f12dff0b22cfb3185d6ac9",
+          "message": "feat(solidity-tests): inline config parsing using Slang v2 (#1530)",
+          "timestamp": "2026-08-20T20:07:15Z",
+          "tree_id": "56d740ae8e5e5d4d8e89174c0038c63fb5ad3381",
+          "url": "https://github.com/NomicFoundation/edr/commit/d5f8a73a78a6eef0b1f12dff0b22cfb3185d6ac9"
+        },
+        "date": 1787259051749,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23204214,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 12695,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 237270,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8646,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23098496,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 135921,
             "unit": "us"
           }
         ]
