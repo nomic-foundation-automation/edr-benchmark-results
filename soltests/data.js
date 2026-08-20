@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787158167942,
+  "lastUpdate": 1787235871212,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15173,6 +15173,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129837,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "06118705a3a90c1fb5ca55be54d3fe757cdd4497",
+          "message": "refactor: introduce EDR-owned protocol hardfork types (#1601)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-08-20T13:42:44Z",
+          "tree_id": "d1b7238cae46f2e01cd24620f46dbf69f2f400a1",
+          "url": "https://github.com/NomicFoundation/edr/commit/06118705a3a90c1fb5ca55be54d3fe757cdd4497"
+        },
+        "date": 1787235870425,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29894176,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11331,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 262031,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9072,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 29803219,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125077,
             "unit": "us"
           }
         ]
