@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787294094874,
+  "lastUpdate": 1787301252491,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15389,6 +15389,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 141512,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfbabc66efe3b3619f5e3057ee33b021eb0c35e8",
+          "message": "test: fix flaky `malformed_inline_config_aborts_whole_run` (#1638)",
+          "timestamp": "2026-08-21T07:36:17Z",
+          "tree_id": "71e60025399b64ade19bd32081ef8b9af8f5ae62",
+          "url": "https://github.com/NomicFoundation/edr/commit/bfbabc66efe3b3619f5e3057ee33b021eb0c35e8"
+        },
+        "date": 1787301251778,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24358747,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10762,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 233679,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9405,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24247404,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 150073,
             "unit": "us"
           }
         ]
