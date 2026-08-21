@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787259052588,
+  "lastUpdate": 1787294094874,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15335,6 +15335,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 135921,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "15adad6816904f60800239ed22bd17bf7d5fefdc",
+          "message": "chore: rename hardfork variants to follow Rust naming conventions (#1637)",
+          "timestamp": "2026-08-21T06:14:12Z",
+          "tree_id": "46b54e19a420b935c0ed1cf82b6fef55f7c784c4",
+          "url": "https://github.com/NomicFoundation/edr/commit/15adad6816904f60800239ed22bd17bf7d5fefdc"
+        },
+        "date": 1787294094108,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23845266,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10694,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 238456,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9413,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23705172,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 141512,
             "unit": "us"
           }
         ]
