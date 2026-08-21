@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787301252491,
+  "lastUpdate": 1787304660013,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15443,6 +15443,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 150073,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f0df8b5da0e30b0ba00db50993c27b50ce7fca1f",
+          "message": "fix(tools): avoid uppercasing OpHardfork variants in op-chain-config generator (#1639)",
+          "timestamp": "2026-08-21T08:49:56Z",
+          "tree_id": "a7cdf2d36f456796b07366200dee2f23116b1284",
+          "url": "https://github.com/NomicFoundation/edr/commit/f0df8b5da0e30b0ba00db50993c27b50ce7fca1f"
+        },
+        "date": 1787304658884,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24461134,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10616,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 235165,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9074,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24416085,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148387,
             "unit": "us"
           }
         ]
