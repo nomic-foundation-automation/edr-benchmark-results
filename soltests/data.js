@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787578969263,
+  "lastUpdate": 1787591718920,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15713,6 +15713,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 138031,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "855d3db35f7b469ef18adf0b6b1136ed87ac9d1a",
+          "message": "test(bench): add the ability to temporarily pin Hardhat to an open PR (#1642)",
+          "timestamp": "2026-08-24T14:46:50Z",
+          "tree_id": "9820ba0bb9533e1e46aba60005ecfab7cc4dff36",
+          "url": "https://github.com/NomicFoundation/edr/commit/855d3db35f7b469ef18adf0b6b1136ed87ac9d1a"
+        },
+        "date": 1787591717374,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23322258,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10559,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 237256,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9005,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23189749,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128638,
             "unit": "us"
           }
         ]
