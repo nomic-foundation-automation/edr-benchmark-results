@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787572229326,
+  "lastUpdate": 1787578969263,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15659,6 +15659,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134663,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6de3bdf0398cb3d9a06e3b5a6903230668050550",
+          "message": "chore(deps): update npm minor/patch (#1648)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Octavian Popescu <popescu.octavian09@gmail.com>",
+          "timestamp": "2026-08-24T11:47:20Z",
+          "tree_id": "d0b37ca26698e30e192480432e933ae1868c7696",
+          "url": "https://github.com/NomicFoundation/edr/commit/6de3bdf0398cb3d9a06e3b5a6903230668050550"
+        },
+        "date": 1787578968270,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23350605,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10432,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 240554,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8503,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23206310,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138031,
             "unit": "us"
           }
         ]
