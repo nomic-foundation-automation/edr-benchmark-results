@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787591718920,
+  "lastUpdate": 1787645499975,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15767,6 +15767,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 128638,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "617568bd7aacd1b769b0839a1beafc0d5953781e",
+          "message": "docs(book): rewrite the profiling chapter around perf and --cpu-prof (#1640)",
+          "timestamp": "2026-08-25T07:18:12Z",
+          "tree_id": "1b7281580ae1d7206abf426d8ee47a9d00af2bbb",
+          "url": "https://github.com/NomicFoundation/edr/commit/617568bd7aacd1b769b0839a1beafc0d5953781e"
+        },
+        "date": 1787645499211,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23392060,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10648,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 242147,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9086,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23341381,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139183,
             "unit": "us"
           }
         ]
