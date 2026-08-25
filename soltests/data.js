@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787655660445,
+  "lastUpdate": 1787656570753,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15875,6 +15875,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 145174,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "568f28aac0a0183dbf803e74a7b0e93dd5c32d83",
+          "message": "fix(scripts): narrow napi targets instead of staging placeholder binaries (#1664)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-08-25T10:06:49Z",
+          "tree_id": "1a09db21b88af993f15e635146fdd3e59640d846",
+          "url": "https://github.com/NomicFoundation/edr/commit/568f28aac0a0183dbf803e74a7b0e93dd5c32d83"
+        },
+        "date": 1787656569496,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27712578,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11044,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257960,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9258,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27604176,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143076,
             "unit": "us"
           }
         ]
