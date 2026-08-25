@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787645499975,
+  "lastUpdate": 1787655660445,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15821,6 +15821,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139183,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "33864506fad34c3175e000dfb8ad5f326a72873e",
+          "message": "fix(deps): update rust crate object to 0.40 (#1653)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-25T09:47:11Z",
+          "tree_id": "83a6eb40aa66520910ec975582cc80575e64e613",
+          "url": "https://github.com/NomicFoundation/edr/commit/33864506fad34c3175e000dfb8ad5f326a72873e"
+        },
+        "date": 1787655659619,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28087181,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11018,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 250075,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8971,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27979842,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145174,
             "unit": "us"
           }
         ]
