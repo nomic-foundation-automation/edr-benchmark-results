@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787656570753,
+  "lastUpdate": 1787662858026,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15929,6 +15929,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143076,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "john@kanej.me",
+            "name": "John Kane",
+            "username": "kanej"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "475519deba72786d39e671ab8bf3a94a74db6b0a",
+          "message": "rename compiler type to slang-solx (#1666)",
+          "timestamp": "2026-08-25T12:25:10Z",
+          "tree_id": "1d4db01467e95ff8252ea5fc2f9105231f6d7162",
+          "url": "https://github.com/NomicFoundation/edr/commit/475519deba72786d39e671ab8bf3a94a74db6b0a"
+        },
+        "date": 1787662856783,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28231363,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10921,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 258098,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8716,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28159897,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 142722,
             "unit": "us"
           }
         ]
