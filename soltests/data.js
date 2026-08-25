@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787662858026,
+  "lastUpdate": 1787669495847,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -15983,6 +15983,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 142722,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "df14790b3b9e11005eca2fe205ce37943d4a55c5",
+          "message": "fix(tools): repair no-op `--check` in op-chain-config generator and update generated configs (#1641)\n\nCo-authored-by: Ana Perez Ghiglia <aghiglia@manas.tech>",
+          "timestamp": "2026-08-25T13:43:33Z",
+          "tree_id": "850f31c4cdd86bc3d7e8679dfc1e9ec0494e42e4",
+          "url": "https://github.com/NomicFoundation/edr/commit/df14790b3b9e11005eca2fe205ce37943d4a55c5"
+        },
+        "date": 1787669495104,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28653156,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11026,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257795,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8804,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28558376,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145402,
             "unit": "us"
           }
         ]
