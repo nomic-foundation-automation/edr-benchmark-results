@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787678250228,
+  "lastUpdate": 1787735388669,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16091,6 +16091,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127347,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wighawag@gmail.com",
+            "name": "Ronan Sandford",
+            "username": "wighawag"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1974f4c64dab5c3bb19aa75b67815c3b7324d65",
+          "message": "feat: add `blockTimestamp` to logs (#1644)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-08-26T08:23:26Z",
+          "tree_id": "8c4e1825ca691d7c5149403d11258583db12f802",
+          "url": "https://github.com/NomicFoundation/edr/commit/e1974f4c64dab5c3bb19aa75b67815c3b7324d65"
+        },
+        "date": 1787735387874,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23887884,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11141,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 241184,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8496,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23724258,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124430,
             "unit": "us"
           }
         ]
