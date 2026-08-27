@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787835139468,
+  "lastUpdate": 1787842424153,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16199,6 +16199,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 120396,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d359b9d3233c91a20fb49e5da0d0cd7d85546dc",
+          "message": "ci(bench): notify Slack on perf regressions in main baseline runs (#1668)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-08-27T12:46:44Z",
+          "tree_id": "3fe387b8098cc1e1bd63155d0fb092a78cad3fda",
+          "url": "https://github.com/NomicFoundation/edr/commit/5d359b9d3233c91a20fb49e5da0d0cd7d85546dc"
+        },
+        "date": 1787842422865,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24066552,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10678,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 237158,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9024,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23970223,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127795,
             "unit": "us"
           }
         ]
