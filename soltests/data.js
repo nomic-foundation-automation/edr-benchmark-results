@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787846564869,
+  "lastUpdate": 1787869355345,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16307,6 +16307,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133925,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16771cd41a5ccf127df5dde1ad0ec0e74a92947a",
+          "message": "doc: document best practices for traits as part of style guide (#1618)",
+          "timestamp": "2026-08-27T21:45:10Z",
+          "tree_id": "ae28fbecfcf5f93de7da8109d8815489b5df16d0",
+          "url": "https://github.com/NomicFoundation/edr/commit/16771cd41a5ccf127df5dde1ad0ec0e74a92947a"
+        },
+        "date": 1787869353868,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23414177,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10544,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 237969,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8785,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23371634,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 131287,
             "unit": "us"
           }
         ]
