@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787734767802,
+  "lastUpdate": 1787836422937,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "153533002+marianfe@users.noreply.github.com",
-            "name": "Marian F",
-            "username": "marianfe"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "e2e35ab2a1e3d49169574407be3ce72ee01ba734",
-          "message": "docs(solx-parity-sweep): fix stale README (#1571)\n\nCo-authored-by: Octavian Popescu <popescu.octavian09@gmail.com>",
-          "timestamp": "2026-07-22T18:17:49Z",
-          "tree_id": "c34131c60dbda823c5a9cd90d4059134b1b61e11",
-          "url": "https://github.com/NomicFoundation/edr/commit/e2e35ab2a1e3d49169574407be3ce72ee01ba734"
-        },
-        "date": 1784747545619,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 198413.97308,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 20430.462053,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 9257.259517,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 12426.03053,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 639.8512650000001,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 4680.975452000001,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 146986.797609,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 3992.5966540000004,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4222.770737000001,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cf35c5be03034831d3d1c3dba6434772e1b0e52f",
+          "message": "ci: build Hardhat against the local EDR in the HH3 benchmark (#1672)",
+          "timestamp": "2026-08-27T12:26:37Z",
+          "tree_id": "e75f140fa0fadcbe119d44d2aa35b0479f48debe",
+          "url": "https://github.com/NomicFoundation/edr/commit/cf35c5be03034831d3d1c3dba6434772e1b0e52f"
+        },
+        "date": 1787836422128,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 215381.121124,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 22268.430976,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 9454.198405000001,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 13224.717308000001,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 668.526568,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 5080.089767,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 160625.812124,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 4059.345976,
             "unit": "ms"
           }
         ]
