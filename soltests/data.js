@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787842424153,
+  "lastUpdate": 1787846564869,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16253,6 +16253,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127795,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "18092467+ChristopherDedominici@users.noreply.github.com",
+            "name": "Christopher Dedominici",
+            "username": "ChristopherDedominici"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9637a17ebe5c2d166cc24b8bc8c68624ad5bb137",
+          "message": "feat: expose native keccak256 implementation (#1671)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-08-27T15:42:45Z",
+          "tree_id": "a123f1a307abba37a3a12d7cb93cf39d27230252",
+          "url": "https://github.com/NomicFoundation/edr/commit/9637a17ebe5c2d166cc24b8bc8c68624ad5bb137"
+        },
+        "date": 1787846561683,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23134789,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10812,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 236928,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9031,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 22975516,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133925,
             "unit": "us"
           }
         ]
