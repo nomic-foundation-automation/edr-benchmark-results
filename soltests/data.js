@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787735388669,
+  "lastUpdate": 1787835139468,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16145,6 +16145,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 124430,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cf35c5be03034831d3d1c3dba6434772e1b0e52f",
+          "message": "ci: build Hardhat against the local EDR in the HH3 benchmark (#1672)",
+          "timestamp": "2026-08-27T12:26:37Z",
+          "tree_id": "e75f140fa0fadcbe119d44d2aa35b0479f48debe",
+          "url": "https://github.com/NomicFoundation/edr/commit/cf35c5be03034831d3d1c3dba6434772e1b0e52f"
+        },
+        "date": 1787835138726,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24066593,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10683,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 237036,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9170,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23960705,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 120396,
             "unit": "us"
           }
         ]
