@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787869355345,
+  "lastUpdate": 1787933428400,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16361,6 +16361,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131287,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e7324f94a1e5b31bd068b679e1193bf99a734b2",
+          "message": "test: add EIP-7976 calldata floor test (Amsterdam) (#1674)",
+          "timestamp": "2026-08-28T15:23:40Z",
+          "tree_id": "cceda2f7a3f8073eb41a7ef720d441fa56c286da",
+          "url": "https://github.com/NomicFoundation/edr/commit/4e7324f94a1e5b31bd068b679e1193bf99a734b2"
+        },
+        "date": 1787933427614,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23091656,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10630,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 237977,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8564,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 22994930,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 130929,
             "unit": "us"
           }
         ]
