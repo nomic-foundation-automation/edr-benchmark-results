@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787933428400,
+  "lastUpdate": 1787936072752,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16415,6 +16415,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 130929,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ba43de6b7d0a3ce986ae04a4c7c5fdfa6e5a791",
+          "message": "refactor(tests): extract shared provider helpers (#1675)",
+          "timestamp": "2026-08-28T15:58:51Z",
+          "tree_id": "c49ac0ab7fe525e55048c085870ab9383bcc57ce",
+          "url": "https://github.com/NomicFoundation/edr/commit/2ba43de6b7d0a3ce986ae04a4c7c5fdfa6e5a791"
+        },
+        "date": 1787936069280,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23049928,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10779,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 238043,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8666,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 22946345,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132995,
             "unit": "us"
           }
         ]
