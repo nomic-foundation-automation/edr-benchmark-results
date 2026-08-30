@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788114681093,
+  "lastUpdate": 1788122661266,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16901,6 +16901,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123621,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "425eceb36042abc120f52478f5e81b69a0c4839d",
+          "message": "fix(deps): update rust crate cita_trie to v6 (#1694)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-08-30T17:02:53Z",
+          "tree_id": "ca5fe3482630f1acc399597fd6576d5bff6cc471",
+          "url": "https://github.com/NomicFoundation/edr/commit/425eceb36042abc120f52478f5e81b69a0c4839d"
+        },
+        "date": 1788122660514,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24070607,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10726,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 237449,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8833,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24005458,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 131891,
             "unit": "us"
           }
         ]
