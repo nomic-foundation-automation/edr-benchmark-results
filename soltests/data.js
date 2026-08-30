@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788089642225,
+  "lastUpdate": 1788096687955,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16739,6 +16739,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 126854,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "92d34e4c90e84bb12061af40de55bce00a213784",
+          "message": "chore(deps): update taiki-e/install-action action to v2.86.6 (#1678)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-08-30T12:41:43Z",
+          "tree_id": "c443f4dee9dc2e2fbfc628f4d9be37860592e0ad",
+          "url": "https://github.com/NomicFoundation/edr/commit/92d34e4c90e84bb12061af40de55bce00a213784"
+        },
+        "date": 1788096687172,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24047402,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13782,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 238357,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9053,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23976039,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 131255,
             "unit": "us"
           }
         ]
