@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788043744435,
+  "lastUpdate": 1788052639464,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16577,6 +16577,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 121256,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9a85e656e9ce262cfdf4e5f73e3fecbb2f4e1e1",
+          "message": "chore(deps): update rust crate rustc-hash to v2 (#1684)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-29T22:02:23Z",
+          "tree_id": "b86bb6cbc780018cb467979afbcd9a11a6d8c445",
+          "url": "https://github.com/NomicFoundation/edr/commit/e9a85e656e9ce262cfdf4e5f73e3fecbb2f4e1e1"
+        },
+        "date": 1788052638342,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 23242408,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10569,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 238718,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9252,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 23176050,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129402,
             "unit": "us"
           }
         ]
