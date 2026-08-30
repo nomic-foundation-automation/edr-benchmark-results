@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788122661266,
+  "lastUpdate": 1788126491949,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -16955,6 +16955,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131891,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6ff2766ab6cb90f19e4f201939868a97910d9e06",
+          "message": "chore(deps): update rust to v1.98.0 (#1680)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-08-30T19:37:11Z",
+          "tree_id": "e6376b3c615eeab72001137565c9a2c2f4cc8cf3",
+          "url": "https://github.com/NomicFoundation/edr/commit/6ff2766ab6cb90f19e4f201939868a97910d9e06"
+        },
+        "date": 1788126491168,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25173429,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10815,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244478,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8772,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25045356,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128380,
             "unit": "us"
           }
         ]
