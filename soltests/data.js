@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788126491949,
+  "lastUpdate": 1788166100766,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17009,6 +17009,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 128380,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a0a3ed8d085cd08c96ff84c9488292d250864069",
+          "message": "bench: add a memory benchmark for the Solidity test runner (#1621)",
+          "timestamp": "2026-08-31T08:24:59Z",
+          "tree_id": "9369bcd039cf4ea31f09f92ba50d7ea1ccdbbe4e",
+          "url": "https://github.com/NomicFoundation/edr/commit/a0a3ed8d085cd08c96ff84c9488292d250864069"
+        },
+        "date": 1788166099356,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25312271,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10747,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244737,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9172,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25207236,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128490,
             "unit": "us"
           }
         ]
