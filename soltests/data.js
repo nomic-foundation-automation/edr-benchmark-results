@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788171586370,
+  "lastUpdate": 1788196953885,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17117,6 +17117,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 120226,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "565bca1d9392da43e128498ebd1943da255b589f",
+          "message": "fix: don't panic on a fuzz counterexample without a recorded arena (#1700)",
+          "timestamp": "2026-08-31T12:03:37Z",
+          "tree_id": "fb43a03fa39d03090f0e8d275fb2da0eb7afca98",
+          "url": "https://github.com/NomicFoundation/edr/commit/565bca1d9392da43e128498ebd1943da255b589f"
+        },
+        "date": 1788196952431,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27872285,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11069,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 256665,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8825,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27813554,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132746,
             "unit": "us"
           }
         ]
