@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788166100766,
+  "lastUpdate": 1788171586370,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17063,6 +17063,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 128490,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "5fcab39b122d8445ea9bde49b9eb410c7864de21",
+          "message": "chore(deps): update rust crate toml to v1 (#1692)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-08-31T08:58:06Z",
+          "tree_id": "046de74e9979c01c8132668869c1003440336f6f",
+          "url": "https://github.com/NomicFoundation/edr/commit/5fcab39b122d8445ea9bde49b9eb410c7864de21"
+        },
+        "date": 1788171585560,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25418322,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10965,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 243815,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9346,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25379956,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 120226,
             "unit": "us"
           }
         ]
