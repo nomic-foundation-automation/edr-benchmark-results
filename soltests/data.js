@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788263832609,
+  "lastUpdate": 1788277890525,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17333,6 +17333,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 124953,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3aed02b053a71e3cd941145629cebc47c3d1f54a",
+          "message": "chore(scripts): convert the remaining CJS tooling scripts to TypeScript (#1673)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-09-01T10:47:02Z",
+          "tree_id": "87de622c24584d13db4a2dbe97b5a63c982d4c7d",
+          "url": "https://github.com/NomicFoundation/edr/commit/3aed02b053a71e3cd941145629cebc47c3d1f54a"
+        },
+        "date": 1788277889663,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25357758,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14037,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247240,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8833,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25272952,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 126055,
             "unit": "us"
           }
         ]
