@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788277890525,
+  "lastUpdate": 1788294078474,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17387,6 +17387,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 126055,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "877041b5ce68f1d789ad8c05491c59c961d43495",
+          "message": "test: add EIP-7981 access list cost increase test (Amsterdam) (#1676)",
+          "timestamp": "2026-09-01T14:10:06Z",
+          "tree_id": "8913bd3488f775e0d86cb165d351916e5a636abd",
+          "url": "https://github.com/NomicFoundation/edr/commit/877041b5ce68f1d789ad8c05491c59c961d43495"
+        },
+        "date": 1788294076795,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25819630,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10719,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247457,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9549,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25787890,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144321,
             "unit": "us"
           }
         ]
