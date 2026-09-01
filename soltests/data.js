@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788196953885,
+  "lastUpdate": 1788228549700,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17171,6 +17171,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132746,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7fff2bd5c1fe4c9b882ee10407b688ec78732c04",
+          "message": "perf: move provider to background thread (#1486)",
+          "timestamp": "2026-08-31T20:50:13Z",
+          "tree_id": "344226a8280d6553aacc4ce7d9f8a602287a3479",
+          "url": "https://github.com/NomicFoundation/edr/commit/7fff2bd5c1fe4c9b882ee10407b688ec78732c04"
+        },
+        "date": 1788228548236,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28104640,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11054,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257303,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9411,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28048177,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133445,
             "unit": "us"
           }
         ]
