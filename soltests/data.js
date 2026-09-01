@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788228549700,
+  "lastUpdate": 1788235417223,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17225,6 +17225,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133445,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "def04e73104b0c84df00ab60c06d6aa21beb08b7",
+          "message": "fix: validate interval mining and always restart its timer (#1686)",
+          "timestamp": "2026-08-31T21:26:15Z",
+          "tree_id": "8cc024592069e3c50fafa0825890ff15cc650083",
+          "url": "https://github.com/NomicFoundation/edr/commit/def04e73104b0c84df00ab60c06d6aa21beb08b7"
+        },
+        "date": 1788235416404,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25325988,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10851,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244940,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9262,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25263455,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125065,
             "unit": "us"
           }
         ]
