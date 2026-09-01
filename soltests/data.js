@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788235417223,
+  "lastUpdate": 1788263832609,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17279,6 +17279,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 125065,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a65c6b178041f84ec918340bd57f3572a5bcfcbe",
+          "message": "docs: state the contracts the stack-trace computation relies on (#1701)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-09-01T09:18:42Z",
+          "tree_id": "60860cd930843d1966f5ac9bf7c1d6de42d5c3a2",
+          "url": "https://github.com/NomicFoundation/edr/commit/a65c6b178041f84ec918340bd57f3572a5bcfcbe"
+        },
+        "date": 1788263831707,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25744096,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10892,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 245043,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8786,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25581938,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124953,
             "unit": "us"
           }
         ]
