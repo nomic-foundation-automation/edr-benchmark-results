@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788294078474,
+  "lastUpdate": 1788334051619,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17441,6 +17441,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144321,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc328c8d8e898cfb65bca1d3c45ca3e6bfc8e601",
+          "message": "test: fix remote `eth_getProof` tests failing on aged fork block (#1721)",
+          "timestamp": "2026-09-02T07:07:12Z",
+          "tree_id": "6727d1783eea8af59ce42e7df7d3aaf27b586994",
+          "url": "https://github.com/NomicFoundation/edr/commit/bc328c8d8e898cfb65bca1d3c45ca3e6bfc8e601"
+        },
+        "date": 1788334050319,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25905965,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13979,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 248181,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9195,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25739116,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129549,
             "unit": "us"
           }
         ]
