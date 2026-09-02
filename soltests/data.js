@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788334051619,
+  "lastUpdate": 1788366470248,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17495,6 +17495,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129549,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "883a780f70f7e015c2f2897efaa62de320b221c4",
+          "message": "feat: contract-level inline configurations in Solidity tests (#1627)",
+          "timestamp": "2026-09-02T12:15:35Z",
+          "tree_id": "57bad21f94aef283f4d3daf96d6a07636e890ab8",
+          "url": "https://github.com/NomicFoundation/edr/commit/883a780f70f7e015c2f2897efaa62de320b221c4"
+        },
+        "date": 1788366469370,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27576137,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11147,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257592,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9808,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27497950,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128299,
             "unit": "us"
           }
         ]
