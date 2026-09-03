@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788441767012,
+  "lastUpdate": 1788446108371,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17765,6 +17765,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132116,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c69d43b879a81e678f40d03aeb1311e9c3b58116",
+          "message": "chore(devcontainer): stop forwarding INFURA_URL into the container (#1726)",
+          "timestamp": "2026-09-03T12:25:54Z",
+          "tree_id": "236276cebb67ea3a6fba6e184ecfc0c511e3051c",
+          "url": "https://github.com/NomicFoundation/edr/commit/c69d43b879a81e678f40d03aeb1311e9c3b58116"
+        },
+        "date": 1788446107146,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27326924,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10945,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257598,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9673,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27296481,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137134,
             "unit": "us"
           }
         ]
