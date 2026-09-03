@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788425032206,
+  "lastUpdate": 1788428554388,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17657,6 +17657,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123731,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8daa87b3f495fb9c98635abe77e790062d08537c",
+          "message": "fix(ci): cancel benchmarks of merged PRs (#1724)",
+          "timestamp": "2026-09-03T09:02:43Z",
+          "tree_id": "c9b8d81d7b2fdce07677053ec981833ef2bb3b38",
+          "url": "https://github.com/NomicFoundation/edr/commit/8daa87b3f495fb9c98635abe77e790062d08537c"
+        },
+        "date": 1788428553568,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28035039,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11303,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 260554,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9243,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27998116,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 123370,
             "unit": "us"
           }
         ]
