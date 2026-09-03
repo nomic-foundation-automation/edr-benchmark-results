@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788370853437,
+  "lastUpdate": 1788425032206,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17603,6 +17603,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 135426,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "077021df9cedff08dba3e5f41e76560a48ebff78",
+          "message": "fix(ci): cancel EDR benchmarks when the triggering PR is closed (#1723)\n\nCo-authored-by: Claude <noreply@anthropic.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-09-03T08:03:38Z",
+          "tree_id": "12d28b13898d02c3371047f2b8e796510fd232de",
+          "url": "https://github.com/NomicFoundation/edr/commit/077021df9cedff08dba3e5f41e76560a48ebff78"
+        },
+        "date": 1788425031325,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27521430,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10924,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 254147,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8780,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27416322,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 123731,
             "unit": "us"
           }
         ]
