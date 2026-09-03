@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788428554388,
+  "lastUpdate": 1788441767012,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17711,6 +17711,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123370,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21b8c1bd6ebf770713bff72d95ba736e22bb60f4",
+          "message": "test(cheatcodes): filter JSON-object strings out of roundtrip proptests (#1699)",
+          "timestamp": "2026-09-03T11:27:47Z",
+          "tree_id": "cbdeba75732c80a3cc5f04f8d4a2d0e85462f078",
+          "url": "https://github.com/NomicFoundation/edr/commit/21b8c1bd6ebf770713bff72d95ba736e22bb60f4"
+        },
+        "date": 1788441762294,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27464980,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10973,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 258392,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9212,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27337201,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132116,
             "unit": "us"
           }
         ]
