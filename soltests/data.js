@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788446108371,
+  "lastUpdate": 1788520079795,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17819,6 +17819,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 137134,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d8579ed40ad4a0a6bbdcbe6b209fa7bdf8783d94",
+          "message": "fix: keep the stack trace of a reverting `afterInvariant()` (#1711)",
+          "timestamp": "2026-09-04T10:44:12Z",
+          "tree_id": "a03c6de2e274a7d0b7de826112993d9aabd4fb67",
+          "url": "https://github.com/NomicFoundation/edr/commit/d8579ed40ad4a0a6bbdcbe6b209fa7bdf8783d94"
+        },
+        "date": 1788520078995,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27899587,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11175,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 261428,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8861,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27843418,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138005,
             "unit": "us"
           }
         ]
