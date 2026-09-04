@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788561118217,
+  "lastUpdate": 1788562968035,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18089,6 +18089,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 148248,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4bd2359632fa77329650c075b7ae2c51d8b2c2d3",
+          "message": "perf: strip EVM steps from displaced arenas as traces accumulate (#1704)",
+          "timestamp": "2026-09-04T22:07:01Z",
+          "tree_id": "20e2768d9fc3af131b1ba66e710ad98daedcba5e",
+          "url": "https://github.com/NomicFoundation/edr/commit/4bd2359632fa77329650c075b7ae2c51d8b2c2d3"
+        },
+        "date": 1788562967208,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25699716,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10818,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247525,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9121,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25457693,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143353,
             "unit": "us"
           }
         ]
