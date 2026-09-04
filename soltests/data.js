@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788536971882,
+  "lastUpdate": 1788561118217,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18035,6 +18035,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 145952,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10ae5132329e1447edc53f8502828e12f6ef2139",
+          "message": "perf: strip recorded EVM steps from arenas retained for call traces (#1703)",
+          "timestamp": "2026-09-04T21:44:20Z",
+          "tree_id": "d2474907e02b853689c15ed7ba56811bb53afb02",
+          "url": "https://github.com/NomicFoundation/edr/commit/10ae5132329e1447edc53f8502828e12f6ef2139"
+        },
+        "date": 1788561116927,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29453906,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11249,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 256574,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8863,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 29265834,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 148248,
             "unit": "us"
           }
         ]
