@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788520079795,
+  "lastUpdate": 1788525959189,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17873,6 +17873,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 138005,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "334d1903df3dd02b379a06a9ddc5d4e8f5041a09",
+          "message": "ci(bench): include verbosity variants in the default benchmark filter (#1730)",
+          "timestamp": "2026-09-04T12:07:40Z",
+          "tree_id": "e177fa962a4f25b635d0572417f8562a982c3ebe",
+          "url": "https://github.com/NomicFoundation/edr/commit/334d1903df3dd02b379a06a9ddc5d4e8f5041a09"
+        },
+        "date": 1788525957876,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27792111,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11450,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 256899,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8758,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27752082,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 151041,
             "unit": "us"
           }
         ]
