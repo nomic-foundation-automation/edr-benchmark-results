@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788531385080,
+  "lastUpdate": 1788536971882,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17981,6 +17981,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144915,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad37ac8d40d0448c6a3a514c26d37cccc9189647",
+          "message": "perf: free unconsumed trace arenas as soon as each test finishes (#1702)",
+          "timestamp": "2026-09-04T14:07:09Z",
+          "tree_id": "c98de51bf2d4962e4ba7d60d2d000f23840b3d9e",
+          "url": "https://github.com/NomicFoundation/edr/commit/ad37ac8d40d0448c6a3a514c26d37cccc9189647"
+        },
+        "date": 1788536970594,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24820843,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10793,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247770,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8966,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24657949,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145952,
             "unit": "us"
           }
         ]
