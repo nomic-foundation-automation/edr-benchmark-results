@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788525959189,
+  "lastUpdate": 1788531385080,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -17927,6 +17927,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 151041,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8e4e1f1bd89a5f924174fa1ddda7211b9b157889",
+          "message": "perf: serialize JSON-RPC responses once (#1698)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-09-04T13:38:24Z",
+          "tree_id": "6807e2be1f02f970afe0785b2a47a72e37bcd690",
+          "url": "https://github.com/NomicFoundation/edr/commit/8e4e1f1bd89a5f924174fa1ddda7211b9b157889"
+        },
+        "date": 1788531384203,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27892749,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11074,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 253018,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8867,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27821249,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144915,
             "unit": "us"
           }
         ]
