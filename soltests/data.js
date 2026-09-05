@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788562968035,
+  "lastUpdate": 1788637914150,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18143,6 +18143,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143353,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c08c761b954004beeb11bfccca7359fcba80339f",
+          "message": "ci: build the linux gnu bindings on bookworm (#1736)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-09-05T19:12:57Z",
+          "tree_id": "6f81d8780a461b33d2765e88c8e85ad49d759c5a",
+          "url": "https://github.com/NomicFoundation/edr/commit/c08c761b954004beeb11bfccca7359fcba80339f"
+        },
+        "date": 1788637913282,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26141003,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10715,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 245574,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9214,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26008290,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 151649,
             "unit": "us"
           }
         ]
