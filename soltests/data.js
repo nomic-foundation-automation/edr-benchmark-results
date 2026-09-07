@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788797357025,
+  "lastUpdate": 1788813081169,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18413,6 +18413,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140965,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ee98b2704479247d30a6c86ed683c523060a6c1",
+          "message": "chore(deps): update npm minor/patch to v8.68.0 (#1734)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Ana Perez Ghiglia <aghiglia@manas.tech>",
+          "timestamp": "2026-09-07T20:09:52Z",
+          "tree_id": "b1b283f4a3df99bb395684b927e8ee367653806d",
+          "url": "https://github.com/NomicFoundation/edr/commit/0ee98b2704479247d30a6c86ed683c523060a6c1"
+        },
+        "date": 1788813080254,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28892573,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11071,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 256729,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9237,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28818222,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143729,
             "unit": "us"
           }
         ]
