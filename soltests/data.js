@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788813081169,
+  "lastUpdate": 1788969113467,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18467,6 +18467,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143729,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8cfa23196267407d27cab28b518cb1f26f2b2db2",
+          "message": "test: add EIP-8024 new stack instruction tests (Amsterdam) (#1738)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-09-09T15:03:04Z",
+          "tree_id": "8d76fbfd374767d4b0075a302e25609f663e844a",
+          "url": "https://github.com/NomicFoundation/edr/commit/8cfa23196267407d27cab28b518cb1f26f2b2db2"
+        },
+        "date": 1788969112038,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28884414,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10937,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 255675,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8759,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28827826,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 147442,
             "unit": "us"
           }
         ]
