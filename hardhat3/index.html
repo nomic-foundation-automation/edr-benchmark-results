@@ -256,9 +256,26 @@
         };
 
         function init() {
+          // Entries are stored append-only, so re-runs of an old commit land
+          // out of order and duplicate it. Keep only the newest run per
+          // commit, sorted by benchmark date; the x-axis then walks each
+          // commit once, oldest first.
+          function chronological(entries) {
+            const newestPerCommit = new Map();
+            for (const entry of entries) {
+              const previous = newestPerCommit.get(entry.commit.id);
+              if (previous === undefined || entry.date >= previous.date) {
+                newestPerCommit.set(entry.commit.id, entry);
+              }
+            }
+            return [...newestPerCommit.values()].sort(
+              (a, b) => a.date - b.date,
+            );
+          }
+
           function collectBenchesPerTestCase(entries) {
             const map = new Map();
-            for (const entry of entries) {
+            for (const entry of chronological(entries)) {
               const { commit, date, tool, benches } = entry;
               for (const bench of benches) {
                 const result = { commit, date, tool, bench };
@@ -310,8 +327,8 @@
 
           function renderGraph(parent, name, dataset) {
             // Show only the most recent entries; older history is dropped to
-            // keep charts readable. Entries arrive oldest-first, so take the
-            // tail. (slice(-Infinity) returns the whole array, i.e. "all".)
+            // keep charts readable. Entries are sorted oldest-first, so take
+            // the tail. (slice(-Infinity) returns the whole array, i.e. "all".)
             dataset = dataset.slice(-maxEntries);
 
             // The grid item must be a plain block element, not the canvas
@@ -333,21 +350,27 @@
             const color =
               toolColors[dataset.length > 0 ? dataset[0].tool : "_"];
 
-            // Read min/max/median/mean strictly from the (parsed) `extra` data.
-            // Missing/garbage extra yields nulls, which Chart.js renders as gaps.
+            // Read min/max/median/mean from the (parsed) `extra` data.
+            // Missing or garbage fields yield nulls; Chart.js renders those
+            // as gaps. The mean alone falls back to the entry's tracked
+            // value, keeping a line on the chart.
             function statsOf(bench) {
               const num = (x) => (typeof x === "number" ? x : null);
+              let e = {};
               try {
-                const e = JSON.parse(bench.extra || "{}");
-                return {
-                  min: num(e.min),
-                  max: num(e.max),
-                  median: num(e.median),
-                  mean: num(e.mean),
-                };
+                e = JSON.parse(bench.extra || "{}");
               } catch (_) {
-                return { min: null, max: null, median: null, mean: null };
+                // fall through to the value-only fallback
               }
+              if (e === null || typeof e !== "object") {
+                e = {};
+              }
+              return {
+                min: num(e.min),
+                max: num(e.max),
+                median: num(e.median),
+                mean: num(e.mean) ?? num(bench.value),
+              };
             }
             const stats = dataset.map((d) => statsOf(d.bench));
 
