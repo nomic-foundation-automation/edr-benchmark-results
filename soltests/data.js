@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788969113467,
+  "lastUpdate": 1788971415586,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18521,6 +18521,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 147442,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4d8ea98ef5def291deffe7ade35862b07ab6421e",
+          "message": "refactor(tests): reuse the bytecode builder in pre-existing tests (#1739)",
+          "timestamp": "2026-09-09T15:50:08Z",
+          "tree_id": "53db97d0232e1331bcaa2f4c818fee6bd567bd10",
+          "url": "https://github.com/NomicFoundation/edr/commit/4d8ea98ef5def291deffe7ade35862b07ab6421e"
+        },
+        "date": 1788971414693,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28412265,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10885,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257806,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9599,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28262525,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 152043,
             "unit": "us"
           }
         ]
