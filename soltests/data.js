@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788971415586,
+  "lastUpdate": 1789030224050,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18575,6 +18575,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 152043,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fd0855193345a1eb6230f7f4c5086a294ab64031",
+          "message": "perf(edr_napi): lower the call trace arena external memory report (#1740)",
+          "timestamp": "2026-09-10T08:28:46Z",
+          "tree_id": "ad1fd92efee848ef6bfcbcd1ee75808cadb69991",
+          "url": "https://github.com/NomicFoundation/edr/commit/fd0855193345a1eb6230f7f4c5086a294ab64031"
+        },
+        "date": 1789030223157,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28432991,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11018,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257783,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8729,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28352322,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125683,
             "unit": "us"
           }
         ]
