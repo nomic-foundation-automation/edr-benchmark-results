@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789242103517,
+  "lastUpdate": 1789251727531,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18953,6 +18953,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139181,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "81991faffd561d3139e73f4046f1a6d9c471527c",
+          "message": "chore(deps): update rust crate crossbeam-channel to v0.5.17 (#1750)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-09-12T21:44:02Z",
+          "tree_id": "ad9ae1c7819e72d18495cc7aad1af651ec7a96a6",
+          "url": "https://github.com/NomicFoundation/edr/commit/81991faffd561d3139e73f4046f1a6d9c471527c"
+        },
+        "date": 1789251726196,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26648312,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10818,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 245989,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9503,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26559002,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137656,
             "unit": "us"
           }
         ]
