@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789224652090,
+  "lastUpdate": 1789233184763,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18845,6 +18845,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131316,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fd9036f1d718fad31e88bd450ac925a670d68f11",
+          "message": "chore(deps): update changesets/action action to v2 (#1746)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-09-12T16:33:33Z",
+          "tree_id": "8ac5d560376dc04e09ae519d88e1a2fccb2e398e",
+          "url": "https://github.com/NomicFoundation/edr/commit/fd9036f1d718fad31e88bd450ac925a670d68f11"
+        },
+        "date": 1789233183374,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27979991,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11064,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 256378,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8782,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27841733,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 141606,
             "unit": "us"
           }
         ]
