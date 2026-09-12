@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789206830526,
+  "lastUpdate": 1789223867649,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -18737,6 +18737,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139957,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c9d50fcb2c5c0ee9f30bdf1a3c4fdaea5641826",
+          "message": "chore(deps): update npm minor/patch to v8.69.0 (#1745)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Bas van Gijzel <bas@nomic.foundation>",
+          "timestamp": "2026-09-12T13:04:32Z",
+          "tree_id": "82e4f5311426db602fc984236505a6237e6e2773",
+          "url": "https://github.com/NomicFoundation/edr/commit/8c9d50fcb2c5c0ee9f30bdf1a3c4fdaea5641826"
+        },
+        "date": 1789223866765,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27785034,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10973,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 255435,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9429,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27669569,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137846,
             "unit": "us"
           }
         ]
