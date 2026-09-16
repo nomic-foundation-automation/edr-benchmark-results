@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789598206608,
+  "lastUpdate": 1789600966386,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19277,6 +19277,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 138080,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "18092467+ChristopherDedominici@users.noreply.github.com",
+            "name": "Christopher Dedominici",
+            "username": "ChristopherDedominici"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eab0190b3d22fbadc809900aef588eed8ddfc652",
+          "message": "feat: expose native secp256k1 public key derivation (#1727)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-09-16T22:44:03Z",
+          "tree_id": "dc38773a316fbf89f193ea3ad374e82d7464b1ca",
+          "url": "https://github.com/NomicFoundation/edr/commit/eab0190b3d22fbadc809900aef588eed8ddfc652"
+        },
+        "date": 1789600964787,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26229683,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10815,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 246902,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8956,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26114232,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 135272,
             "unit": "us"
           }
         ]
