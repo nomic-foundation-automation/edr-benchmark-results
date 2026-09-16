@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789559909301,
+  "lastUpdate": 1789564782656,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19169,6 +19169,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 138180,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1e5fbd883685b66f56099684219a3c95c0abad71",
+          "message": "build: upgrade Hardhat v3 to 3.16.0 and trim its patch (#1752)",
+          "timestamp": "2026-09-16T12:40:17Z",
+          "tree_id": "f959337c8200a06d7a3feaccd65989d1a4279cb8",
+          "url": "https://github.com/NomicFoundation/edr/commit/1e5fbd883685b66f56099684219a3c95c0abad71"
+        },
+        "date": 1789564781744,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27805319,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10980,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 251912,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9269,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27744653,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139722,
             "unit": "us"
           }
         ]
