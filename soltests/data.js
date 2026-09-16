@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789329915873,
+  "lastUpdate": 1789557998021,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19061,6 +19061,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139872,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wighawag@gmail.com",
+            "name": "Ronan Sandford",
+            "username": "wighawag"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e4ca492e37e0db1665890418d01d9050aaaf21f9",
+          "message": "feat(solidity-tests): implement `vm.broadcastRawTransaction` (#1689)\n\nCo-authored-by: Octavian Popescu <popescu.octavian09@gmail.com>\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-09-16T11:05:19Z",
+          "tree_id": "be2c388eebff16e02daebd3817139ffbb0a31d36",
+          "url": "https://github.com/NomicFoundation/edr/commit/e4ca492e37e0db1665890418d01d9050aaaf21f9"
+        },
+        "date": 1789557997052,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24202322,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10704,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 243881,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9248,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24057151,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139099,
             "unit": "us"
           }
         ]
