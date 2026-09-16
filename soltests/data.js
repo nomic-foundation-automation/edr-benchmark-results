@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789564782656,
+  "lastUpdate": 1789598206608,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19223,6 +19223,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139722,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8fda95e7ab59a0903bc848b4320efd149cc39d1d",
+          "message": "feat: update the exposed hardfork API to match Hardhat's definition (#1645)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-09-16T21:59:00Z",
+          "tree_id": "04da02df6588a5b98c148b532c963806a8568193",
+          "url": "https://github.com/NomicFoundation/edr/commit/8fda95e7ab59a0903bc848b4320efd149cc39d1d"
+        },
+        "date": 1789598205632,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24548139,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10894,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247390,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8768,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24307026,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138080,
             "unit": "us"
           }
         ]
