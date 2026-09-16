@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789557998021,
+  "lastUpdate": 1789559909301,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19115,6 +19115,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139099,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fc66e0d371941a149693e2c1def51d10469daf1b",
+          "message": "perf(cheatcodes): cache private key to wallet derivation for `vm.addr` and `vm.sign` (#1753)",
+          "timestamp": "2026-09-16T11:38:15Z",
+          "tree_id": "5941c5850d681141703c0a05f50e70f5ca082e32",
+          "url": "https://github.com/NomicFoundation/edr/commit/fc66e0d371941a149693e2c1def51d10469daf1b"
+        },
+        "date": 1789559907739,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27126713,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10912,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 250345,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9201,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27118475,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138180,
             "unit": "us"
           }
         ]
