@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789607115320,
+  "lastUpdate": 1789654740938,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19385,6 +19385,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 136519,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "285029265c9b30bf32cf0417265b04741485f56a",
+          "message": "fix: repair stale hardhat@3.16.0 patch hash in pnpm-lock.yaml (#1759)",
+          "timestamp": "2026-09-17T13:57:58Z",
+          "tree_id": "ddc35fec82ed4db87ea54d2eb99e94c79a3a15c5",
+          "url": "https://github.com/NomicFoundation/edr/commit/285029265c9b30bf32cf0417265b04741485f56a"
+        },
+        "date": 1789654739341,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26174582,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10816,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 246786,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9143,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26133074,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139269,
             "unit": "us"
           }
         ]
