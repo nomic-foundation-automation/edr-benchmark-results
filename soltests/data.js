@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789654740938,
+  "lastUpdate": 1789657597627,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19439,6 +19439,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139269,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ad4c76f392a301e9419fa65caaf9d182077919a8",
+          "message": "perf: don't collect invariant run traces past the gas-report budget (#1705)",
+          "timestamp": "2026-09-17T14:29:30Z",
+          "tree_id": "76ca80514e9e22185031880523d7d38216052480",
+          "url": "https://github.com/NomicFoundation/edr/commit/ad4c76f392a301e9419fa65caaf9d182077919a8"
+        },
+        "date": 1789657596664,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27371581,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11322,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 253853,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8799,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27362331,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138606,
             "unit": "us"
           }
         ]
