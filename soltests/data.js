@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789660196433,
+  "lastUpdate": 1789670685966,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19547,6 +19547,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139740,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8910fdda2f275222304cca0a427506e2753e6e55",
+          "message": "chore(ci): remove hardhat compat pin  (#1760)",
+          "timestamp": "2026-09-17T18:06:26Z",
+          "tree_id": "6793a1432af5db754d9b0ae0666141b60c254ba5",
+          "url": "https://github.com/NomicFoundation/edr/commit/8910fdda2f275222304cca0a427506e2753e6e55"
+        },
+        "date": 1789670684950,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28333713,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11098,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 256459,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8857,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28238776,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 136908,
             "unit": "us"
           }
         ]
