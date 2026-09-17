@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789600966386,
+  "lastUpdate": 1789607115320,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19331,6 +19331,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 135272,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2fb6401c20119b2f926ffb47ea26aefa6d1749a",
+          "message": "fix(ci): pin hardhat regression benchmark (#1757)",
+          "timestamp": "2026-09-17T00:20:40Z",
+          "tree_id": "98071b4fcd24216a485de2dad01165b4166d460e",
+          "url": "https://github.com/NomicFoundation/edr/commit/b2fb6401c20119b2f926ffb47ea26aefa6d1749a"
+        },
+        "date": 1789607114293,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26461625,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 14037,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244150,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9217,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26408168,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 136519,
             "unit": "us"
           }
         ]
