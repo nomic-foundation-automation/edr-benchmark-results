@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789657597627,
+  "lastUpdate": 1789660196433,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19493,6 +19493,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 138606,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41898282+github-actions[bot]@users.noreply.github.com",
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02d5c58b004a5acc589b22b226fb65a72c7b64f9",
+          "message": "edr-0.21.0 (#1729)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-09-17T14:50:55Z",
+          "tree_id": "3eb2936a89ac17bdf660361ec72bc118d3001774",
+          "url": "https://github.com/NomicFoundation/edr/commit/02d5c58b004a5acc589b22b226fb65a72c7b64f9"
+        },
+        "date": 1789660195431,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28236978,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11799,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 255111,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9610,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28109182,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139740,
             "unit": "us"
           }
         ]
