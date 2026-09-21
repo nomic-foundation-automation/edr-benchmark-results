@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789996879288,
+  "lastUpdate": 1790007434098,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19925,6 +19925,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123462,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b13e7efbcee2ff970c26ca99014077b7d5234233",
+          "message": "build: replace paste with pastey (#1769)",
+          "timestamp": "2026-09-21T15:53:50Z",
+          "tree_id": "8fcdc30f651c47853291e659768961fe426e91cd",
+          "url": "https://github.com/NomicFoundation/edr/commit/b13e7efbcee2ff970c26ca99014077b7d5234233"
+        },
+        "date": 1790007433175,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28102688,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10988,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257101,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9351,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28103171,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129846,
             "unit": "us"
           }
         ]
