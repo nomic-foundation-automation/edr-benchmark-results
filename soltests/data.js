@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789910323449,
+  "lastUpdate": 1789996879288,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -19871,6 +19871,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 126281,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16fc47d40b0f7da2bb45060ce8d12a8dd449db47",
+          "message": "ci(release): install Rust through the repo's setup-rust action (#1776)",
+          "timestamp": "2026-09-21T13:00:36Z",
+          "tree_id": "a01941bafe6367d9c32369bc2ee3102449825dd8",
+          "url": "https://github.com/NomicFoundation/edr/commit/16fc47d40b0f7da2bb45060ce8d12a8dd449db47"
+        },
+        "date": 1789996877724,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28085819,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10834,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 250048,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8793,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28030295,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 123462,
             "unit": "us"
           }
         ]
