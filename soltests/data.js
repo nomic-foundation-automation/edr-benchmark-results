@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790010434907,
+  "lastUpdate": 1790120071244,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20033,6 +20033,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127478,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d1bc85972e419ece2c1456b98ef3086bc80ddcf5",
+          "message": "chore(book): add HH regression benchmark to development book (#1758)",
+          "timestamp": "2026-09-22T22:56:19Z",
+          "tree_id": "76e075f290b400c467fed68804cff5b4da1b973e",
+          "url": "https://github.com/NomicFoundation/edr/commit/d1bc85972e419ece2c1456b98ef3086bc80ddcf5"
+        },
+        "date": 1790120070316,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26043974,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10776,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244912,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8674,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25973592,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127559,
             "unit": "us"
           }
         ]
