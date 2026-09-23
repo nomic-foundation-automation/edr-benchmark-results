@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790175488457,
+  "lastUpdate": 1790177547490,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20141,6 +20141,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 131942,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b354104ea0b79578e009a3d9fb5ac4f79967115",
+          "message": "fix: bypass HTTP(S)_PROXY for loopback fork URLs (#1777)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-09-23T15:07:51Z",
+          "tree_id": "ca7356c2941c01f0fbd764b230a450594ca5c52c",
+          "url": "https://github.com/NomicFoundation/edr/commit/3b354104ea0b79578e009a3d9fb5ac4f79967115"
+        },
+        "date": 1790177545418,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25405226,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10881,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 248788,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9372,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25256851,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124558,
             "unit": "us"
           }
         ]
