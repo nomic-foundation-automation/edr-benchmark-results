@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790177547490,
+  "lastUpdate": 1790183234687,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20195,6 +20195,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 124558,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "schaable@gmail.com",
+            "name": "Luis Schaab",
+            "username": "schaable"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "451b5d142c56ec203e5459d52b6cced3091477f5",
+          "message": "feat(solidity-tests): scope inline config directives by test profile (#1715)\n\nCo-authored-by: Octavian Popescu <popescu.octavian09@gmail.com>\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>",
+          "timestamp": "2026-09-23T16:25:44Z",
+          "tree_id": "022b8c2aa13a67157d9fa60ea8814823b3fc6a5f",
+          "url": "https://github.com/NomicFoundation/edr/commit/451b5d142c56ec203e5459d52b6cced3091477f5"
+        },
+        "date": 1790183233735,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29369879,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11038,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 256435,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9562,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 29283711,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138112,
             "unit": "us"
           }
         ]
