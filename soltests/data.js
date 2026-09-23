@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790120071244,
+  "lastUpdate": 1790175488457,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20087,6 +20087,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127559,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5a64e99bd0092930e346c4a50452f567d4e68de7",
+          "message": "test(provider): suppress backtraces for the deliberate logger panics (#1763)",
+          "timestamp": "2026-09-23T14:15:25Z",
+          "tree_id": "80ac1acca2640e3aa63e68c362dfd246ee684073",
+          "url": "https://github.com/NomicFoundation/edr/commit/5a64e99bd0092930e346c4a50452f567d4e68de7"
+        },
+        "date": 1790175486976,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25938299,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11021,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247467,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8791,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25858248,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 131942,
             "unit": "us"
           }
         ]
