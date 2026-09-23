@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790183234687,
+  "lastUpdate": 1790187331010,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20249,6 +20249,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 138112,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41898282+github-actions[bot]@users.noreply.github.com",
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4778a9930fef9c4b2bef764c9d8f81a457c5df57",
+          "message": "edr-0.22.0 (#1778)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2026-09-23T17:54:19Z",
+          "tree_id": "a02fe253074a8b05c6b6c954144cc282084cab4e",
+          "url": "https://github.com/NomicFoundation/edr/commit/4778a9930fef9c4b2bef764c9d8f81a457c5df57"
+        },
+        "date": 1790187330010,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27978540,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10906,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 254986,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8814,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27907493,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 119341,
             "unit": "us"
           }
         ]
