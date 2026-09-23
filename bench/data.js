@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790178604384,
+  "lastUpdate": 1790182411815,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "37712236+popescuoctavian@users.noreply.github.com",
-            "name": "Octavian Popescu",
-            "username": "popescuoctavian"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "883a780f70f7e015c2f2897efaa62de320b221c4",
-          "message": "feat: contract-level inline configurations in Solidity tests (#1627)",
-          "timestamp": "2026-09-02T12:15:35Z",
-          "tree_id": "57bad21f94aef283f4d3daf96d6a07636e890ab8",
-          "url": "https://github.com/NomicFoundation/edr/commit/883a780f70f7e015c2f2897efaa62de320b221c4"
-        },
-        "date": 1788365815800,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 159664.969734,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 18797.235586000003,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 7530.411179999999,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 9487.272239,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 513.95608,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 4157.701819,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 115901.017383,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 3277.375447,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 3193.546241,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "schaable@gmail.com",
+            "name": "Luis Schaab",
+            "username": "schaable"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "451b5d142c56ec203e5459d52b6cced3091477f5",
+          "message": "feat(solidity-tests): scope inline config directives by test profile (#1715)\n\nCo-authored-by: Octavian Popescu <popescu.octavian09@gmail.com>\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>",
+          "timestamp": "2026-09-23T16:25:44Z",
+          "tree_id": "022b8c2aa13a67157d9fa60ea8814823b3fc6a5f",
+          "url": "https://github.com/NomicFoundation/edr/commit/451b5d142c56ec203e5459d52b6cced3091477f5"
+        },
+        "date": 1790182410904,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 153295.024914,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 17871.630719,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 7457.533015999999,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 9340.237410999998,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 522.022122,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 4153.0197100000005,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 110689.713065,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 3260.8688709999997,
             "unit": "ms"
           }
         ]
