@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790187331010,
+  "lastUpdate": 1790298501243,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20303,6 +20303,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 119341,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8a99f9abfa8c380ea9ff91e18fc44c8d2ed2a3d",
+          "message": "build: upgrade Hardhat3 to v3.18.0 and trim its patch (#1781)",
+          "timestamp": "2026-09-25T00:47:31Z",
+          "tree_id": "5342b74cd9a49a428426d8d0c344645d56d08b22",
+          "url": "https://github.com/NomicFoundation/edr/commit/b8a99f9abfa8c380ea9ff91e18fc44c8d2ed2a3d"
+        },
+        "date": 1790298500288,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27908918,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11062,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 253352,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9699,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27872786,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 117877,
             "unit": "us"
           }
         ]
