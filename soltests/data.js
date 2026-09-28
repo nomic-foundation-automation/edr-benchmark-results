@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790583850291,
+  "lastUpdate": 1790600283879,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20681,6 +20681,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127017,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0e1efdf021a050aa4507f7d121a7adb36c5d3fe",
+          "message": "ci: wait for in-flight mirror runs; consolidate release gating on is_release (#1599)",
+          "timestamp": "2026-09-28T12:36:46Z",
+          "tree_id": "b59dfbcdb148950e2fef4ef28fd2552782fae426",
+          "url": "https://github.com/NomicFoundation/edr/commit/d0e1efdf021a050aa4507f7d121a7adb36c5d3fe"
+        },
+        "date": 1790600282837,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25525745,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11105,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 245484,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8763,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25421100,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129716,
             "unit": "us"
           }
         ]
