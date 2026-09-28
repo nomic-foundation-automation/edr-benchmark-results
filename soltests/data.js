@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790610896671,
+  "lastUpdate": 1790611738916,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20789,6 +20789,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129247,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cda3faf58a403bc509441077fbd4151325cff74e",
+          "message": "ci: check out a PR's head by sha in check_commit (#1795)",
+          "timestamp": "2026-09-28T15:47:10Z",
+          "tree_id": "e0fa4853b6f30e98687644ee60b1c6ae17c0814d",
+          "url": "https://github.com/NomicFoundation/edr/commit/cda3faf58a403bc509441077fbd4151325cff74e"
+        },
+        "date": 1790611738334,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26365323,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10876,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 251144,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9228,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26249703,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124716,
             "unit": "us"
           }
         ]
