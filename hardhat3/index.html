@@ -49,7 +49,107 @@
         border-bottom: 1px solid #e0e0e0;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
+        gap: 8px 16px;
+      }
+      .facet {
+        position: relative;
+      }
+      .facet > summary {
+        list-style: none;
+        cursor: pointer;
+        user-select: none;
+        padding: 2px 8px;
+        border: 1px solid #b5b5b5;
+        border-radius: 4px;
+        background: #fff;
+      }
+      .facet > summary::-webkit-details-marker {
+        display: none;
+      }
+      .facet > summary::after {
+        content: " \25BE";
+      }
+      .facet[open] > summary {
+        background: #f0f0f0;
+      }
+      .facet-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        margin-top: 4px;
+        padding: 8px;
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        max-height: 70vh;
+        overflow-y: auto;
+        box-sizing: border-box;
+        width: max-content;
+      }
+      .facet-list {
+        display: flex;
+        flex-direction: column;
+      }
+      .facet-option {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .facet-check {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        padding: 2px 4px;
+        border-radius: 3px;
+        cursor: pointer;
+        flex: auto;
+      }
+      .facet-check:hover {
+        background: #f0f0f0;
+      }
+      /* Link-style buttons: override the global blue button look. */
+      .facet-action,
+      .facet-jump {
+        color: #3273dc;
+        background: none;
+        border: none;
+        padding: 2px 0;
+        font: inherit;
+        text-align: left;
+      }
+      .facet-action:hover,
+      .facet-jump:hover {
+        color: #000;
+        background: none;
+      }
+      .facet-actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 4px;
+      }
+      .facet-invisible {
+        visibility: hidden;
+      }
+      /* A small chip with its own border and hover, so the row visibly holds
+         a second control. */
+      .facet-jump {
+        margin-left: auto;
+        padding: 0 6px;
+        font-size: 0.8em;
+        line-height: 1.5;
+        color: #4a4a4a;
+        background: #f7f7f7;
+        border: 1px solid #c8c8c8;
+        border-radius: 3px;
+      }
+      .facet-jump:hover {
+        color: #000;
+        background: #e6e6e6;
+        border-color: #999;
       }
       main {
         width: 100%;
@@ -100,6 +200,13 @@
         font-weight: 600;
         word-break: break-word;
         text-align: center;
+      }
+      .benchmark-group-title {
+        font-size: 2rem;
+        font-weight: 600;
+        word-break: break-word;
+        text-align: center;
+        margin: 24px 0 8px;
       }
       .benchmark-graphs {
         display: grid;
@@ -162,15 +269,42 @@
   </head>
 
   <body>
-    <header class="toolbar">
-      <strong class="header-label">Show entries:</strong>
-      <select id="entry-limit">
-        <option value="5">5</option>
-        <option value="10">10</option>
-        <option value="25">25</option>
-        <option value="50">50</option>
-        <option value="all">all</option>
-      </select>
+    <header class="toolbar" id="toolbar">
+      <label>
+        <strong class="header-label">Show entries:</strong>
+        <select id="entry-limit">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="25" selected>25</option>
+          <option value="50">50</option>
+          <option value="all">all</option>
+        </select>
+      </label>
+      <details class="facet" id="facet-scenario">
+        <summary>
+          <span class="facet-label">Scenarios</span>:
+          <span class="facet-value">All</span>
+        </summary>
+      </details>
+      <details class="facet" id="facet-command">
+        <summary>
+          <span class="facet-label">Commands</span>:
+          <span class="facet-value">All</span>
+        </summary>
+      </details>
+      <details class="facet" id="facet-metric">
+        <summary>
+          <span class="facet-label">Metrics</span>:
+          <span class="facet-value">All</span>
+        </summary>
+      </details>
+      <label id="group-by-item">
+        <strong class="header-label">Group by:</strong>
+        <select id="group-by">
+          <option value="scenario" selected>Scenario</option>
+          <option value="command">Command</option>
+        </select>
+      </label>
     </header>
     <header id="header">
       <div class="header-item">
@@ -255,6 +389,67 @@
           return sorted.length && distance(sorted[0]) <= nearPx ? sorted : [];
         };
 
+        // Order is the display order of charts and filter options.
+        const METRICS = [
+          { id: "time", label: "Wall-clock time", suffix: "" },
+          { id: "cpu", label: "CPU time", suffix: " (cpu)" },
+          { id: "rss", label: "Peak RSS", suffix: " (peak RSS)" },
+        ];
+
+        function metricLabel(id) {
+          return METRICS.find((metric) => metric.id === id).label;
+        }
+
+        const verbatim = (value) => value;
+
+        // Keys double as URL query parameters, chart data attributes and the
+        // "facet-<key>" ids of the toolbar dropdowns.
+        const DIMENSIONS = [
+          { key: "scenario", format: verbatim },
+          { key: "command", format: verbatim },
+          { key: "metric", format: metricLabel },
+        ];
+        const DIMENSION_KEYS = DIMENSIONS.map((dimension) => dimension.key);
+
+        // Bench names read "<scenario> / <command>[<metric suffix>]".
+        function parseBenchName(name) {
+          const SCENARIO_SEPARATOR = " / ";
+          // Only the edit & compile commands carry a file path after ": ".
+          const COMMAND_FILE_PATH = /: .*$/;
+          const UNSUFFIXED_METRIC = METRICS.find(
+            (metric) => metric.suffix === "",
+          );
+
+          const separatorIndex = name.indexOf(SCENARIO_SEPARATOR);
+          const hasScenario = separatorIndex !== -1;
+          const scenario = hasScenario ? name.slice(0, separatorIndex) : "";
+          const rest = hasScenario
+            ? name.slice(separatorIndex + SCENARIO_SEPARATOR.length)
+            : name;
+          const metric =
+            METRICS.find(
+              ({ suffix }) => suffix !== "" && rest.endsWith(suffix),
+            ) ?? UNSUFFIXED_METRIC;
+          const command = rest
+            .slice(0, rest.length - metric.suffix.length)
+            .replace(COMMAND_FILE_PATH, "");
+          return { scenario, command, metric: metric.id };
+        }
+
+        // Scenarios and commands sort alphabetically, metrics in table order.
+        function collectDimensionValues(charts) {
+          const values = {};
+          for (const key of DIMENSION_KEYS) {
+            values[key] = [
+              ...new Set(charts.map((chart) => chart.dims[key])),
+            ].sort((a, b) => a.localeCompare(b));
+          }
+          values.metric = METRICS.map((metric) => metric.id).filter((id) =>
+            values.metric.includes(id),
+          );
+          return values;
+        }
+
         function init() {
           // Entries are stored append-only, so re-runs of an old commit land
           // out of order and duplicate it. Keep only the newest run per
@@ -290,6 +485,14 @@
             return map;
           }
 
+          function toCharts(benchesPerName) {
+            return [...benchesPerName].map(([name, benches]) => ({
+              name,
+              benches,
+              dims: parseBenchName(name),
+            }));
+          }
+
           const data = window.BENCHMARK_DATA;
 
           // Render header
@@ -313,7 +516,7 @@
           return {
             dataSets: Object.keys(data.entries).map((name) => ({
               name,
-              dataSet: collectBenchesPerTestCase(data.entries[name]),
+              charts: toCharts(collectBenchesPerTestCase(data.entries[name])),
             })),
             baselines:
               (window.BASELINE_DATA && window.BASELINE_DATA.entries) || {},
@@ -321,15 +524,330 @@
         }
 
         function renderAllCharts({ dataSets, baselines }) {
-          // How many of the most recent entries each chart shows. Controlled by
-          // the selector in the header; Infinity means "all".
-          let maxEntries = 25;
+          const ENTRIES_PARAM = "entries";
+          const GROUP_PARAM = "group";
+
+          const toolbar = document.getElementById("toolbar");
+          const limitSelect = document.getElementById("entry-limit");
+          const groupBySelect = document.getElementById("group-by");
+          const groupByItem = document.getElementById("group-by-item");
+          const main = document.getElementById("main");
+
+          const allCharts = dataSets.flatMap((dataSet) => dataSet.charts);
+          const dimensionValues = collectDimensionValues(allCharts);
+          const dimensionRanks = {};
+          for (const key of DIMENSION_KEYS) {
+            dimensionRanks[key] = new Map(
+              dimensionValues[key].map((value, rank) => [value, rank]),
+            );
+          }
+          // Chart.js registers every instance globally with resize listeners,
+          // so removing its canvas does not free it.
+          const liveCharts = [];
+
+          function parseEntryLimit(value) {
+            const ALL_ENTRIES = "all";
+            return value === ALL_ENTRIES ? Infinity : parseInt(value, 10);
+          }
+
+          function selectOptions(select) {
+            return [...select.options];
+          }
+
+          function hasOption(select, value) {
+            return selectOptions(select).some(
+              (option) => option.value === value,
+            );
+          }
+
+          function defaultOptionValue(select) {
+            return selectOptions(select).find(
+              (option) => option.defaultSelected,
+            ).value;
+          }
+
+          const GROUPABLE_DIMS = selectOptions(groupBySelect).map(
+            (option) => option.value,
+          );
+
+          // Every value starts selected. A value stays selected while other
+          // filters hide it, so it comes back ticked. maxEntries is how many
+          // of the most recent entries each chart shows, and Infinity means
+          // "all".
+          const state = {
+            selection: Object.fromEntries(
+              DIMENSION_KEYS.map((key) => [key, new Set(dimensionValues[key])]),
+            ),
+            groupBy: defaultOptionValue(groupBySelect),
+            maxEntries: parseEntryLimit(limitSelect.value),
+          };
+
+          function matches(chart, dims) {
+            return dims.every((dim) =>
+              state.selection[dim].has(chart.dims[dim]),
+            );
+          }
+
+          function valuesAmongChartsMatching(dim, filterDims) {
+            const present = new Set(
+              allCharts
+                .filter((chart) => matches(chart, filterDims))
+                .map((chart) => chart.dims[dim]),
+            );
+            return dimensionValues[dim].filter((value) => present.has(value));
+          }
+
+          // Options a filter offers ignore its own selection, so unticking one
+          // value never hides its siblings.
+          function availableValues(dim) {
+            return valuesAmongChartsMatching(
+              dim,
+              DIMENSION_KEYS.filter((key) => key !== dim),
+            );
+          }
+
+          function visibleValues(dim) {
+            return valuesAmongChartsMatching(dim, DIMENSION_KEYS);
+          }
+
+          function hasSingleVisibleValue(dim) {
+            return visibleValues(dim).length <= 1;
+          }
+
+          function isGroupByRedundant() {
+            return GROUPABLE_DIMS.some(hasSingleVisibleValue);
+          }
+
+          // A grouping dimension with a single visible value would put every
+          // chart under one heading, so the other dimension takes over.
+          function effectiveGroupBy() {
+            return (
+              [state.groupBy, ...GROUPABLE_DIMS].find(
+                (dim) => !hasSingleVisibleValue(dim),
+              ) ?? state.groupBy
+            );
+          }
+
+          function readStateFromUrl() {
+            const params = new URLSearchParams(location.search);
+            for (const dim of DIMENSION_KEYS) {
+              if (!params.has(dim)) continue;
+              const selection = state.selection[dim];
+              selection.clear();
+              for (const value of params.getAll(dim)) {
+                if (dimensionRanks[dim].has(value)) selection.add(value);
+              }
+            }
+            const groupBy = params.get(GROUP_PARAM);
+            if (hasOption(groupBySelect, groupBy)) state.groupBy = groupBy;
+            const entries = params.get(ENTRIES_PARAM);
+            if (hasOption(limitSelect, entries)) {
+              limitSelect.value = entries;
+              state.maxEntries = parseEntryLimit(entries);
+            }
+          }
+
+          function writeStateToUrl() {
+            const params = new URLSearchParams();
+            for (const dim of DIMENSION_KEYS) {
+              const selection = state.selection[dim];
+              if (selection.size === dimensionValues[dim].length) continue;
+              // A parameter with an empty value encodes "none selected".
+              if (selection.size === 0) params.append(dim, "");
+              for (const value of dimensionValues[dim]) {
+                if (selection.has(value)) params.append(dim, value);
+              }
+            }
+            if (state.groupBy !== defaultOptionValue(groupBySelect)) {
+              params.set(GROUP_PARAM, state.groupBy);
+            }
+            if (limitSelect.value !== defaultOptionValue(limitSelect)) {
+              params.set(ENTRIES_PARAM, limitSelect.value);
+            }
+            const query = params.toString();
+            history.replaceState(
+              null,
+              "",
+              location.pathname + (query ? "?" + query : "") + location.hash,
+            );
+          }
+
+          function scrollToValue(dim, value) {
+            const target = main.querySelector(
+              ".benchmark-group-title[data-" +
+                dim +
+                '="' +
+                CSS.escape(value) +
+                '"]',
+            );
+            if (target === null) return;
+            // Gap left between the sticky toolbar and the target.
+            const JUMP_SCROLL_MARGIN_PX = 8;
+            // The sticky toolbar's height varies as it wraps.
+            const top =
+              target.getBoundingClientRect().top +
+              window.scrollY -
+              toolbar.offsetHeight -
+              JUMP_SCROLL_MARGIN_PX;
+            window.scrollTo({ top, behavior: "smooth" });
+            // Closing the dropdown hides the button that had keyboard focus.
+            target.tabIndex = -1;
+            target.focus({ preventScroll: true });
+          }
+
+          function linkButton(className, text) {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = className;
+            button.textContent = text;
+            return button;
+          }
+
+          function createFacetDropdown({ key, format }) {
+            const JUMP_GLYPH = "\u2192"; // rightwards arrow
+            const details = document.getElementById("facet-" + key);
+            const summary = details.querySelector("summary");
+            // The static markup carries the label and the "All" state so the
+            // toolbar reads the same before the data has loaded.
+            const label = summary.querySelector(".facet-label").textContent;
+            const valueElem = summary.querySelector(".facet-value");
+            const allValue = valueElem.textContent;
+            const NONE_VALUE = "None";
+            const selection = state.selection[key];
+            let checkboxByValue = new Map();
+
+            const panel = document.createElement("div");
+            panel.className = "facet-panel";
+            details.appendChild(panel);
+
+            // Keeps the panel inside the viewport. clientWidth excludes a
+            // classic scrollbar, which 100vw would count.
+            function clampPanel() {
+              if (!details.open) return;
+              const VIEWPORT_MARGIN_PX = 8;
+              const viewportWidth = document.documentElement.clientWidth;
+              panel.style.maxWidth =
+                viewportWidth - 2 * VIEWPORT_MARGIN_PX + "px";
+              panel.style.left = "";
+              const overflow =
+                panel.getBoundingClientRect().right +
+                VIEWPORT_MARGIN_PX -
+                viewportWidth;
+              if (overflow > 0) panel.style.left = -overflow + "px";
+            }
+            // The toggle event can fire after a paint, so a mutation observer
+            // clamps the panel before it shows.
+            new MutationObserver(clampPanel).observe(details, {
+              attributeFilter: ["open"],
+            });
+            window.addEventListener("resize", clampPanel);
+
+            const list = document.createElement("div");
+            list.className = "facet-list";
+            panel.appendChild(list);
+
+            // Hidden with visibility rather than display, so the panel keeps
+            // its size either way.
+            const actions = document.createElement("div");
+            actions.className = "facet-actions";
+            const selectAll = linkButton("facet-action", "Select all");
+            selectAll.onclick = () => {
+              for (const value of dimensionValues[key]) selection.add(value);
+              applyChange();
+              focusFirstCheckbox();
+            };
+            const clear = linkButton("facet-action", "Clear");
+            clear.onclick = () => {
+              selection.clear();
+              applyChange();
+              focusFirstCheckbox();
+            };
+            actions.append(selectAll, clear);
+            panel.appendChild(actions);
+
+            // Re-rendering replaces the checkboxes, so keyboard focus has to
+            // be moved onto the new ones.
+            function focusCheckbox(value) {
+              checkboxByValue.get(value)?.focus({ preventScroll: true });
+            }
+
+            function focusFirstCheckbox() {
+              focusCheckbox(availableValues(key)[0]);
+            }
+
+            // The jump button sits beside the label rather than inside it,
+            // so pressing it cannot toggle the checkbox.
+            function jumpButton(value) {
+              const jump = linkButton("facet-jump", JUMP_GLYPH);
+              const text = "Jump to " + format(value);
+              jump.title = text;
+              jump.setAttribute("aria-label", text);
+              jump.onclick = () => {
+                details.open = false;
+                scrollToValue(key, value);
+              };
+              return jump;
+            }
+
+            function renderOptions(available) {
+              checkboxByValue = new Map();
+              // Only the dimension grouping the charts has one target per
+              // value: its heading.
+              const jumpTargets = new Set(
+                key === effectiveGroupBy() ? visibleValues(key) : [],
+              );
+              for (const value of available) {
+                const option = document.createElement("div");
+                option.className = "facet-option";
+                const check = document.createElement("label");
+                check.className = "facet-check";
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.checked = selection.has(value);
+                checkbox.onchange = () => {
+                  if (checkbox.checked) {
+                    selection.add(value);
+                  } else {
+                    selection.delete(value);
+                  }
+                  applyChange();
+                  focusCheckbox(value);
+                };
+                check.append(checkbox, " " + format(value));
+                option.appendChild(check);
+                if (jumpTargets.has(value))
+                  option.appendChild(jumpButton(value));
+                list.appendChild(option);
+                checkboxByValue.set(value, checkbox);
+              }
+            }
+
+            function render() {
+              const available = availableValues(key);
+              const shown = available.filter((value) => selection.has(value));
+              const allShown = shown.length === available.length;
+              valueElem.textContent =
+                shown.length === 0
+                  ? NONE_VALUE
+                  : allShown
+                    ? allValue
+                    : shown.length === 1
+                      ? format(shown[0])
+                      : shown.length + " selected";
+              selectAll.classList.toggle("facet-invisible", allShown);
+              clear.classList.toggle("facet-invisible", shown.length === 0);
+              list.replaceChildren();
+              renderOptions(available);
+            }
+
+            return { render };
+          }
 
           function renderGraph(parent, name, dataset) {
             // Show only the most recent entries; older history is dropped to
             // keep charts readable. Entries are sorted oldest-first, so take
             // the tail. (slice(-Infinity) returns the whole array, i.e. "all".)
-            dataset = dataset.slice(-maxEntries);
+            dataset = dataset.slice(-state.maxEntries);
 
             // The grid item must be a plain block element, not the canvas
             // itself: a responsive Chart.js canvas can't report a stable size
@@ -339,7 +857,7 @@
             container.className = "benchmark-chart";
             parent.appendChild(container);
 
-            const titleElem = document.createElement("h2");
+            const titleElem = document.createElement("h3");
             titleElem.className = "benchmark-chart-title";
             titleElem.textContent = name;
             container.appendChild(titleElem);
@@ -688,6 +1206,7 @@
               options,
               plugins: [axisBreakPlugin],
             });
+            liveCharts.push({ chart, container, name });
 
             // Custom legend: a swatch per series inserted above the chart.
             // edge-bottom -> line along the bottom of a (white) box; edge-top
@@ -741,9 +1260,19 @@
               legendElem.appendChild(item);
             });
             container.insertBefore(legendElem, canvas);
+            return container;
           }
 
-          function renderBenchSet(name, benchSet, main) {
+          function compareCharts(dims, a, b) {
+            for (const dim of dims) {
+              const ranks = dimensionRanks[dim];
+              const order = ranks.get(a.dims[dim]) - ranks.get(b.dims[dim]);
+              if (order !== 0) return order;
+            }
+            return 0;
+          }
+
+          function renderBenchSet(name, charts, main) {
             const setElem = document.createElement("div");
             setElem.className = "benchmark-set";
             main.appendChild(setElem);
@@ -753,53 +1282,117 @@
             nameElem.textContent = name;
             setElem.appendChild(nameElem);
 
-            const graphsElem = document.createElement("div");
-            graphsElem.className = "benchmark-graphs";
-            setElem.appendChild(graphsElem);
+            const groupDim = effectiveGroupBy();
+            const { format } = DIMENSIONS.find(({ key }) => key === groupDim);
+            const sortDims = [
+              groupDim,
+              ...DIMENSION_KEYS.filter((key) => key !== groupDim),
+            ];
+            const visibleCharts = charts
+              .filter((chart) => matches(chart, DIMENSION_KEYS))
+              .sort((a, b) => compareCharts(sortDims, a, b));
 
-            // Group charts by scenario so every "$scenario / $command" of the
-            // same scenario renders consecutively. Names sort by scenario
-            // first, then command; the sort is stable, so commands within a
-            // scenario keep their original order when the prefixes match.
-            const scenarioOf = (benchName) => benchName.split(" / ")[0];
-            const sorted = [...benchSet.entries()].sort(([a], [b]) => {
-              const sa = scenarioOf(a);
-              const sb = scenarioOf(b);
-              return sa < sb ? -1 : sa > sb ? 1 : 0;
-            });
-            for (const [benchName, benches] of sorted) {
-              renderGraph(graphsElem, benchName, benches);
+            let graphsElem = null;
+            let groupValue;
+            for (const chart of visibleCharts) {
+              if (graphsElem === null || chart.dims[groupDim] !== groupValue) {
+                groupValue = chart.dims[groupDim];
+                const groupElem = document.createElement("h2");
+                groupElem.className = "benchmark-group-title";
+                groupElem.textContent = format(groupValue);
+                groupElem.dataset[groupDim] = groupValue;
+                setElem.appendChild(groupElem);
+
+                graphsElem = document.createElement("div");
+                graphsElem.className = "benchmark-graphs";
+                setElem.appendChild(graphsElem);
+              }
+              const container = renderGraph(
+                graphsElem,
+                chart.name,
+                chart.benches,
+              );
+              Object.assign(container.dataset, chart.dims);
             }
           }
 
-          const main = document.getElementById("main");
           function renderAll() {
+            for (const { chart } of liveCharts) chart.destroy();
+            liveCharts.length = 0;
             main.innerHTML = "";
-            for (const { name, dataSet } of dataSets) {
-              renderBenchSet(name, dataSet, main);
+            for (const { name, charts } of dataSets) {
+              renderBenchSet(name, charts, main);
             }
           }
 
-          // Wire the header entry-count selector; re-render on change.
-          const limitSelect = document.getElementById("entry-limit");
-          if (limitSelect !== null) {
-            limitSelect.value = String(maxEntries);
-            limitSelect.onchange = () => {
-              maxEntries =
-                limitSelect.value === "all"
-                  ? Infinity
-                  : parseInt(limitSelect.value, 10);
-              // Rebuilding empties #main, which collapses the page and resets
-              // scroll. Chart heights don't depend on the entry count, so the
-              // page height is unchanged — restore the offset to keep the same
-              // chart in view.
-              const y = window.scrollY;
-              renderAll();
-              window.scrollTo(0, y);
-            };
+          // Rebuilding empties #main, which resets the scroll offset. The
+          // first chart in view stays where it was, unless the change removed
+          // it from the page.
+          function rerender() {
+            const toolbarBottom = toolbar.offsetHeight;
+            const anchor = liveCharts.find(
+              ({ container }) =>
+                container.getBoundingClientRect().bottom > toolbarBottom,
+            );
+            const anchorTop = anchor?.container.getBoundingClientRect().top;
+            renderAll();
+            const kept = liveCharts.find(({ name }) => name === anchor?.name);
+            if (kept === undefined) {
+              window.scrollTo(0, 0);
+            } else {
+              window.scrollBy(
+                0,
+                kept.container.getBoundingClientRect().top - anchorTop,
+              );
+            }
           }
 
-          renderAll();
+          const facets = DIMENSIONS.map(createFacetDropdown);
+
+          function updateToolbar() {
+            for (const facet of facets) facet.render();
+            groupByItem.hidden = isGroupByRedundant();
+            groupBySelect.value = state.groupBy;
+          }
+
+          function applyChange() {
+            writeStateToUrl();
+            updateToolbar();
+            rerender();
+          }
+
+          limitSelect.onchange = () => {
+            state.maxEntries = parseEntryLimit(limitSelect.value);
+            applyChange();
+          };
+          groupBySelect.onchange = () => {
+            state.groupBy = groupBySelect.value;
+            applyChange();
+          };
+
+          function openFacets() {
+            return document.querySelectorAll(".facet[open]");
+          }
+
+          // Match against the composed path because a click can re-render
+          // the panel and detach its target before this listener runs.
+          document.addEventListener("click", (event) => {
+            const path = event.composedPath();
+            for (const facet of openFacets()) {
+              if (!path.includes(facet)) facet.open = false;
+            }
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key !== "Escape") return;
+            for (const facet of openFacets()) {
+              const hadFocus = facet.contains(document.activeElement);
+              facet.open = false;
+              if (hadFocus) facet.querySelector("summary").focus();
+            }
+          });
+
+          readStateFromUrl();
+          applyChange();
         }
 
         renderAllCharts(init()); // Start
