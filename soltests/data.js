@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790692444769,
+  "lastUpdate": 1790713275950,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20897,6 +20897,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127359,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "169493d4eb7c91839ec449220eaae7f3713ca654",
+          "message": " refactor: extract hardfork predeploys into a shared crate (#1783)",
+          "timestamp": "2026-09-29T19:58:36Z",
+          "tree_id": "0b762e460d2f35a3cab11b261b7861914ce860b6",
+          "url": "https://github.com/NomicFoundation/edr/commit/169493d4eb7c91839ec449220eaae7f3713ca654"
+        },
+        "date": 1790713275332,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27591554,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11051,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 251388,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8788,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27506147,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 146499,
             "unit": "us"
           }
         ]
