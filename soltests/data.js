@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790611738916,
+  "lastUpdate": 1790692444769,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20843,6 +20843,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 124716,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7f3fbca9c6b9cfbc5fce4c60ebcd3f36f7aebaa7",
+          "message": "feat: EIP-7997 deterministic factory contract (Amsterdam) (#1782)",
+          "timestamp": "2026-09-29T13:51:23Z",
+          "tree_id": "5e4d0d7b567a0658fcfdcf0e3bff688f5b32972c",
+          "url": "https://github.com/NomicFoundation/edr/commit/7f3fbca9c6b9cfbc5fce4c60ebcd3f36f7aebaa7"
+        },
+        "date": 1790692444157,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25690923,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10686,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 243826,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9205,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25637049,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127359,
             "unit": "us"
           }
         ]
