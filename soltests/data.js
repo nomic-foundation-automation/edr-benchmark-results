@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790713275950,
+  "lastUpdate": 1790753138063,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -20951,6 +20951,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 146499,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "161434a82e19f3b966216e263751abeac6b3544e",
+          "message": "fix: improve user-facing error messages of EIP-712 cheatcodes (#1796)",
+          "timestamp": "2026-09-30T07:04:06Z",
+          "tree_id": "d0eb17e4e91cf839392fd11b979317de6ae51de2",
+          "url": "https://github.com/NomicFoundation/edr/commit/161434a82e19f3b966216e263751abeac6b3544e"
+        },
+        "date": 1790753137406,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27358370,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10969,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 249731,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8651,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27238267,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 144767,
             "unit": "us"
           }
         ]
