@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790753138063,
+  "lastUpdate": 1790886935856,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21005,6 +21005,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 144767,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a84229aeea42354df99047fc8a7e025f4f35809",
+          "message": "feat: add experimental EIP-8037 block gas accounting (Amsterdam) (#1761)",
+          "timestamp": "2026-10-01T20:12:55Z",
+          "tree_id": "16ef20b7049669cddedb7b23c31cd9eefb4b7635",
+          "url": "https://github.com/NomicFoundation/edr/commit/1a84229aeea42354df99047fc8a7e025f4f35809"
+        },
+        "date": 1790886934612,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27606922,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10963,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 251940,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9403,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27494016,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129248,
             "unit": "us"
           }
         ]
