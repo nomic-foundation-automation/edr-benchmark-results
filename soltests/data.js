@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790886935856,
+  "lastUpdate": 1790959285609,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21059,6 +21059,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129248,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "576e88e981f1f78c8dd1196ac47fe70562d0b0d3",
+          "message": "fix: amsterdam eip-7997 changeset as patch (#1799)",
+          "timestamp": "2026-10-02T16:01:13Z",
+          "tree_id": "39af8ab0daf0ea30da857ec3a484d762059b4386",
+          "url": "https://github.com/NomicFoundation/edr/commit/576e88e981f1f78c8dd1196ac47fe70562d0b0d3"
+        },
+        "date": 1790959284692,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27613945,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10831,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 249328,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8669,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27465407,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132558,
             "unit": "us"
           }
         ]
