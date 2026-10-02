@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790959285609,
+  "lastUpdate": 1790962919112,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21113,6 +21113,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132558,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9973dcce197cf2b68d9a65574a29d3af06720023",
+          "message": "ci(renovate): pin the Renovate CLI used by the config check (#1800)",
+          "timestamp": "2026-10-02T16:48:54Z",
+          "tree_id": "19d7189332584d5f221e2d94089fc29d406c43ef",
+          "url": "https://github.com/NomicFoundation/edr/commit/9973dcce197cf2b68d9a65574a29d3af06720023"
+        },
+        "date": 1790962918569,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27638777,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10805,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 250767,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9526,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27421580,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 131484,
             "unit": "us"
           }
         ]
