@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791032922051,
+  "lastUpdate": 1791067413776,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21383,6 +21383,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123724,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f64b757e1f384078405d7ff3a2b4db9e94757a1e",
+          "message": "chore(deps): update taiki-e/install-action action to v2.87.21 (#1810)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-10-03T22:04:26Z",
+          "tree_id": "6428f493a04c2f89cdfc97c5feac2e0c4aaeee42",
+          "url": "https://github.com/NomicFoundation/edr/commit/f64b757e1f384078405d7ff3a2b4db9e94757a1e"
+        },
+        "date": 1791067413199,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24352623,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10773,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244471,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9136,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24259495,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 142757,
             "unit": "us"
           }
         ]
