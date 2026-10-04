@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791067413776,
+  "lastUpdate": 1791129094292,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21437,6 +21437,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 142757,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b8370248e8065616e65e3710fd8dd81f0373dc5",
+          "message": "chore(deps): update dependency renovate to v44.115.12 (#1813)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-10-04T15:04:10Z",
+          "tree_id": "eb7b9e1ea9b1be607b522b92a39e2abb6ec42c77",
+          "url": "https://github.com/NomicFoundation/edr/commit/3b8370248e8065616e65e3710fd8dd81f0373dc5"
+        },
+        "date": 1791129093626,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24575670,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10895,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 246249,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9607,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24535957,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 136832,
             "unit": "us"
           }
         ]
