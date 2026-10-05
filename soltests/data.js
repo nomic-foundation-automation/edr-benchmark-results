@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791209716536,
+  "lastUpdate": 1791228029853,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21599,6 +21599,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 124135,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a2460ce1a3015c28032e57e5eddb5167cb264f9",
+          "message": "fix(test): out-of-bounds flake in test (#1818)",
+          "timestamp": "2026-10-05T16:40:41Z",
+          "tree_id": "e80e69013cb3ace31553f83ec5ee693d8eb24b77",
+          "url": "https://github.com/NomicFoundation/edr/commit/2a2460ce1a3015c28032e57e5eddb5167cb264f9"
+        },
+        "date": 1791228029204,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25450933,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10777,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244157,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9636,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25297741,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 126614,
             "unit": "us"
           }
         ]
