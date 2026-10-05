@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791160089801,
+  "lastUpdate": 1791209716536,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21545,6 +21545,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139813,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "expertdefiprotocol@gmail.com",
+            "name": "CryptoAstuce",
+            "username": "CryptoAstuce"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7493ae14075f60a0b579196f937fc05aea50ab19",
+          "message": "chore: drop Holesky chain configs (#1806)",
+          "timestamp": "2026-10-05T13:47:26Z",
+          "tree_id": "77142bc4bb2bc0e12fddefa797249262f9bd00bb",
+          "url": "https://github.com/NomicFoundation/edr/commit/7493ae14075f60a0b579196f937fc05aea50ab19"
+        },
+        "date": 1791209715945,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24990792,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10863,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 245981,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9642,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24860102,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124135,
             "unit": "us"
           }
         ]
