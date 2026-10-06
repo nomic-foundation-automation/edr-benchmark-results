@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791296378415,
+  "lastUpdate": 1791308374655,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21869,6 +21869,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 125618,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "286e40b39b0a811081f360e5b4a48a78e47800b3",
+          "message": "chore(deps): update npm minor/patch (#1805)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>",
+          "timestamp": "2026-10-06T16:59:20Z",
+          "tree_id": "09e0331f21b3cec41a0a31b333f5e70821daa49a",
+          "url": "https://github.com/NomicFoundation/edr/commit/286e40b39b0a811081f360e5b4a48a78e47800b3"
+        },
+        "date": 1791308372702,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26277592,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10822,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 246166,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9063,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26273688,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 119700,
             "unit": "us"
           }
         ]
