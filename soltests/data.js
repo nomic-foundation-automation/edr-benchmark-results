@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791228029853,
+  "lastUpdate": 1791255486925,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21653,6 +21653,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 126614,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a1460886fa22a30cdc5ddc389f912ec2b77e49f",
+          "message": "feat: add Amsterdam hardfork activation on Sepolia (#1822)",
+          "timestamp": "2026-10-06T02:36:48Z",
+          "tree_id": "65ee45de6507505ad33c7f896564f87ce008d09f",
+          "url": "https://github.com/NomicFoundation/edr/commit/2a1460886fa22a30cdc5ddc389f912ec2b77e49f"
+        },
+        "date": 1791255486016,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24222513,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10649,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 245215,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9041,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24203985,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129157,
             "unit": "us"
           }
         ]
