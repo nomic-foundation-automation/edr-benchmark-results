@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791294329874,
+  "lastUpdate": 1791296378415,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21815,6 +21815,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 122847,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d1666ba8b65e360954816b6eab32c81b899eeff7",
+          "message": "fix: recognise console calls by the Hardhat console address (#1821)",
+          "timestamp": "2026-10-06T13:44:29Z",
+          "tree_id": "a2832d7e7647653b612625384f509220ca07ab13",
+          "url": "https://github.com/NomicFoundation/edr/commit/d1666ba8b65e360954816b6eab32c81b899eeff7"
+        },
+        "date": 1791296377775,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25550089,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10862,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 246798,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9334,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25529341,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125618,
             "unit": "us"
           }
         ]
