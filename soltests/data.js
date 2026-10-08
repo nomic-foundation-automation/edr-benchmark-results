@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791308374655,
+  "lastUpdate": 1791469044326,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21923,6 +21923,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 119700,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "994eba4f03d0b874bb9ec155595942171fc18f7e",
+          "message": "fix: include precompile calls in call traces and identify them by address (#1826)",
+          "timestamp": "2026-10-08T13:53:00Z",
+          "tree_id": "2f0ee1e001265185044413a17c519fdcc73de41a",
+          "url": "https://github.com/NomicFoundation/edr/commit/994eba4f03d0b874bb9ec155595942171fc18f7e"
+        },
+        "date": 1791469043732,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25091677,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10982,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 245551,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8708,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25004803,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 133842,
             "unit": "us"
           }
         ]
