@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791469044326,
+  "lastUpdate": 1791473750587,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -21977,6 +21977,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133842,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2c0accfbff1b1469cd6f153246354890af4e08f3",
+          "message": "fix: cap the default transaction gas limit under Osaka in the Hardhat 2 patch (#1825)",
+          "timestamp": "2026-10-08T14:06:57Z",
+          "tree_id": "1327494cc5dc545ad580d78ffb405beb34fb1489",
+          "url": "https://github.com/NomicFoundation/edr/commit/2c0accfbff1b1469cd6f153246354890af4e08f3"
+        },
+        "date": 1791473749998,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25738218,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10904,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 246631,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8748,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25672094,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129653,
             "unit": "us"
           }
         ]
