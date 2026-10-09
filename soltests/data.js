@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791473750587,
+  "lastUpdate": 1791542766843,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22031,6 +22031,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129653,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c50b85f4b36cc906bfd3f38cc22a595a45c9cb95",
+          "message": "feat(solidity-tests): add `lastFrameGas` and `snapshotGasLastFrame` cheatcodes, extend `Vm.Gas` for EIP-8037 (#1827)\n\nCo-authored-by: Ana Perez Ghiglia <aghiglia@manas.tech>",
+          "timestamp": "2026-10-09T10:25:41Z",
+          "tree_id": "3c3189e77e2dcbe1ed984ca9d305681bb4f97c3f",
+          "url": "https://github.com/NomicFoundation/edr/commit/c50b85f4b36cc906bfd3f38cc22a595a45c9cb95"
+        },
+        "date": 1791542766253,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25529910,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10825,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 246468,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9596,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25453264,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 123977,
             "unit": "us"
           }
         ]
