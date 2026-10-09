@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791542766843,
+  "lastUpdate": 1791545681397,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22085,6 +22085,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123977,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "expertdefiprotocol@gmail.com",
+            "name": "CryptoAstuce",
+            "username": "CryptoAstuce"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40ebe1bdedece1d9bd8a1c0801552f61870fd696",
+          "message": "fix: keep leading fractional zeros in logged transaction values (#1792)\n\nCo-authored-by: Claude <noreply@anthropic.com>\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>",
+          "timestamp": "2026-10-09T10:44:10Z",
+          "tree_id": "9ad18329e8cb299dfc41e7dbbba7736b255ee4e0",
+          "url": "https://github.com/NomicFoundation/edr/commit/40ebe1bdedece1d9bd8a1c0801552f61870fd696"
+        },
+        "date": 1791545680826,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25722963,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11020,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247662,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8796,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25653301,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 119130,
             "unit": "us"
           }
         ]
