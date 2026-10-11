@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791545681397,
+  "lastUpdate": 1791710182342,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22139,6 +22139,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 119130,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b71c3821a6c42751e8fed0b71b8bc4300e7394c1",
+          "message": "chore(deps): update dependency pnpm to v11.28.4 (#1836)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-10-11T07:49:00Z",
+          "tree_id": "fe00ed0eb9ca6f147728f20490aa5edb4eb18e50",
+          "url": "https://github.com/NomicFoundation/edr/commit/b71c3821a6c42751e8fed0b71b8bc4300e7394c1"
+        },
+        "date": 1791710181793,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 24129223,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11041,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 250383,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9598,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 24001929,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 123266,
             "unit": "us"
           }
         ]
