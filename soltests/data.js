@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791808608072,
+  "lastUpdate": 1791817251663,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22409,6 +22409,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127871,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d98dcdbca86ca3edd869dc2d4e0b0581043dab1f",
+          "message": "chore(deps): update rust crate tokio to v1.53.2 (#1840)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>",
+          "timestamp": "2026-10-12T14:19:28Z",
+          "tree_id": "9881162bcd0344df451e4d0fae9fdeb49cb4405a",
+          "url": "https://github.com/NomicFoundation/edr/commit/d98dcdbca86ca3edd869dc2d4e0b0581043dab1f"
+        },
+        "date": 1791817251068,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27581384,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10810,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 250167,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9113,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27496705,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125751,
             "unit": "us"
           }
         ]
