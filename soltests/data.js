@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791912102514,
+  "lastUpdate": 1791916402275,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22517,6 +22517,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 124730,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3c5de129468df6fd6aad334cc6e54d2ef8ff26c3",
+          "message": "build: upgrade revm to v42.0.1 (tag v115) (#1801)",
+          "timestamp": "2026-10-13T16:51:53Z",
+          "tree_id": "c4c9cc9ec32a7b9dae8fd6c926c315b4b711b6b1",
+          "url": "https://github.com/NomicFoundation/edr/commit/3c5de129468df6fd6aad334cc6e54d2ef8ff26c3"
+        },
+        "date": 1791916401637,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28360168,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11142,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 259355,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9164,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28201849,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 130380,
             "unit": "us"
           }
         ]
