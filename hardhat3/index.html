@@ -94,6 +94,10 @@
         display: flex;
         flex-direction: column;
       }
+      .facet-empty {
+        color: #6b6b6b;
+        padding: 2px 4px;
+      }
       .facet-option {
         display: flex;
         align-items: center;
@@ -130,6 +134,10 @@
         display: flex;
         gap: 12px;
         margin-top: 4px;
+      }
+      /* display: flex would otherwise override the hidden attribute. */
+      .facet-actions[hidden] {
+        display: none;
       }
       .facet-invisible {
         visibility: hidden;
@@ -695,6 +703,17 @@
             target.focus({ preventScroll: true });
           }
 
+          function facetLabel(key) {
+            return document.querySelector("#facet-" + key + " .facet-label")
+              .textContent;
+          }
+
+          function selectAllValues(dim) {
+            for (const value of dimensionValues[dim]) {
+              state.selection[dim].add(value);
+            }
+          }
+
           function linkButton(className, text) {
             const button = document.createElement("button");
             button.type = "button";
@@ -709,7 +728,7 @@
             const summary = details.querySelector("summary");
             // The static markup carries the label and the "All" state so the
             // toolbar reads the same before the data has loaded.
-            const label = summary.querySelector(".facet-label").textContent;
+            const label = facetLabel(key);
             const valueElem = summary.querySelector(".facet-value");
             const allValue = valueElem.textContent;
             const NONE_VALUE = "None";
@@ -752,7 +771,7 @@
             actions.className = "facet-actions";
             const selectAll = linkButton("facet-action", "Select all");
             selectAll.onclick = () => {
-              for (const value of dimensionValues[key]) selection.add(value);
+              selectAllValues(key);
               applyChange();
               focusFirstCheckbox();
             };
@@ -766,9 +785,37 @@
             panel.appendChild(actions);
 
             // Re-rendering replaces the checkboxes, so keyboard focus has to
-            // be moved onto the new ones.
+            // be moved onto the new ones. The summary takes it when the list
+            // has none, because the pressed button may have just been hidden.
             function focusCheckbox(value) {
-              checkboxByValue.get(value)?.focus({ preventScroll: true });
+              (checkboxByValue.get(value) ?? summary).focus({
+                preventScroll: true,
+              });
+            }
+
+            // Select all and Clear change nothing visible here, so the notice
+            // offers a reset instead.
+            function emptyNotice() {
+              const notice = document.createElement("div");
+              notice.className = "facet-empty";
+              const otherLabels = DIMENSION_KEYS.filter((dim) => dim !== key)
+                .map((dim) => facetLabel(dim).toLowerCase())
+                .join(" and ");
+              const reset = linkButton("facet-action", "Reset all filters");
+              reset.onclick = () => {
+                DIMENSION_KEYS.forEach(selectAllValues);
+                applyChange();
+                focusFirstCheckbox();
+              };
+              notice.append(
+                "No " +
+                  label.toLowerCase() +
+                  " match the selected " +
+                  otherLabels +
+                  ". ",
+                reset,
+              );
+              return notice;
             }
 
             function focusFirstCheckbox() {
@@ -834,9 +881,12 @@
                     : shown.length === 1
                       ? format(shown[0])
                       : shown.length + " selected";
+              const listEmpty = available.length === 0;
               selectAll.classList.toggle("facet-invisible", allShown);
               clear.classList.toggle("facet-invisible", shown.length === 0);
+              actions.hidden = listEmpty;
               list.replaceChildren();
+              if (listEmpty) list.appendChild(emptyNotice());
               renderOptions(available);
             }
 
