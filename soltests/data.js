@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791817251663,
+  "lastUpdate": 1791912102514,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22463,6 +22463,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 125751,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ecccff99953a41de998817819388a574f2d0d6f3",
+          "message": "Benchmark the solx DWARF decode path (#1718)",
+          "timestamp": "2026-10-13T15:28:37Z",
+          "tree_id": "e7abd7c5ed020bc52dda5e548dd992c891a2481e",
+          "url": "https://github.com/NomicFoundation/edr/commit/ecccff99953a41de998817819388a574f2d0d6f3"
+        },
+        "date": 1791912101879,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28404981,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11006,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 254189,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9415,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28373018,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124730,
             "unit": "us"
           }
         ]
