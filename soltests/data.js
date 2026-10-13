@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791916402275,
+  "lastUpdate": 1791921524698,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22571,6 +22571,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 130380,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e577740f41489fbcc1a00bd02c2a5d3756afae7c",
+          "message": "feat: experimental EIP-8246 support (Amsterdam) (#1828)\n\nCo-authored-by: Wodann <Wodann@users.noreply.github.com>",
+          "timestamp": "2026-10-13T19:18:51Z",
+          "tree_id": "bd8868ce30dd67b5bb5f4e4d72619fcc3195ca54",
+          "url": "https://github.com/NomicFoundation/edr/commit/e577740f41489fbcc1a00bd02c2a5d3756afae7c"
+        },
+        "date": 1791921524096,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29038998,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11226,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 259361,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8877,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28952199,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124268,
             "unit": "us"
           }
         ]
