@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791985950081,
+  "lastUpdate": 1791997916669,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22679,6 +22679,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132308,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b0fc35105f03e0aee77fd13aba91626272ded93",
+          "message": "feat: add experimental EIP-2780 support (Amsterdam) (#1823)",
+          "timestamp": "2026-10-14T15:02:39Z",
+          "tree_id": "3f9a84092b44d231b9fd7a7d41af4c00418d3208",
+          "url": "https://github.com/NomicFoundation/edr/commit/2b0fc35105f03e0aee77fd13aba91626272ded93"
+        },
+        "date": 1791997916001,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26877591,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11071,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 249867,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8843,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26826403,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 123051,
             "unit": "us"
           }
         ]
