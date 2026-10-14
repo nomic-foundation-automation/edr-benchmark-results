@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791921524698,
+  "lastUpdate": 1791985950081,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22625,6 +22625,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 124268,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4906ddf1f59a2d2270dee8856d626b5a01718b58",
+          "message": "fix(solidity-tests): don't default test gas limit to EIP-7825 cap from Amsterdam (#1832)",
+          "timestamp": "2026-10-14T13:29:37Z",
+          "tree_id": "2537eec3ca202db72b6dcf301fefbdd86d54180e",
+          "url": "https://github.com/NomicFoundation/edr/commit/4906ddf1f59a2d2270dee8856d626b5a01718b58"
+        },
+        "date": 1791985949392,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26960403,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10896,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247523,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9009,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26850232,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132308,
             "unit": "us"
           }
         ]
