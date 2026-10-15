@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792076178913,
+  "lastUpdate": 1792082900942,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "37712236+popescuoctavian@users.noreply.github.com",
-            "name": "Octavian Popescu",
-            "username": "popescuoctavian"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "3b354104ea0b79578e009a3d9fb5ac4f79967115",
-          "message": "fix: bypass HTTP(S)_PROXY for loopback fork URLs (#1777)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
-          "timestamp": "2026-09-23T15:07:51Z",
-          "tree_id": "ca7356c2941c01f0fbd764b230a450594ca5c52c",
-          "url": "https://github.com/NomicFoundation/edr/commit/3b354104ea0b79578e009a3d9fb5ac4f79967115"
-        },
-        "date": 1790178603398,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 148870.588413,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 16780.657808,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 7403.814700999999,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 8850.074061,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 500.8961039999999,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 4017.2153249999997,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 108124.384173,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 3193.546241,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 3199.420188,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cf4a7773289bfae3dc9f8e10149d0bbda243341",
+          "message": "chore: regenerate OP stack chain configs (#1843)",
+          "timestamp": "2026-10-15T16:02:03Z",
+          "tree_id": "3928356bf58acc7d93a5eba3a9e2db7198adb2eb",
+          "url": "https://github.com/NomicFoundation/edr/commit/6cf4a7773289bfae3dc9f8e10149d0bbda243341"
+        },
+        "date": 1792082900295,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 156740.826419,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 17992.124668,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 7502.377869,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 9303.711658999999,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 519.9110959999999,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 4187.817425,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 113937.70921599999,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 3297.174486,
             "unit": "ms"
           }
         ]
