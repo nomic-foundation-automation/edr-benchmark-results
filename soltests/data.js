@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792076886140,
+  "lastUpdate": 1792081836471,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22841,6 +22841,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 128461,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cf4a7773289bfae3dc9f8e10149d0bbda243341",
+          "message": "chore: regenerate OP stack chain configs (#1843)",
+          "timestamp": "2026-10-15T16:02:03Z",
+          "tree_id": "3928356bf58acc7d93a5eba3a9e2db7198adb2eb",
+          "url": "https://github.com/NomicFoundation/edr/commit/6cf4a7773289bfae3dc9f8e10149d0bbda243341"
+        },
+        "date": 1792081835812,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28942875,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11088,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 259289,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8822,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28801116,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127932,
             "unit": "us"
           }
         ]
