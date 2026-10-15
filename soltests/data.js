@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792000537424,
+  "lastUpdate": 1792076886140,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -22787,6 +22787,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 117332,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87bb637047553afc36166535c7676fa5a5d837c7",
+          "message": "feat: experimental EIP-7954 support (Amsterdam) (#1841)",
+          "timestamp": "2026-10-15T14:28:50Z",
+          "tree_id": "905159073007503965bbfb470727e149449e1461",
+          "url": "https://github.com/NomicFoundation/edr/commit/87bb637047553afc36166535c7676fa5a5d837c7"
+        },
+        "date": 1792076885497,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29151209,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11083,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 258249,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9293,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28977196,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128461,
             "unit": "us"
           }
         ]
