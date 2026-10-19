@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792426610816,
+  "lastUpdate": 1792438296864,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23219,6 +23219,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 121476,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a83d0a1833d33995f98bf601349d13c79502c126",
+          "message": "fix: use the parent gas limit for GASLIMIT with the block gas limit off (#1848)",
+          "timestamp": "2026-10-19T16:49:56Z",
+          "tree_id": "45438b0e59a46438aedb397b0ed0f3444fdb264f",
+          "url": "https://github.com/NomicFoundation/edr/commit/a83d0a1833d33995f98bf601349d13c79502c126"
+        },
+        "date": 1792438296171,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26146088,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10946,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 245752,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9176,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25966131,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 145481,
             "unit": "us"
           }
         ]
