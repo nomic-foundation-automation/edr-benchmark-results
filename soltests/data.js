@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792424382598,
+  "lastUpdate": 1792426610816,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23165,6 +23165,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 125723,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bas@nomic.foundation",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1da28b28a3ac4631e3345d542721f889a9f73191",
+          "message": "feat: stack traces for the slang compiler via its debugSymbols output (#1811)",
+          "timestamp": "2026-10-19T14:59:59Z",
+          "tree_id": "895359e2dec1a8aea1d199fb322d0bb81da3ea2d",
+          "url": "https://github.com/NomicFoundation/edr/commit/1da28b28a3ac4631e3345d542721f889a9f73191"
+        },
+        "date": 1792426610142,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29159696,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10805,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 259482,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9000,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28999596,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 121476,
             "unit": "us"
           }
         ]
