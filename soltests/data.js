@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792512201739,
+  "lastUpdate": 1792525803416,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23381,6 +23381,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 135418,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc64432064c53c26563ea3e83dc27e4a1c8d996d",
+          "message": "fix(op): set the `L1Block` fee scalars at the right storage offsets (#1846)",
+          "timestamp": "2026-10-20T19:09:45Z",
+          "tree_id": "aeed221bd95e2e471a39de86d0ae62c2979a730c",
+          "url": "https://github.com/NomicFoundation/edr/commit/bc64432064c53c26563ea3e83dc27e4a1c8d996d"
+        },
+        "date": 1792525802706,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26594237,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10836,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 248723,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9396,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26575404,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124586,
             "unit": "us"
           }
         ]
