@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792438296864,
+  "lastUpdate": 1792510338092,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23273,6 +23273,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 145481,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "331f446b96fb039e28ddbb197198fd7d44b7128b",
+          "message": "fix(ci): regression benchmark with non-root hardhat repos (#1866)",
+          "timestamp": "2026-10-20T14:39:48Z",
+          "tree_id": "6cbbd8e2ffd146f7dcaa372b6500ca177cf7ab13",
+          "url": "https://github.com/NomicFoundation/edr/commit/331f446b96fb039e28ddbb197198fd7d44b7128b"
+        },
+        "date": 1792510336381,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26133136,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13918,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247776,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9250,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25986113,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 121793,
             "unit": "us"
           }
         ]
