@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792538233176,
+  "lastUpdate": 1792594597570,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23489,6 +23489,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127189,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b6dff54eff7f50cd8ed7a66b6d1f19b4b8fa994",
+          "message": "fix(solidity-tests): name missing cheatcodes from forge-std v1.17.0 (#1874)",
+          "timestamp": "2026-10-21T14:24:04Z",
+          "tree_id": "a00ea808a81816d9e632b0ce8d71ea0d54268344",
+          "url": "https://github.com/NomicFoundation/edr/commit/8b6dff54eff7f50cd8ed7a66b6d1f19b4b8fa994"
+        },
+        "date": 1792594596900,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 29014350,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11001,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 263910,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9493,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28935399,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129597,
             "unit": "us"
           }
         ]
