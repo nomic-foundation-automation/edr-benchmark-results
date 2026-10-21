@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792609781893,
+  "lastUpdate": 1792616208298,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23651,6 +23651,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 133479,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a05a1c25e11f74496bc63393584da7bad7974afe",
+          "message": "feat: derive the default transaction gas limit from the executing block (#1831)",
+          "timestamp": "2026-10-21T20:17:09Z",
+          "tree_id": "709e605999752dbee03b8450be82bcdbe318d4be",
+          "url": "https://github.com/NomicFoundation/edr/commit/a05a1c25e11f74496bc63393584da7bad7974afe"
+        },
+        "date": 1792616207585,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26892515,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11074,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 254869,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8832,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26790968,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139364,
             "unit": "us"
           }
         ]
