@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792594597570,
+  "lastUpdate": 1792606776078,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23543,6 +23543,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129597,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c16de2d42af38ddbe3f1e21ab8723bda9851450d",
+          "message": "fix: stop the macOS addon crashing when loaded twice (#1834)",
+          "timestamp": "2026-10-21T17:39:28Z",
+          "tree_id": "676c88f52748e6369450b0b34d33ed302ba98d0d",
+          "url": "https://github.com/NomicFoundation/edr/commit/c16de2d42af38ddbe3f1e21ab8723bda9851450d"
+        },
+        "date": 1792606775360,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25756785,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13944,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 249221,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8777,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25702083,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 135235,
             "unit": "us"
           }
         ]
