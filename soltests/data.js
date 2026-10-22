@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792616208298,
+  "lastUpdate": 1792682405941,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23705,6 +23705,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139364,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "033e037df0ce8b908a5ca866c0771aad54906659",
+          "message": "fix(ci): pin hardhat regression benchmark to NomicFoundation/hardhat#8753 (#1879)",
+          "timestamp": "2026-10-22T14:32:23Z",
+          "tree_id": "445f4b8db026cd5724d47fae8f7432e239ea50eb",
+          "url": "https://github.com/NomicFoundation/edr/commit/033e037df0ce8b908a5ca866c0771aad54906659"
+        },
+        "date": 1792682405301,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26882731,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13369,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 255384,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8876,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26820670,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 140864,
             "unit": "us"
           }
         ]
