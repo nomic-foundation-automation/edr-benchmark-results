@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792735342182,
+  "lastUpdate": 1792742629103,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "aghiglia@manas.tech",
-            "name": "Ana Perez Ghiglia",
-            "username": "anaPerezGhiglia"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "576e88e981f1f78c8dd1196ac47fe70562d0b0d3",
-          "message": "fix: amsterdam eip-7997 changeset as patch (#1799)",
-          "timestamp": "2026-10-02T16:01:13Z",
-          "tree_id": "39af8ab0daf0ea30da857ec3a484d762059b4386",
-          "url": "https://github.com/NomicFoundation/edr/commit/576e88e981f1f78c8dd1196ac47fe70562d0b0d3"
-        },
-        "date": 1790958607007,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 154141.67827499998,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 17996.333355,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 7557.055157000001,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 9402.761945,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 523.8147570000001,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 4153.316149,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 111205.70380399999,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 3302.693108,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 3167.848218,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e676f903fdb54ac6ce2bde3b17050d361dc912a5",
+          "message": "fix(solidity-tests): EIP-8037 gas accounting at Amsterdam, including isolated frames (#1830)",
+          "timestamp": "2026-10-23T07:35:06Z",
+          "tree_id": "c91571c719089da9bca53d069e5c52e3ef73d60a",
+          "url": "https://github.com/NomicFoundation/edr/commit/e676f903fdb54ac6ce2bde3b17050d361dc912a5"
+        },
+        "date": 1792742628340,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 148651.651335,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 16664.007316,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 7314.463943,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 8667.698262,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 498.24673599999994,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 3988.8927790000007,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 108355.675441,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 3162.666858,
             "unit": "ms"
           }
         ]
