@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792682405941,
+  "lastUpdate": 1792734308850,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23759,6 +23759,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 140864,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bdae9465ed5e0a46c84fa1b346a9821b5fa13ab1",
+          "message": "ci: check test targets under each feature combination (#1876)",
+          "timestamp": "2026-10-23T05:23:06Z",
+          "tree_id": "dbd4ab85f0741dc0b5fbe07dfb8db3a36208eace",
+          "url": "https://github.com/NomicFoundation/edr/commit/bdae9465ed5e0a46c84fa1b346a9821b5fa13ab1"
+        },
+        "date": 1792734308181,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26877511,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11043,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 254853,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9291,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26819828,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 135718,
             "unit": "us"
           }
         ]
