@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792743304109,
+  "lastUpdate": 1792783797483,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23867,6 +23867,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 146027,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "034998c4048da0a4fc5c1acdb0269e2621ef3d94",
+          "message": "feat: add backwards compatibility for `Response::traces` (#1301)",
+          "timestamp": "2026-10-23T17:52:03Z",
+          "tree_id": "e19d18bdc63b8a6616a1137467260d6e6662b437",
+          "url": "https://github.com/NomicFoundation/edr/commit/034998c4048da0a4fc5c1acdb0269e2621ef3d94"
+        },
+        "date": 1792783796839,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26965612,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11019,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 255247,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9582,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26802064,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137601,
             "unit": "us"
           }
         ]
