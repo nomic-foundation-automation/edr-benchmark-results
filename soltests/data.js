@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792734308850,
+  "lastUpdate": 1792743304109,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23813,6 +23813,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 135718,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e676f903fdb54ac6ce2bde3b17050d361dc912a5",
+          "message": "fix(solidity-tests): EIP-8037 gas accounting at Amsterdam, including isolated frames (#1830)",
+          "timestamp": "2026-10-23T07:35:06Z",
+          "tree_id": "c91571c719089da9bca53d069e5c52e3ef73d60a",
+          "url": "https://github.com/NomicFoundation/edr/commit/e676f903fdb54ac6ce2bde3b17050d361dc912a5"
+        },
+        "date": 1792743303486,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28024433,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11040,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 258778,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9727,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27866311,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 146027,
             "unit": "us"
           }
         ]
