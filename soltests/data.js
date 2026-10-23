@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792783797483,
+  "lastUpdate": 1792785807969,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -23921,6 +23921,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 137601,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a0dbc0c20f1fe8148e93beb21a2be4a0e4cd27f",
+          "message": "revert: remove the Amsterdam hardfork activation on Hoodi (#1888)",
+          "timestamp": "2026-10-23T18:18:39Z",
+          "tree_id": "f0c3a5e4e67a364405257ccb6541e6f47f0502bd",
+          "url": "https://github.com/NomicFoundation/edr/commit/9a0dbc0c20f1fe8148e93beb21a2be4a0e4cd27f"
+        },
+        "date": 1792785807273,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26984096,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10988,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 255725,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8853,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26798789,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 138171,
             "unit": "us"
           }
         ]
