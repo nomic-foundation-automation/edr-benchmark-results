@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792933291281,
+  "lastUpdate": 1792939432325,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24083,6 +24083,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 114466,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b9bd49fcc746d11e510447448a7f97f9a359ddc5",
+          "message": "chore(deps): update dependency pnpm to v11.28.6 (#1891)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-10-25T11:15:15Z",
+          "tree_id": "b52eefc5380b013b4f10f039ce1937fd1a2cc7f0",
+          "url": "https://github.com/NomicFoundation/edr/commit/b9bd49fcc746d11e510447448a7f97f9a359ddc5"
+        },
+        "date": 1792939431688,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26622868,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11008,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 259097,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8758,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26451327,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 122148,
             "unit": "us"
           }
         ]
