@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792939432325,
+  "lastUpdate": 1793228351248,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24137,6 +24137,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 122148,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bf9f6b1af23e517cac0e8e0c5ac4344f09fa4022",
+          "message": "docs: describe when and how to write a changeset (#1833)",
+          "timestamp": "2026-10-28T21:13:14Z",
+          "tree_id": "a88a6dad89bc1536cc715a91915233a05f8f9c85",
+          "url": "https://github.com/NomicFoundation/edr/commit/bf9f6b1af23e517cac0e8e0c5ac4344f09fa4022"
+        },
+        "date": 1793228350602,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26877126,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11048,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 258809,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9712,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26752339,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127337,
             "unit": "us"
           }
         ]
