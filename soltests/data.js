@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793295003206,
+  "lastUpdate": 1793305997000,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24299,6 +24299,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 139991,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21098dc0ecd234b61e55bfcd112afa26f3fa78ff",
+          "message": "feat: add experimental EIP-8038 support (Amsterdam) (#1887)",
+          "timestamp": "2026-10-29T17:17:00-03:00",
+          "tree_id": "1d43dcb023f3d66b8b64475eb9369e4bdb992726",
+          "url": "https://github.com/NomicFoundation/edr/commit/21098dc0ecd234b61e55bfcd112afa26f3fa78ff"
+        },
+        "date": 1793305996285,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25813448,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10998,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 251024,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9362,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25691906,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 141386,
             "unit": "us"
           }
         ]
