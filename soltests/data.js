@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793305997000,
+  "lastUpdate": 1793311252093,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24353,6 +24353,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 141386,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cfa3deac5f0fe38e898576096bcd6c5e59885010",
+          "message": "fix: charge account creation for repeated deployments in Solidity tests (#1903)",
+          "timestamp": "2026-10-29T17:29:44-03:00",
+          "tree_id": "08419e3cafbeebce69b0f452d1a0828fc404e1e5",
+          "url": "https://github.com/NomicFoundation/edr/commit/cfa3deac5f0fe38e898576096bcd6c5e59885010"
+        },
+        "date": 1793311251323,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28057814,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10895,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244266,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9630,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28004210,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 154441,
             "unit": "us"
           }
         ]
