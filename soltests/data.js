@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793262445725,
+  "lastUpdate": 1793295003206,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24245,6 +24245,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 132806,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "distinct": true,
+          "id": "16e44d90f3ec2b70c1bad7659ab42bfef4f110f4",
+          "message": "build: pin op-revm to the op-reth v2.8.0 mirror tag (#1904)",
+          "timestamp": "2026-10-29T11:49:56-05:00",
+          "tree_id": "07f19f97a13acd30c3627a0aba422fbea1e24fa9",
+          "url": "https://github.com/NomicFoundation/edr/commit/16e44d90f3ec2b70c1bad7659ab42bfef4f110f4"
+        },
+        "date": 1793295002332,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 25985584,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11341,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 252956,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8720,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 25778893,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 139991,
             "unit": "us"
           }
         ]
