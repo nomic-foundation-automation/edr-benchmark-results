@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793228351248,
+  "lastUpdate": 1793262445725,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24191,6 +24191,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127337,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "nenekotan+git@gmail.com",
+            "name": "Bas van Gijzel",
+            "username": "nebasuke"
+          },
+          "distinct": true,
+          "id": "17db6cd3cbd9f9e6dd7d4bbae937144f42561fd8",
+          "message": "chore(deps): update dependency renovate to v44.176.2",
+          "timestamp": "2026-10-29T08:13:26Z",
+          "tree_id": "2067dca46e7beaf45aa5ac947caecc4193ef1bca",
+          "url": "https://github.com/NomicFoundation/edr/commit/17db6cd3cbd9f9e6dd7d4bbae937144f42561fd8"
+        },
+        "date": 1793262445047,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26942650,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11065,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 257120,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8889,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26833361,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 132806,
             "unit": "us"
           }
         ]
