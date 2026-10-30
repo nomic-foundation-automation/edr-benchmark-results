@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793311252093,
+  "lastUpdate": 1793385859831,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24407,6 +24407,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 154441,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6996da6105fb4b0dc616f2fc884250721f005c38",
+          "message": "ci: replay L1 Sepolia blocks (#1910)",
+          "timestamp": "2026-10-30T17:48:58Z",
+          "tree_id": "4bbabf6f916571a3ace284a90e6c833ba8710518",
+          "url": "https://github.com/NomicFoundation/edr/commit/6996da6105fb4b0dc616f2fc884250721f005c38"
+        },
+        "date": 1793385858830,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28137450,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10818,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244466,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8730,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27989631,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 134328,
             "unit": "us"
           }
         ]
