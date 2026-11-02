@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793385859831,
+  "lastUpdate": 1793615061828,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24461,6 +24461,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 134328,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "4f2fed2e59500589955df8d58cdf1171219f0231",
+          "message": "chore(deps): update rust crate tokio to v1.53.3 [security] (#1889)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-02T08:53:12Z",
+          "tree_id": "3054f57abbcdd4a4fadd9ddc72ccaa58b46d1ec8",
+          "url": "https://github.com/NomicFoundation/edr/commit/4f2fed2e59500589955df8d58cdf1171219f0231"
+        },
+        "date": 1793615061126,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26883026,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11101,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247272,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9253,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26720969,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 121839,
             "unit": "us"
           }
         ]
