@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793634096724,
+  "lastUpdate": 1793636187036,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24677,6 +24677,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129945,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83d1962fe2df21ca3c474a2b7b91bf77271f1be7",
+          "message": "ci: move aarch64-apple-darwin build and binding tests to macos-15 (#1913)",
+          "timestamp": "2026-11-02T14:48:32Z",
+          "tree_id": "80dedf06b76dcdab6223c2e8a6b56af8af47d8db",
+          "url": "https://github.com/NomicFoundation/edr/commit/83d1962fe2df21ca3c474a2b7b91bf77271f1be7"
+        },
+        "date": 1793636186274,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27106597,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10982,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 250913,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8938,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26936145,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 129825,
             "unit": "us"
           }
         ]
