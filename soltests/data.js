@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793636187036,
+  "lastUpdate": 1793708503406,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24731,6 +24731,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129825,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b660a084220512c0334040817b73b6fe451221e5",
+          "message": "feat(cheatcodes): add `isIsolateMode` (#1909)",
+          "timestamp": "2026-11-03T11:39:04Z",
+          "tree_id": "bf148ccca82609ed88f8d6bf9fd39dc61ffcf9e3",
+          "url": "https://github.com/NomicFoundation/edr/commit/b660a084220512c0334040817b73b6fe451221e5"
+        },
+        "date": 1793708501628,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27665672,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10995,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 251386,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8969,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27517654,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 123736,
             "unit": "us"
           }
         ]
