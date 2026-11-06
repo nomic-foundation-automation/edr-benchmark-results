@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793947934640,
+  "lastUpdate": 1793981838779,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24839,6 +24839,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 135246,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "22e052ed6ac9022cf6d5733c3b36d7c77e0ecde9",
+          "message": "fix(solidity-tests): preserve configured hardfork across fork selection (#1921)",
+          "timestamp": "2026-11-06T15:23:50Z",
+          "tree_id": "953685b0bedb17fc309872dc4c56196c5e66096a",
+          "url": "https://github.com/NomicFoundation/edr/commit/22e052ed6ac9022cf6d5733c3b36d7c77e0ecde9"
+        },
+        "date": 1793981838038,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27375615,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10999,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 245739,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9245,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27252697,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 143604,
             "unit": "us"
           }
         ]
