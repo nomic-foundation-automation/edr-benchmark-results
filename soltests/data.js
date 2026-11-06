@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793708503406,
+  "lastUpdate": 1793947934640,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24785,6 +24785,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123736,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb590f0fe44a43cd8a554847d7dd0d249fec5356",
+          "message": "build: enable mimalloc-safe free_use_pagemap instead of CFLAGS override (#1914)",
+          "timestamp": "2026-11-06T06:05:13Z",
+          "tree_id": "0befb53eb7cc474378b2b9c037c7925fceb429e9",
+          "url": "https://github.com/NomicFoundation/edr/commit/eb590f0fe44a43cd8a554847d7dd0d249fec5356"
+        },
+        "date": 1793947933956,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27447703,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11682,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 246996,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 9397,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27382288,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 135246,
             "unit": "us"
           }
         ]
