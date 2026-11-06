@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793707822730,
+  "lastUpdate": 1793947167063,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "37712236+popescuoctavian@users.noreply.github.com",
-            "name": "Octavian Popescu",
-            "username": "popescuoctavian"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "c50b85f4b36cc906bfd3f38cc22a595a45c9cb95",
-          "message": "feat(solidity-tests): add `lastFrameGas` and `snapshotGasLastFrame` cheatcodes, extend `Vm.Gas` for EIP-8037 (#1827)\n\nCo-authored-by: Ana Perez Ghiglia <aghiglia@manas.tech>",
-          "timestamp": "2026-10-09T10:25:41Z",
-          "tree_id": "3c3189e77e2dcbe1ed984ca9d305681bb4f97c3f",
-          "url": "https://github.com/NomicFoundation/edr/commit/c50b85f4b36cc906bfd3f38cc22a595a45c9cb95"
-        },
-        "date": 1791543830417,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 153709.07643100002,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 17952.792355999998,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 7424.355221,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 9329.926995,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 522.836423,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 4157.770393,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 111049.673035,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 3271.7220079999997,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 4079.9957349999995,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb590f0fe44a43cd8a554847d7dd0d249fec5356",
+          "message": "build: enable mimalloc-safe free_use_pagemap instead of CFLAGS override (#1914)",
+          "timestamp": "2026-11-06T06:05:13Z",
+          "tree_id": "0befb53eb7cc474378b2b9c037c7925fceb429e9",
+          "url": "https://github.com/NomicFoundation/edr/commit/eb590f0fe44a43cd8a554847d7dd0d249fec5356"
+        },
+        "date": 1793947166316,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 183066.959937,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 21289.935897,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 10508.171846,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 11163.290937,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 626.5274830000001,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 5295.1625189999995,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 130007.91656499999,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 4175.9546900000005,
             "unit": "ms"
           }
         ]
