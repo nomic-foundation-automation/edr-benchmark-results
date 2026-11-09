@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794249129271,
+  "lastUpdate": 1794251261914,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25055,6 +25055,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123816,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "d6698e261623ccda7138750c8e5b831833c9c8a1",
+          "message": "feat(cheatcodes): add `rollSlot` and `getSlotNumber` (#1924)",
+          "timestamp": "2026-11-09T17:07:09Z",
+          "tree_id": "8f71fe3f101fc556c2932cb5dff676e8e81799e0",
+          "url": "https://github.com/NomicFoundation/edr/commit/d6698e261623ccda7138750c8e5b831833c9c8a1"
+        },
+        "date": 1794251260867,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28866351,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10766,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 244765,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8811,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 28766494,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125066,
             "unit": "us"
           }
         ]
