@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794243065413,
+  "lastUpdate": 1794249129271,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25001,6 +25001,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 122891,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c87c9ea4bb285fdded6188970c855a7b813740ef",
+          "message": "chore(deps): update dependency pnpm to v11.28.10 (#1927)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-09T15:51:55Z",
+          "tree_id": "9dacfdb152723b9673740481a903372d56578370",
+          "url": "https://github.com/NomicFoundation/edr/commit/c87c9ea4bb285fdded6188970c855a7b813740ef"
+        },
+        "date": 1794249128459,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 28019541,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 11093,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247176,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8842,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27864676,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 123816,
             "unit": "us"
           }
         ]
