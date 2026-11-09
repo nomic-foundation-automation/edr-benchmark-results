@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793981838779,
+  "lastUpdate": 1794232719739,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -24893,6 +24893,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 143604,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a216d99e041658be71a885ffae915454d36c9426",
+          "message": "ci: move HH3 regression benchmark to edr-benchmark-runner-2 (#1920)",
+          "timestamp": "2026-11-09T13:10:23Z",
+          "tree_id": "d5ce28fa53736edd8ac946ed2e19e9450981d3cf",
+          "url": "https://github.com/NomicFoundation/edr/commit/a216d99e041658be71a885ffae915454d36c9426"
+        },
+        "date": 1794232718984,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 27496131,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 13979,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 247792,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8907,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 27396546,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124012,
             "unit": "us"
           }
         ]
