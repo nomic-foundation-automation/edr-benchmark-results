@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794405022915,
+  "lastUpdate": 1794496004800,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25325,6 +25325,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 129212,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "fdcbe1711d09aad9ff25f2d14af0a8940dbbc816",
+          "message": "chore(deps): update cargo minor/patch (#1926)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>",
+          "timestamp": "2026-11-12T14:40:53Z",
+          "tree_id": "56d68395765beadffcb4468259a32b9e7ff31780",
+          "url": "https://github.com/NomicFoundation/edr/commit/fdcbe1711d09aad9ff25f2d14af0a8940dbbc816"
+        },
+        "date": 1794496004005,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 26639610,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 10917,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 250084,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 8842,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 26539599,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 125269,
             "unit": "us"
           }
         ]
