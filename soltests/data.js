@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794496004800,
+  "lastUpdate": 1794512827252,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25379,6 +25379,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 125269,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c45d58c1e0c53fd78a8c9f876fa406cda8726497",
+          "message": "perf(fuzz): run stateless fuzz tests on parallel workers (#1820)",
+          "timestamp": "2026-11-12T19:10:05Z",
+          "tree_id": "6e4394d760a0445fe2d6185d4c292f153f0104d7",
+          "url": "https://github.com/NomicFoundation/edr/commit/c45d58c1e0c53fd78a8c9f876fa406cda8726497"
+        },
+        "date": 1794512826501,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 9917012,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7884,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 85590,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7554,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 9681676,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127441,
             "unit": "us"
           }
         ]
