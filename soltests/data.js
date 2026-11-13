@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794595862623,
+  "lastUpdate": 1794602849129,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25541,6 +25541,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127086,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "362539bd12eb5ca17b4e12cd93af3c0510718a7b",
+          "message": "fix(provider): use the remote chain ID for forked blockchain protocol params (#1932)\n\nCo-authored-by: Yash Jagtap <jagtapyash2512@gmail.com>",
+          "timestamp": "2026-11-13T20:08:46Z",
+          "tree_id": "0e37e465bbbfc645d26227fe3cfa8f1a7f48b97a",
+          "url": "https://github.com/NomicFoundation/edr/commit/362539bd12eb5ca17b4e12cd93af3c0510718a7b"
+        },
+        "date": 1794602848382,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 9319477,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7868,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 86759,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7494,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 9693525,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 124451,
             "unit": "us"
           }
         ]
