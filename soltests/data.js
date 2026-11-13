@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794512827252,
+  "lastUpdate": 1794585602495,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25433,6 +25433,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127441,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37712236+popescuoctavian@users.noreply.github.com",
+            "name": "Octavian Popescu",
+            "username": "popescuoctavian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ac14bb62fc9347b5c5dfc8dde50a0ab1e9f7d66",
+          "message": "Revert \"ci: request `edrextended` as reviewer on new pull requests (#1873)\" (#1934)",
+          "timestamp": "2026-11-13T15:42:12Z",
+          "tree_id": "e92258d35b54bf363f7d62da4e9ec3d402371452",
+          "url": "https://github.com/NomicFoundation/edr/commit/5ac14bb62fc9347b5c5dfc8dde50a0ab1e9f7d66"
+        },
+        "date": 1794585601679,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 9952134,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7849,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 78480,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7535,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 9671467,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 113895,
             "unit": "us"
           }
         ]
