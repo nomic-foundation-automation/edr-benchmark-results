@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794585602495,
+  "lastUpdate": 1794595862623,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25487,6 +25487,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 113895,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "2dfc0786ade1537846ea708f3c4b29114923635d",
+          "message": "chore: remove unsupported OpHardfork::Lagoon variant (#1935)",
+          "timestamp": "2026-11-13T18:31:04Z",
+          "tree_id": "f4a379bd47253ad9aee1df86d5d06b65864d6a20",
+          "url": "https://github.com/NomicFoundation/edr/commit/2dfc0786ade1537846ea708f3c4b29114923635d"
+        },
+        "date": 1794595861859,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 10105868,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7893,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 86194,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7520,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 10087435,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127086,
             "unit": "us"
           }
         ]
