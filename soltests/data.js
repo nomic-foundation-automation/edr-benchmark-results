@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794840300319,
+  "lastUpdate": 1794844614236,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25703,6 +25703,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 120936,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a19a8c75c9cdf374fea11a52680617c747eac5cc",
+          "message": "chore(deps): update github-actions (#1941)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-16T13:37:28Z",
+          "tree_id": "517caf8e6bb1be273ed302385c1b7d2f41d39504",
+          "url": "https://github.com/NomicFoundation/edr/commit/a19a8c75c9cdf374fea11a52680617c747eac5cc"
+        },
+        "date": 1794844613442,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 9732234,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7784,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 79359,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7601,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 9746887,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 121582,
             "unit": "us"
           }
         ]
