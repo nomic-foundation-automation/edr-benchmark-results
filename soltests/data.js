@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794896138795,
+  "lastUpdate": 1794913854987,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25865,6 +25865,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 126153,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a49a83c0f818a5ca249cbd9cfa4d1de8236905b1",
+          "message": "chore(deps): update napi-rs (#1938)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>",
+          "timestamp": "2026-11-17T10:49:04Z",
+          "tree_id": "809fa8e18e66d638a1686ce500a50c9baebf88fa",
+          "url": "https://github.com/NomicFoundation/edr/commit/a49a83c0f818a5ca249cbd9cfa4d1de8236905b1"
+        },
+        "date": 1794913854203,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 10041638,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7839,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 86101,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7594,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 10092232,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 120527,
             "unit": "us"
           }
         ]
