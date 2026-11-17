@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794913854987,
+  "lastUpdate": 1794937407185,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -25919,6 +25919,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 120527,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ee0dece6133a7c363d0b716542f9017ddf0941b6",
+          "message": "fix(provider): price `eth_estimateGas` with the block's hardfork (#1944)",
+          "timestamp": "2026-11-17T17:02:59Z",
+          "tree_id": "7b194623a216968ea31c397cc6afdee6f7875442",
+          "url": "https://github.com/NomicFoundation/edr/commit/ee0dece6133a7c363d0b716542f9017ddf0941b6"
+        },
+        "date": 1794937406429,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 9691902,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7970,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 81490,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7681,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 9603082,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 137568,
             "unit": "us"
           }
         ]
