@@ -1,72 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795436061624,
+  "lastUpdate": 1795441198264,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "Wodann@users.noreply.github.com",
-            "name": "Wodann",
-            "username": "Wodann"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "5ce164809518d97e3d7bb08af9c1ee48a3a7b89f",
-          "message": "feat: add Amsterdam hardfork activation on Hoodi (#1861)",
-          "timestamp": "2026-10-20T15:05:36Z",
-          "tree_id": "078b678e0660ba840dfc235fea83b4178b070e31",
-          "url": "https://github.com/NomicFoundation/edr/commit/5ce164809518d97e3d7bb08af9c1ee48a3a7b89f"
-        },
-        "date": 1792513268383,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "All Scenarios",
-            "value": 154570.200405,
-            "unit": "ms"
-          },
-          {
-            "name": "neptune-mutual-blue-protocol_8db6480",
-            "value": 18025.360138,
-            "unit": "ms"
-          },
-          {
-            "name": "openzeppelin-contracts_0a5fba7a",
-            "value": 7538.679730999999,
-            "unit": "ms"
-          },
-          {
-            "name": "rocketpool_6a9dbfd8",
-            "value": 9339.798894,
-            "unit": "ms"
-          },
-          {
-            "name": "safe-contracts_914d0f8",
-            "value": 528.9047939999999,
-            "unit": "ms"
-          },
-          {
-            "name": "seaport_585b2ef8",
-            "value": 4187.993552,
-            "unit": "ms"
-          },
-          {
-            "name": "synthetix_9a3a109f",
-            "value": 111654.23063,
-            "unit": "ms"
-          },
-          {
-            "name": "uniswap-v3-core_d8b1c63",
-            "value": 3295.232666,
-            "unit": "ms"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -3199,6 +3135,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "uniswap-v3-core_d8b1c63",
             "value": 3318.639966,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a091d0d398c412e94423f57a309cbfb6405bca80",
+          "message": "fix: remove built-in configs of sunset OP Stack chains (#1952)",
+          "timestamp": "2026-11-23T11:46:33Z",
+          "tree_id": "4e8c80761874e0ac4dbefb600ad240b020636dd9",
+          "url": "https://github.com/NomicFoundation/edr/commit/a091d0d398c412e94423f57a309cbfb6405bca80"
+        },
+        "date": 1795441197538,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "All Scenarios",
+            "value": 160283.68704600004,
+            "unit": "ms"
+          },
+          {
+            "name": "neptune-mutual-blue-protocol_8db6480",
+            "value": 18782.140929,
+            "unit": "ms"
+          },
+          {
+            "name": "openzeppelin-contracts_0a5fba7a",
+            "value": 8056.693817,
+            "unit": "ms"
+          },
+          {
+            "name": "rocketpool_6a9dbfd8",
+            "value": 9955.196166,
+            "unit": "ms"
+          },
+          {
+            "name": "safe-contracts_914d0f8",
+            "value": 553.133788,
+            "unit": "ms"
+          },
+          {
+            "name": "seaport_585b2ef8",
+            "value": 4092.8203280000002,
+            "unit": "ms"
+          },
+          {
+            "name": "synthetix_9a3a109f",
+            "value": 115543.37873800001,
+            "unit": "ms"
+          },
+          {
+            "name": "uniswap-v3-core_d8b1c63",
+            "value": 3300.32328,
             "unit": "ms"
           }
         ]
