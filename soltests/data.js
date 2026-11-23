@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795434870173,
+  "lastUpdate": 1795438484684,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -26081,6 +26081,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 123588,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a091d0d398c412e94423f57a309cbfb6405bca80",
+          "message": "fix: remove built-in configs of sunset OP Stack chains (#1952)",
+          "timestamp": "2026-11-23T11:46:33Z",
+          "tree_id": "4e8c80761874e0ac4dbefb600ad240b020636dd9",
+          "url": "https://github.com/NomicFoundation/edr/commit/a091d0d398c412e94423f57a309cbfb6405bca80"
+        },
+        "date": 1795438483847,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 10179331,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7917,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 78640,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7496,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 10100188,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 128473,
             "unit": "us"
           }
         ]
