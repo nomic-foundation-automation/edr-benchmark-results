@@ -526,12 +526,13 @@
               name,
               charts: toCharts(collectBenchesPerTestCase(data.entries[name])),
             })),
-            baselines:
-              (window.BASELINE_DATA && window.BASELINE_DATA.entries) || {},
+            // BASELINE_DATA is one {source, entries} set, or an array of
+            // them (one per Foundry version).
+            baselineSets: [].concat(window.BASELINE_DATA ?? []),
           };
         }
 
-        function renderAllCharts({ dataSets, baselines }) {
+        function renderAllCharts({ dataSets, baselineSets }) {
           const ENTRIES_PARAM = "entries";
           const GROUP_PARAM = "group";
 
@@ -1019,20 +1020,36 @@
               (d) => d.label === "mean",
             );
 
-            const baseline = baselines[name];
-            if (baseline !== undefined) {
+            // One dashed line per baseline set; color and dash pattern both
+            // differ so the lines stay distinguishable without color vision.
+            const BASELINE_STYLES = [
+              { color: "#cc6644", dash: [5, 5], css: "dashed" },
+              // Okabe–Ito reddish purple
+              { color: "#cc79a7", dash: [2, 3], css: "dotted" },
+            ];
+            const chartBaselines = baselineSets
+              .map((set, i) => ({
+                ...set.entries[name],
+                style: BASELINE_STYLES[i % BASELINE_STYLES.length],
+              }))
+              .filter((baseline) => baseline.name !== undefined);
+            for (const baseline of chartBaselines) {
               data.datasets.push({
                 label: baseline.name,
                 data: dataset.map(() => baseline.value),
-                borderColor: "#cc6644",
+                borderColor: baseline.style.color,
                 backgroundColor: "transparent",
-                borderDash: [5, 5],
+                borderDash: baseline.style.dash,
                 borderWidth: 2,
                 pointRadius: 0,
                 pointHoverRadius: 0,
                 fill: false,
                 order: 3,
-                _legend: { kind: "line", color: "#cc6644", dashed: true },
+                _legend: {
+                  kind: "line",
+                  color: baseline.style.color,
+                  css: baseline.style.css,
+                },
               });
             }
 
@@ -1050,8 +1067,10 @@
             }
             // Keep the baseline (e.g. Foundry) inside the band so its reference
             // line is always visible, even when it sits far from the data.
-            if (baseline !== undefined && typeof baseline.value === "number") {
-              measured.push(baseline.value);
+            for (const baseline of chartBaselines) {
+              if (typeof baseline.value === "number") {
+                measured.push(baseline.value);
+              }
             }
             // Rounds up to a "nice" axis step (1/2/2.5/5 × 10^k) for the given
             // span and target tick count, so gridlines land on round numbers.
@@ -1292,7 +1311,10 @@
                 const line = document.createElement("span");
                 line.className = "legend-line";
                 line.style.borderTop =
-                  "2px " + (lg.dashed ? "dashed" : "solid") + " " + lg.color;
+                  "2px " +
+                  (lg.css ?? (lg.dashed ? "dashed" : "solid")) +
+                  " " +
+                  lg.color;
                 swatch.appendChild(line);
               }
 
