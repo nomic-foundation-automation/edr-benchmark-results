@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795446794872,
+  "lastUpdate": 1795528668001,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -26189,6 +26189,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 118066,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "bd23de3a40eaa330659824c90514d283692839d8",
+          "message": "docs: add requirements structure proposal (#1946)",
+          "timestamp": "2026-11-24T13:38:53Z",
+          "tree_id": "4eda39c84ea6053c95572b3d481a7eddbadb246d",
+          "url": "https://github.com/NomicFoundation/edr/commit/bd23de3a40eaa330659824c90514d283692839d8"
+        },
+        "date": 1795528667237,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 9850580,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7946,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 85858,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7572,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 9611777,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 127171,
             "unit": "us"
           }
         ]
