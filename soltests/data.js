@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795528668001,
+  "lastUpdate": 1795637842022,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -26243,6 +26243,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127171,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Wodann@users.noreply.github.com",
+            "name": "Wodann",
+            "username": "Wodann"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36f32bc68384b16081a55d1267e2a557763928a3",
+          "message": "feat: add collection of EIP-712 types (#1756)\n\nCo-authored-by: Octavian Popescu <37712236+popescuoctavian@users.noreply.github.com>",
+          "timestamp": "2026-11-25T19:53:58Z",
+          "tree_id": "5c87b51ec0fe26111d29194a91f2c34ec1a6f0f6",
+          "url": "https://github.com/NomicFoundation/edr/commit/36f32bc68384b16081a55d1267e2a557763928a3"
+        },
+        "date": 1795637841247,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 9553713,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 7697,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 77299,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7450,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 9819218,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 120983,
             "unit": "us"
           }
         ]
