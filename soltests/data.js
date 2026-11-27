@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795695253939,
+  "lastUpdate": 1795787010853,
   "repoUrl": "https://github.com/NomicFoundation/edr",
   "entries": {
     "Benchmark": [
@@ -26351,6 +26351,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "StdUtilsForkTest",
             "value": 127205,
+            "unit": "us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aghiglia@manas.tech",
+            "name": "Ana Perez Ghiglia",
+            "username": "anaPerezGhiglia"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4743e204e1934643182985d7f7825f5f96cc4ccc",
+          "message": "feat: add Amsterdam hardfork activation on Hoodi (#1963)",
+          "timestamp": "2026-11-27T13:24:08Z",
+          "tree_id": "93cd6e9e280d5c4257834d1420a0bc5618f911e3",
+          "url": "https://github.com/NomicFoundation/edr/commit/4743e204e1934643182985d7f7825f5f96cc4ccc"
+        },
+        "date": 1795787010055,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Total",
+            "value": 10056236,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsForkTest",
+            "value": 8016,
+            "unit": "us"
+          },
+          {
+            "name": "StdCheatsTest",
+            "value": 86688,
+            "unit": "us"
+          },
+          {
+            "name": "StdMathTest",
+            "value": 7637,
+            "unit": "us"
+          },
+          {
+            "name": "StdStorageTest",
+            "value": 9612044,
+            "unit": "us"
+          },
+          {
+            "name": "StdUtilsForkTest",
+            "value": 122496,
             "unit": "us"
           }
         ]
